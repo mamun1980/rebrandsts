@@ -1,0 +1,97 @@
+{% extends "admin/base.html" %}
+{% block extrastyle %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+{% endblock %}
+
+{% block title %}Check s3 ratio set status{% endblock %}
+{% block content %}
+<div class="col-md-12">
+    <div class="card border-0 shadow mb-4 mt-3">
+        <div class="card-header d-flex align-items-center justify-content-between py-4">
+            <h4 class="mb-0">S3 Ratio Set Status</h4>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-centered table-nowrap mb-0 rounded">
+                    <thead class="thead-light">
+                        <tr>
+                            <th class="border-0 rounded-start">ID</th>
+                            <th class="border-0">Site Name</th>
+                            <th class="border-0">Site Key</th>
+                            <th class="border-0">Updated At</th>
+                            <th class="border-0">Last Updated</th>
+                            <th class="border-0">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for obj in site_s3_ratio_status_list %}
+                        <!-- Item -->
+                        <tr>
+                            <td>{{ forloop.counter }}</td>
+                            <td>
+                                {{ obj.name }}
+                            </td>
+                            <td>
+                                {{ obj.site_key }}
+                            </td>
+                            <td>
+                                {{ obj.updated_at }}
+                            </td>
+                            <td>
+                                {{ obj.last_updated }}
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-info update-button" onclick="customAjaxFunction('{{obj.site_key}}')">
+                                    <div id="spinner-{{obj.site_key}}" class="spinner-border spinner-border-sm d-none" role="status">
+                                      <span class="sr-only">Loading...</span>
+                                    </div>
+                                    Invalid and Cache Again
+                                </button>
+                            </td>
+                        </tr>
+                        <!-- End of Item -->
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+        let request_count = 0;
+        function customAjaxFunction(url) {
+            request_count++;
+            console.log(this);
+            // display Invalid and Cache Again spinner
+            $('#spinner-'+url).removeClass('d-none');
+
+            //disabled Invalid and Cache Again button
+            $('#spinner-'+url).parent().prop("disabled", true);
+
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', `/sts/brandlocationdefinedsetsratio/invalid-and-cache-again/${url}/`);  // Adjust the URL accordingly
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    request_count--;
+                    console.log("success");
+                    console.log(xhr)
+                    // remove disabled class from Invalid and Cache Again button and reload page
+                    $('#spinner-'+url).addClass('d-none');
+                    $('#spinner-'+url).parent().prop("disabled", false);
+
+                    //after complete all request now reload
+                    if (request_count === 0) {
+                        if(confirm("You want to reload?")) {
+                            window.location.href = "{% url 'admin:check-s3-ratio-set-status' %}";
+                        }
+                    }
+
+                }
+            };
+            xhr.send(url);
+        }
+
+</script>
+{% endblock content %}

@@ -1,0 +1,72 @@
+<div class="container-fluid">
+    <div class="row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse flex-shrink-0 p-3">
+            <a href="/" class="d-flex align-items-center mb-3 text-decoration-none logo">
+                <h2 class="text-white pb-2">STS Dashboard</h2>
+            </a>
+            <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed text-white" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                        Home
+                    </button>
+                    <div class="collapse show" id="home-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-light rounded">Overview</a></li>
+                            <li><a href="#" class="link-light rounded">Updates</a></li>
+                            <li><a href="#" class="link-light rounded">Reports</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed text-white" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                        Dashboard
+                    </button>
+                    <div class="collapse" id="dashboard-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-light rounded">Overview</a></li>
+                            <li><a href="#" class="link-light rounded">Weekly</a></li>
+                            <li><a href="#" class="link-light rounded">Monthly</a></li>
+                            <li><a href="#" class="link-light rounded">Annually</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed text-white" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                        Orders
+                    </button>
+                    <div class="collapse" id="orders-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-light rounded">New</a></li>
+                            <li><a href="#" class="link-light rounded">Processed</a></li>
+                            <li><a href="#" class="link-light rounded">Shipped</a></li>
+                            <li><a href="#" class="link-light rounded">Returned</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="border-dashed my-3"></li>
+                <li class="mb-1">
+                    <button class="btn btn-toggle align-items-center rounded collapsed text-white" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                        Account
+                    </button>
+                    <div class="collapse" id="account-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#" class="link-light rounded">New...</a></li>
+                            <li><a href="#" class="link-light rounded">Profile</a></li>
+                            <li><a href="#" class="link-light rounded">Settings</a></li>
+                            <li><a href="#" class="link-light rounded">Sign out</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">{{ title }}</h1>
+            </div>
+            {% block content %}
+            {% endblock content %}
+        </main>
+    </div>
+</div>
+

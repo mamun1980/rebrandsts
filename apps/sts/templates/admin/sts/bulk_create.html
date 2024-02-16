@@ -1,0 +1,162 @@
+{% extends "admin/base.html" %}
+{% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block extrastyle %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+<style>
+    select {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .content-wrapper > .content {
+        padding: 0px 20px;
+        margin: 0px;
+    }
+</style>
+{% endblock %}
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">{{ site_header|default:_('Django administration') }}</a></h1>
+{% if user.is_anonymous %}
+  {% include "admin/color_theme_toggle.html" %}
+{% endif %}
+{% endblock %}
+
+{% block content %}
+{% block object-tools %}{% endblock %}
+    <h4>Bulk Create New Ratio Set</h4>
+    <hr>
+    <form class="row g-2" method="POST" action="{% url 'admin:bulk_create' %}">
+    {% csrf_token %}
+
+        {{ form.non_field_errors }}
+        <div class="col-md-6">
+
+            {{ form.brands.errors }}
+            <label for="{{ form.brands.id_for_label }}" class="form-label"><b>Choose Brands:</b></label>
+            <ul class="list-unstyled card-columns" style="column-count: 3;">
+                <div class="form-check">
+                <input class="form-check-input" name="all_brands" type="checkbox" value="True" id="select_all_brands">
+                <label class="form-check-label" for="select_all_brands">
+                    Select All Brands
+                </label>
+            </div>
+                {% for brand in form.brands %}
+                    <div class="p-2 d-flex gap-2">
+                        {{ brand }}
+                    </div>
+                {% endfor %}
+            </ul>
+            <div class="row mt-6 g-3 b-1">
+
+                <div class="col-md-9 mt-4 pe-5">
+                    <div class="col">
+                        {{ form.location.errors }}
+                        <label for="{{ form.location.id_for_label }}" class="form-label me-3"><b>Location</b></label>
+                        {{ form.location }}
+                    </div>
+                    <div class="col mt-4">
+                        {{ form.search_location.errors }}
+                        <label for="{{ form.search_location.id_for_label }}" class="form-label me-5"><b>Search Location</b></label>
+                        {{ form.search_location }}
+                    </div>
+                    <div class="col mt-4">
+                        {{ form.property_group.errors }}
+                        <label for="{{ form.property_group.id_for_label }}" class="form-label me-4"><b>Accommodation Type</b></label>
+                        {{ form.property_group }}
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    {{ form.devices.errors }}
+                    <label for="{{ form.devices.id_for_label }}" class="form-label"><b>Devices</b></label>
+                    <ul class="list-unstyled card-columns" style="column-count: 1;">
+                        {% for device in form.devices %}
+                            <div class="p-2 d-flex gap-2">
+                            {{ device }}
+                            </div>
+                        {% endfor %}
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <div class='col-md-6'>
+            <div class="col-12">
+                <label for="ratio_set_title" class="form-label">Set New Ratio Title</label>
+                <input type="text" class="form-control" name="ratio_set_title" id="ratio_set_title">
+            </div>
+            <div class="col-12 badge bg-danger mb-3 mt-3 pt-3" id="warning">
+                <h4>Total ratio should be exactly 100! Now Total ratio is: <span id="total_ratio">0</span></h4>
+            </div>
+            <div class="col-md-12 card p-3 bg-light mt-3">
+                <div class="list-unstyled card-columns" style="column-count: 3;">
+                {% for partner in partners %}
+                    <label for="{{ partner.name }}" class="form-label">{{ partner.name }}</label>
+                    <input type="number" class="form-control" name="partner_ratios"
+                            id="{{ partner.name }}" min="0" max="100">
+                        <input type="hidden" name="partner_ids" value="{{ partner.id }}">
+                {% endfor %}
+                </div>
+            </div>
+
+        </div>
+        <div class="col-2 mt-2 mb-5">
+
+            <button type="submit" class="btn btn-success" id='bulk_create' value="Bulk Add" disabled>Bulk Create</button>
+
+        </div>
+        <div class="col-2 mt-2 mb-5">
+            <a type="button" class="btn btn-danger text-white" href="/sts/brandlocationdefinedsetsratio/">Cancel</a>
+        </div>
+
+
+    </form>
+
+{% endblock %}
+
+{% block extrajs %}
+
+<script>
+    $(document).ready(function() {
+        $('#select_all_brands').click(function() {
+            checked = $("input[type=checkbox][name='all_brands']").prop('checked')
+
+            if(checked){
+                el = $("input[type=checkbox][name='brands']").prop('checked', true);
+            } else {
+                el = $("input[type=checkbox][name='brands']").prop('checked', false);
+            }
+
+
+        });
+
+        function updateTotal() {
+            var total = 0;
+            $("input[type=number][name='partner_ratios']").each(function() {
+                if($(this).val()){
+                    total += parseInt($(this).val());
+                }
+
+            });
+            console.log(total);
+            $("#total_ratio").text(total);
+            return total;
+        }
+
+        $("input[type=number][name='partner_ratios']").on('keyup', function() {
+            var total = updateTotal()
+            if(total == 100){
+                $("#bulk_create").prop("disabled", false);
+                $("#warning").hide()
+            } else {
+                $("#bulk_create").prop("disabled", true);
+                $("#warning").show()
+            }
+        });
+
+
+        
+    });
+</script>
+
+{% endblock %}

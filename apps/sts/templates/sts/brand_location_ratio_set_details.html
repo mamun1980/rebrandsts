@@ -1,0 +1,57 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<div class="col-6 py-4 d-inline-flex flex-row justify-content-between">
+    <h2 class="mb-0">Brand Location Ratio Set Details</h2> <a class="btn btn-success" href="{% url 'sts:brand-location-ratio-set-history' object.id %}">History</a>
+</div>
+
+<div class="row">
+    <div class="col-12 col-lg-6">
+        <div class="card">
+            <h5 class="card-header">{{ object.brand }}</h5>
+            <div class="card-body">
+                <p>
+                    <b>Location</b> : {{ object.location}}
+                </p>
+                <p>
+                    <b>Search Location</b> : {{ object.searchlocation}}
+                </p>
+                <p>
+                    <b>Device</b> : {{ object.device}}
+                </p>
+                <p>
+                    <b>Property Group</b> : {{ object.property_group}}
+                </p>
+                <p>
+                    <b>Ratio Set (short title)</b> : {{ object.ratio_set}}
+                </p>
+
+                {% for ratio in object.ratio_set.partnerratio_set.all %}
+                <p>{{ ratio.partner }} => {{ ratio.ratio }}%</p>
+                {% endfor %}
+
+            </div>
+
+            <div class="card-footer d-flex align-items-center justify-content-between">
+                <button type="button" class="btn btn-sm btn-outline-gray-200" onclick="goBack()">
+                    Back
+                </button>
+                {% if perms.sts.delete_location %}
+                <a href="{% url 'sts:brand-location-ratio-set-delete' object.id %}"  class="btn btn-sm btn-outline-danger" >
+                    Delete
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+
+{% endblock content %}

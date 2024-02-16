@@ -1,0 +1,150 @@
+{% extends "dashboard/base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+
+    <form method="post" action="/admin/sts/brandlocationdefinedsetsratio/perform-bulk-update/">
+        {% csrf_token %}
+    <div class="row p-5">
+        <div class="col-12">
+            <h4>{% trans "Confirm bulk update for the following sites: test" %}</h4>
+        </div>
+
+        <table class="col-10 table table-borderless">
+            <thead>
+                <tr class="bg-primary">
+                    <th scope="col" class="text-white">Brand Name</th>
+                    <th scope="col" class="text-white">Location</th>
+                    <th scope="col" class="text-white">Search Location</th>
+                    <th scope="col" class="text-white">Device</th>
+                    <th scope="col" class="text-white">Accommodation Type</th>
+                    <th scope="col" class="text-white">Ratio Set</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for obj in selected_objects %}
+            <input type="hidden" name="selected_objects" value="{{ obj.id }}">
+                <tr class='lh-1'>
+                    <th scope="row">{{ obj.brand.name }}</th>
+                    <td>{{ obj.location.country }}</td>
+                    <td>{{ obj.search_location.search_location }}</td>
+                    <td>{{ obj.device.type }}</td>
+                    <td>{{ obj.property_group.name }}</td>
+                    <td>{{ obj.ratio_set_short_title }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div class="row pb-5 ps-3 mb-5">
+
+        <div class="col-6">
+              <label for="ratio_set_title" class="form-label">Set New Ratio Title</label>
+              <input type="text" class="form-control" name="ratio_set_title" id="ratio_set_title">
+        </div>
+        <div class="col-12 mt-3">
+
+            <div class="row">
+                <div class="col-8 badge bg-danger mb-3 p-2 " id="warning">
+                    <h5>Total ratio should be exactly 100! Now Total ratio is: <span id="total_ratio">0</span></h5>
+                </div>
+                <div class="col-md-8 card p-3 bg-light">
+                    <div class="list-unstyled card-columns" style="column-count: 3;">
+                      {% for partner in partners %}
+                          <label for="{{ partner.name }}" class="form-label">{{ partner.name }}</label>
+                          <input type="number" class="form-control" name="partner_ratios"
+                                 id="{{ partner.name }}" min="0" max="100">
+                            <input type="hidden" name="partner_ids" value="{{ partner.id }}">
+                      {% endfor %}
+
+                    </div>
+
+                </div>
+                <div class="col-md-3 offset-1">
+
+                    <label class="form-label">Select Location</label>
+                    <select class="" name="location">
+                        <option value="">None</option>
+                        {% for loc in locations %}
+                            <option value="{{ loc.id }}">{{ loc.country }}</option>
+                        {% endfor %}
+                    </select>
+                    <br><br>
+                    <label class="form-label">Select Device</label><br>
+                    <select  aria-label="Default select" name="device">
+                        <option value="">None</option>
+                        {% for device in devices %}
+                            <option value="{{ device.id }}">{{ device.type }}</option>
+                        {% endfor %}
+                    </select>
+                    <br><br>
+                    <label class="form-label">Select Accommodation Type</label>
+                    <select  aria-label="Default select" name="property_group">
+                        <option value="">None</option>
+                        {% for ac in accommodation_types %}
+                            <option value="{{ ac.id }}">{{ ac.name }}</option>
+                        {% endfor %}
+                    </select>
+                    <br><br>
+                    <label class="form-label">Select Search Location</label>
+                    <select aria-label="Default select" name="search_location">
+                        <option value="">None</option>
+                        {% for sloc in search_locations %}
+                            <option value="{{ sloc.id }}">{{ sloc.search_location }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-2 mt-4 offset-2">
+            <button type="submit" id="submit-button" class="btn btn-success" name="action" value="confirm_action"
+            disabled="true">
+              {% trans "Confirm Bulk Update" %}
+            </button>
+        </div>
+
+        <div class="col-2 mt-4">
+            <a href="{% url 'sts:brand-location-ratio-set-list' %}" class="btn btn-danger text-white">
+              {% trans "Cancel" %}
+            </a>
+        </div>
+
+    </div>
+    </form>
+
+</div>
+
+
+<script>
+    $(document).ready(function() {
+        function updateTotal() {
+            var total = 0;
+            $("input[type=number][name='partner_ratios']").each(function() {
+                if($(this).val()){
+                    total += parseInt($(this).val());
+                }
+
+            });
+            console.log(total);
+            $("#total_ratio").text(total);
+            return total;
+        }
+
+        $("input[type=number][name='partner_ratios']").on('keyup', function() {
+            var total = updateTotal()
+            if(total == 100){
+                $("#submit-button").prop("disabled", false);
+                $("#warning").hide()
+            } else {
+                $("#submit-button").prop("disabled", true);
+                $("#warning").show()
+            }
+        });
+    });
+</script>
+
+{% endblock content %}

@@ -1,0 +1,6266 @@
+[
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 1,
+    "fields": {
+        "loc": 175,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:45:42.146Z",
+        "updated_at": "2023-07-19T12:53:07.226Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 2,
+    "fields": {
+        "loc": 175,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:45:45.123Z",
+        "updated_at": "2023-07-19T12:53:07.230Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 3,
+    "fields": {
+        "loc": 175,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:45:45.378Z",
+        "updated_at": "2023-07-19T12:53:07.234Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 4,
+    "fields": {
+        "loc": 175,
+        "provider": 9,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:45:45.671Z",
+        "updated_at": "2023-07-19T12:53:07.236Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 5,
+    "fields": {
+        "loc": 175,
+        "provider": 7,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:45:46.022Z",
+        "updated_at": "2023-07-19T12:53:07.239Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 6,
+    "fields": {
+        "loc": 175,
+        "provider": 4,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:45:46.055Z",
+        "updated_at": "2023-07-19T12:53:07.242Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 7,
+    "fields": {
+        "loc": 175,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:45:46.121Z",
+        "updated_at": "2023-07-19T12:53:07.245Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 8,
+    "fields": {
+        "loc": 175,
+        "provider": 5,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:45:46.266Z",
+        "updated_at": "2023-07-19T12:53:07.248Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 9,
+    "fields": {
+        "loc": 175,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:45:46.306Z",
+        "updated_at": "2023-07-19T12:53:07.250Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 10,
+    "fields": {
+        "loc": 176,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.259Z",
+        "updated_at": "2023-07-19T12:53:07.259Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 11,
+    "fields": {
+        "loc": 176,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.264Z",
+        "updated_at": "2023-07-19T12:53:07.264Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 12,
+    "fields": {
+        "loc": 176,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.267Z",
+        "updated_at": "2023-07-19T12:53:07.267Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 13,
+    "fields": {
+        "loc": 176,
+        "provider": 9,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.270Z",
+        "updated_at": "2023-07-19T12:53:07.270Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 14,
+    "fields": {
+        "loc": 176,
+        "provider": 7,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.273Z",
+        "updated_at": "2023-07-19T12:53:07.274Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 15,
+    "fields": {
+        "loc": 176,
+        "provider": 4,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.277Z",
+        "updated_at": "2023-07-19T12:53:07.277Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 16,
+    "fields": {
+        "loc": 176,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.280Z",
+        "updated_at": "2023-07-19T12:53:07.280Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 17,
+    "fields": {
+        "loc": 176,
+        "provider": 5,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.283Z",
+        "updated_at": "2023-07-19T12:53:07.283Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 18,
+    "fields": {
+        "loc": 176,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.286Z",
+        "updated_at": "2023-07-19T12:53:07.286Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 19,
+    "fields": {
+        "loc": 177,
+        "provider": 8,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.297Z",
+        "updated_at": "2023-07-19T12:53:07.297Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 20,
+    "fields": {
+        "loc": 177,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.300Z",
+        "updated_at": "2023-07-19T12:53:07.300Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 21,
+    "fields": {
+        "loc": 177,
+        "provider": 1,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.303Z",
+        "updated_at": "2023-07-19T12:53:07.303Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 22,
+    "fields": {
+        "loc": 177,
+        "provider": 9,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.306Z",
+        "updated_at": "2023-07-19T12:53:07.306Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 23,
+    "fields": {
+        "loc": 177,
+        "provider": 7,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.309Z",
+        "updated_at": "2023-07-19T12:53:07.309Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 24,
+    "fields": {
+        "loc": 177,
+        "provider": 4,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.312Z",
+        "updated_at": "2023-07-19T12:53:07.312Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 25,
+    "fields": {
+        "loc": 177,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.315Z",
+        "updated_at": "2023-07-19T12:53:07.315Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 26,
+    "fields": {
+        "loc": 177,
+        "provider": 5,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.318Z",
+        "updated_at": "2023-07-19T12:53:07.318Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 27,
+    "fields": {
+        "loc": 177,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.321Z",
+        "updated_at": "2023-07-19T12:53:07.321Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 28,
+    "fields": {
+        "loc": 178,
+        "provider": 5,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.331Z",
+        "updated_at": "2023-07-19T12:53:07.331Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 29,
+    "fields": {
+        "loc": 178,
+        "provider": 6,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.334Z",
+        "updated_at": "2023-07-19T12:53:07.334Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 30,
+    "fields": {
+        "loc": 178,
+        "provider": 1,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.337Z",
+        "updated_at": "2023-07-19T12:53:07.337Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 31,
+    "fields": {
+        "loc": 178,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.340Z",
+        "updated_at": "2023-07-19T12:53:07.340Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 32,
+    "fields": {
+        "loc": 178,
+        "provider": 7,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.344Z",
+        "updated_at": "2023-07-19T12:53:07.344Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 33,
+    "fields": {
+        "loc": 178,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.347Z",
+        "updated_at": "2023-07-19T12:53:07.347Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 34,
+    "fields": {
+        "loc": 178,
+        "provider": 9,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.350Z",
+        "updated_at": "2023-07-19T12:53:07.350Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 35,
+    "fields": {
+        "loc": 178,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.354Z",
+        "updated_at": "2023-07-19T12:53:07.354Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 36,
+    "fields": {
+        "loc": 178,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.358Z",
+        "updated_at": "2023-07-19T12:53:07.358Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 37,
+    "fields": {
+        "loc": 179,
+        "provider": 5,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.367Z",
+        "updated_at": "2023-07-19T12:53:07.367Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 38,
+    "fields": {
+        "loc": 179,
+        "provider": 6,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.370Z",
+        "updated_at": "2023-07-19T12:53:07.370Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 39,
+    "fields": {
+        "loc": 179,
+        "provider": 1,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.373Z",
+        "updated_at": "2023-07-19T12:53:07.373Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 40,
+    "fields": {
+        "loc": 179,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.377Z",
+        "updated_at": "2023-07-19T12:53:07.377Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 41,
+    "fields": {
+        "loc": 179,
+        "provider": 7,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.380Z",
+        "updated_at": "2023-07-19T12:53:07.380Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 42,
+    "fields": {
+        "loc": 179,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.383Z",
+        "updated_at": "2023-07-19T12:53:07.383Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 43,
+    "fields": {
+        "loc": 179,
+        "provider": 9,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.387Z",
+        "updated_at": "2023-07-19T12:53:07.387Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 44,
+    "fields": {
+        "loc": 179,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.391Z",
+        "updated_at": "2023-07-19T12:53:07.391Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 45,
+    "fields": {
+        "loc": 179,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.394Z",
+        "updated_at": "2023-07-19T12:53:07.394Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 46,
+    "fields": {
+        "loc": 180,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.404Z",
+        "updated_at": "2023-07-19T12:53:07.404Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 47,
+    "fields": {
+        "loc": 180,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.407Z",
+        "updated_at": "2023-07-19T12:53:07.407Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 48,
+    "fields": {
+        "loc": 180,
+        "provider": 5,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.411Z",
+        "updated_at": "2023-07-19T12:53:07.411Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 49,
+    "fields": {
+        "loc": 180,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.415Z",
+        "updated_at": "2023-07-19T12:53:07.415Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 50,
+    "fields": {
+        "loc": 180,
+        "provider": 9,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.419Z",
+        "updated_at": "2023-07-19T12:53:07.419Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 51,
+    "fields": {
+        "loc": 180,
+        "provider": 3,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.423Z",
+        "updated_at": "2023-07-19T12:53:07.423Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 52,
+    "fields": {
+        "loc": 180,
+        "provider": 4,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.427Z",
+        "updated_at": "2023-07-19T12:53:07.427Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 53,
+    "fields": {
+        "loc": 180,
+        "provider": 2,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.430Z",
+        "updated_at": "2023-07-19T12:53:07.430Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 54,
+    "fields": {
+        "loc": 180,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.433Z",
+        "updated_at": "2023-07-19T12:53:07.433Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 55,
+    "fields": {
+        "loc": 181,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.442Z",
+        "updated_at": "2023-07-19T12:53:07.442Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 56,
+    "fields": {
+        "loc": 181,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.445Z",
+        "updated_at": "2023-07-19T12:53:07.445Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 57,
+    "fields": {
+        "loc": 181,
+        "provider": 9,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.450Z",
+        "updated_at": "2023-07-19T12:53:07.450Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 58,
+    "fields": {
+        "loc": 181,
+        "provider": 3,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.453Z",
+        "updated_at": "2023-07-19T12:53:07.453Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 59,
+    "fields": {
+        "loc": 181,
+        "provider": 8,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.457Z",
+        "updated_at": "2023-07-19T12:53:07.457Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 60,
+    "fields": {
+        "loc": 181,
+        "provider": 4,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.461Z",
+        "updated_at": "2023-07-19T12:53:07.461Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 61,
+    "fields": {
+        "loc": 181,
+        "provider": 5,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.464Z",
+        "updated_at": "2023-07-19T12:53:07.464Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 62,
+    "fields": {
+        "loc": 181,
+        "provider": 2,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.469Z",
+        "updated_at": "2023-07-19T12:53:07.469Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 63,
+    "fields": {
+        "loc": 181,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.472Z",
+        "updated_at": "2023-07-19T12:53:07.472Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 64,
+    "fields": {
+        "loc": 182,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.483Z",
+        "updated_at": "2023-07-19T12:53:07.483Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 65,
+    "fields": {
+        "loc": 182,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.487Z",
+        "updated_at": "2023-07-19T12:53:07.487Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 66,
+    "fields": {
+        "loc": 182,
+        "provider": 9,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.490Z",
+        "updated_at": "2023-07-19T12:53:07.490Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 67,
+    "fields": {
+        "loc": 182,
+        "provider": 3,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.494Z",
+        "updated_at": "2023-07-19T12:53:07.494Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 68,
+    "fields": {
+        "loc": 182,
+        "provider": 8,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.497Z",
+        "updated_at": "2023-07-19T12:53:07.497Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 69,
+    "fields": {
+        "loc": 182,
+        "provider": 4,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.500Z",
+        "updated_at": "2023-07-19T12:53:07.500Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 70,
+    "fields": {
+        "loc": 182,
+        "provider": 5,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.504Z",
+        "updated_at": "2023-07-19T12:53:07.504Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 71,
+    "fields": {
+        "loc": 182,
+        "provider": 2,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.507Z",
+        "updated_at": "2023-07-19T12:53:07.507Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 72,
+    "fields": {
+        "loc": 182,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.511Z",
+        "updated_at": "2023-07-19T12:53:07.511Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 73,
+    "fields": {
+        "loc": 183,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.521Z",
+        "updated_at": "2023-07-19T12:53:07.521Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 74,
+    "fields": {
+        "loc": 183,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.524Z",
+        "updated_at": "2023-07-19T12:53:07.524Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 75,
+    "fields": {
+        "loc": 183,
+        "provider": 3,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.527Z",
+        "updated_at": "2023-07-19T12:53:07.527Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 76,
+    "fields": {
+        "loc": 183,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.531Z",
+        "updated_at": "2023-07-19T12:53:07.531Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 77,
+    "fields": {
+        "loc": 183,
+        "provider": 9,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.534Z",
+        "updated_at": "2023-07-19T12:53:07.534Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 78,
+    "fields": {
+        "loc": 183,
+        "provider": 4,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.537Z",
+        "updated_at": "2023-07-19T12:53:07.537Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 79,
+    "fields": {
+        "loc": 183,
+        "provider": 5,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.542Z",
+        "updated_at": "2023-07-19T12:53:07.542Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 80,
+    "fields": {
+        "loc": 183,
+        "provider": 2,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.546Z",
+        "updated_at": "2023-07-19T12:53:07.546Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 81,
+    "fields": {
+        "loc": 183,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.550Z",
+        "updated_at": "2023-07-19T12:53:07.550Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 82,
+    "fields": {
+        "loc": 184,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.559Z",
+        "updated_at": "2023-07-19T12:53:07.559Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 83,
+    "fields": {
+        "loc": 184,
+        "provider": 8,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.563Z",
+        "updated_at": "2023-07-19T12:53:07.563Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 84,
+    "fields": {
+        "loc": 184,
+        "provider": 7,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.566Z",
+        "updated_at": "2023-07-19T12:53:07.566Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 85,
+    "fields": {
+        "loc": 184,
+        "provider": 5,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.571Z",
+        "updated_at": "2023-07-19T12:53:07.571Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 86,
+    "fields": {
+        "loc": 184,
+        "provider": 2,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.575Z",
+        "updated_at": "2023-07-19T12:53:07.575Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 87,
+    "fields": {
+        "loc": 184,
+        "provider": 6,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.585Z",
+        "updated_at": "2023-07-19T12:53:07.585Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 88,
+    "fields": {
+        "loc": 184,
+        "provider": 4,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.594Z",
+        "updated_at": "2023-07-19T12:53:07.594Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 89,
+    "fields": {
+        "loc": 184,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.603Z",
+        "updated_at": "2023-07-19T12:53:07.603Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 90,
+    "fields": {
+        "loc": 184,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.612Z",
+        "updated_at": "2023-07-19T12:53:07.613Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 91,
+    "fields": {
+        "loc": 185,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.636Z",
+        "updated_at": "2023-07-19T12:53:07.636Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 92,
+    "fields": {
+        "loc": 185,
+        "provider": 8,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.646Z",
+        "updated_at": "2023-07-19T12:53:07.646Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 93,
+    "fields": {
+        "loc": 185,
+        "provider": 7,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.655Z",
+        "updated_at": "2023-07-19T12:53:07.655Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 94,
+    "fields": {
+        "loc": 185,
+        "provider": 5,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.663Z",
+        "updated_at": "2023-07-19T12:53:07.663Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 95,
+    "fields": {
+        "loc": 185,
+        "provider": 2,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.670Z",
+        "updated_at": "2023-07-19T12:53:07.670Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 96,
+    "fields": {
+        "loc": 185,
+        "provider": 6,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.677Z",
+        "updated_at": "2023-07-19T12:53:07.677Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 97,
+    "fields": {
+        "loc": 185,
+        "provider": 4,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.684Z",
+        "updated_at": "2023-07-19T12:53:07.684Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 98,
+    "fields": {
+        "loc": 185,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.690Z",
+        "updated_at": "2023-07-19T12:53:07.690Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 99,
+    "fields": {
+        "loc": 185,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.696Z",
+        "updated_at": "2023-07-19T12:53:07.696Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 100,
+    "fields": {
+        "loc": 186,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.717Z",
+        "updated_at": "2023-07-19T12:53:07.717Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 101,
+    "fields": {
+        "loc": 186,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.723Z",
+        "updated_at": "2023-07-19T12:53:07.723Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 102,
+    "fields": {
+        "loc": 186,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.729Z",
+        "updated_at": "2023-07-19T12:53:07.729Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 103,
+    "fields": {
+        "loc": 186,
+        "provider": 7,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.736Z",
+        "updated_at": "2023-07-19T12:53:07.736Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 104,
+    "fields": {
+        "loc": 186,
+        "provider": 4,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.746Z",
+        "updated_at": "2023-07-19T12:53:07.746Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 105,
+    "fields": {
+        "loc": 186,
+        "provider": 5,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.754Z",
+        "updated_at": "2023-07-19T12:53:07.754Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 106,
+    "fields": {
+        "loc": 186,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.762Z",
+        "updated_at": "2023-07-19T12:53:07.762Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 107,
+    "fields": {
+        "loc": 186,
+        "provider": 6,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.771Z",
+        "updated_at": "2023-07-19T12:53:07.771Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 108,
+    "fields": {
+        "loc": 186,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.779Z",
+        "updated_at": "2023-07-19T12:53:07.779Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 109,
+    "fields": {
+        "loc": 187,
+        "provider": 5,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.803Z",
+        "updated_at": "2023-07-19T12:53:07.803Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 110,
+    "fields": {
+        "loc": 187,
+        "provider": 8,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.812Z",
+        "updated_at": "2023-07-19T12:53:07.812Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 111,
+    "fields": {
+        "loc": 187,
+        "provider": 7,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.821Z",
+        "updated_at": "2023-07-19T12:53:07.821Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 112,
+    "fields": {
+        "loc": 187,
+        "provider": 2,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.831Z",
+        "updated_at": "2023-07-19T12:53:07.831Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 113,
+    "fields": {
+        "loc": 187,
+        "provider": 1,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.840Z",
+        "updated_at": "2023-07-19T12:53:07.840Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 114,
+    "fields": {
+        "loc": 187,
+        "provider": 9,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.850Z",
+        "updated_at": "2023-07-19T12:53:07.850Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 115,
+    "fields": {
+        "loc": 187,
+        "provider": 4,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.858Z",
+        "updated_at": "2023-07-19T12:53:07.858Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 116,
+    "fields": {
+        "loc": 187,
+        "provider": 3,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.869Z",
+        "updated_at": "2023-07-19T12:53:07.869Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 117,
+    "fields": {
+        "loc": 187,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.885Z",
+        "updated_at": "2023-07-19T12:53:07.885Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 118,
+    "fields": {
+        "loc": 188,
+        "provider": 5,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.916Z",
+        "updated_at": "2023-07-19T12:53:07.916Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 119,
+    "fields": {
+        "loc": 188,
+        "provider": 8,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.924Z",
+        "updated_at": "2023-07-19T12:53:07.924Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 120,
+    "fields": {
+        "loc": 188,
+        "provider": 7,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.939Z",
+        "updated_at": "2023-07-19T12:53:07.939Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 121,
+    "fields": {
+        "loc": 188,
+        "provider": 2,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.948Z",
+        "updated_at": "2023-07-19T12:53:07.948Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 122,
+    "fields": {
+        "loc": 188,
+        "provider": 1,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.956Z",
+        "updated_at": "2023-07-19T12:53:07.956Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 123,
+    "fields": {
+        "loc": 188,
+        "provider": 9,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.966Z",
+        "updated_at": "2023-07-19T12:53:07.966Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 124,
+    "fields": {
+        "loc": 188,
+        "provider": 4,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.974Z",
+        "updated_at": "2023-07-19T12:53:07.974Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 125,
+    "fields": {
+        "loc": 188,
+        "provider": 3,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.984Z",
+        "updated_at": "2023-07-19T12:53:07.984Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 126,
+    "fields": {
+        "loc": 188,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:07.997Z",
+        "updated_at": "2023-07-19T12:53:07.997Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 127,
+    "fields": {
+        "loc": 189,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.024Z",
+        "updated_at": "2023-07-19T12:53:08.024Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 128,
+    "fields": {
+        "loc": 189,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.035Z",
+        "updated_at": "2023-07-19T12:53:08.035Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 129,
+    "fields": {
+        "loc": 189,
+        "provider": 5,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.046Z",
+        "updated_at": "2023-07-19T12:53:08.046Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 130,
+    "fields": {
+        "loc": 189,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.055Z",
+        "updated_at": "2023-07-19T12:53:08.055Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 131,
+    "fields": {
+        "loc": 189,
+        "provider": 4,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.067Z",
+        "updated_at": "2023-07-19T12:53:08.067Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 132,
+    "fields": {
+        "loc": 189,
+        "provider": 9,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.078Z",
+        "updated_at": "2023-07-19T12:53:08.078Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 133,
+    "fields": {
+        "loc": 189,
+        "provider": 3,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.088Z",
+        "updated_at": "2023-07-19T12:53:08.088Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 134,
+    "fields": {
+        "loc": 189,
+        "provider": 2,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.096Z",
+        "updated_at": "2023-07-19T12:53:08.096Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 135,
+    "fields": {
+        "loc": 189,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.115Z",
+        "updated_at": "2023-07-19T12:53:08.115Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 136,
+    "fields": {
+        "loc": 190,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.143Z",
+        "updated_at": "2023-07-19T12:53:08.143Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 137,
+    "fields": {
+        "loc": 190,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.151Z",
+        "updated_at": "2023-07-19T12:53:08.151Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 138,
+    "fields": {
+        "loc": 190,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.160Z",
+        "updated_at": "2023-07-19T12:53:08.160Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 139,
+    "fields": {
+        "loc": 190,
+        "provider": 5,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.170Z",
+        "updated_at": "2023-07-19T12:53:08.170Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 140,
+    "fields": {
+        "loc": 190,
+        "provider": 2,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.179Z",
+        "updated_at": "2023-07-19T12:53:08.179Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 141,
+    "fields": {
+        "loc": 190,
+        "provider": 6,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.190Z",
+        "updated_at": "2023-07-19T12:53:08.190Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 142,
+    "fields": {
+        "loc": 190,
+        "provider": 4,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.202Z",
+        "updated_at": "2023-07-19T12:53:08.202Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 143,
+    "fields": {
+        "loc": 190,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.219Z",
+        "updated_at": "2023-07-19T12:53:08.219Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 144,
+    "fields": {
+        "loc": 190,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.228Z",
+        "updated_at": "2023-07-19T12:53:08.228Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 145,
+    "fields": {
+        "loc": 191,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.254Z",
+        "updated_at": "2023-07-19T12:53:08.254Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 146,
+    "fields": {
+        "loc": 191,
+        "provider": 8,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.264Z",
+        "updated_at": "2023-07-19T12:53:08.264Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 147,
+    "fields": {
+        "loc": 191,
+        "provider": 4,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.271Z",
+        "updated_at": "2023-07-19T12:53:08.271Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 148,
+    "fields": {
+        "loc": 191,
+        "provider": 1,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.281Z",
+        "updated_at": "2023-07-19T12:53:08.281Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 149,
+    "fields": {
+        "loc": 191,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.291Z",
+        "updated_at": "2023-07-19T12:53:08.292Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 150,
+    "fields": {
+        "loc": 191,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.308Z",
+        "updated_at": "2023-07-19T12:53:08.308Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 151,
+    "fields": {
+        "loc": 191,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.318Z",
+        "updated_at": "2023-07-19T12:53:08.318Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 152,
+    "fields": {
+        "loc": 191,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.327Z",
+        "updated_at": "2023-07-19T12:53:08.327Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 153,
+    "fields": {
+        "loc": 191,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.335Z",
+        "updated_at": "2023-07-19T12:53:08.335Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 154,
+    "fields": {
+        "loc": 192,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.362Z",
+        "updated_at": "2023-07-19T12:53:08.362Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 155,
+    "fields": {
+        "loc": 192,
+        "provider": 8,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.372Z",
+        "updated_at": "2023-07-19T12:53:08.372Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 156,
+    "fields": {
+        "loc": 192,
+        "provider": 4,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.384Z",
+        "updated_at": "2023-07-19T12:53:08.384Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 157,
+    "fields": {
+        "loc": 192,
+        "provider": 1,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.399Z",
+        "updated_at": "2023-07-19T12:53:08.399Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 158,
+    "fields": {
+        "loc": 192,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.408Z",
+        "updated_at": "2023-07-19T12:53:08.408Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 159,
+    "fields": {
+        "loc": 192,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.420Z",
+        "updated_at": "2023-07-19T12:53:08.420Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 160,
+    "fields": {
+        "loc": 192,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.430Z",
+        "updated_at": "2023-07-19T12:53:08.430Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 161,
+    "fields": {
+        "loc": 192,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.441Z",
+        "updated_at": "2023-07-19T12:53:08.441Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 162,
+    "fields": {
+        "loc": 192,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.454Z",
+        "updated_at": "2023-07-19T12:53:08.454Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 163,
+    "fields": {
+        "loc": 193,
+        "provider": 8,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.477Z",
+        "updated_at": "2023-07-19T12:53:08.478Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 164,
+    "fields": {
+        "loc": 193,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.486Z",
+        "updated_at": "2023-07-19T12:53:08.486Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 165,
+    "fields": {
+        "loc": 193,
+        "provider": 9,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.495Z",
+        "updated_at": "2023-07-19T12:53:08.495Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 166,
+    "fields": {
+        "loc": 193,
+        "provider": 7,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.504Z",
+        "updated_at": "2023-07-19T12:53:08.504Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 167,
+    "fields": {
+        "loc": 193,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.519Z",
+        "updated_at": "2023-07-19T12:53:08.519Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 168,
+    "fields": {
+        "loc": 193,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.529Z",
+        "updated_at": "2023-07-19T12:53:08.529Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 169,
+    "fields": {
+        "loc": 193,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.537Z",
+        "updated_at": "2023-07-19T12:53:08.537Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 170,
+    "fields": {
+        "loc": 193,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.550Z",
+        "updated_at": "2023-07-19T12:53:08.550Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 171,
+    "fields": {
+        "loc": 193,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.562Z",
+        "updated_at": "2023-07-19T12:53:08.562Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 172,
+    "fields": {
+        "loc": 194,
+        "provider": 8,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.586Z",
+        "updated_at": "2023-07-19T12:53:08.586Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 173,
+    "fields": {
+        "loc": 194,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.597Z",
+        "updated_at": "2023-07-19T12:53:08.597Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 174,
+    "fields": {
+        "loc": 194,
+        "provider": 7,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.608Z",
+        "updated_at": "2023-07-19T12:53:08.608Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 175,
+    "fields": {
+        "loc": 194,
+        "provider": 1,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.616Z",
+        "updated_at": "2023-07-19T12:53:08.616Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 176,
+    "fields": {
+        "loc": 194,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.624Z",
+        "updated_at": "2023-07-19T12:53:08.624Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 177,
+    "fields": {
+        "loc": 194,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.640Z",
+        "updated_at": "2023-07-19T12:53:08.640Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 178,
+    "fields": {
+        "loc": 194,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.648Z",
+        "updated_at": "2023-07-19T12:53:08.648Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 179,
+    "fields": {
+        "loc": 194,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.658Z",
+        "updated_at": "2023-07-19T12:53:08.658Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 180,
+    "fields": {
+        "loc": 194,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.668Z",
+        "updated_at": "2023-07-19T12:53:08.668Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 181,
+    "fields": {
+        "loc": 195,
+        "provider": 8,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.686Z",
+        "updated_at": "2023-07-19T12:53:08.686Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 182,
+    "fields": {
+        "loc": 195,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.692Z",
+        "updated_at": "2023-07-19T12:53:08.692Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 183,
+    "fields": {
+        "loc": 195,
+        "provider": 7,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.701Z",
+        "updated_at": "2023-07-19T12:53:08.701Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 184,
+    "fields": {
+        "loc": 195,
+        "provider": 1,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.709Z",
+        "updated_at": "2023-07-19T12:53:08.709Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 185,
+    "fields": {
+        "loc": 195,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.716Z",
+        "updated_at": "2023-07-19T12:53:08.716Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 186,
+    "fields": {
+        "loc": 195,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.725Z",
+        "updated_at": "2023-07-19T12:53:08.725Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 187,
+    "fields": {
+        "loc": 195,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.734Z",
+        "updated_at": "2023-07-19T12:53:08.734Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 188,
+    "fields": {
+        "loc": 195,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.745Z",
+        "updated_at": "2023-07-19T12:53:08.745Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 189,
+    "fields": {
+        "loc": 195,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.754Z",
+        "updated_at": "2023-07-19T12:53:08.754Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 190,
+    "fields": {
+        "loc": 196,
+        "provider": 8,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.779Z",
+        "updated_at": "2023-07-19T12:53:08.779Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 191,
+    "fields": {
+        "loc": 196,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.789Z",
+        "updated_at": "2023-07-19T12:53:08.789Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 192,
+    "fields": {
+        "loc": 196,
+        "provider": 1,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.800Z",
+        "updated_at": "2023-07-19T12:53:08.800Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 193,
+    "fields": {
+        "loc": 196,
+        "provider": 5,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.808Z",
+        "updated_at": "2023-07-19T12:53:08.808Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 194,
+    "fields": {
+        "loc": 196,
+        "provider": 2,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.816Z",
+        "updated_at": "2023-07-19T12:53:08.816Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 195,
+    "fields": {
+        "loc": 196,
+        "provider": 6,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.826Z",
+        "updated_at": "2023-07-19T12:53:08.826Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 196,
+    "fields": {
+        "loc": 196,
+        "provider": 4,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.835Z",
+        "updated_at": "2023-07-19T12:53:08.835Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 197,
+    "fields": {
+        "loc": 196,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.843Z",
+        "updated_at": "2023-07-19T12:53:08.843Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 198,
+    "fields": {
+        "loc": 196,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.851Z",
+        "updated_at": "2023-07-19T12:53:08.851Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 199,
+    "fields": {
+        "loc": 197,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.873Z",
+        "updated_at": "2023-07-19T12:53:08.873Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 200,
+    "fields": {
+        "loc": 197,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.879Z",
+        "updated_at": "2023-07-19T12:53:08.879Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 201,
+    "fields": {
+        "loc": 197,
+        "provider": 1,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.886Z",
+        "updated_at": "2023-07-19T12:53:08.886Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 202,
+    "fields": {
+        "loc": 197,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.894Z",
+        "updated_at": "2023-07-19T12:53:08.894Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 203,
+    "fields": {
+        "loc": 197,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.899Z",
+        "updated_at": "2023-07-19T12:53:08.899Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 204,
+    "fields": {
+        "loc": 197,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.904Z",
+        "updated_at": "2023-07-19T12:53:08.904Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 205,
+    "fields": {
+        "loc": 197,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.910Z",
+        "updated_at": "2023-07-19T12:53:08.910Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 206,
+    "fields": {
+        "loc": 197,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.917Z",
+        "updated_at": "2023-07-19T12:53:08.917Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 207,
+    "fields": {
+        "loc": 197,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.923Z",
+        "updated_at": "2023-07-19T12:53:08.923Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 208,
+    "fields": {
+        "loc": 198,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.939Z",
+        "updated_at": "2023-07-19T12:53:08.939Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 209,
+    "fields": {
+        "loc": 198,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.948Z",
+        "updated_at": "2023-07-19T12:53:08.948Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 210,
+    "fields": {
+        "loc": 198,
+        "provider": 1,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.959Z",
+        "updated_at": "2023-07-19T12:53:08.959Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 211,
+    "fields": {
+        "loc": 198,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.967Z",
+        "updated_at": "2023-07-19T12:53:08.967Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 212,
+    "fields": {
+        "loc": 198,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.975Z",
+        "updated_at": "2023-07-19T12:53:08.975Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 213,
+    "fields": {
+        "loc": 198,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.985Z",
+        "updated_at": "2023-07-19T12:53:08.985Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 214,
+    "fields": {
+        "loc": 198,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:08.993Z",
+        "updated_at": "2023-07-19T12:53:08.993Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 215,
+    "fields": {
+        "loc": 198,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.001Z",
+        "updated_at": "2023-07-19T12:53:09.001Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 216,
+    "fields": {
+        "loc": 198,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.008Z",
+        "updated_at": "2023-07-19T12:53:09.008Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 217,
+    "fields": {
+        "loc": 199,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.029Z",
+        "updated_at": "2023-07-19T12:53:09.029Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 218,
+    "fields": {
+        "loc": 199,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.036Z",
+        "updated_at": "2023-07-19T12:53:09.036Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 219,
+    "fields": {
+        "loc": 199,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.042Z",
+        "updated_at": "2023-07-19T12:53:09.042Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 220,
+    "fields": {
+        "loc": 199,
+        "provider": 4,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.051Z",
+        "updated_at": "2023-07-19T12:53:09.051Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 221,
+    "fields": {
+        "loc": 199,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.061Z",
+        "updated_at": "2023-07-19T12:53:09.061Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 222,
+    "fields": {
+        "loc": 199,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.069Z",
+        "updated_at": "2023-07-19T12:53:09.069Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 223,
+    "fields": {
+        "loc": 199,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.078Z",
+        "updated_at": "2023-07-19T12:53:09.078Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 224,
+    "fields": {
+        "loc": 199,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.087Z",
+        "updated_at": "2023-07-19T12:53:09.087Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 225,
+    "fields": {
+        "loc": 199,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.097Z",
+        "updated_at": "2023-07-19T12:53:09.097Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 226,
+    "fields": {
+        "loc": 200,
+        "provider": 8,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.124Z",
+        "updated_at": "2023-07-19T12:53:09.124Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 227,
+    "fields": {
+        "loc": 200,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.132Z",
+        "updated_at": "2023-07-19T12:53:09.132Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 228,
+    "fields": {
+        "loc": 200,
+        "provider": 3,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.140Z",
+        "updated_at": "2023-07-19T12:53:09.140Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 229,
+    "fields": {
+        "loc": 200,
+        "provider": 7,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.149Z",
+        "updated_at": "2023-07-19T12:53:09.150Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 230,
+    "fields": {
+        "loc": 200,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.158Z",
+        "updated_at": "2023-07-19T12:53:09.158Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 231,
+    "fields": {
+        "loc": 200,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.166Z",
+        "updated_at": "2023-07-19T12:53:09.166Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 232,
+    "fields": {
+        "loc": 200,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.176Z",
+        "updated_at": "2023-07-19T12:53:09.176Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 233,
+    "fields": {
+        "loc": 200,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.184Z",
+        "updated_at": "2023-07-19T12:53:09.184Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 234,
+    "fields": {
+        "loc": 200,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.193Z",
+        "updated_at": "2023-07-19T12:53:09.193Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 235,
+    "fields": {
+        "loc": 201,
+        "provider": 8,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.218Z",
+        "updated_at": "2023-07-19T12:53:09.218Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 236,
+    "fields": {
+        "loc": 201,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.228Z",
+        "updated_at": "2023-07-19T12:53:09.228Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 237,
+    "fields": {
+        "loc": 201,
+        "provider": 3,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.238Z",
+        "updated_at": "2023-07-19T12:53:09.238Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 238,
+    "fields": {
+        "loc": 201,
+        "provider": 7,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.247Z",
+        "updated_at": "2023-07-19T12:53:09.247Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 239,
+    "fields": {
+        "loc": 201,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.256Z",
+        "updated_at": "2023-07-19T12:53:09.256Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 240,
+    "fields": {
+        "loc": 201,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.266Z",
+        "updated_at": "2023-07-19T12:53:09.266Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 241,
+    "fields": {
+        "loc": 201,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.276Z",
+        "updated_at": "2023-07-19T12:53:09.276Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 242,
+    "fields": {
+        "loc": 201,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.284Z",
+        "updated_at": "2023-07-19T12:53:09.284Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 243,
+    "fields": {
+        "loc": 201,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.296Z",
+        "updated_at": "2023-07-19T12:53:09.296Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 244,
+    "fields": {
+        "loc": 202,
+        "provider": 8,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.313Z",
+        "updated_at": "2023-07-19T12:53:09.313Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 245,
+    "fields": {
+        "loc": 202,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.317Z",
+        "updated_at": "2023-07-19T12:53:09.317Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 246,
+    "fields": {
+        "loc": 202,
+        "provider": 3,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.321Z",
+        "updated_at": "2023-07-19T12:53:09.321Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 247,
+    "fields": {
+        "loc": 202,
+        "provider": 7,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.329Z",
+        "updated_at": "2023-07-19T12:53:09.329Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 248,
+    "fields": {
+        "loc": 202,
+        "provider": 4,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.341Z",
+        "updated_at": "2023-07-19T12:53:09.341Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 249,
+    "fields": {
+        "loc": 202,
+        "provider": 5,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.350Z",
+        "updated_at": "2023-07-19T12:53:09.350Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 250,
+    "fields": {
+        "loc": 202,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.358Z",
+        "updated_at": "2023-07-19T12:53:09.358Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 251,
+    "fields": {
+        "loc": 202,
+        "provider": 6,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.368Z",
+        "updated_at": "2023-07-19T12:53:09.368Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 252,
+    "fields": {
+        "loc": 202,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.376Z",
+        "updated_at": "2023-07-19T12:53:09.376Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 253,
+    "fields": {
+        "loc": 203,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.402Z",
+        "updated_at": "2023-07-19T12:53:09.402Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 254,
+    "fields": {
+        "loc": 203,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.410Z",
+        "updated_at": "2023-07-19T12:53:09.411Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 255,
+    "fields": {
+        "loc": 203,
+        "provider": 3,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.418Z",
+        "updated_at": "2023-07-19T12:53:09.418Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 256,
+    "fields": {
+        "loc": 203,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.427Z",
+        "updated_at": "2023-07-19T12:53:09.427Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 257,
+    "fields": {
+        "loc": 203,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.437Z",
+        "updated_at": "2023-07-19T12:53:09.437Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 258,
+    "fields": {
+        "loc": 203,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.445Z",
+        "updated_at": "2023-07-19T12:53:09.445Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 259,
+    "fields": {
+        "loc": 203,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.455Z",
+        "updated_at": "2023-07-19T12:53:09.455Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 260,
+    "fields": {
+        "loc": 203,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.464Z",
+        "updated_at": "2023-07-19T12:53:09.464Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 261,
+    "fields": {
+        "loc": 203,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.472Z",
+        "updated_at": "2023-07-19T12:53:09.472Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 262,
+    "fields": {
+        "loc": 204,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.496Z",
+        "updated_at": "2023-07-19T12:53:09.496Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 263,
+    "fields": {
+        "loc": 204,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.504Z",
+        "updated_at": "2023-07-19T12:53:09.504Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 264,
+    "fields": {
+        "loc": 204,
+        "provider": 3,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.515Z",
+        "updated_at": "2023-07-19T12:53:09.515Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 265,
+    "fields": {
+        "loc": 204,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.524Z",
+        "updated_at": "2023-07-19T12:53:09.524Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 266,
+    "fields": {
+        "loc": 204,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.533Z",
+        "updated_at": "2023-07-19T12:53:09.533Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 267,
+    "fields": {
+        "loc": 204,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.540Z",
+        "updated_at": "2023-07-19T12:53:09.540Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 268,
+    "fields": {
+        "loc": 204,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.545Z",
+        "updated_at": "2023-07-19T12:53:09.545Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 269,
+    "fields": {
+        "loc": 204,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.551Z",
+        "updated_at": "2023-07-19T12:53:09.551Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 270,
+    "fields": {
+        "loc": 204,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.556Z",
+        "updated_at": "2023-07-19T12:53:09.556Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 271,
+    "fields": {
+        "loc": 205,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.568Z",
+        "updated_at": "2023-07-19T12:53:09.568Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 272,
+    "fields": {
+        "loc": 205,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.573Z",
+        "updated_at": "2023-07-19T12:53:09.573Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 273,
+    "fields": {
+        "loc": 205,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.579Z",
+        "updated_at": "2023-07-19T12:53:09.579Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 274,
+    "fields": {
+        "loc": 205,
+        "provider": 5,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.583Z",
+        "updated_at": "2023-07-19T12:53:09.583Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 275,
+    "fields": {
+        "loc": 205,
+        "provider": 2,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.589Z",
+        "updated_at": "2023-07-19T12:53:09.589Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 276,
+    "fields": {
+        "loc": 205,
+        "provider": 6,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.595Z",
+        "updated_at": "2023-07-19T12:53:09.595Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 277,
+    "fields": {
+        "loc": 205,
+        "provider": 4,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.600Z",
+        "updated_at": "2023-07-19T12:53:09.600Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 278,
+    "fields": {
+        "loc": 205,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.605Z",
+        "updated_at": "2023-07-19T12:53:09.605Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 279,
+    "fields": {
+        "loc": 205,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.610Z",
+        "updated_at": "2023-07-19T12:53:09.610Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 280,
+    "fields": {
+        "loc": 206,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.625Z",
+        "updated_at": "2023-07-19T12:53:09.625Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 281,
+    "fields": {
+        "loc": 206,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.630Z",
+        "updated_at": "2023-07-19T12:53:09.630Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 282,
+    "fields": {
+        "loc": 206,
+        "provider": 4,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.636Z",
+        "updated_at": "2023-07-19T12:53:09.636Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 283,
+    "fields": {
+        "loc": 206,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.641Z",
+        "updated_at": "2023-07-19T12:53:09.641Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 284,
+    "fields": {
+        "loc": 206,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.647Z",
+        "updated_at": "2023-07-19T12:53:09.647Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 285,
+    "fields": {
+        "loc": 206,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.653Z",
+        "updated_at": "2023-07-19T12:53:09.653Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 286,
+    "fields": {
+        "loc": 206,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.659Z",
+        "updated_at": "2023-07-19T12:53:09.659Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 287,
+    "fields": {
+        "loc": 206,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.664Z",
+        "updated_at": "2023-07-19T12:53:09.664Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 288,
+    "fields": {
+        "loc": 206,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.671Z",
+        "updated_at": "2023-07-19T12:53:09.671Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 289,
+    "fields": {
+        "loc": 207,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.683Z",
+        "updated_at": "2023-07-19T12:53:09.683Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 290,
+    "fields": {
+        "loc": 207,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.688Z",
+        "updated_at": "2023-07-19T12:53:09.688Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 291,
+    "fields": {
+        "loc": 207,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.692Z",
+        "updated_at": "2023-07-19T12:53:09.692Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 292,
+    "fields": {
+        "loc": 207,
+        "provider": 4,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.697Z",
+        "updated_at": "2023-07-19T12:53:09.697Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 293,
+    "fields": {
+        "loc": 207,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.701Z",
+        "updated_at": "2023-07-19T12:53:09.701Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 294,
+    "fields": {
+        "loc": 207,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.705Z",
+        "updated_at": "2023-07-19T12:53:09.705Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 295,
+    "fields": {
+        "loc": 207,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.709Z",
+        "updated_at": "2023-07-19T12:53:09.709Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 296,
+    "fields": {
+        "loc": 207,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.715Z",
+        "updated_at": "2023-07-19T12:53:09.715Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 297,
+    "fields": {
+        "loc": 207,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.720Z",
+        "updated_at": "2023-07-19T12:53:09.720Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 298,
+    "fields": {
+        "loc": 208,
+        "provider": 8,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.731Z",
+        "updated_at": "2023-07-19T12:53:09.731Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 299,
+    "fields": {
+        "loc": 208,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.736Z",
+        "updated_at": "2023-07-19T12:53:09.736Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 300,
+    "fields": {
+        "loc": 208,
+        "provider": 1,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.741Z",
+        "updated_at": "2023-07-19T12:53:09.741Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 301,
+    "fields": {
+        "loc": 208,
+        "provider": 4,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.746Z",
+        "updated_at": "2023-07-19T12:53:09.746Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 302,
+    "fields": {
+        "loc": 208,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.752Z",
+        "updated_at": "2023-07-19T12:53:09.752Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 303,
+    "fields": {
+        "loc": 208,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.758Z",
+        "updated_at": "2023-07-19T12:53:09.758Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 304,
+    "fields": {
+        "loc": 208,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.763Z",
+        "updated_at": "2023-07-19T12:53:09.763Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 305,
+    "fields": {
+        "loc": 208,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.771Z",
+        "updated_at": "2023-07-19T12:53:09.771Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 306,
+    "fields": {
+        "loc": 208,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.777Z",
+        "updated_at": "2023-07-19T12:53:09.777Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 307,
+    "fields": {
+        "loc": 209,
+        "provider": 8,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.792Z",
+        "updated_at": "2023-07-19T12:53:09.792Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 308,
+    "fields": {
+        "loc": 209,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.798Z",
+        "updated_at": "2023-07-19T12:53:09.798Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 309,
+    "fields": {
+        "loc": 209,
+        "provider": 1,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.804Z",
+        "updated_at": "2023-07-19T12:53:09.804Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 310,
+    "fields": {
+        "loc": 209,
+        "provider": 4,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.810Z",
+        "updated_at": "2023-07-19T12:53:09.810Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 311,
+    "fields": {
+        "loc": 209,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.816Z",
+        "updated_at": "2023-07-19T12:53:09.816Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 312,
+    "fields": {
+        "loc": 209,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.822Z",
+        "updated_at": "2023-07-19T12:53:09.822Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 313,
+    "fields": {
+        "loc": 209,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.828Z",
+        "updated_at": "2023-07-19T12:53:09.828Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 314,
+    "fields": {
+        "loc": 209,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.835Z",
+        "updated_at": "2023-07-19T12:53:09.835Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 315,
+    "fields": {
+        "loc": 209,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.841Z",
+        "updated_at": "2023-07-19T12:53:09.841Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 316,
+    "fields": {
+        "loc": 210,
+        "provider": 8,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.856Z",
+        "updated_at": "2023-07-19T12:53:09.856Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 317,
+    "fields": {
+        "loc": 210,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.862Z",
+        "updated_at": "2023-07-19T12:53:09.862Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 318,
+    "fields": {
+        "loc": 210,
+        "provider": 7,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.868Z",
+        "updated_at": "2023-07-19T12:53:09.868Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 319,
+    "fields": {
+        "loc": 210,
+        "provider": 4,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.874Z",
+        "updated_at": "2023-07-19T12:53:09.874Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 320,
+    "fields": {
+        "loc": 210,
+        "provider": 1,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.880Z",
+        "updated_at": "2023-07-19T12:53:09.880Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 321,
+    "fields": {
+        "loc": 210,
+        "provider": 5,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.885Z",
+        "updated_at": "2023-07-19T12:53:09.885Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 322,
+    "fields": {
+        "loc": 210,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.890Z",
+        "updated_at": "2023-07-19T12:53:09.890Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 323,
+    "fields": {
+        "loc": 210,
+        "provider": 6,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.895Z",
+        "updated_at": "2023-07-19T12:53:09.896Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 324,
+    "fields": {
+        "loc": 210,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.902Z",
+        "updated_at": "2023-07-19T12:53:09.902Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 325,
+    "fields": {
+        "loc": 211,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.916Z",
+        "updated_at": "2023-07-19T12:53:09.916Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 326,
+    "fields": {
+        "loc": 211,
+        "provider": 4,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.921Z",
+        "updated_at": "2023-07-19T12:53:09.921Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 327,
+    "fields": {
+        "loc": 211,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.927Z",
+        "updated_at": "2023-07-19T12:53:09.927Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 328,
+    "fields": {
+        "loc": 211,
+        "provider": 7,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.933Z",
+        "updated_at": "2023-07-19T12:53:09.933Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 329,
+    "fields": {
+        "loc": 211,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.939Z",
+        "updated_at": "2023-07-19T12:53:09.939Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 330,
+    "fields": {
+        "loc": 211,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.944Z",
+        "updated_at": "2023-07-19T12:53:09.944Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 331,
+    "fields": {
+        "loc": 211,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.949Z",
+        "updated_at": "2023-07-19T12:53:09.949Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 332,
+    "fields": {
+        "loc": 211,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.955Z",
+        "updated_at": "2023-07-19T12:53:09.955Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 333,
+    "fields": {
+        "loc": 211,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.960Z",
+        "updated_at": "2023-07-19T12:53:09.960Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 334,
+    "fields": {
+        "loc": 212,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.975Z",
+        "updated_at": "2023-07-19T12:53:09.975Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 335,
+    "fields": {
+        "loc": 212,
+        "provider": 4,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.980Z",
+        "updated_at": "2023-07-19T12:53:09.980Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 336,
+    "fields": {
+        "loc": 212,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.986Z",
+        "updated_at": "2023-07-19T12:53:09.986Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 337,
+    "fields": {
+        "loc": 212,
+        "provider": 7,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.991Z",
+        "updated_at": "2023-07-19T12:53:09.991Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 338,
+    "fields": {
+        "loc": 212,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:09.998Z",
+        "updated_at": "2023-07-19T12:53:09.998Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 339,
+    "fields": {
+        "loc": 212,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.003Z",
+        "updated_at": "2023-07-19T12:53:10.003Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 340,
+    "fields": {
+        "loc": 212,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.007Z",
+        "updated_at": "2023-07-19T12:53:10.007Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 341,
+    "fields": {
+        "loc": 212,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.011Z",
+        "updated_at": "2023-07-19T12:53:10.011Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 342,
+    "fields": {
+        "loc": 212,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.015Z",
+        "updated_at": "2023-07-19T12:53:10.015Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 343,
+    "fields": {
+        "loc": 213,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.026Z",
+        "updated_at": "2023-07-19T12:53:10.026Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 344,
+    "fields": {
+        "loc": 213,
+        "provider": 8,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.031Z",
+        "updated_at": "2023-07-19T12:53:10.031Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 345,
+    "fields": {
+        "loc": 213,
+        "provider": 7,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.034Z",
+        "updated_at": "2023-07-19T12:53:10.034Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 346,
+    "fields": {
+        "loc": 213,
+        "provider": 5,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.038Z",
+        "updated_at": "2023-07-19T12:53:10.038Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 347,
+    "fields": {
+        "loc": 213,
+        "provider": 2,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.042Z",
+        "updated_at": "2023-07-19T12:53:10.042Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 348,
+    "fields": {
+        "loc": 213,
+        "provider": 6,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.046Z",
+        "updated_at": "2023-07-19T12:53:10.046Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 349,
+    "fields": {
+        "loc": 213,
+        "provider": 4,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.050Z",
+        "updated_at": "2023-07-19T12:53:10.050Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 350,
+    "fields": {
+        "loc": 213,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.054Z",
+        "updated_at": "2023-07-19T12:53:10.054Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 351,
+    "fields": {
+        "loc": 213,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.059Z",
+        "updated_at": "2023-07-19T12:53:10.059Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 352,
+    "fields": {
+        "loc": 214,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.069Z",
+        "updated_at": "2023-07-19T12:53:10.070Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 353,
+    "fields": {
+        "loc": 214,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.073Z",
+        "updated_at": "2023-07-19T12:53:10.073Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 354,
+    "fields": {
+        "loc": 214,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.077Z",
+        "updated_at": "2023-07-19T12:53:10.077Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 355,
+    "fields": {
+        "loc": 214,
+        "provider": 9,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.081Z",
+        "updated_at": "2023-07-19T12:53:10.081Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 356,
+    "fields": {
+        "loc": 214,
+        "provider": 3,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.085Z",
+        "updated_at": "2023-07-19T12:53:10.085Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 357,
+    "fields": {
+        "loc": 214,
+        "provider": 5,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.090Z",
+        "updated_at": "2023-07-19T12:53:10.090Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 358,
+    "fields": {
+        "loc": 214,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.094Z",
+        "updated_at": "2023-07-19T12:53:10.094Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 359,
+    "fields": {
+        "loc": 214,
+        "provider": 6,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.098Z",
+        "updated_at": "2023-07-19T12:53:10.098Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 360,
+    "fields": {
+        "loc": 214,
+        "provider": 4,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.102Z",
+        "updated_at": "2023-07-19T12:53:10.102Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 361,
+    "fields": {
+        "loc": 215,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.112Z",
+        "updated_at": "2023-07-19T12:53:10.112Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 362,
+    "fields": {
+        "loc": 215,
+        "provider": 7,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.116Z",
+        "updated_at": "2023-07-19T12:53:10.116Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 363,
+    "fields": {
+        "loc": 215,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.120Z",
+        "updated_at": "2023-07-19T12:53:10.120Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 364,
+    "fields": {
+        "loc": 215,
+        "provider": 9,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.124Z",
+        "updated_at": "2023-07-19T12:53:10.124Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 365,
+    "fields": {
+        "loc": 215,
+        "provider": 3,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.128Z",
+        "updated_at": "2023-07-19T12:53:10.128Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 366,
+    "fields": {
+        "loc": 215,
+        "provider": 5,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.132Z",
+        "updated_at": "2023-07-19T12:53:10.132Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 367,
+    "fields": {
+        "loc": 215,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.136Z",
+        "updated_at": "2023-07-19T12:53:10.136Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 368,
+    "fields": {
+        "loc": 215,
+        "provider": 6,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.140Z",
+        "updated_at": "2023-07-19T12:53:10.140Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 369,
+    "fields": {
+        "loc": 215,
+        "provider": 4,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.144Z",
+        "updated_at": "2023-07-19T12:53:10.144Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 370,
+    "fields": {
+        "loc": 216,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.156Z",
+        "updated_at": "2023-07-19T12:53:10.156Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 371,
+    "fields": {
+        "loc": 216,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.160Z",
+        "updated_at": "2023-07-19T12:53:10.160Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 372,
+    "fields": {
+        "loc": 216,
+        "provider": 3,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.164Z",
+        "updated_at": "2023-07-19T12:53:10.164Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 373,
+    "fields": {
+        "loc": 216,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.167Z",
+        "updated_at": "2023-07-19T12:53:10.167Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 374,
+    "fields": {
+        "loc": 216,
+        "provider": 9,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.171Z",
+        "updated_at": "2023-07-19T12:53:10.171Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 375,
+    "fields": {
+        "loc": 216,
+        "provider": 5,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.175Z",
+        "updated_at": "2023-07-19T12:53:10.175Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 376,
+    "fields": {
+        "loc": 216,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.179Z",
+        "updated_at": "2023-07-19T12:53:10.179Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 377,
+    "fields": {
+        "loc": 216,
+        "provider": 6,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.184Z",
+        "updated_at": "2023-07-19T12:53:10.184Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 378,
+    "fields": {
+        "loc": 216,
+        "provider": 4,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.188Z",
+        "updated_at": "2023-07-19T12:53:10.188Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 379,
+    "fields": {
+        "loc": 217,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.199Z",
+        "updated_at": "2023-07-19T12:53:10.199Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 380,
+    "fields": {
+        "loc": 217,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.203Z",
+        "updated_at": "2023-07-19T12:53:10.203Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 381,
+    "fields": {
+        "loc": 217,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.207Z",
+        "updated_at": "2023-07-19T12:53:10.207Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 382,
+    "fields": {
+        "loc": 217,
+        "provider": 3,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.211Z",
+        "updated_at": "2023-07-19T12:53:10.211Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 383,
+    "fields": {
+        "loc": 217,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.216Z",
+        "updated_at": "2023-07-19T12:53:10.216Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 384,
+    "fields": {
+        "loc": 217,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.220Z",
+        "updated_at": "2023-07-19T12:53:10.220Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 385,
+    "fields": {
+        "loc": 217,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.224Z",
+        "updated_at": "2023-07-19T12:53:10.224Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 386,
+    "fields": {
+        "loc": 217,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.228Z",
+        "updated_at": "2023-07-19T12:53:10.228Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 387,
+    "fields": {
+        "loc": 217,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.231Z",
+        "updated_at": "2023-07-19T12:53:10.231Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 388,
+    "fields": {
+        "loc": 218,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.241Z",
+        "updated_at": "2023-07-19T12:53:10.241Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 389,
+    "fields": {
+        "loc": 218,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.246Z",
+        "updated_at": "2023-07-19T12:53:10.246Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 390,
+    "fields": {
+        "loc": 218,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.250Z",
+        "updated_at": "2023-07-19T12:53:10.250Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 391,
+    "fields": {
+        "loc": 218,
+        "provider": 3,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.254Z",
+        "updated_at": "2023-07-19T12:53:10.254Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 392,
+    "fields": {
+        "loc": 218,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.258Z",
+        "updated_at": "2023-07-19T12:53:10.258Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 393,
+    "fields": {
+        "loc": 218,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.262Z",
+        "updated_at": "2023-07-19T12:53:10.262Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 394,
+    "fields": {
+        "loc": 218,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.266Z",
+        "updated_at": "2023-07-19T12:53:10.266Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 395,
+    "fields": {
+        "loc": 218,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.269Z",
+        "updated_at": "2023-07-19T12:53:10.270Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 396,
+    "fields": {
+        "loc": 218,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.274Z",
+        "updated_at": "2023-07-19T12:53:10.274Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 397,
+    "fields": {
+        "loc": 219,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.285Z",
+        "updated_at": "2023-07-19T12:53:10.285Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 398,
+    "fields": {
+        "loc": 219,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.290Z",
+        "updated_at": "2023-07-19T12:53:10.290Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 399,
+    "fields": {
+        "loc": 219,
+        "provider": 3,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.294Z",
+        "updated_at": "2023-07-19T12:53:10.294Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 400,
+    "fields": {
+        "loc": 219,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.298Z",
+        "updated_at": "2023-07-19T12:53:10.298Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 401,
+    "fields": {
+        "loc": 219,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.302Z",
+        "updated_at": "2023-07-19T12:53:10.302Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 402,
+    "fields": {
+        "loc": 219,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.306Z",
+        "updated_at": "2023-07-19T12:53:10.306Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 403,
+    "fields": {
+        "loc": 219,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.310Z",
+        "updated_at": "2023-07-19T12:53:10.310Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 404,
+    "fields": {
+        "loc": 219,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.315Z",
+        "updated_at": "2023-07-19T12:53:10.315Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 405,
+    "fields": {
+        "loc": 219,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.319Z",
+        "updated_at": "2023-07-19T12:53:10.319Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 406,
+    "fields": {
+        "loc": 220,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.329Z",
+        "updated_at": "2023-07-19T12:53:10.329Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 407,
+    "fields": {
+        "loc": 220,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.333Z",
+        "updated_at": "2023-07-19T12:53:10.333Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 408,
+    "fields": {
+        "loc": 220,
+        "provider": 4,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.338Z",
+        "updated_at": "2023-07-19T12:53:10.338Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 409,
+    "fields": {
+        "loc": 220,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.342Z",
+        "updated_at": "2023-07-19T12:53:10.342Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 410,
+    "fields": {
+        "loc": 220,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.346Z",
+        "updated_at": "2023-07-19T12:53:10.347Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 411,
+    "fields": {
+        "loc": 220,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.350Z",
+        "updated_at": "2023-07-19T12:53:10.350Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 412,
+    "fields": {
+        "loc": 220,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.354Z",
+        "updated_at": "2023-07-19T12:53:10.354Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 413,
+    "fields": {
+        "loc": 220,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.358Z",
+        "updated_at": "2023-07-19T12:53:10.358Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 414,
+    "fields": {
+        "loc": 220,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.362Z",
+        "updated_at": "2023-07-19T12:53:10.362Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 415,
+    "fields": {
+        "loc": 221,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.374Z",
+        "updated_at": "2023-07-19T12:53:10.374Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 416,
+    "fields": {
+        "loc": 221,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.378Z",
+        "updated_at": "2023-07-19T12:53:10.378Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 417,
+    "fields": {
+        "loc": 221,
+        "provider": 4,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.381Z",
+        "updated_at": "2023-07-19T12:53:10.381Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 418,
+    "fields": {
+        "loc": 221,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.385Z",
+        "updated_at": "2023-07-19T12:53:10.385Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 419,
+    "fields": {
+        "loc": 221,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.389Z",
+        "updated_at": "2023-07-19T12:53:10.389Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 420,
+    "fields": {
+        "loc": 221,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.392Z",
+        "updated_at": "2023-07-19T12:53:10.392Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 421,
+    "fields": {
+        "loc": 221,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.396Z",
+        "updated_at": "2023-07-19T12:53:10.396Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 422,
+    "fields": {
+        "loc": 221,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.401Z",
+        "updated_at": "2023-07-19T12:53:10.401Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 423,
+    "fields": {
+        "loc": 221,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.405Z",
+        "updated_at": "2023-07-19T12:53:10.405Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 424,
+    "fields": {
+        "loc": 222,
+        "provider": 7,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.415Z",
+        "updated_at": "2023-07-19T12:53:10.415Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 425,
+    "fields": {
+        "loc": 222,
+        "provider": 8,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.419Z",
+        "updated_at": "2023-07-19T12:53:10.419Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 426,
+    "fields": {
+        "loc": 222,
+        "provider": 4,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.423Z",
+        "updated_at": "2023-07-19T12:53:10.423Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 427,
+    "fields": {
+        "loc": 222,
+        "provider": 1,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.427Z",
+        "updated_at": "2023-07-19T12:53:10.427Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 428,
+    "fields": {
+        "loc": 222,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.431Z",
+        "updated_at": "2023-07-19T12:53:10.431Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 429,
+    "fields": {
+        "loc": 222,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.436Z",
+        "updated_at": "2023-07-19T12:53:10.436Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 430,
+    "fields": {
+        "loc": 222,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.440Z",
+        "updated_at": "2023-07-19T12:53:10.440Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 431,
+    "fields": {
+        "loc": 222,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.443Z",
+        "updated_at": "2023-07-19T12:53:10.444Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 432,
+    "fields": {
+        "loc": 222,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.447Z",
+        "updated_at": "2023-07-19T12:53:10.447Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 433,
+    "fields": {
+        "loc": 223,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.457Z",
+        "updated_at": "2023-07-19T12:53:10.457Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 434,
+    "fields": {
+        "loc": 223,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.461Z",
+        "updated_at": "2023-07-19T12:53:10.461Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 435,
+    "fields": {
+        "loc": 223,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.466Z",
+        "updated_at": "2023-07-19T12:53:10.466Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 436,
+    "fields": {
+        "loc": 223,
+        "provider": 7,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.470Z",
+        "updated_at": "2023-07-19T12:53:10.470Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 437,
+    "fields": {
+        "loc": 223,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.474Z",
+        "updated_at": "2023-07-19T12:53:10.474Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 438,
+    "fields": {
+        "loc": 223,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.478Z",
+        "updated_at": "2023-07-19T12:53:10.478Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 439,
+    "fields": {
+        "loc": 223,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.482Z",
+        "updated_at": "2023-07-19T12:53:10.482Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 440,
+    "fields": {
+        "loc": 223,
+        "provider": 4,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.486Z",
+        "updated_at": "2023-07-19T12:53:10.486Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 441,
+    "fields": {
+        "loc": 223,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.490Z",
+        "updated_at": "2023-07-19T12:53:10.490Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 442,
+    "fields": {
+        "loc": 224,
+        "provider": 6,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.501Z",
+        "updated_at": "2023-07-19T12:53:10.501Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 443,
+    "fields": {
+        "loc": 224,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.505Z",
+        "updated_at": "2023-07-19T12:53:10.505Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 444,
+    "fields": {
+        "loc": 224,
+        "provider": 3,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.508Z",
+        "updated_at": "2023-07-19T12:53:10.508Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 445,
+    "fields": {
+        "loc": 224,
+        "provider": 9,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.511Z",
+        "updated_at": "2023-07-19T12:53:10.511Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 446,
+    "fields": {
+        "loc": 224,
+        "provider": 8,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.513Z",
+        "updated_at": "2023-07-19T12:53:10.513Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 447,
+    "fields": {
+        "loc": 224,
+        "provider": 7,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.516Z",
+        "updated_at": "2023-07-19T12:53:10.517Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 448,
+    "fields": {
+        "loc": 224,
+        "provider": 4,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.520Z",
+        "updated_at": "2023-07-19T12:53:10.520Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 449,
+    "fields": {
+        "loc": 224,
+        "provider": 5,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.523Z",
+        "updated_at": "2023-07-19T12:53:10.523Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 450,
+    "fields": {
+        "loc": 224,
+        "provider": 2,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.527Z",
+        "updated_at": "2023-07-19T12:53:10.527Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 451,
+    "fields": {
+        "loc": 225,
+        "provider": 6,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.536Z",
+        "updated_at": "2023-07-19T12:53:10.536Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 452,
+    "fields": {
+        "loc": 225,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.539Z",
+        "updated_at": "2023-07-19T12:53:10.539Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 453,
+    "fields": {
+        "loc": 225,
+        "provider": 3,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.542Z",
+        "updated_at": "2023-07-19T12:53:10.542Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 454,
+    "fields": {
+        "loc": 225,
+        "provider": 9,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.545Z",
+        "updated_at": "2023-07-19T12:53:10.545Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 455,
+    "fields": {
+        "loc": 225,
+        "provider": 8,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.548Z",
+        "updated_at": "2023-07-19T12:53:10.548Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 456,
+    "fields": {
+        "loc": 225,
+        "provider": 7,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.551Z",
+        "updated_at": "2023-07-19T12:53:10.551Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 457,
+    "fields": {
+        "loc": 225,
+        "provider": 4,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.555Z",
+        "updated_at": "2023-07-19T12:53:10.555Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 458,
+    "fields": {
+        "loc": 225,
+        "provider": 5,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.559Z",
+        "updated_at": "2023-07-19T12:53:10.559Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 459,
+    "fields": {
+        "loc": 225,
+        "provider": 2,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.562Z",
+        "updated_at": "2023-07-19T12:53:10.562Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 460,
+    "fields": {
+        "loc": 226,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.570Z",
+        "updated_at": "2023-07-19T12:53:10.570Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 461,
+    "fields": {
+        "loc": 226,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.574Z",
+        "updated_at": "2023-07-19T12:53:10.574Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 462,
+    "fields": {
+        "loc": 226,
+        "provider": 9,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.577Z",
+        "updated_at": "2023-07-19T12:53:10.577Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 463,
+    "fields": {
+        "loc": 226,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.580Z",
+        "updated_at": "2023-07-19T12:53:10.580Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 464,
+    "fields": {
+        "loc": 226,
+        "provider": 7,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.583Z",
+        "updated_at": "2023-07-19T12:53:10.583Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 465,
+    "fields": {
+        "loc": 226,
+        "provider": 4,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.587Z",
+        "updated_at": "2023-07-19T12:53:10.587Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 466,
+    "fields": {
+        "loc": 226,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.591Z",
+        "updated_at": "2023-07-19T12:53:10.591Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 467,
+    "fields": {
+        "loc": 226,
+        "provider": 5,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.594Z",
+        "updated_at": "2023-07-19T12:53:10.594Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 468,
+    "fields": {
+        "loc": 226,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.597Z",
+        "updated_at": "2023-07-19T12:53:10.597Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 469,
+    "fields": {
+        "loc": 227,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.604Z",
+        "updated_at": "2023-07-19T12:53:10.604Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 470,
+    "fields": {
+        "loc": 227,
+        "provider": 8,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.607Z",
+        "updated_at": "2023-07-19T12:53:10.607Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 471,
+    "fields": {
+        "loc": 227,
+        "provider": 7,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.610Z",
+        "updated_at": "2023-07-19T12:53:10.610Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 472,
+    "fields": {
+        "loc": 227,
+        "provider": 4,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.614Z",
+        "updated_at": "2023-07-19T12:53:10.614Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 473,
+    "fields": {
+        "loc": 227,
+        "provider": 2,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.618Z",
+        "updated_at": "2023-07-19T12:53:10.618Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 474,
+    "fields": {
+        "loc": 227,
+        "provider": 5,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.621Z",
+        "updated_at": "2023-07-19T12:53:10.622Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 475,
+    "fields": {
+        "loc": 227,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.625Z",
+        "updated_at": "2023-07-19T12:53:10.625Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 476,
+    "fields": {
+        "loc": 227,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.628Z",
+        "updated_at": "2023-07-19T12:53:10.628Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 477,
+    "fields": {
+        "loc": 227,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.631Z",
+        "updated_at": "2023-07-19T12:53:10.631Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 478,
+    "fields": {
+        "loc": 228,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.639Z",
+        "updated_at": "2023-07-19T12:53:10.639Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 479,
+    "fields": {
+        "loc": 228,
+        "provider": 8,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.643Z",
+        "updated_at": "2023-07-19T12:53:10.643Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 480,
+    "fields": {
+        "loc": 228,
+        "provider": 7,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.647Z",
+        "updated_at": "2023-07-19T12:53:10.647Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 481,
+    "fields": {
+        "loc": 228,
+        "provider": 4,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.651Z",
+        "updated_at": "2023-07-19T12:53:10.651Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 482,
+    "fields": {
+        "loc": 228,
+        "provider": 2,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.654Z",
+        "updated_at": "2023-07-19T12:53:10.654Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 483,
+    "fields": {
+        "loc": 228,
+        "provider": 5,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.657Z",
+        "updated_at": "2023-07-19T12:53:10.657Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 484,
+    "fields": {
+        "loc": 228,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.660Z",
+        "updated_at": "2023-07-19T12:53:10.660Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 485,
+    "fields": {
+        "loc": 228,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.663Z",
+        "updated_at": "2023-07-19T12:53:10.663Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 486,
+    "fields": {
+        "loc": 228,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.666Z",
+        "updated_at": "2023-07-19T12:53:10.666Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 487,
+    "fields": {
+        "loc": 229,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.674Z",
+        "updated_at": "2023-07-19T12:53:10.674Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 488,
+    "fields": {
+        "loc": 229,
+        "provider": 8,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.678Z",
+        "updated_at": "2023-07-19T12:53:10.678Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 489,
+    "fields": {
+        "loc": 229,
+        "provider": 7,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.682Z",
+        "updated_at": "2023-07-19T12:53:10.682Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 490,
+    "fields": {
+        "loc": 229,
+        "provider": 4,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.685Z",
+        "updated_at": "2023-07-19T12:53:10.685Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 491,
+    "fields": {
+        "loc": 229,
+        "provider": 5,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.689Z",
+        "updated_at": "2023-07-19T12:53:10.689Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 492,
+    "fields": {
+        "loc": 229,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.692Z",
+        "updated_at": "2023-07-19T12:53:10.692Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 493,
+    "fields": {
+        "loc": 229,
+        "provider": 6,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.695Z",
+        "updated_at": "2023-07-19T12:53:10.695Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 494,
+    "fields": {
+        "loc": 229,
+        "provider": 9,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.698Z",
+        "updated_at": "2023-07-19T12:53:10.698Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 495,
+    "fields": {
+        "loc": 229,
+        "provider": 3,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.701Z",
+        "updated_at": "2023-07-19T12:53:10.701Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 496,
+    "fields": {
+        "loc": 230,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.710Z",
+        "updated_at": "2023-07-19T12:53:10.710Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 497,
+    "fields": {
+        "loc": 230,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.714Z",
+        "updated_at": "2023-07-19T12:53:10.714Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 498,
+    "fields": {
+        "loc": 230,
+        "provider": 9,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.717Z",
+        "updated_at": "2023-07-19T12:53:10.717Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 499,
+    "fields": {
+        "loc": 230,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.720Z",
+        "updated_at": "2023-07-19T12:53:10.720Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 500,
+    "fields": {
+        "loc": 230,
+        "provider": 7,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.723Z",
+        "updated_at": "2023-07-19T12:53:10.723Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 501,
+    "fields": {
+        "loc": 230,
+        "provider": 4,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.726Z",
+        "updated_at": "2023-07-19T12:53:10.726Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 502,
+    "fields": {
+        "loc": 230,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.729Z",
+        "updated_at": "2023-07-19T12:53:10.729Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 503,
+    "fields": {
+        "loc": 230,
+        "provider": 5,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.733Z",
+        "updated_at": "2023-07-19T12:53:10.733Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 504,
+    "fields": {
+        "loc": 230,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.736Z",
+        "updated_at": "2023-07-19T12:53:10.736Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 505,
+    "fields": {
+        "loc": 231,
+        "provider": 1,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.746Z",
+        "updated_at": "2023-07-19T12:53:10.746Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 506,
+    "fields": {
+        "loc": 231,
+        "provider": 3,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.749Z",
+        "updated_at": "2023-07-19T12:53:10.749Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 507,
+    "fields": {
+        "loc": 231,
+        "provider": 9,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.752Z",
+        "updated_at": "2023-07-19T12:53:10.752Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 508,
+    "fields": {
+        "loc": 231,
+        "provider": 8,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.756Z",
+        "updated_at": "2023-07-19T12:53:10.756Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 509,
+    "fields": {
+        "loc": 231,
+        "provider": 7,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.759Z",
+        "updated_at": "2023-07-19T12:53:10.759Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 510,
+    "fields": {
+        "loc": 231,
+        "provider": 4,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.762Z",
+        "updated_at": "2023-07-19T12:53:10.762Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 511,
+    "fields": {
+        "loc": 231,
+        "provider": 2,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.764Z",
+        "updated_at": "2023-07-19T12:53:10.764Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 512,
+    "fields": {
+        "loc": 231,
+        "provider": 5,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.767Z",
+        "updated_at": "2023-07-19T12:53:10.767Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 513,
+    "fields": {
+        "loc": 231,
+        "provider": 6,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.771Z",
+        "updated_at": "2023-07-19T12:53:10.771Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 514,
+    "fields": {
+        "loc": 232,
+        "provider": 3,
+        "order": 1,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.781Z",
+        "updated_at": "2023-07-19T12:53:10.781Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 515,
+    "fields": {
+        "loc": 232,
+        "provider": 1,
+        "order": 2,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.784Z",
+        "updated_at": "2023-07-19T12:53:10.784Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 516,
+    "fields": {
+        "loc": 232,
+        "provider": 8,
+        "order": 3,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.788Z",
+        "updated_at": "2023-07-19T12:53:10.788Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 517,
+    "fields": {
+        "loc": 232,
+        "provider": 7,
+        "order": 4,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.791Z",
+        "updated_at": "2023-07-19T12:53:10.791Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 518,
+    "fields": {
+        "loc": 232,
+        "provider": 4,
+        "order": 5,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.794Z",
+        "updated_at": "2023-07-19T12:53:10.794Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 519,
+    "fields": {
+        "loc": 232,
+        "provider": 2,
+        "order": 6,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.797Z",
+        "updated_at": "2023-07-19T12:53:10.797Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 520,
+    "fields": {
+        "loc": 232,
+        "provider": 5,
+        "order": 7,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.800Z",
+        "updated_at": "2023-07-19T12:53:10.800Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 521,
+    "fields": {
+        "loc": 232,
+        "provider": 6,
+        "order": 8,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.804Z",
+        "updated_at": "2023-07-19T12:53:10.804Z"
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerpropertyprovider",
+    "pk": 522,
+    "fields": {
+        "loc": 232,
+        "provider": 9,
+        "order": 9,
+        "status": 1,
+        "created_at": "2023-07-19T12:53:10.808Z",
+        "updated_at": "2023-07-19T12:53:10.808Z"
+    }
+}
+]

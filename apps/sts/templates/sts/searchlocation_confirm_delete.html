@@ -1,0 +1,31 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12 col-xl-6">
+        <form method="post">{% csrf_token %}
+            <div class="card my-4">
+                <h4 class="card-header">Confirm Search Location Delete</h4>
+                <div class="card-body">
+                    <h5 class="card-title text-danger mb-0">Are you sure you want to delete "{{ object }}"?</h5>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <button type="button" class="btn btn-sm btn-outline-gray-200" onclick="goBack()">
+                        Back
+                    </button>
+                    <button type="submit" class="btn btn-sm btn-outline-danger" value="Confirm">
+                        Confirm
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+{% endblock content %}

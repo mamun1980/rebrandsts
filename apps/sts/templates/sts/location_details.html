@@ -1,0 +1,41 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<h2 class="py-4 mb-0">Location Details Page</h2>
+
+<div class="row">
+    <div class="col-12 col-lg-6">
+        <div class="card">
+            <h4 class="card-header text-uppercase">{{ object.location_type }}</h4>
+            <div class="card-body">
+                <h6 class="card-title">{{ object.country_code }}</h6>
+                <h6 class="card-title">{{ object.country }}</h6>
+            </div>
+            <div class="card-footer d-flex align-items-center justify-content-between">
+                <button type="button" class="btn btn-sm btn-outline-gray-200" onclick="goBack()">
+                    Back
+                </button>
+                {% if perms.sts.change_location %}
+                <a href="{% url 'sts:locations-update' object.id %}"  class="btn btn-sm btn-outline-danger" >
+                    Edit
+                </a>
+                {% endif %}
+
+                {% if perms.sts.delete_location %}
+                <a href="{% url 'sts:locations-delete' object.id %}"  class="btn btn-sm btn-outline-danger" >
+                    Delete
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+
+{% endblock content %}

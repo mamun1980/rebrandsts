@@ -1,0 +1,11 @@
+[
+{"id":2,"set_name":"Mobile","date":null},
+{"id":3,"set_name":"Tablet","date":null},
+{"id":4,"set_name":"ios-app","date":"2017-09-20 22:54:39"},
+{"id":5,"set_name":"Andriod-app","date":"2017-09-27 02:49:10"},
+{"id":6,"set_name":"PWA","date":"2017-09-20 22:59:26"},
+{"id":7,"set_name":"Default","date":"2017-09-22 03:07:37"},
+{"id":9,"set_name":"hotels","date":"2017-09-27 03:48:43"},
+{"id":20,"set_name":"rentals","date":"2017-10-03 05:20:11"},
+{"id":21,"set_name":"today","date":null}
+]

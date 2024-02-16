@@ -1,0 +1,7 @@
+{
+    "EU": ["AD","AL","AM","AT","AZ","BA","BE","BG","BY","CH","CY","CZ","DE","DK","EE","ES","FI","FO","FR","GB","GE",
+        "GI","GL","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MC","MD","ME","MK","MT","NL","NO","PL","PT","RO",
+        "RS","RU","SE","SI","SK","SM","TR","UA","XA","XC","XK"],
+    "NA": ["AI","AG","AW","BS","BB","BZ","BM","BQ","VG","CA","KY","CR","CU","CW","GD","HN","JM","MQ","MX","PM","KN",
+        "NI","PA","SX","LC","VC","TT","TC","US","VI"]
+}

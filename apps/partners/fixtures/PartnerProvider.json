@@ -1,0 +1,101 @@
+[
+{
+    "model": "partners.partnerprovider",
+    "pk": 1,
+    "fields": {
+        "partner": 14,
+        "provider": 1,
+        "order": 1,
+        "date": "2022-01-26T04:00:44Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 2,
+    "fields": {
+        "partner": 14,
+        "provider": 2,
+        "order": 2,
+        "date": "2022-01-26T04:01:09Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 3,
+    "fields": {
+        "partner": 14,
+        "provider": 3,
+        "order": 3,
+        "date": "2022-01-26T04:02:20Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 4,
+    "fields": {
+        "partner": 14,
+        "provider": 4,
+        "order": 4,
+        "date": "2022-01-26T04:02:34Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 5,
+    "fields": {
+        "partner": 14,
+        "provider": 5,
+        "order": 5,
+        "date": "2022-01-26T04:03:04Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 6,
+    "fields": {
+        "partner": 14,
+        "provider": 6,
+        "order": 6,
+        "date": "2022-01-26T04:03:31Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 7,
+    "fields": {
+        "partner": 14,
+        "provider": 7,
+        "order": 7,
+        "date": "2022-01-26T04:04:06Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 8,
+    "fields": {
+        "partner": 14,
+        "provider": 8,
+        "order": 8,
+        "date": "2022-01-26T04:06:21Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 9,
+    "fields": {
+        "partner": 14,
+        "provider": 9,
+        "order": 9,
+        "date": "2022-01-26T04:06:38Z",
+        "is_active": true
+    }
+}
+]

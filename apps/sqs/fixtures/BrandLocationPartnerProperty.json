@@ -1,0 +1,640 @@
+[
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 175,
+    "fields": {
+        "brand": 2,
+        "location": 3,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 176,
+    "fields": {
+        "brand": 2,
+        "location": 3,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 177,
+    "fields": {
+        "brand": 2,
+        "location": 3,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 178,
+    "fields": {
+        "brand": 2,
+        "location": 1,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 179,
+    "fields": {
+        "brand": 2,
+        "location": 1,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 180,
+    "fields": {
+        "brand": 2,
+        "location": 1,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 181,
+    "fields": {
+        "brand": 2,
+        "location": 2,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 182,
+    "fields": {
+        "brand": 2,
+        "location": 2,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 183,
+    "fields": {
+        "brand": 2,
+        "location": 2,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 184,
+    "fields": {
+        "brand": 2,
+        "location": 15,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 185,
+    "fields": {
+        "brand": 2,
+        "location": 15,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 186,
+    "fields": {
+        "brand": 2,
+        "location": 15,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 187,
+    "fields": {
+        "brand": 2,
+        "location": 4,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 188,
+    "fields": {
+        "brand": 2,
+        "location": 4,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 189,
+    "fields": {
+        "brand": 2,
+        "location": 4,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 190,
+    "fields": {
+        "brand": 2,
+        "location": 232,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 191,
+    "fields": {
+        "brand": 2,
+        "location": 16,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 192,
+    "fields": {
+        "brand": 2,
+        "location": 16,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 193,
+    "fields": {
+        "brand": 2,
+        "location": 186,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 194,
+    "fields": {
+        "brand": 2,
+        "location": 7,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 195,
+    "fields": {
+        "brand": 2,
+        "location": 7,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 196,
+    "fields": {
+        "brand": 2,
+        "location": 7,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 197,
+    "fields": {
+        "brand": 2,
+        "location": 168,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 198,
+    "fields": {
+        "brand": 2,
+        "location": 168,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 199,
+    "fields": {
+        "brand": 2,
+        "location": 168,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 200,
+    "fields": {
+        "brand": 2,
+        "location": 147,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 201,
+    "fields": {
+        "brand": 2,
+        "location": 147,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 202,
+    "fields": {
+        "brand": 2,
+        "location": 147,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 203,
+    "fields": {
+        "brand": 2,
+        "location": 257,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 204,
+    "fields": {
+        "brand": 2,
+        "location": 257,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 205,
+    "fields": {
+        "brand": 2,
+        "location": 137,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 206,
+    "fields": {
+        "brand": 2,
+        "location": 128,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 207,
+    "fields": {
+        "brand": 2,
+        "location": 122,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 208,
+    "fields": {
+        "brand": 2,
+        "location": 12,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 209,
+    "fields": {
+        "brand": 2,
+        "location": 12,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 210,
+    "fields": {
+        "brand": 2,
+        "location": 12,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 211,
+    "fields": {
+        "brand": 2,
+        "location": 119,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 212,
+    "fields": {
+        "brand": 2,
+        "location": 119,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 213,
+    "fields": {
+        "brand": 2,
+        "location": 119,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 214,
+    "fields": {
+        "brand": 2,
+        "location": 8,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 215,
+    "fields": {
+        "brand": 2,
+        "location": 8,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 216,
+    "fields": {
+        "brand": 2,
+        "location": 8,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 217,
+    "fields": {
+        "brand": 2,
+        "location": 91,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 218,
+    "fields": {
+        "brand": 2,
+        "location": 91,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 219,
+    "fields": {
+        "brand": 2,
+        "location": 215,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 220,
+    "fields": {
+        "brand": 2,
+        "location": 97,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 221,
+    "fields": {
+        "brand": 2,
+        "location": 97,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 222,
+    "fields": {
+        "brand": 2,
+        "location": 97,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 223,
+    "fields": {
+        "brand": 2,
+        "location": 9,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 224,
+    "fields": {
+        "brand": 2,
+        "location": 5,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 225,
+    "fields": {
+        "brand": 2,
+        "location": 5,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 226,
+    "fields": {
+        "brand": 2,
+        "location": 5,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 227,
+    "fields": {
+        "brand": 2,
+        "location": 19,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 228,
+    "fields": {
+        "brand": 2,
+        "location": 19,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 229,
+    "fields": {
+        "brand": 2,
+        "location": 19,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 230,
+    "fields": {
+        "brand": 2,
+        "location": 6,
+        "partner": 15,
+        "property_group": 1,
+        "device": 1
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 231,
+    "fields": {
+        "brand": 2,
+        "location": 6,
+        "partner": 15,
+        "property_group": 1,
+        "device": 3
+    }
+},
+{
+    "model": "sqs.brandlocationpartnerproperty",
+    "pk": 232,
+    "fields": {
+        "brand": 2,
+        "location": 6,
+        "partner": 15,
+        "property_group": 1,
+        "device": 2
+    }
+}
+]

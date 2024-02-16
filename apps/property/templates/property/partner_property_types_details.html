@@ -1,0 +1,43 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<div class="py-4">
+    <h2 class="mb-0">Partner Property Type Details Page</h2>
+</div>
+
+<div class="row">
+    <div class="col-12 col-xl-6">
+        <div class="card bg-light text-dark border-0 shadow mb-4">
+            <h2 class="card-header">Property Type: {{ object.name }}</h2>
+            <div class="card-body">
+                <p class="card-title">Partner: {{ object.partner }}</p>
+            </div>
+            <div class="card-footer d-flex align-items-center gap-2 justify-content-between">
+                <button type="button" class="btn btn-sm btn-outline-gray-200" onclick="goBack()">
+                    Back
+                </button>
+                {% if perms.property.change_partnerpropertytype %}
+                <a class="btn btn-sm btn-outline-danger" href="{% url 'partner-property-types-update' object.id %}">
+                    Edit
+                </a>
+                {% endif %}
+
+                {% if perms.property.delete_partnerpropertytype %}
+                <a class="btn btn-sm btn-outline-danger" href="{% url 'partner-property-types-delete' object.id %}">
+                    Delete
+                </a>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+{% endblock content %}

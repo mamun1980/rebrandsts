@@ -1,0 +1,114 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+
+{% block stylesheets %}
+<script src="{% static 'js/jquery.min.js' %}"></script>
+{% endblock stylesheets %}
+
+{% block content %}
+
+
+<div class="col-12">
+    <div class="card border-0 shadow mb-4 mt-3 ration-set-page">
+        <div class="card-header">
+            <h3 class="mb-0">Add Ratio Set</h3>
+        </div>
+        <div class="card-body">
+            <form class="ratio-set-form" method="POST" enctype="multipart/form-data" action="{% url 'sts:ratio-set-add' %}">
+                <div class="d-flex flex-filed gap-3">
+                    {% csrf_token %}
+
+                    {{ form.as_p }}
+                </div>
+
+                <div class="row d-block d-xl-flex align-items-center">
+                    <div class="col-12 d-flex align-items-center my-4">
+                        <div class="icon-shape icon-sm icon-shape-danger rounded me-3" id="icon-shape">
+                            <svg class="icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <div>
+                            <div class="d-flex gap-2 align-items-center">
+                                <h4 class="fw-bold mb-0">Total Ratio</h4>
+                                <h4 class="mb-0"><span id='total_ratio'>0</span>%</h4>
+                            </div>
+                            <h6 class="text-danger fw-light mb-0" id="warning">Ratio must have to 100%.<span class="text-danger fw-bold" id="remain_ratio"></span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    {% for partner in partners %}
+                    <div class="col-12 col-sm-6 col-xl-4 col-xxl-3">
+                        <div class="mb-2">
+                            <label for="id_{{ partner.key }}" class="col-sm-4 col-form-label">{{ partner }}</label>
+                            <div>
+                                <input type="number" min="0" max="100" class="form-control-plaintext" data-partner_id="{{ partner.id }}" name="{{ partner.key }}" id="id_{{ partner.key }}">
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between mt-4">
+                    <button type="button" class="btn btn-sm btn-outline-gray-200" onclick="goBack()">
+                        Back
+                    </button>
+                    <button class="btn btn-gray-800 btn-sm" type="submit" value="Submit" id='submit-button' disabled>Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block javascripts %}
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+
+<script>
+    $(document).ready(function() {
+        function updateTotal() {
+            var total = 0;
+
+            $("input[type=number]").each(function() {
+                if ($(this).val()) {
+                    total += parseInt($(this).val());
+                }
+            });
+
+            var remain = 100 - total;  // Calculate the remaining value
+
+            if (total === 100) {
+                $("#icon-shape").removeClass("icon-shape-danger").addClass("icon-shape-success");
+            } else {
+                $("#icon-shape").removeClass("icon-shape-success").addClass("icon-shape-danger");
+            }
+
+            console.log(total);
+            $("#total_ratio").text(total);
+            $("#remain_ratio").text(' Remain ' + remain + '%');  // Display the remaining value
+            return total;
+        }
+
+
+
+        $("input[type=number]").on('keyup', function() {
+            console.log("HELLO")
+            var total = updateTotal()
+            if(total === 100){
+                $("#submit-button").prop("disabled", false);
+                $("#warning").hide()
+            } else {
+                $("#submit-button").prop("disabled", true);
+                $("#warning").show()
+            }
+        });
+    });
+
+</script>
+{% endblock javascripts %}

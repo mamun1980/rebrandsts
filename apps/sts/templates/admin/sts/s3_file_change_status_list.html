@@ -1,0 +1,50 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_list %}
+
+{% block content %}
+    <div class="card border-0 shadow mb-4 mt-3">
+        <div class="card-header d-flex align-items-center justify-content-between py-4">
+            <h4 class="mb-0">S3 Ratio Set Status</h4>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-centered table-nowrap mb-0 rounded">
+                    <thead class="thead-light">
+                        <tr>
+                            <th class="border-0 rounded-start">ID</th>
+                            <th class="border-0">Site Name</th>
+                            <th class="border-0">Site Key</th>
+                            <th class="border-0">Updated At</th>
+                            <th class="border-0">Last Updated</th>
+                            <th class="border-0">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for obj in site_s3_ratio_status_list %}
+                        <!-- Item -->
+                        <tr>
+                            <td>{{ forloop.counter }}</td>
+                            <td>
+                                {{ obj.name }}
+                            </td>
+                            <td>
+                                {{ obj.site_key }}
+                            </td>
+                            <td>
+                                {{ obj.updated_at }}
+                            </td>
+                            <td>
+                                {{ obj.last_updated }}
+                            </td>
+                            <td>
+                                <a href="{% url 'sts:invalid-and-cache-again' obj.site_key %}" class="btn btn-info">Invalid and Cache Again</a>
+                            </td>
+                        </tr>
+                        <!-- End of Item -->
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

@@ -1,0 +1,225 @@
+{% extends "dashboard/base.html" %}
+{% load drag_and_drop %}
+{% block title %}Property Type Mapping{% endblock %}
+{% block content %}
+
+{% if partners %}
+<!-- partner tab start here-->
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      {% for partner in partners %}
+        {% if forloop.first %}
+          <button class="nav-link active" id="nav-{{ partner.name|lower|replace:'-' }}-tab" data-bs-toggle="tab" data-bs-target="#nav-{{ partner.name|lower|replace:'-' }}" type="button" role="tab" aria-controls="nav-{{ partner.name|lower|replace:'-' }}" aria-selected="true">{{ partner.name|lower|replace:'-' }}</button>
+        {% else %}
+          <button class="nav-link" id="nav-{{ partner.name|lower|replace:'-' }}-tab" data-bs-toggle="tab" data-bs-target="#nav-{{ partner.name|lower|replace:'-' }}" type="button" role="tab" aria-controls="nav-{{ partner.name|lower|replace:'-' }}" aria-selected="false">{{ partner.name|replace:'_' }}</button>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </nav>
+<!-- partner tab end here-->
+<br>
+
+
+  <div class="tab-content" id="nav-tabContent">
+    {% for partner in partners %}
+      {% if forloop.first %}
+        <div class="tab-pane fade show active mb-8" id="nav-{{ partner.name|lower|replace:'-' }}" role="tabpanel" aria-labelledby="nav-{{ partner.name|lower|replace:'-' }}-tab" tabindex="0">
+        <form id="{{partner.name|lower|replace:'-'}}-partner-property-type">
+        {% csrf_token %}
+
+        <div class="bg-primary">
+          <h3 class="text-white text-center p-3">Property Type mapping for {{ partner.name }}</h3>
+        </div>
+        <div class="row m-1">
+          <div class="card p-3 m-1 col" >
+            <div class="card-header text-center">
+              <h3>{{ partner.name|title }} Property Types</h3>
+            </div>
+              <ul id="lefttravel-type-{{ partner.name|lower|replace:'-' }}" class="h-100 nav nav-pills rounded flex-column flex-md-row">
+                {% if partner_property_types %}
+                {% for partner_property in partner_property_types %}
+                  {% if partner_property.partner|lower|replace:'_' == partner.name|lower|replace:'_' and partner.name == partner_property.partner.name %}
+                    <li class="nav-item p-1">
+                        <button class="nav-link mb-sm-3 mb-md-0 active" name="{{partner_property.id}}" >{{partner_property.name}}</button>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+                {% endif %}
+              </ul>
+        </div>
+        </div>
+
+        <div class="row m-1 {{partner.name|lower|replace:'-'}}-partner-property-type">
+          {% for property_type in property_types %}
+            <div class="card col-sm-4 col-md-4" >
+              <div class="card-header" name="{{property_type.id}}">
+                <h5>{{property_type.name}}</h5>
+              </div>
+              <ul id="{{ partner.name|lower|replace:'-' }}-{{property_type.name|lower|replace:'-'}}" class="mh-100 nav nav-pills rounded flex-column flex-md-row">
+                {% for p_property_mapping in partner_property_mapping %}
+                  {% if property_type.name == p_property_mapping.property_type.name and p_property_mapping.partner_property.partner.name == partner.name %}
+                    <li class="nav-item p-1">
+                      <button class="nav-link mb-sm-3 mb-md-0 active" name="{{p_property_mapping.partner_property.id}}" data-bs-toggle="tab">{{p_property_mapping.partner_property.name}}</button>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="row m-1 submit-area">
+          <div class="col d-flex justify-content-end">
+            <button class="btn btn-danger me-1" type="button">Reset ALL {{ partner.name|lower|replace:'-' }}</button>
+            <input class="btn btn-success" type="submit" value="Submit {{ partner.name|lower|replace:'-' }}">
+          </div>
+        </div>
+
+        </form>
+
+        </div>
+      {% else %}
+      <div class="tab-pane fade mb-8" id="nav-{{ partner.name|lower|replace:'-' }}" role="tabpanel" aria-labelledby="nav-{{ partner.name|lower|replace:'-' }}-tab" tabindex="0">
+      <form id="{{partner.name|lower|replace:'-'}}-partner-property-type">
+        {% csrf_token %}
+
+      <div class="bg-primary">
+        <h3 class="text-white text-center p-3">Property Type mapping for {{ partner.name }}</h3>
+      </div>
+      <div class="row m-1">
+        <div class="card p-3 m-1 col" >
+          <div class="card-header text-center">
+            <h3>{{ partner.name|title }} Property Types</h3>
+          </div>
+            <ul id="lefttravel-type-{{ partner.name|lower|replace:'-' }}" class="h-100 nav nav-pills rounded flex-column flex-md-row">
+              {% for partner_property in partner_property_types %}
+                {% if partner_property.partner|lower|replace:'_' == partner.name|lower|replace:'_' and partner.name == partner_property.partner.name %}
+                    <li class="nav-item p-1">
+                        <button class="nav-link mb-sm-3 mb-md-0 active" name="{{partner_property.id}}" >{{partner_property.name}}</button>
+                    </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+      </div>
+      </div>
+
+      <div class="row m-1 {{partner.name|lower|replace:'-'}}-partner-property-type">
+        {% for property_type in property_types %}
+          <div class="card col-sm-4 col-md-4" >
+            <div class="card-header" name="{{property_type.id}}">
+              <h5>{{property_type.name}}</h5>
+          </div>
+            <ul id="{{ partner.name|lower|replace:'-' }}-{{property_type.name|lower|replace:'-'}}" class="mh-100 nav nav-pills rounded flex-column flex-md-row">
+              {% for p_property_mapping in partner_property_mapping %}
+                {% if property_type.name == p_property_mapping.property_type.name and p_property_mapping.partner_property.partner.name == partner.name %}
+                  <li class="nav-item p-1">
+                    <button class="nav-link mb-sm-3 mb-md-0 active" name="{{p_property_mapping.partner_property.id}}" data-bs-toggle="tab">{{p_property_mapping.partner_property.name}}</button>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="row m-1 submit-area">
+          <div class="col d-flex justify-content-end">
+            <button class="btn btn-danger me-1" type="button">Reset ALL {{ partner.name|lower|replace:'-' }}</button>
+            <input class="btn btn-success" type="submit" value="Submit {{ partner.name|lower|replace:'-' }}">
+          </div>
+        </div>
+
+      </form>
+
+      </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% endblock content %}
+
+
+{% block javascripts %}
+    <script src="/static/js/sortable.js"></script>
+    <script>
+      // implement drag and drop functionality
+      {% for partner in partners %}
+        var lefttravel_type_{{ partner.name|lower|replace:'_' }} = document.getElementById('lefttravel-type-{{ partner.name|lower|replace:'-' }}');
+        new Sortable(lefttravel_type_{{ partner.name|lower|replace:'_' }}, {
+            group: 'shared',
+            animation: 150
+        });
+
+      {% for property_type in property_types %}
+        var {{property_type.name|lower}}_{{ partner.name|lower|replace:'_' }} = document.getElementById('{{ partner.name|lower|replace:'-' }}-{{property_type.name|lower|replace:'-'}}');
+        new Sortable({{property_type.name|lower}}_{{ partner.name|lower|replace:'_' }}, {
+            group: 'shared',
+            animation: 150
+        });
+      {% endfor %}
+      {% endfor %}
+      // implement drag and drop functionality
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("form").submit(function(e){
+          e.preventDefault();
+
+          let form_id = $(this).attr('id');
+          let partner_name = form_id.split("-partner-property-type")[0];
+          let property_type_list_div_id = 'lefttravel-type-'+partner_name          
+
+          let ppm_json_list = new Map()
+          let p_property_mapping_json = [];
+          
+          //mapping_property_type process
+          $('.'+form_id+' .card').each(function(){
+              let property_type = $(this).find(".card-header").attr('name');
+
+              let ppm_list = []
+              let p_property_mapping_id = $(this).find("ul li").each(function(){
+                  let id_list = $(this).find('button').attr("name");
+                  ppm_list.push(id_list)
+              });
+
+              let my_obj = new Map();
+              my_obj.set(property_type, ppm_list);
+              p_property_mapping_json.push(JSON.stringify(Object.fromEntries(my_obj)));
+          });
+          // mapping_property_type process end
+
+          // start property_type process
+          let property_type_list = []
+          $('#'+property_type_list_div_id+' li').each(function(){            
+              let id_list = $(this).find('button').attr("name");
+              property_type_list.push(id_list);
+          });
+          ppm_json_list.set(property_type_list_div_id,property_type_list);
+          // end property_type process
+          
+          ppm_json_list.set(form_id,p_property_mapping_json);
+
+          let final_json = JSON.stringify(Object.fromEntries(ppm_json_list));
+
+          // ajax call to insert
+          $.ajax({
+            url: "{% url 'drag-and-drop-partner-property-mapping' %}",
+            type: "POST",
+            data: {
+                message: final_json,
+                csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val()
+            },
+            success: function (response) {
+              alert("Success: " + response['message']);
+            },
+            error: function (xhr, status, error) {
+              alert("Error: " + error);
+            }
+          });
+          // end ajax call
+
+        });
+      });
+
+    </script>
+{% endblock javascripts %}

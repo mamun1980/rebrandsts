@@ -1,0 +1,47 @@
+{% extends 'admin/change_form.html' %}
+
+
+{% block field_sets %}
+{% for fieldset in adminform %}
+  {% include "admin/includes/fieldset.html" %}
+{% endfor %}
+
+<ul class="list-unstyled card-columns" style="column-count: 3;">
+    <div class="form-check">
+        <input class="form-check-input" name="all_property_types" type="checkbox" value="True" id="select_property_types">
+        <label class="form-check-label" for="select_property_types">
+            Select All Proerty Types
+        </label>
+    </div>
+    {% for prop in property_types %}
+
+        <div class="form-check">
+            <input name="property_types" type="checkbox" value="{{ prop.id }}"
+            {% if prop.name in property_type_sets %} checked {% endif %}
+            >
+            <label class="form-check-label">
+                {{ prop.name }}
+            </label>
+        </div>
+
+    {% endfor %}
+
+</ul>
+{{property_type_sets}}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#select_property_types').click(function() {
+            checked = $("input[type=checkbox][name='all_property_types']").prop('checked')
+
+            if(checked){
+                el = $("input[type=checkbox][name='property_types']").prop('checked', true);
+            } else {
+                el = $("input[type=checkbox][name='property_types']").prop('checked', false);
+            }
+
+        });
+    });
+</script>
+
+{% endblock %}

@@ -1,0 +1,149 @@
+{% extends "dashboard/base.html" %}
+{% load custom_tags %}
+
+{% block content %}
+    <div class="card border-0 shadow mb-4 mt-3">
+        {% if button_urls %}
+            <div class="activity-buttons">
+                <div>
+                    {% for button_url in button_urls %}
+                        <a href="{% url button_url %}" class="btn btn-sm btn-gray-800 d-inline-flex align-items-center">
+                            <svg class="icon icon-xs me-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                            </svg>
+                            {{button_url|replace_hyphen_to_space|upper}}
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+        <div class="card-header d-flex align-items-center justify-content-between py-4">
+            <h4 class="mb-0">{% if list_title %} {{list_title}} {% endif%}</h4>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-centered table-nowrap mb-0 rounded">
+                    <thead class="thead-light">
+                        <tr>
+                            <th class="border-0 rounded-start">ID</th>
+                            <th class="border-0">Name</th>
+                            <th class="border-0">Partner</th>
+                            <th class="border-0 rounded-end">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for pt in object_list %}
+                            {% with model_name=pt|get_model_name|lower %}
+                                <!-- Item -->
+                                {% if model_name == 'amenitytypecategory' %}
+                                    <tr>
+                                    <td><a href="{% url 'amenity-type-detail' pt.id %}" class="text-primary fw-bold">{{ pt.id }}</a> </td>
+                                    <td><a href="{% url 'amenity-type-detail' pt.id %}" class="text-primary fw-bold">{{ pt.name }}</a></td>
+                                    <td>{% for pa in pt.partner_amenity_type.all %}<span class="badge bg-secondary">{{pa}}</span> {% endfor %}</td>
+                                    <td>
+                                        <span class="d-flex align-items-center gap-2">
+                                        {% if perms.amenities.change_amenitytypecategory %}
+                                        <a class="view-btn" href="{% url 'amenity-type-update' pt.id %}" title="Edit">
+                                            <svg width="14.26" height="14" viewBox="0 0 15 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8627 0.175378C13.1396 0.291144 13.3908 0.460759 13.6017 0.674378C13.8138 0.886749 13.9817 1.13914 14.0955 1.4169C14.2093 1.69466 14.2669 1.99226 14.2648 2.29243C14.2626 2.5926 14.2009 2.88936 14.0832 3.1655C13.9655 3.44163 13.7941 3.69163 13.579 3.901L12.1282 5.35185L8.92421 2.1479L10.3751 0.674378C10.5859 0.460759 10.8371 0.291144 11.1141 0.175378C11.391 0.0596125 11.6882 0 11.9884 0C12.2885 0 12.5857 0.0596125 12.8627 0.175378ZM1.51062 9.56085L7.85052 3.22095L11.0318 6.44757L4.6919 12.7875C4.63347 12.8443 4.56733 12.8926 4.49544 12.9311L1.0786 13.9244C0.974972 13.9746 0.861249 14.0004 0.746111 13.9999C0.616476 13.9983 0.489443 13.9633 0.377227 13.8984C0.265011 13.8335 0.171386 13.7408 0.105355 13.6292C0.0393247 13.5176 0.00310912 13.391 0.000191427 13.2614C-0.00272627 13.1317 0.027752 13.0036 0.0886953 12.8891L1.36704 9.75732C1.40545 9.68542 1.45378 9.61928 1.51062 9.56085Z" />
+                                                </svg>
+                                        </a>
+                                        {% endif %}
+
+                                        {% if perms.amenities.view_amenitytypecategory %}
+                                        <a class="view-btn" href="{% url 'amenity-type-detail' pt.id %}" title="View">
+                                            <svg class="icon icon-xxs me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path></svg>
+                                        </a>
+                                        {% endif %}
+
+                                        {% if perms.amenities.delete_amenitytypecategory %}
+                                        <a class="delete-btn" href="{% url 'amenity-type-delete' pt.id %}" title="Delete">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="currentColor"><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                                        </a>
+                                        {% endif %}
+                                        </span>
+                                    </td>
+                                </tr>
+                                {% elif model_name == 'partneramenitytype' %}
+                                    <tr>
+                                    <td><a href="{% url 'partner-amenity-type-detail' pt.id %}" class="text-primary fw-bold">{{ pt.id }}</a> </td>
+                                    <td><a href="{% url 'partner-amenity-type-detail' pt.id %}" class="text-primary fw-bold">{{ pt.name }}</a></td>
+                                    <td>{{ pt.partner }}</td>
+                                    <td>
+                                        <span class="d-flex align-items-center gap-2">
+                                        {% if perms.amenities.change_partneramenitytype %}
+                                        <a class="view-btn" href="{% url 'partner-amenity-type-update' pt.id %}" title="Edit">
+                                            <svg width="14.26" height="14" viewBox="0 0 15 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8627 0.175378C13.1396 0.291144 13.3908 0.460759 13.6017 0.674378C13.8138 0.886749 13.9817 1.13914 14.0955 1.4169C14.2093 1.69466 14.2669 1.99226 14.2648 2.29243C14.2626 2.5926 14.2009 2.88936 14.0832 3.1655C13.9655 3.44163 13.7941 3.69163 13.579 3.901L12.1282 5.35185L8.92421 2.1479L10.3751 0.674378C10.5859 0.460759 10.8371 0.291144 11.1141 0.175378C11.391 0.0596125 11.6882 0 11.9884 0C12.2885 0 12.5857 0.0596125 12.8627 0.175378ZM1.51062 9.56085L7.85052 3.22095L11.0318 6.44757L4.6919 12.7875C4.63347 12.8443 4.56733 12.8926 4.49544 12.9311L1.0786 13.9244C0.974972 13.9746 0.861249 14.0004 0.746111 13.9999C0.616476 13.9983 0.489443 13.9633 0.377227 13.8984C0.265011 13.8335 0.171386 13.7408 0.105355 13.6292C0.0393247 13.5176 0.00310912 13.391 0.000191427 13.2614C-0.00272627 13.1317 0.027752 13.0036 0.0886953 12.8891L1.36704 9.75732C1.40545 9.68542 1.45378 9.61928 1.51062 9.56085Z" />
+                                                </svg>
+                                        </a>
+                                        {% endif %}
+
+                                        {% if perms.amenities.view_partneramenitytype %}
+                                        <a class="view-btn" href="{% url 'partner-amenity-type-detail' pt.id %}" title="View">
+                                            <svg class="icon icon-xxs me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path></svg>
+                                        </a>
+                                        {% endif %}
+
+                                        {% if perms.amenities.delete_partneramenitytype %}
+                                        <a class="delete-btn" href="{% url 'partner-amenity-type-delete' pt.id %}" title="Delete">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="currentColor"><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                                        </a>
+                                        {% endif %}
+                                        </span>
+                                    </td>
+                                </tr>
+                                {% endif %}
+                                <!-- End of Item -->
+                            {% endwith %}
+                        {% endfor %}
+
+                    </tbody>
+                </table>
+
+                {% if is_paginated %}
+                <div class="table-footer border-0 d-flex flex-column flex-lg-row align-items-center justify-content-between pb-0">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination mb-0">
+                            {% if page_obj.has_previous %}
+                            <li class="page-item">
+                                <a class="page-link" href="{{ request.path }}?page={{ page_obj.previous_page_number }}">Previous</a>
+                            </li>
+                            {% else %}
+                            <li class="page-item disabled">
+                                <span class="page-link">Previous</span>
+                            </li>
+                            {% endif %}
+
+                            {% for page_num in page_obj.paginator.page_range %}
+                            {% if page_num > page_obj.number|add:"-5" and page_num < page_obj.number|add:"5" %}
+                            <li class="page-item {% if page_num == page_obj.number %}active{% endif %}">
+                                <a class="page-link" href="{{ request.path }}?page={{ page_num }}">{{ page_num }}</a>
+                            </li>
+                            {% endif %}
+                            {% endfor %}
+
+                            {% if page_obj.has_next %}
+                            <li class="page-item">
+                                <a class="page-link" href="{{ request.path }}?page={{ page_obj.next_page_number }}">Next</a>
+                            </li>
+                            {% else %}
+                            <li class="page-item disabled">
+                                <span class="page-link">Next</span>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </nav>
+                    <div class="fw-normal small mt-4 mt-lg-0">
+                        Showing <b>{{ page_obj.start_index }}</b> - <b>{{ page_obj.end_index }}</b> out of <b>{{ page_obj.paginator.count }}</b> entries
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+
+{% endblock content %}

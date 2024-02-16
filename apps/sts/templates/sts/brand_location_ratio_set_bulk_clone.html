@@ -1,0 +1,91 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+
+<h2 class="py-4 mb-0">Bulk create for Brand Location Ratio Sets</h2>
+<div class="card">
+    <form class="card-body" method="post" action="">
+        {% csrf_token %}
+        <div class="table-responsive mb-4">
+            <table class="table table-centered table-nowrap mb-0 rounded">
+                <thead class="thead-light">
+                    <tr>
+                        <th class="border-0 rounded-start">Brand Name</th>
+                        <th class="border-0">Location</th>
+                        <th class="border-0">Search Location</th>
+                        <th class="border-0">Device</th>
+                        <th class="border-0">Accommodation Type</th>
+                        <th class="border-0 rounded-end">Ratio Set</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for obj in selected_objects %}
+                <input type="hidden" name="selected_objects" value="{{ obj.id }}">
+                <tr>
+                    <th scope="row">{{ obj.brand.name }}</th>
+                    <td>{{ obj.location.country }}</td>
+                    <td>{{ obj.search_location.search_location }}</td>
+                    <td>{{ obj.device.type }}</td>
+                    <td>{{ obj.property_group.name }}</td>
+                    <td>{{ obj.ratio_set_short_title }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="col-md-12">
+                    <h3>Brands</h3>
+                    <ul class="list-unstyled card-columns" style="column-count: 4;">
+                        <div class="form-check">
+                            <input class="form-check-input" name="all_brands" type="checkbox" value="True" id="select_all_brands">
+                            <label class="form-check-label" for="select_all_brands">
+                                Select All Brands
+                            </label>
+                        </div>
+
+                        {% for brand in brands %}
+                            <div class="p-2 d-flex gap-2">
+                                <input class="form-check-input ps-2 d-inline-block" name="brands" id="brand_{{brand.id}}" type="checkbox" value="{{brand.id}}">
+                                <label class="form-check-label" for="brand_{{brand.id}}">{{ brand }}</label>
+                            </div>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="card-footer d-flex align-items-center justify-content-between gap-2 pt-3">
+                <button type="button" class="btn btn-sm btn-outline-gray-200 " onclick="goBack()">
+                    Back
+                </button>
+                <button type="submit" id="submit-button" class="btn btn-sm btn-info">
+                    Bulk clone
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#select_all_brands').click(function() {
+            checked = $("input[type=checkbox][name='all_brands']").prop('checked')
+
+            if(checked){
+                el = $("input[type=checkbox][name='brands']").prop('checked', true);
+            } else {
+                el = $("input[type=checkbox][name='brands']").prop('checked', false);
+            }
+
+        });
+    });
+</script>
+
+{% endblock content %}

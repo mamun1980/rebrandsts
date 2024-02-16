@@ -1,0 +1,152 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .list {
+        width: 45%;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+    .list select {
+        width: 100%;
+        height: 150px;
+    }
+    .controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+    }
+</style>
+<div class="py-4">
+    <h2 class="mb-0">Add Property Type (LeftTravel)</h2>
+</div>
+
+<div class="row">
+    <div class="col-12 col-xl-10">
+        <div class="card border-0 shadow mb-4">
+            <div class="card-body add-property-page">
+                <form method="POST" enctype="multipart/form-data">
+
+                    <!-- Security token -->
+                    {% csrf_token %}
+
+                    {{ form.non_field_errors }}
+
+                    {% for hidden_field in form.hidden_fields %}
+                        {{ hidden_field.errors }}
+                        {{ hidden_field }}
+                    {% endfor %}
+                    <div class="row">
+                        {% for field in form.visible_fields %}
+                            {% if field.name == 'accommodation_type'%}
+                            <div class="col-md-12">
+                                <h3>Accommodation Types</h3>
+                                <div class="list">
+                                    <label for="unselected">Unelected Items</label>
+                                    <select id="unselected" name="unselected_items" multiple>
+                                        <!-- Selected items will be displayed here -->
+                                    </select>
+                                </div>
+
+                                <div class="controls">
+                                    <button id="add" class='btn btn-success'>&gt; Add</button>
+                                    <button id="remove" class='btn btn-success'>&lt; Remove</button>
+                                </div>
+
+                                <div class="list">
+                                    <label for="{{ field.name.id_for_label }}">Selected Items</label>
+                                    {{ field }}
+                                </div>
+                            </div>
+                            {% else %}
+                                <div class="col-md-6">
+                                    <span>{{ field.label_tag }}</span>
+                                    <p>
+                                    {{ field.errors }}
+                                    {{ field }}
+                                    {{ field.help_text }}
+                                    </p>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+
+                    <div class="d-flex align-items-center gap-2 justify-content-between pt-2">
+                        <button type="button" class="btn btn-sm btn-outline-gray-200 " onclick="goBack()">
+                            Back
+                        </button>
+
+                        <button class="btn btn-gray-800 btn-sm" type="submit" value="Submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const addBtn = document.getElementById("add");
+        const removeBtn = document.getElementById("remove");
+        const unselectedList = document.getElementById("unselected");
+        const selectedList = document.getElementById("id_accommodation_type");
+
+        addBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            moveSelectedOptions(unselectedList, selectedList, true);
+            console.log('added')
+        });
+
+        removeBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            moveSelectedOptions(selectedList, unselectedList, false);
+            console.log('removed')
+        });
+
+        function moveSelectedOptions(source, destination, is_selected) {
+            const selectedOptions = Array.from(source.selectedOptions);
+            selectedOptions.forEach((option) => {
+                const clonedOption = option.cloneNode(true)
+                destination.appendChild(clonedOption);
+                option.remove();
+                clonedOption.setAttribute("selected", is_selected);
+            });
+
+
+            Array.from(selectedList.options).forEach((option) => {
+                option.selected = true;
+            });
+        }
+
+        function moveUnSelectedOptions(source, destination) {
+            const selectedOptions = Array.from(source.options);
+            selectedOptions.forEach((option) => {
+                console.log(option.selected)
+                if(option.selected ==  false) {
+                    destination.appendChild(option.cloneNode(true));
+                    option.remove();
+                }
+            });
+        }
+
+        moveUnSelectedOptions(selectedList, unselectedList);
+
+
+    });
+</script>
+
+
+{% endblock content %}

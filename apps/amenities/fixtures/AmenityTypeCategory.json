@@ -1,0 +1,192 @@
+[
+  {
+    "model": "amenities.AmenityTypeCategory",
+    "pk": 1,
+    "fields": {
+        "name": "Air Conditioner",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 2,
+    "fields": {
+        "name": "Balcony/terrace",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 3,
+    "fields": {
+        "name": "Bedding/linens",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 4,
+    "fields": {
+        "name": "Breakfast",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 5,
+    "fields": {
+        "name": "Child Friendly",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 6,
+    "fields": {
+        "name": "Hot Tub",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 7,
+    "fields": {
+        "name": "Internet/Wifi",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 8,
+    "fields": {
+        "name": "Kitchen",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 9,
+    "fields": {
+        "name": "Laundry",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 10,
+    "fields": {
+        "name": "Parking",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 11,
+    "fields": {
+        "name": "Pool",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 12,
+    "fields": {
+        "name": "Smoking",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 13,
+    "fields": {
+        "name": "TV",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 14,
+    "fields": {
+        "name": "View",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 15,
+    "fields": {
+        "name": "Wheelchair Accessible",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 16,
+    "fields": {
+        "name": "Private Beach",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 17,
+    "fields": {
+        "name": "Ocean view",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 18,
+    "fields": {
+        "name": "Oceanfront",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  },
+  {
+    "model": "amenities.amenitytypecategory",
+    "pk": 19,
+    "fields": {
+        "name": "Lake view",
+        "partner_amenity_type": [],
+        "create_date": "2023-11-07T08:50:46.253Z",
+        "update_date": "2023-11-07T08:50:46.253Z"
+    }
+  }
+]

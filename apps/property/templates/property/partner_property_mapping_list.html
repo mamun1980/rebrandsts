@@ -1,0 +1,174 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+
+<div class="card border-0 shadow mb-4 mt-3 position-relative ppm-page">
+    <div class="activity-buttons">
+        {% if perms.property.add_propertytype %}
+        <div>
+            <a href="{% url 'property-mapping-add' %}" type="button" class="btn btn-gray-800 mb-2">
+                <svg class="icon icon-xs me-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                </svg>
+                Property Mapping</a>
+            <a href="{% url 'property-types-add' %}" type="button" class="btn btn-gray-800 mb-2">
+                <svg class="icon icon-xs me-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                </svg>
+                Property Types</a>
+            <a href="{% url 'partner-property-types-add' %}" type="button" class="btn btn-gray-800 mb-2">
+                <svg class="icon icon-xs me-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                </svg>
+                Partner Property Types</a>
+        </div>
+        {% endif %}
+    </div>
+    <div class="card-header d-flex align-items-center justify-content-between">
+        <h4 class="mb-0">Property Types List</h4>
+        <div class="d-flex align-items-center gap-3">
+
+            <nav class="navbar navbar-expand-lg gap-3 justify-content-end py-0">
+                <ul class="navbar-nav pr-5 d-flex flex-column position-relative">
+                    <label class="text-gray-400 mb-0 fw-light">Partner</label>
+                    <li class="nav-item dropdown">
+                        <select onchange="filterList(this.value, 'partner')" class="min-w-170">
+                            {% if object_list %}
+                            <option value="Choose" selected="selected">{{ object_list.0.partner_property.partner }}</option>
+                            {% else %}
+                            <option value="Default" selected="selected">Choose</option>
+                            {% endif %}
+                            {% for partner in partners %}
+                            <option value="{{ partner.id }}">{{ partner.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav pl-5 ml-5 d-flex flex-column position-relative">
+                    <label class="text-gray-400 mb-0 fw-light">Property</label>
+                    <li class="nav-item dropdown">
+                        <select onchange="filterList(this.value, 'property')" class="min-w-170">
+                            {% if object_list %}
+                            <option value="Choose" selected="selected">{{ object_list.0.property_type }}</option>
+                            {% else %}
+                            <option value="Default" selected="selected">Choose</option>
+                            {% endif %}
+                            {% for prop in properties %}
+                            <option value="{{ prop.id }}">{{ prop.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-centered table-nowrap mb-0 rounded">
+                <thead class="thead-light">
+                    <tr>
+                        <th class="border-0 rounded-start">ID</th>
+                        <th class="border-0">Property Type (Left Travel)</th>
+                        <th class="border-0">Partner</th>
+                        <th class="border-0">Partner Property</th>
+                        <th class="border-0 rounded-end">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for pt in object_list %}
+                    <!-- Item -->
+                    <tr>
+                        <td><a href="{% url 'property-mapping-detail' pt.id %}" class="text-primary fw-bold">{{ pt.id }}</a> </td>
+                        <td>
+                            <a href="{% url 'property-mapping-detail' pt.id %}" class="text-primary fw-bold">{{ pt.property_type }}</a>
+                        </td>
+                        <td>
+                            {{ pt.partner_property.partner }}
+                        </td>
+                        <td>
+                            {{ pt.partner_property.name }}
+                        </td>
+
+                        <td>
+                            <span class="d-flex align-items-center gap-2">
+                                 {% if perms.property.view_propertytype %}
+                            <a class="view-btn" href="{% url 'property-mapping-detail' pt.id %}" title="View">
+                                <svg class="icon icon-xxs me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path></svg>
+                            </a>
+                            {% endif %}
+
+                            {% if perms.property.delete_propertytype %}
+                            <a class="delete-btn" href="{% url 'property-mapping-delete' pt.id %}" title="Delete">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="currentColor"><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            </a>
+                            {% endif %}
+                            </span>
+                        </td>
+
+                    </tr>
+                    <!-- End of Item -->
+                    {% endfor %}
+
+                </tbody>
+            </table>
+
+            {% if is_paginated %}
+            <div class="table-footer border-0 d-flex flex-column flex-lg-row align-items-center justify-content-between pb-0">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination mb-0">
+                        {% if page_obj.has_previous %}
+                        <li class="page-item">
+                            <a class="page-link" href="{% url 'partner-property-mapping-list' %}?page={{ page_obj.previous_page_number }}{% if request.GET.partner %}&partner={{request.GET.partner}}{% endif %}{% if request.GET.property %}&property={{request.GET.property}}{% endif %}">Previous</a>
+                        </li>
+                        {% else %}
+                        <li class="page-item disabled">
+                            <span class="page-link">Previous</span>
+                        </li>
+                        {% endif %}
+
+                        {% for page_num in page_obj.paginator.page_range %}
+                        {% if page_num > page_obj.number|add:"-5" and page_num < page_obj.number|add:"5" %}
+                        <li class="page-item {% if page_num == page_obj.number %}active{% endif %}">
+                            <a class="page-link" href="{% url 'partner-property-mapping-list' %}?page={{ page_num }}{% if request.GET.partner %}&partner={{request.GET.partner}}{% endif %}{% if request.GET.property %}&property={{request.GET.property}}{% endif %}">{{ page_num }}</a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+
+                        {% if page_obj.has_next %}
+                        <li class="page-item">
+                            <a class="page-link" href="{% url 'partner-property-mapping-list' %}?page={{ page_obj.next_page_number }}{% if request.GET.partner %}&partner={{request.GET.partner}}{% endif %}{% if request.GET.property %}&property={{request.GET.property}}{% endif %}">Next</a>
+                        </li>
+                        {% else %}
+                        <li class="page-item disabled">
+                            <span class="page-link">Next</span>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+                <div class="fw-normal small mt-4 mt-lg-0">
+                    Showing <b>{{ page_obj.start_index }}</b> - <b>{{ page_obj.end_index }}</b> out of <b>{{ page_obj.paginator.count }}</b> entries
+                </div>
+            </div>
+            {% endif %}
+
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block javascripts %}
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="/static/js/filter.js"></script>
+{% endblock javascripts %}

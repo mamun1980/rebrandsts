@@ -1,0 +1,39 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<h2 class="py-4 mb-0">Search Location Details Page</h2>
+
+<div class="row">
+    <div class="col-12 col-lg-6">
+        <div class="card">
+            <h5 class="card-header">{{ object.search_location }}</h5>
+            <div class="card-body">
+                <p class="card-title">Place Id: {{ object.place_id }}</p>
+                <p class="card-title">EP Location Id: {{ object.ep_location_id }}</p>
+                <p class="card-title">Type Level: {{ object.type_level }}</p>
+                <p class="card-title">Location Type: {{ object.location_type }}</p>
+                <p class="card-title">Slug: {{ object.slug }}</p>
+                <p class="card-title">Location Level: {{ object.location_level }}</p>
+            </div>
+
+            <div class="card-footer d-flex align-items-center justify-content-between">
+                <button type="button" class="btn btn-sm btn-outline-gray-200" onclick="goBack()">
+                    Back
+                </button>
+                {% if perms.sts.delete_location %}
+                <a href="{% url 'sts:search-locations-delete' object.id %}"  class="btn btn-sm btn-outline-danger" >
+                    Delete
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+{% endblock content %}

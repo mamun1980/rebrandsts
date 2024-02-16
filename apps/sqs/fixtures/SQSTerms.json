@@ -1,0 +1,182 @@
+[
+{
+    "model": "sqs.sqsterms",
+    "pk": 1,
+    "fields": {
+        "keyword": "home",
+        "brand_type": "rentals",
+        "created_at": "2023-07-26T09:52:08.987Z",
+        "updated_at": "2023-07-26T09:52:08.987Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 2,
+    "fields": {
+        "keyword": "condo",
+        "brand_type": "rentals",
+        "created_at": "2023-07-26T09:52:16.705Z",
+        "updated_at": "2023-07-26T09:52:16.705Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 3,
+    "fields": {
+        "keyword": "apartment",
+        "brand_type": "rentals",
+        "created_at": "2023-07-26T09:52:23.857Z",
+        "updated_at": "2023-07-26T09:52:23.857Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 4,
+    "fields": {
+        "keyword": "house",
+        "brand_type": "rentals",
+        "created_at": "2023-07-26T09:52:30.939Z",
+        "updated_at": "2023-07-26T09:52:30.939Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 5,
+    "fields": {
+        "keyword": "cabin",
+        "brand_type": "rentals",
+        "created_at": "2023-07-26T09:52:38.674Z",
+        "updated_at": "2023-07-26T09:52:38.674Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 6,
+    "fields": {
+        "keyword": "cottage",
+        "brand_type": "rentals",
+        "created_at": "2023-07-26T09:52:48.212Z",
+        "updated_at": "2023-07-26T09:52:48.212Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 7,
+    "fields": {
+        "keyword": "rent",
+        "brand_type": "rentals",
+        "created_at": "2023-07-26T09:52:55.606Z",
+        "updated_at": "2023-07-26T09:52:55.606Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 8,
+    "fields": {
+        "keyword": "renting",
+        "brand_type": "rentals",
+        "created_at": "2023-07-26T09:53:03.254Z",
+        "updated_at": "2023-07-26T09:53:03.254Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 9,
+    "fields": {
+        "keyword": "rental",
+        "brand_type": "rentals",
+        "created_at": "2023-07-26T09:53:11.048Z",
+        "updated_at": "2023-07-26T09:53:11.048Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 10,
+    "fields": {
+        "keyword": "chalet",
+        "brand_type": "rentals",
+        "created_at": "2023-07-26T09:53:26.285Z",
+        "updated_at": "2023-07-26T09:53:26.285Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 11,
+    "fields": {
+        "keyword": "lodge",
+        "brand_type": "rentals",
+        "created_at": "2023-07-26T09:53:33.054Z",
+        "updated_at": "2023-07-26T09:53:33.054Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 12,
+    "fields": {
+        "keyword": "villa",
+        "brand_type": "hotels",
+        "created_at": "2023-07-26T09:53:40.632Z",
+        "updated_at": "2023-07-26T09:53:40.632Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 13,
+    "fields": {
+        "keyword": "accommodation",
+        "brand_type": "hotels",
+        "created_at": "2023-07-26T09:53:47.771Z",
+        "updated_at": "2023-07-26T09:53:47.771Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 14,
+    "fields": {
+        "keyword": "inn",
+        "brand_type": "hotels",
+        "created_at": "2023-07-26T09:53:55.276Z",
+        "updated_at": "2023-07-26T09:53:55.276Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 15,
+    "fields": {
+        "keyword": "resort",
+        "brand_type": "hotels",
+        "created_at": "2023-07-26T09:54:02.103Z",
+        "updated_at": "2023-07-26T09:54:02.103Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 16,
+    "fields": {
+        "keyword": "letting",
+        "brand_type": "hotels",
+        "created_at": "2023-07-26T09:54:08.616Z",
+        "updated_at": "2023-07-26T09:54:08.616Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 17,
+    "fields": {
+        "keyword": "gite",
+        "brand_type": "hotels",
+        "created_at": "2023-07-26T09:54:16.153Z",
+        "updated_at": "2023-07-26T09:54:16.153Z"
+    }
+},
+{
+    "model": "sqs.sqsterms",
+    "pk": 18,
+    "fields": {
+        "keyword": "hotel",
+        "brand_type": "hotels",
+        "created_at": "2023-07-26T09:54:25.099Z",
+        "updated_at": "2023-07-26T09:54:25.099Z"
+    }
+}
+]

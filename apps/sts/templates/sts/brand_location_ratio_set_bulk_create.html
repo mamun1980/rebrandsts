@@ -1,0 +1,171 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+
+<h2 class="py-4 mb-0">Bulk create for Brand Location Ratio Sets</h2>
+<div class="card">
+    <form class="card-body" method="post" action="{% url 'sts:brand-location-ratio-set-bulk-create' %}">
+        {% csrf_token %}
+        <div class="card">
+            <div class="card-body">
+                    <div class="col-md-12">
+                        <h3>Brands</h3>
+                        <ul class="list-unstyled card-columns" style="column-count: 4;">
+                            <div class="form-check">
+                                <input class="form-check-input" name="all_brands" type="checkbox" value="True" id="select_all_brands">
+                                <label class="form-check-label" for="select_all_brands">
+                                    Select All Brands
+                                </label>
+                            </div>
+
+                            {% for brand in form.brands %}
+                                <div class="p-2 d-flex gap-2">
+                                {{ brand }}
+                                </div>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div>
+                        <span class="d-flex gap-2">
+                            <label for="ratio_set_title" class="form-label">Set New Ratio Title</label>
+                        </span>
+                        <input type="text" class="form-control w-50" name="ratio_set_title" id="ratio_set_title">
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-12 d-flex align-items-center my-5">
+                            <div class="icon-shape icon-sm icon-shape-danger rounded me-3" id="icon-shape">
+                                <svg class="icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            </div>
+                            <div>
+                                <div class="d-flex gap-2 align-items-center">
+                                    <h4 class="fw-bold mb-0">Total Ratio</h4>
+                                    <h4 class="mb-0"><span id="total_ratio">0</span>%</h4>
+                                </div>
+                                <h6 class="text-danger fw-light mb-0" id="warning">Ratio must have to 100%.<span class="text-danger fw-bold" id="remain_ratio"></span></h6>
+                            </div>
+                        </div>
+
+
+                        <div class="col-8">
+                            <div class="list-unstyled card-columns" style="column-count: 3;">
+                                {% for partner in partners %}
+                                <label for="{{ partner.name }}" class="form-label">{{ partner.name }}</label>
+                                <input type="number" class="form-control mb-2" name="partner_ratios"
+                                       id="{{ partner.name }}" min="0" max="100">
+                                <input type="hidden" name="partner_ids" value="{{ partner.id }}">
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <label class="form-label">Select Location</label>
+                            <select class="" name="location">
+                                <option value="" selected>--Choose--</option>
+                                {% for loc in locations %}
+                                <option value="{{ loc.id }}">{{ loc.country }}</option>
+                                {% endfor %}
+                            </select>
+                            <br><br>
+                            <label class="form-label">Select Device</label><br>
+                            <ul class="list-unstyled card-columns" style="column-count: 1;">
+                                {% for device in form.devices %}
+                                    <div class="p-2 d-flex gap-2">
+                                    {{ device }}
+                                    </div>
+                                {% endfor %}
+                            </ul>
+                            <label class="form-label">Select Accommodation Type</label>
+                            <select  aria-label="Default select" name="property_group">
+                                <option value="">--Choose--</option>
+                                {% for ac in accommodation_types %}
+                                <option value="{{ ac.id }}">{{ ac.name }}</option>
+                                {% endfor %}
+                            </select>
+                            <br><br>
+                            <label class="form-label">Select Search Location</label>
+                            <select aria-label="Default select" name="search_location">
+                                <option value="">--Choose--</option>
+                                {% for sloc in search_locations %}
+                                <option value="{{ sloc.id }}">{{ sloc.search_location }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+            </div>
+            <div class="card-footer d-flex align-items-center justify-content-between gap-2 pt-3">
+                <button type="button" class="btn btn-sm btn-outline-gray-200 " onclick="goBack()">
+                    Back
+                </button>
+                <button type="submit" id="submit-button" class="btn btn-sm btn-gray-800" name="action" value="confirm_action"
+                        disabled="true">
+                    Confirm Bulk Update
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+
+<script>
+    $(document).ready(function() {
+        function updateTotal() {
+            var total = 0;
+
+            $("input[type=number][name='partner_ratios']").each(function() {
+                if ($(this).val()) {
+                    total += parseInt($(this).val());
+                }
+            });
+
+            var remain = 100 - total;  // Calculate the remaining value
+
+            if (total === 100) {
+                $("#icon-shape").removeClass("icon-shape-danger").addClass("icon-shape-success");
+            }
+            else {
+                $("#icon-shape").removeClass("icon-shape-success").addClass("icon-shape-danger");
+            }
+
+            console.log(total);
+            $("#total_ratio").text(total);
+            $("#remain_ratio").text(' Remain ' + remain + '%');  // Display the remaining value
+            return total;
+        }
+
+
+        $("input[type=number][name='partner_ratios']").on('keyup', function() {
+            var total = updateTotal()
+            if(total === 100){
+                $("#submit-button").prop("disabled", false);
+                $("#warning").hide()
+            } else {
+                $("#submit-button").prop("disabled", true);
+                $("#warning").show()
+            }
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('#select_all_brands').click(function() {
+            checked = $("input[type=checkbox][name='all_brands']").prop('checked')
+
+            if(checked){
+                el = $("input[type=checkbox][name='brands']").prop('checked', true);
+            } else {
+                el = $("input[type=checkbox][name='brands']").prop('checked', false);
+            }
+
+
+        });
+    });
+</script>
+
+{% endblock content %}

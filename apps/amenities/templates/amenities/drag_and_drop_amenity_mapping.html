@@ -1,0 +1,227 @@
+{% extends "dashboard/base.html" %}
+{% load drag_and_drop %}
+{% block title %}Property Type Mapping{% endblock %}
+{% block content %}
+
+{% if partners %}
+<!-- partner tab start here-->
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      {% for partner in partners %}
+        {% if forloop.first %}
+          <button class="nav-link active" id="nav-{{ partner.name|lower|replace:'-' }}-tab" data-bs-toggle="tab" data-bs-target="#nav-{{ partner.name|lower|replace:'-' }}" type="button" role="tab" aria-controls="nav-{{ partner.name|lower|replace:'-' }}" aria-selected="true">{{ partner.name|lower|replace:'-' }}</button>
+        {% else %}
+          <button class="nav-link" id="nav-{{ partner.name|lower|replace:'-' }}-tab" data-bs-toggle="tab" data-bs-target="#nav-{{ partner.name|lower|replace:'-' }}" type="button" role="tab" aria-controls="nav-{{ partner.name|lower|replace:'-' }}" aria-selected="false">{{ partner.name|replace:'_' }}</button>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </nav>
+<!-- partner tab end here-->
+<br>
+
+
+  <div class="tab-content" id="nav-tabContent">
+    {% for partner in partners %}
+      {% if forloop.first %}
+        <div class="tab-pane fade show active mb-8" id="nav-{{ partner.name|lower|replace:'-' }}" role="tabpanel" aria-labelledby="nav-{{ partner.name|lower|replace:'-' }}-tab" tabindex="0">
+        <form id="{{partner.name|lower|replace:'-'}}-partner-amenity-type">
+        {% csrf_token %}
+
+        <div class="bg-primary">
+          <h3 class="text-white text-center p-3">Amenity Type mapping for {{ partner.name }}</h3>
+        </div>
+        <div class="row m-1">
+          <div class="card p-3 m-1 col" >
+            <div class="card-header text-center">
+              <h3>{{ partner.name|title }} Amenity Types</h3>
+            </div>
+              <ul id="lefttravel-type-{{ partner.name|lower|replace:'-' }}" class="h-100 nav nav-pills rounded flex-column flex-md-row">
+                {% if partner_amenity_types %}
+                {% for partner_amenity in partner_amenity_types %}
+                  {% if partner.name|lower|replace:'_' == partner_amenity.partner.name|lower|replace:'_' %}
+                    <li class="nav-item p-1">
+                        <button class="nav-link mb-sm-3 mb-md-0 active" name="{{partner_amenity.id}}" >{{partner_amenity.name}}</button>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+                {% endif %}
+              </ul>
+          </div>
+        </div>
+
+        <div class="row m-1 {{partner.name|lower|replace:'-'}}-partner-amenity-type">
+          {% for amenity_type in amenity_types %}
+            <div class="card col-sm-4 col-md-4" >
+              <div class="card-header" name="{{amenity_type.id}}">
+                <h5>{{amenity_type.name}}</h5>
+              </div>
+              <ul id="{{ partner.name|lower|replace:'-' }}-{{amenity_type.name|lower|replace:'-'}}" class="mh-100 nav nav-pills rounded flex-column flex-md-row">
+                {% for partner_amenity_type_list in amenity_type.partner_amenity_type.all %}
+                  {% if partner.name|lower|replace:'_' == partner_amenity_type_list.partner.name|lower|replace:'_' %}
+                  <li class="nav-item p-1">
+                    <button class="nav-link mb-sm-3 mb-md-0 active" name="{{partner_amenity_type_list.id}}" data-bs-toggle="tab">{{partner_amenity_type_list.name}}</button>
+                  </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="row m-1 submit-area">
+          <div class="col d-flex justify-content-end">
+            <button class="btn btn-danger me-1" type="button">Reset ALL {{ partner.name|lower|replace:'-' }}</button>
+            <input class="btn btn-success" type="submit" value="Submit {{ partner.name|lower|replace:'-' }}">
+          </div>
+        </div>
+
+        </form>
+
+        </div>
+      {% else %}
+      <div class="tab-pane fade mb-8" id="nav-{{ partner.name|lower|replace:'-' }}" role="tabpanel" aria-labelledby="nav-{{ partner.name|lower|replace:'-' }}-tab" tabindex="0">
+      <form id="{{partner.name|lower|replace:'-'}}-partner-amenity-type">
+        {% csrf_token %}
+
+      <div class="bg-primary">
+        <h3 class="text-white text-center p-3">Amenity Type mapping for {{ partner.name }}</h3>
+      </div>
+      <div class="row m-1">
+          <div class="card p-3 m-1 col" >
+            <div class="card-header text-center">
+              <h3>{{ partner.name|title }} Amenity Types</h3>
+            </div>
+              <ul id="lefttravel-type-{{ partner.name|lower|replace:'-' }}" class="h-100 nav nav-pills rounded flex-column flex-md-row">
+                {% if partner_amenity_types %}
+                {% for partner_amenity in partner_amenity_types %}
+                  {% if partner.name|lower|replace:'_' == partner_amenity.partner.name|lower|replace:'_'%}
+                    <li class="nav-item p-1">
+                        <button class="nav-link mb-sm-3 mb-md-0 active" name="{{partner_amenity.id}}" >{{partner_amenity.name}}</button>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+                {% endif %}
+              </ul>
+          </div>
+        </div>
+
+      <div class="row m-1 {{partner.name|lower|replace:'-'}}-partner-amenity-type">
+          {% for amenity_type in amenity_types %}
+            <div class="card col-sm-4 col-md-4" >
+              <div class="card-header" name="{{amenity_type.id}}">
+                <h5>{{amenity_type.name}}</h5>
+              </div>
+              <ul id="{{ partner.name|lower|replace:'-' }}-{{amenity_type.name|lower|replace:'-'}}" class="mh-100 nav nav-pills rounded flex-column flex-md-row">
+                {% for partner_amenity_type_list in amenity_type.partner_amenity_type.all %}
+                {% if partner.name|lower|replace:'_' == partner_amenity_type_list.partner.name|lower|replace:'_' %}
+                  <li class="nav-item p-1">
+                    <button class="nav-link mb-sm-3 mb-md-0 active" name="{{partner_amenity_type_list.id}}" data-bs-toggle="tab">{{partner_amenity_type_list.name}}</button>
+                  </li>
+                {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
+        </div>
+      <div class="row m-1 submit-area">
+          <div class="col d-flex justify-content-end">
+            <button class="btn btn-danger me-1" type="button">Reset ALL {{ partner.name|lower|replace:'-' }}</button>
+            <input class="btn btn-success" type="submit" value="Submit {{ partner.name|lower|replace:'-' }}">
+          </div>
+        </div>
+
+      </form>
+
+      </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% endblock content %}
+
+
+{% block javascripts %}
+    <script src="/static/js/sortable.js"></script>
+    <script>
+      // implement drag and drop functionality
+      {% for partner in partners %}
+        var lefttravel_type_{{ partner.name|lower|replace:'_' }} = document.getElementById('lefttravel-type-{{ partner.name|lower|replace:'-' }}');
+        new Sortable(lefttravel_type_{{ partner.name|lower|replace:'_' }}, {
+            group: 'shared',
+            animation: 150
+        });
+
+        {% for amenity_type in amenity_types %}
+          var {{amenity_type.name|lower|replace:'_'}}_{{ partner.name|lower|replace:'_' }} = document.getElementById('{{ partner.name|lower|replace:'-' }}-{{amenity_type.name|lower|replace:'-'}}');
+          new Sortable({{amenity_type.name|lower|replace:'_'}}_{{ partner.name|lower|replace:'_' }}, {
+              group: 'shared',
+              animation: 150
+          });
+        {% endfor %}
+      {% endfor %}
+      // implement drag and drop functionality
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("form").submit(function(e){
+          e.preventDefault();
+
+          let form_id = $(this).attr('id');
+          let partner_name = form_id.split("-partner-amenity-type")[0];
+          let amenity_type_list_div_id = 'lefttravel-type-'+partner_name          
+
+          let pam_json_list = new Map()
+          let p_amenity_mapping_json = [];
+          
+          //mapping_amenity_type process
+          $('.'+form_id+' .card').each(function(){
+              let amenity_type = $(this).find(".card-header").attr('name');
+
+              let pam_list = []
+              let p_property_mapping_id = $(this).find("ul li").each(function(){
+                  let id_list = $(this).find('button').attr("name");
+                  pam_list.push(id_list)
+              });
+
+              let my_obj = new Map();
+              my_obj.set(amenity_type, pam_list);
+              p_amenity_mapping_json.push(JSON.stringify(Object.fromEntries(my_obj)));
+          });
+          // mapping_amenity_type process end
+
+          // start amenity_type process
+          let amenity_type_list = []
+          $('#'+amenity_type_list_div_id+' li').each(function(){            
+              let id_list = $(this).find('button').attr("name");
+              amenity_type_list.push(id_list);
+          });
+          pam_json_list.set(amenity_type_list_div_id,amenity_type_list);
+          // end amenity_type process
+          
+          pam_json_list.set(form_id,p_amenity_mapping_json);
+
+          let final_json = JSON.stringify(Object.fromEntries(pam_json_list));
+
+          // ajax call to insert
+          $.ajax({
+            url: "{% url 'amenity-type-mapping' %}",
+            type: "POST",
+            data: {
+                message: final_json,
+                csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val()
+            },
+            success: function (response) {
+              alert("Success: " + response['message']);
+            },
+            error: function (xhr, status, error) {
+              alert("Error: " + error);
+            }
+          });
+          // end ajax call
+
+        });
+      });
+
+    </script>
+{% endblock javascripts %}

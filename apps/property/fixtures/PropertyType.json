@@ -1,0 +1,182 @@
+[
+{
+    "model": "property.propertytype",
+    "pk": 1,
+    "fields": {
+        "name": "Apartment",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.253Z",
+        "update_date": "2023-08-04T08:50:46.253Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 2,
+    "fields": {
+        "name": "Bed_Breakfast",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.288Z",
+        "update_date": "2023-08-04T08:50:46.288Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 3,
+    "fields": {
+        "name": "Cabin",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.301Z",
+        "update_date": "2023-08-04T08:50:46.301Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 4,
+    "fields": {
+        "name": "Hostel",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.320Z",
+        "update_date": "2023-08-04T08:50:46.320Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 5,
+    "fields": {
+        "name": "Hotel",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.335Z",
+        "update_date": "2023-08-04T08:50:46.335Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 6,
+    "fields": {
+        "name": "House",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.385Z",
+        "update_date": "2023-08-04T08:50:46.385Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 7,
+    "fields": {
+        "name": "Resort",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.497Z",
+        "update_date": "2023-08-04T08:50:46.497Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 9,
+    "fields": {
+        "name": "Villa",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.515Z",
+        "update_date": "2023-08-04T08:50:46.515Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 10,
+    "fields": {
+        "name": "Other",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.527Z",
+        "update_date": "2023-08-04T08:50:46.527Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 11,
+    "fields": {
+        "name": "Condo",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.681Z",
+        "update_date": "2023-08-04T08:50:46.681Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 12,
+    "fields": {
+        "name": "Cottage",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.693Z",
+        "update_date": "2023-08-04T08:50:46.694Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 13,
+    "fields": {
+        "name": "Ski_Chalet",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.706Z",
+        "update_date": "2023-08-04T08:50:46.706Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 14,
+    "fields": {
+        "name": "Boat_Rental",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.718Z",
+        "update_date": "2023-08-04T08:50:46.718Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 15,
+    "fields": {
+        "name": "RV_Rental",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.751Z",
+        "update_date": "2023-08-04T08:50:46.751Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 16,
+    "fields": {
+        "name": "Timeshare",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.780Z",
+        "update_date": "2023-08-04T08:50:46.780Z",
+        "accommodation_type": []
+    }
+}
+]

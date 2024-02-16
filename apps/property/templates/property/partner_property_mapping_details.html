@@ -1,0 +1,64 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+
+    <div class="card border-0 shadow mb-4 mt-3">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">Partner Property Mapping Details Page<span class="badge bg-success p-2 ms-2">{{ object.property_type.name }}</span></h3>
+            <a href="#" class="btn btn-sm btn-gray-800 d-inline-flex align-items-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <svg class="icon icon-xs me-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                </svg>
+                Add Partner Property
+            </a>
+        </div>
+
+        <div class="card-body pb-0">
+            <div class="row">
+                {% for p, v in partner_properties.items %}
+                <div class="col-12 col-lg-3">
+                    <div class="card mb-4 border-0 shadow">
+                        <div class="card-header">
+                            Partner Name: <b><span class='badge bg-gray-500 text-gray-50 p-2'>{{ p }}</span></b>
+                        </div>
+                        <p class="card-body">
+                            {% for prop in v %}
+                            {% for id, name in prop.items %}
+                            <span class="badge bg-gray-400 p-2 text-dark mb-1">
+                                <span class='p-2'>{{ name }}</span>
+                                <a  href="/partner-property-mappings/{{ id }}/delete/" class='p-1'>X</a>
+                            </span>
+                            {% endfor %}
+                            {% endfor %}
+                        </p>
+
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <form method="POST" enctype="multipart/form-data" action="{% url 'property-mapping-add' %}">
+                {% csrf_token %}
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add Partner Property</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type='hidden' name='property_type' value={{object.property_type.id}}>
+                        {{ppt_form}}
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-outline-gray-200" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-sm btn-primary">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+      </div>
+{% endblock content %}

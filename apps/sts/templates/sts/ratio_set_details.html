@@ -1,0 +1,39 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<h2 class="py-4 mb-0">Ratio set Details Page</h2>
+
+<div class="row">
+    <div class="col-12 col-xl-6">
+        <div class="card">
+            <h5 class="card-header">{{ object.title }}</h5>
+            {% if object.ratio_location %}
+                <h5 class="card-header">Ratio Location:  {{ object.ratio_location }}</h5>
+            {% endif %}
+            <div class="card-body">
+                <h5 class="card-title">Partner Ratios</h5>
+                {% for ratio in object.get_ratio_set %}
+                    <p>{{ ratio.partner }} => {{ ratio.ratio }}%</p>
+                {% endfor %}
+            </div>
+            <div class="card-footer d-flex align-items-center justify-content-between">
+                <button type="button" class="btn btn-sm btn-outline-gray-200" onclick="goBack()">
+                    Back
+                </button>
+                {% if perms.sts.delete_location %}
+                <a href="{% url 'sts:ratio-set-delete' object.id %}"  class="btn btn-sm btn-outline-danger" >
+                    Delete
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+{% endblock content %}

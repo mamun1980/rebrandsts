@@ -1,0 +1,356 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid d-flex justify-content-center">
+    {% if perms.sts.add_brandlocationdefinedsetsratio %}
+        <a href="{% url 'sts:brand-location-ratio-set-add' %}" class="btn btn-sm ms-2 btn-gray-800 d-inline-flex align-items-center">
+            <svg class="icon icon-xs me-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+            </svg>
+            Add Brand Location Ratio Set
+        </a>
+    {% endif %}
+
+    {% if perms.sts.change_brandlocationdefinedsetsratio %}
+        <button type="button" id="bulk_update" class='btn btn-sm ms-2 btn-primary' value='bulk_update'>
+            <svg data-slot="icon" height="15px" width="15px" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10"></path>
+            </svg>
+            Bulk Update
+        </button>
+    {% endif %}
+
+    {% if perms.sts.add_brandlocationdefinedsetsratio %}
+
+        <a class='btn btn-sm ms-2 btn-primary' href="{% url 'sts:brand-location-ratio-set-bulk-create' %}">
+            <svg data-slot="icon" height="15px" width="15px" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"></path>
+            </svg>
+            Bulk Create Ratio Sets
+        </a>
+    {% endif %}
+    {% if perms.sts.add_brandlocationdefinedsetsratio %}
+        <button id="bulk_clone"  class='btn btn-sm ms-2 btn-primary'>
+            <svg class="icon icon-xxs me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
+            Bulk Clone Ratio Sets
+        </button>
+    {% endif %}
+    {% if perms.sts %}
+        <a class='btn btn-sm ms-2 btn-primary' href="/admin/sts/brandlocationdefinedsetsratio/download_prediction_data/?">
+            <svg data-slot="icon" fill="none" height="15px" width="15px" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m9 13.5 3 3m0 0 3-3m-3 3v-6m1.06-4.19-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z"></path>
+            </svg>
+            Download Prediction Data
+        </a>
+    {% endif %}
+    {% if perms.sts %}
+        <a class='btn btn-sm ms-2 btn-primary' href="/admin/sts/brandlocationdefinedsetsratio/update_predicted_ratio/?_changelist_filters=o%3D-2">
+            <svg data-slot="icon" fill="none" height="15px" width="15px" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m6.75 12-3-3m0 0-3 3m3-3v6m-1.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"></path>
+            </svg>
+            Update Predicted Ratio
+        </a>
+    {% endif %}
+</div>
+
+<form method='GET' action="{% url 'sts:bulk-actions' %}">
+    {% csrf_token %}
+
+<div class="card border-0 shadow mb-4 mt-3 position-relative blr-page">
+
+    {% if messages %}
+        <div id="message-div">
+            {% for msg in messages %}
+            <div class="alert alert-{{ msg.tags }} p-1 text-center" role="alert">
+                {{ msg }}
+            </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    <div class="card-header d-flex align-items-center justify-content-between py-4">
+        <h4 class="mb-0">Brand Location Ratio Sets</h4>
+
+        <nav class="navbar navbar-expand-lg gap-3 justify-content-end py-0 flex-wrap">
+            <ul class="navbar-nav pr-5 position-relative">
+                <label class="text-gray-900 mb-0 fw-bold">Brands</label>
+                <li class="nav-item dropdown">
+                    <select onchange="filterList(this.value, 'brand')" class="min-w-200">
+                        {% if object_list and request.GET.brand %}
+                        <option value="Choose" selected="selected">{{ object_list.0.brand }}</option>
+                        {% else %}
+                        <option value="Default" selected="selected">--Choose--</option>
+                        {% endif %}
+                        {% for brand in brands %}
+                        <option value="{{ brand.id }}">{{ brand.name }}</option>
+                        {% endfor %}
+                    </select>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav pl-5 ml-5 position-relative">
+                <label class="text-gray-900 mb-0 fw-bold">Location</label>
+                <li class="nav-item dropdown">
+                    <select onchange="filterList(this.value, 'loc')" class="min-w-200">
+                        {% if object_list and request.GET.loc %}
+                        <option value="Choose" selected="selected">{{ object_list.0.location }}</option>
+                        {% else %}
+                        <option value="Default" selected="selected">--Choose--</option>
+                        {% endif %}
+                        {% for loc in locations %}
+                        <option value="{{ loc.id }}">{{ loc.country }}</option>
+                        {% endfor %}
+                    </select>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav pl-5 ml-5 position-relative">
+                <label class="text-gray-900 mb-0 fw-bold">Search Location</label>
+                <li class="nav-item dropdown">
+                    <select onchange="filterList(this.value, 'sl')" class="min-w-200">
+                        {% if object_list and request.GET.sl %}
+                        <option value="Choose" selected="selected">{{ object_list.0.search_location }}</option>
+                        {% else %}
+                        <option value="Default" selected="selected">--Choose--</option>
+                        {% endif %}
+                        {% for prop in search_locations %}
+                        <option value="{{ prop.id }}">{{ prop.search_location }}</option>
+                        {% endfor %}
+                    </select>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav pl-5 ml-5 position-relative">
+                <label class="text-gray-900 mb-0 fw-bold">Property Group</label>
+                <li class="nav-item dropdown">
+                    <select onchange="filterList(this.value, 'pg')" class="min-w-180">
+                        {% if object_list and request.GET.pg %}
+                        <option value="Choose" selected="selected">{{ object_list.0.property_group }}</option>
+                        {% else %}
+                        <option value="Default" selected="selected">--Choose--</option>
+                        {% endif %}
+                        {% for prop in property_groups %}
+                        <option value="{{ prop.id }}">{{ prop.name }}</option>
+                        {% endfor %}
+                    </select>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-centered table-nowrap mb-0 rounded" id="brandLocationRatioTable">
+                <thead class="thead-light">
+                <tr>
+                    <th class="border-0 rounded-start ps-1">
+                        <div class="p-1 d-flex gap-2">
+                            <input class="form-check-input" name='all_brand_location_ratio_set_ids' id="select_all_ratios" type="checkbox" >
+                            <span>ID</span>
+                        </div>
+                    </th>
+                    <th class="border-0 pb-3">Brand</th>
+                    <th class="border-0 pb-3">Location</th>
+                    <th class="border-0 pb-3">Search Location</th>
+                    <th class="border-0 pb-3">Desice</th>
+                    <th class="border-0 pb-3">Property Group</th>
+                    <th class="border-0 pb-3">Ratio Set</th>
+                    <th class="border-0 pb-3">Predicted Ratio Title</th>
+                    <th class="border-0 rounded-end d-flex align-items-center gap-3 justify-content-end ps-0">Action
+                        <div class="dropdown">
+                            <button class="btn btn-link text-dark dropdown-toggle dropdown-toggle-split m-0 p-1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <svg class="icon icon-sm" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-xs dropdown-menu-end pb-0" style="">
+                                <span class="small ps-3 fw-bold text-dark">Show</span>
+                                <a class="paginate_by dropdown-item d-flex align-items-center fw-bold" href="#">10</a>
+                                <a class="paginate_by dropdown-item fw-bold" href="#">20</a>
+                                <a class="paginate_by dropdown-item fw-bold rounded-bottom" href="#">30</a>
+                            </div>
+                        </div></th>
+
+                </tr>
+                </thead>
+                <tbody>
+                {% if object_list %}
+                    {% for obj in object_list %}
+
+                    <tr>
+                        <td class="ps-1">
+                            <div class="p-0 d-flex gap-2">
+                                <input class="form-check-input ps-2 " name="brand_location_ratio_set_ids" type="checkbox" value="{{ obj.id }}" >
+                                <a href="{% url 'sts:brand-location-ratio-set-detail' obj.id %}" class="text-primary fw-bold">{{ obj.id }}</a>
+                            </div>
+                        </td>
+                        <td>
+                            <a href="{% url 'sts:brand-location-ratio-set-update' obj.id %}" class="text-primary fw-bold">{{ obj.brand }}</a>
+                        </td>
+                        <td>
+                            {{ obj.location }}
+                        </td>
+                        <td>
+                            {{ obj.search_location }}
+                        </td>
+                        <td>
+                            {{ obj.device }}
+                        </td>
+                        <td>
+                            {{ obj.property_group }}
+                        </td>
+                        <td>
+
+                            {{ obj.ratio_set }}
+
+                        </td>
+                        <td>
+
+                            {{ obj.predicted_ratio_title }}
+
+                        </td>
+
+                        <td>
+                            <span class="d-flex align-items-center gap-2">
+                                {% if perms.brands.view_brand %}
+                            <a class="view-btn" href="{% url 'sts:brand-location-ratio-set-detail' obj.id %}" title="View">
+                                <svg class="icon icon-xxs me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path></svg>
+                            </a>
+                            {% endif %}
+
+                            {% if perms.property.delete_propertytype %}
+                            <a class="clone-btn" href="{% url 'sts:brand-location-ratio-set-clone' obj.id %}">
+                                <svg class="icon icon-xxs me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
+                            </a>
+
+                            {% endif %}
+
+                            {% if perms.brands.delete_brand %}
+                            <a class="delete-btn" href="{% url 'sts:brand-location-ratio-set-delete' obj.id %}" title="Delete">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="currentColor"><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+                            </a>
+                            {% endif %}
+                            </span>
+
+                        </td>
+                    </tr>
+                    <!-- End of Item -->
+                    {% endfor %}
+                {% else %}
+                <tr>
+                    <td colspan="8" align="center"><h3>No Data Found</h3></td>
+                </tr>
+                {% endif %}
+
+                </tbody>
+            </table>
+
+
+
+        </div>
+        {% if is_paginated %}
+            <div class="table-footer border-0 d-flex flex-column flex-lg-row align-items-center justify-content-between pb-0">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination mb-0">
+                        {% if page_obj.has_previous %}
+                        <li class="page-item">
+                            <a class="page-link"
+                               href="{% url 'sts:brand-location-ratio-set-list' %}?page={{ page_obj.previous_page_number }}{% if request.GET.brand %}&brand={{request.GET.brand}}{% endif %}{% if request.GET.loc %}&loc={{request.GET.loc}}{% endif %}{% if request.GET.sl %}&sl={{request.GET.sl}}{% endif %}{% if request.GET.pg %}&pg={{request.GET.pg}}{% endif %}">Previous</a>
+                        </li>
+                        {% else %}
+                        <li class="page-item disabled">
+                            <span class="page-link">Previous</span>
+                        </li>
+                        {% endif %}
+
+                        {% for page_num in page_obj.paginator.page_range %}
+                        {% if page_num > page_obj.number|add:"-5" and page_num < page_obj.number|add:"5" %}
+                        <li class="page-item {% if page_num == page_obj.number %}active{% endif %}">
+                            <a class="page-link" href="{% url 'sts:brand-location-ratio-set-list' %}?page={{ page_num }}{% if request.GET.brand %}&brand={{request.GET.brand}}{% endif %}{% if request.GET.loc %}&loc={{request.GET.loc}}{% endif %}{% if request.GET.sl %}&sl={{request.GET.sl}}{% endif %}{% if request.GET.pg %}&pg={{request.GET.pg}}{% endif %}">{{ page_num }}</a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+
+                        {% if page_obj.has_next %}
+                        <li class="page-item">
+                            <a class="page-link" href="{% url 'sts:brand-location-ratio-set-list' %}?page={{ page_obj.next_page_number }}{% if request.GET.brand %}&brand={{request.GET.brand}}{% endif %}{% if request.GET.loc %}&loc={{request.GET.loc}}{% endif %}{% if request.GET.sl %}&sl={{request.GET.sl}}{% endif %}{% if request.GET.pg %}&pg={{request.GET.pg}}{% endif %}">Next</a>
+                        </li>
+                        {% else %}
+                        <li class="page-item disabled">
+                            <span class="page-link">Next</span>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+                <div class="fw-normal small mt-4 mt-lg-0">
+                    Showing <b>{{ page_obj.start_index }}</b> - <b>{{ page_obj.end_index }}</b> out of <b>{{ page_obj.paginator.count }}</b> entries
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+</form>
+{% endblock content %}
+
+{% block javascripts %}
+<script>
+    $(document).ready(function() {
+        setTimeout(function() {
+            $('#message-div').fadeOut('slow');
+        }, 5000);
+
+        $('#select_all_ratios').click(function() {
+            console.log($(this));
+            checked = $("input[type=checkbox][name='all_brand_location_ratio_set_ids']").prop('checked')
+            console.log(checked);
+            if(checked){
+                el = $("input[type=checkbox][name='brand_location_ratio_set_ids']").prop('checked', true);
+            } else {
+                el = $("input[type=checkbox][name='brand_location_ratio_set_ids']").prop('checked', false);
+            }
+
+        });
+    });
+</script>
+<script>
+
+    $(document).ready(function() {
+        $('#bulk_update').click(function() {
+            // Get all checked checkboxes
+            var checked =  $("input[type=checkbox][name='brand_location_ratio_set_ids']").prop('checked');
+
+            // user add all ids
+            let array = [];
+
+            $("input:checkbox[name=brand_location_ratio_set_ids]:checked").each(function () {
+                array.push($(this).val());
+            });
+
+            // Construct the URL with encoded values
+            let url = "{% url 'sts:brand-location-ratio-set-bulk-update' %}?brand_location_ratio_set_ids=" + array;
+            console.log(url);
+            // Redirect to the constructed URL
+            window.location.href = url;
+        });
+
+        // perform bulk clone below
+        $('#bulk_clone').click(function() {
+            var checked =  $("input[type=checkbox][name='brand_location_ratio_set_ids']").prop('checked');
+
+            // user add all ids
+            let array = [];
+
+            $("input:checkbox[name=brand_location_ratio_set_ids]:checked").each(function () {
+                array.push($(this).val());
+            });
+            let url = "{% url 'sts:brand-location-ratio-set-bulk-clone' %}?brand_location_ratio_set_ids=" + array;
+            console.log(url);
+            window.location.href = url;
+        });
+    });
+</script>
+<script src="/static/js/paginate_by.js"></script>
+<script src="/static/js/filter.js"></script>
+{% endblock javascripts %}

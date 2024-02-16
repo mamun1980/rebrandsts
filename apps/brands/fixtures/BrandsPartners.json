@@ -1,0 +1,1202 @@
+[
+{
+    "model": "brands.brandspartners",
+    "pk": 251,
+    "fields": {
+        "brand": 1,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 252,
+    "fields": {
+        "brand": 1,
+        "partner": 2
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 253,
+    "fields": {
+        "brand": 1,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 254,
+    "fields": {
+        "brand": 1,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 255,
+    "fields": {
+        "brand": 1,
+        "partner": 12
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 256,
+    "fields": {
+        "brand": 2,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 257,
+    "fields": {
+        "brand": 2,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 258,
+    "fields": {
+        "brand": 2,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 259,
+    "fields": {
+        "brand": 2,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 260,
+    "fields": {
+        "brand": 2,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 261,
+    "fields": {
+        "brand": 2,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 262,
+    "fields": {
+        "brand": 2,
+        "partner": 17
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 263,
+    "fields": {
+        "brand": 3,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 264,
+    "fields": {
+        "brand": 3,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 265,
+    "fields": {
+        "brand": 3,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 266,
+    "fields": {
+        "brand": 3,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 267,
+    "fields": {
+        "brand": 3,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 268,
+    "fields": {
+        "brand": 3,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 269,
+    "fields": {
+        "brand": 4,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 270,
+    "fields": {
+        "brand": 4,
+        "partner": 2
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 271,
+    "fields": {
+        "brand": 4,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 272,
+    "fields": {
+        "brand": 4,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 273,
+    "fields": {
+        "brand": 4,
+        "partner": 12
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 274,
+    "fields": {
+        "brand": 5,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 275,
+    "fields": {
+        "brand": 5,
+        "partner": 2
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 276,
+    "fields": {
+        "brand": 5,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 277,
+    "fields": {
+        "brand": 5,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 278,
+    "fields": {
+        "brand": 5,
+        "partner": 12
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 279,
+    "fields": {
+        "brand": 6,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 280,
+    "fields": {
+        "brand": 6,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 281,
+    "fields": {
+        "brand": 6,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 282,
+    "fields": {
+        "brand": 6,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 283,
+    "fields": {
+        "brand": 6,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 284,
+    "fields": {
+        "brand": 6,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 285,
+    "fields": {
+        "brand": 7,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 286,
+    "fields": {
+        "brand": 7,
+        "partner": 2
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 287,
+    "fields": {
+        "brand": 7,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 288,
+    "fields": {
+        "brand": 7,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 289,
+    "fields": {
+        "brand": 7,
+        "partner": 12
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 290,
+    "fields": {
+        "brand": 8,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 291,
+    "fields": {
+        "brand": 8,
+        "partner": 2
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 292,
+    "fields": {
+        "brand": 8,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 293,
+    "fields": {
+        "brand": 8,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 294,
+    "fields": {
+        "brand": 8,
+        "partner": 12
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 295,
+    "fields": {
+        "brand": 9,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 296,
+    "fields": {
+        "brand": 9,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 297,
+    "fields": {
+        "brand": 9,
+        "partner": 11
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 298,
+    "fields": {
+        "brand": 9,
+        "partner": 12
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 299,
+    "fields": {
+        "brand": 10,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 300,
+    "fields": {
+        "brand": 10,
+        "partner": 2
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 301,
+    "fields": {
+        "brand": 10,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 302,
+    "fields": {
+        "brand": 10,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 303,
+    "fields": {
+        "brand": 10,
+        "partner": 12
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 304,
+    "fields": {
+        "brand": 13,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 305,
+    "fields": {
+        "brand": 13,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 306,
+    "fields": {
+        "brand": 13,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 307,
+    "fields": {
+        "brand": 13,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 308,
+    "fields": {
+        "brand": 13,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 309,
+    "fields": {
+        "brand": 13,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 310,
+    "fields": {
+        "brand": 14,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 311,
+    "fields": {
+        "brand": 14,
+        "partner": 2
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 312,
+    "fields": {
+        "brand": 14,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 313,
+    "fields": {
+        "brand": 14,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 314,
+    "fields": {
+        "brand": 14,
+        "partner": 12
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 315,
+    "fields": {
+        "brand": 15,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 316,
+    "fields": {
+        "brand": 15,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 317,
+    "fields": {
+        "brand": 15,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 318,
+    "fields": {
+        "brand": 15,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 319,
+    "fields": {
+        "brand": 15,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 320,
+    "fields": {
+        "brand": 15,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 321,
+    "fields": {
+        "brand": 16,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 322,
+    "fields": {
+        "brand": 16,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 323,
+    "fields": {
+        "brand": 16,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 324,
+    "fields": {
+        "brand": 16,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 325,
+    "fields": {
+        "brand": 16,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 326,
+    "fields": {
+        "brand": 16,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 327,
+    "fields": {
+        "brand": 17,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 328,
+    "fields": {
+        "brand": 17,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 329,
+    "fields": {
+        "brand": 17,
+        "partner": 8
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 330,
+    "fields": {
+        "brand": 17,
+        "partner": 12
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 331,
+    "fields": {
+        "brand": 18,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 332,
+    "fields": {
+        "brand": 18,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 333,
+    "fields": {
+        "brand": 18,
+        "partner": 6
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 334,
+    "fields": {
+        "brand": 18,
+        "partner": 7
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 335,
+    "fields": {
+        "brand": 19,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 336,
+    "fields": {
+        "brand": 19,
+        "partner": 2
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 337,
+    "fields": {
+        "brand": 19,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 338,
+    "fields": {
+        "brand": 19,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 339,
+    "fields": {
+        "brand": 19,
+        "partner": 12
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 340,
+    "fields": {
+        "brand": 20,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 341,
+    "fields": {
+        "brand": 20,
+        "partner": 2
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 342,
+    "fields": {
+        "brand": 20,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 343,
+    "fields": {
+        "brand": 20,
+        "partner": 4
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 344,
+    "fields": {
+        "brand": 20,
+        "partner": 12
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 345,
+    "fields": {
+        "brand": 21,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 346,
+    "fields": {
+        "brand": 21,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 347,
+    "fields": {
+        "brand": 21,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 348,
+    "fields": {
+        "brand": 21,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 349,
+    "fields": {
+        "brand": 21,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 350,
+    "fields": {
+        "brand": 21,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 351,
+    "fields": {
+        "brand": 22,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 352,
+    "fields": {
+        "brand": 22,
+        "partner": 2
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 353,
+    "fields": {
+        "brand": 22,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 354,
+    "fields": {
+        "brand": 22,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 355,
+    "fields": {
+        "brand": 22,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 356,
+    "fields": {
+        "brand": 22,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 357,
+    "fields": {
+        "brand": 22,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 358,
+    "fields": {
+        "brand": 23,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 359,
+    "fields": {
+        "brand": 23,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 360,
+    "fields": {
+        "brand": 23,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 361,
+    "fields": {
+        "brand": 23,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 362,
+    "fields": {
+        "brand": 23,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 363,
+    "fields": {
+        "brand": 23,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 364,
+    "fields": {
+        "brand": 24,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 365,
+    "fields": {
+        "brand": 24,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 366,
+    "fields": {
+        "brand": 24,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 367,
+    "fields": {
+        "brand": 24,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 368,
+    "fields": {
+        "brand": 24,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 369,
+    "fields": {
+        "brand": 24,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 370,
+    "fields": {
+        "brand": 25,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 371,
+    "fields": {
+        "brand": 25,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 372,
+    "fields": {
+        "brand": 25,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 373,
+    "fields": {
+        "brand": 25,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 374,
+    "fields": {
+        "brand": 25,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 375,
+    "fields": {
+        "brand": 25,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 376,
+    "fields": {
+        "brand": 27,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 377,
+    "fields": {
+        "brand": 27,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 378,
+    "fields": {
+        "brand": 27,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 379,
+    "fields": {
+        "brand": 27,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 380,
+    "fields": {
+        "brand": 27,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 381,
+    "fields": {
+        "brand": 27,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 382,
+    "fields": {
+        "brand": 28,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 383,
+    "fields": {
+        "brand": 28,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 384,
+    "fields": {
+        "brand": 28,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 385,
+    "fields": {
+        "brand": 28,
+        "partner": 14
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 386,
+    "fields": {
+        "brand": 28,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 387,
+    "fields": {
+        "brand": 28,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 388,
+    "fields": {
+        "brand": 28,
+        "partner": 17
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 389,
+    "fields": {
+        "brand": 29,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 390,
+    "fields": {
+        "brand": 29,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 391,
+    "fields": {
+        "brand": 29,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 392,
+    "fields": {
+        "brand": 29,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 393,
+    "fields": {
+        "brand": 29,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 394,
+    "fields": {
+        "brand": 29,
+        "partner": 17
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 395,
+    "fields": {
+        "brand": 30,
+        "partner": 1
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 396,
+    "fields": {
+        "brand": 30,
+        "partner": 3
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 397,
+    "fields": {
+        "brand": 30,
+        "partner": 13
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 398,
+    "fields": {
+        "brand": 30,
+        "partner": 15
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 399,
+    "fields": {
+        "brand": 30,
+        "partner": 16
+    }
+},
+{
+    "model": "brands.brandspartners",
+    "pk": 400,
+    "fields": {
+        "brand": 30,
+        "partner": 17
+    }
+}
+]

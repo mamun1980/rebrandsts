@@ -1,0 +1,44 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<div class="py-4">
+    <h2 class="mb-0">Provider Details Page</h2>
+</div>
+
+<div class="row">
+    <div class="col-12 col-xl-6">
+        <div class="card bg-light text-dark border-0 shadow mb-4">
+            <h2 class="card-header">Provider Name: {{ object.name }}</h2>
+            <div class="card-body">
+                <p class="card-title">Provider ID: {{ object.provider_id }}</p>
+            </div>
+            <div class="card-footer d-flex align-items-center gap-2 justify-content-between">
+                <button type="button" class="btn btn-sm btn-outline-gray-200 d-inline-block align-items-center" onclick="goBack()">
+                    Back
+                </button>
+                {% if perms.partners.change_provider %}
+                <a class="btn btn-sm btn-outline-danger" href="{% url 'provider-update' object.id %}">
+                    Edit
+                </a>
+                {% endif %}
+                {% if perms.partners.delete_provider %}
+                <a class="btn btn-sm btn-outline-danger" href="{% url 'provider-delete' object.id %}">
+                    Delete
+                </a>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+
+
+{% endblock content %}

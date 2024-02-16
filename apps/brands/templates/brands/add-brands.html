@@ -1,0 +1,116 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .list {
+        width: 45%;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+    .list select {
+        width: 100%;
+        height: 150px;
+    }
+    .controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+    }
+</style>
+<div class="py-4">
+    <h2 class="mb-0">Add Brand</h2>
+</div>
+
+<div class="row">
+    <div class="col-12 col-xl-10">
+        <div class="card border-0 shadow mb-4">
+            <div class="card-body">
+                <form method="POST" enctype="multipart/form-data">
+                    <!-- Security token -->
+                    {% csrf_token %}
+
+                    {{ form.non_field_errors }}
+
+                    {% for hidden_field in form.hidden_fields %}
+                        {{ hidden_field.errors }}
+                        {{ hidden_field }}
+                    {% endfor %}
+                    <div class="row">
+                        {% for field in form.visible_fields %}
+                            {% if field.name == 'partners'%}
+                            <div class="col-md-12">
+                                <h3>Partners</h3>
+                                <ul class="list-unstyled card-columns" style="column-count: 2;">
+                                    <div class="form-check">
+                                        <input class="form-check-input" name="all_brands" type="checkbox" value="True" id="select_all_brands">
+                                        <label class="form-check-label" for="select_all_brands">
+                                            Select All Brands
+                                        </label>
+                                    </div>
+
+                                    {% for partner in form.partners %}
+                                        <div class="p-2 d-flex gap-2">
+                                        {{ partner }}
+                                        </div>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            {% else %}
+                                <div class="col-md-6">
+                                    <span>{{ field.label_tag }}</span>
+                                    <p>
+                                    {{ field.errors }}
+                                    {{ field }}
+                                    {{ field.help_text }}
+                                    </p>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+
+                    <div class="d-flex align-items-center gap-2 justify-content-between pt-2">
+                        <button type="button" class="btn btn-sm btn-outline-gray-200 d-inline-block align-items-center" onclick="goBack()">
+                            Back
+                        </button>
+
+                        <button class="btn btn-gray-800 btn-sm" type="submit" value="Submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#select_all_brands').click(function() {
+            checked = $("input[type=checkbox][name='all_brands']").prop('checked')
+
+            if(checked){
+                el = $("input[type=checkbox][name='partners']").prop('checked', true);
+            } else {
+                el = $("input[type=checkbox][name='partners']").prop('checked', false);
+            }
+
+
+        });
+    });
+</script>
+
+
+{% endblock content %}

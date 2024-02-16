@@ -1,0 +1,59 @@
+{% extends "dashboard/base.html" %}
+{% load custom_tags %}
+{% block content %}
+
+<div class="py-4">
+    <h2 class="mb-0">{% if title %}{{title}}{% endif %}</h2>
+</div>
+
+<div class="row">
+    <div class="col-12 col-xl-6">
+        <div class="card bg-light text-dark border-0 shadow mb-4">
+            {% if object|get_model_name|lower == 'amenitytypecategory' %}
+                <h4 class="card-header">Amenity Name: {{ object.name }}</h4>
+                <div class="card-body">
+                    <p>Partner amenities: {% for pa in object.partner_amenity_type.all %}
+                        <span class='badge bg-warning text-dark'>{{ pa.name }}</span>
+                        {% endfor %}
+                    </p>
+                </div>
+                <div class="card-footer d-flex align-items-center gap-2 justify-content-between">
+                    <button type="button" class="btn btn-sm btn-outline-gray-200 d-inline-block align-items-center" onclick="goBack()">
+                        Back
+                    </button>
+                    {% if perms.amenities.delete_amenitytype %}
+                    <a class="btn btn-sm btn-outline-danger" href="{% url 'amenity-type-delete' object.id %}">
+                        Delete
+                    </a>
+                    {% endif %}
+                </div>
+            {% elif object|get_model_name|lower == 'partneramenitytype' %}
+                <h4 class="card-header">Partner Amenity Name: {{ object.name }}</h4>
+                <div class="card-body">
+                    <p class="card-title">Partner name: {{ object.partner.name }}</p>
+                </div>
+                <div class="card-footer d-flex align-items-center gap-2 justify-content-between">
+                    <button type="button" class="btn btn-sm btn-outline-gray-200 d-inline-block align-items-center" onclick="goBack()">
+                        Back
+                    </button>
+                    {% if perms.amenities.delete_amenitytype %}
+                    <a class="btn btn-sm btn-outline-danger" href="{% url 'partner-amenity-type-delete' object.id %}">
+                        Delete
+                    </a>
+                    {% endif %}
+                </div>
+            {% endif %}
+
+        </div>
+
+    </div>
+</div>
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+
+{% endblock content %}

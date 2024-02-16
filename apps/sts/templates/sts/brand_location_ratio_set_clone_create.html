@@ -1,0 +1,116 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+
+    <h2 class="py-4 mb-0">Choose your site to clone</h2>
+
+<div class="card border-0 shadow mb-4 position-relative brand-location-ratio-set">
+    <div class="card-header d-flex align-items-center justify-content-between py-4">
+        <h4 class="mb-0">Brand Location Ratio Sets</h4>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-centered table-nowrap mb-0 rounded" id="brandLocationRatioTable">
+                <thead class="thead-light">
+                    <tr>
+                        <th class="border-0 rounded-start">ID</th>
+                        <th class="border-0">Brand Name</th>
+                        <th class="border-0">Location</th>
+                        <th class="border-0">Search Location</th>
+                        <th class="border-0">Device</th>
+                        <th class="border-0">Property Group</th>
+                        <th class="border-0">Ratio Set</th>
+                        <th class="border-0 rounded-end">Created By</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ obj.id }}</td>
+                        <td>{{ obj.brand.name }}</td>
+                        <td>{{ obj.location.country }}</td>
+                        <td>{{ obj.search_location.search_location }}</td>
+                        <td>{{ obj.device.type }}</td>
+                        <td>{{ obj.property_group.name }}</td>
+                        <td>{{ obj.ratio_set_short_title }}</td>
+                        <td>{{ obj.created_by.username }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card position-relative ratio-page">
+
+            <form method="post" action="{{request.path}}">
+                {% csrf_token %}
+                <input type="hidden" name="object_id" value="{{obj.id}}">
+
+                <div class="card-body">
+                    <ul class="list-unstyled card-columns mb-0 pt-4" >
+                        <div class="form-check all-check position-absolute" style="left: 5px; top: 5px;">
+                            <input class="form-check-input" name="all_brands" type="checkbox" value="True" id="select_all_brands">
+                            <label class="form-check-label text-gray-400" for="select_all_brands">
+                                Select All
+                            </label>
+                        </div>
+
+
+                        {% for brand in brands %}
+
+                        <div class="form-check d-flex gap-2">
+                            <input id="brand_{{ brand.id }}" class="form-check-input" name="brands" type="checkbox" value="{{ brand.id }}">
+                            <label class="form-check-label mb-0" for="brand_{{ brand.id }}">
+                                {{ brand.name }}
+                            </label>
+                        </div>
+
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <button type="button" class="btn btn-sm btn-outline-gray-200 d-inline-block align-items-center" onclick="goBack()">
+                        Back
+                    </button>
+                    <button type="submit" class="btn btn-sm btn-secondary d-inline-flex align-items-center gap-2">
+                        Clone
+                        <svg class="icon icon-xxs me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+</form>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#select_all_brands').click(function() {
+            checked = $("input[type=checkbox][name='all_brands']").prop('checked')
+
+            if(checked){
+                el = $("input[type=checkbox][name='brands']").prop('checked', true);
+            } else {
+                el = $("input[type=checkbox][name='brands']").prop('checked', false);
+            }
+
+        });
+    });
+</script>
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+{% endblock content %}

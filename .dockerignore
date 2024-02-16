@@ -1,0 +1,10 @@
+**/__pychache__
+**/*.pyc
+
+*.pyc
+__pycache__
+.git
+
+.venv
+.venv_staging
+__data

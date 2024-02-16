@@ -1,0 +1,20 @@
+[
+{"id":1,"keyword":"home","brand_type":"rentals","create_date":"2017-03-05 21:08:21","update_date":null},
+{"id":2,"keyword":"condo","brand_type":"rentals","create_date":"2017-03-05 21:08:49","update_date":null},
+{"id":3,"keyword":"apartment","brand_type":"rentals","create_date":"2017-03-05 21:09:22","update_date":null},
+{"id":4,"keyword":"house","brand_type":"rentals","create_date":"2017-03-05 21:09:43","update_date":null},
+{"id":5,"keyword":"cabin","brand_type":"rentals","create_date":"2017-03-05 21:10:02","update_date":null},
+{"id":6,"keyword":"cottage","brand_type":"rentals","create_date":"2017-03-05 21:10:55","update_date":null},
+{"id":7,"keyword":"rent","brand_type":"rentals","create_date":"2017-03-05 21:11:37","update_date":null},
+{"id":8,"keyword":"renting","brand_type":"rentals","create_date":"2017-03-05 21:11:53","update_date":null},
+{"id":9,"keyword":"rental","brand_type":"rentals","create_date":"2017-03-05 21:12:10","update_date":null},
+{"id":10,"keyword":"chalet","brand_type":"rentals","create_date":"2017-03-05 21:12:23","update_date":null},
+{"id":11,"keyword":"lodge","brand_type":"rentals","create_date":"2017-03-05 21:12:38","update_date":null},
+{"id":12,"keyword":"villa","brand_type":"hotels","create_date":"2017-03-05 21:12:56","update_date":null},
+{"id":13,"keyword":"accommodation","brand_type":"hotels","create_date":"2017-03-05 21:13:18","update_date":null},
+{"id":14,"keyword":"inn","brand_type":"hotels","create_date":"2017-03-05 21:13:35","update_date":null},
+{"id":15,"keyword":"resort","brand_type":"hotels","create_date":"2017-03-05 21:13:51","update_date":null},
+{"id":16,"keyword":"letting","brand_type":"hotels","create_date":"2017-03-05 21:14:07","update_date":null},
+{"id":17,"keyword":"gite","brand_type":"hotels","create_date":"2017-03-05 21:14:41","update_date":null},
+{"id":18,"keyword":"hotel","brand_type":"hotels","create_date":"2017-03-05 21:21:30","update_date":null}
+]

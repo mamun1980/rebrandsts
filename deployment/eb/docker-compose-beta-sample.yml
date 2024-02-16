@@ -1,0 +1,12 @@
+version: "3.2"
+services:
+  sts-beta:
+    image: 234464546150.dkr.ecr.us-west-2.amazonaws.com/sts:sts-re-brand-2021-06-24-10-38-40
+    
+    ports:
+      - "9002:8000"
+    env_file:
+      - .env
+
+    container_name: sts-beta
+    restart: unless-stopped

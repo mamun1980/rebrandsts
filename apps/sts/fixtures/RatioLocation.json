@@ -1,0 +1,130 @@
+[
+{
+    "model": "sts.ratiolocation",
+    "pk": 1,
+    "fields": {
+        "location_name": "default",
+        "updated_at": "2023-07-21T10:40:41.036Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 2,
+    "fields": {
+        "location_name": "mobile",
+        "updated_at": "2023-07-21T10:40:42.814Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 3,
+    "fields": {
+        "location_name": "tablet",
+        "updated_at": "2023-07-21T10:40:42.818Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 4,
+    "fields": {
+        "location_name": "canada",
+        "updated_at": "2023-07-21T10:40:42.820Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 5,
+    "fields": {
+        "location_name": "germany",
+        "updated_at": "2023-07-21T10:40:42.822Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 6,
+    "fields": {
+        "location_name": "spain",
+        "updated_at": "2023-07-21T10:40:42.823Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 7,
+    "fields": {
+        "location_name": "brazil",
+        "updated_at": "2023-07-21T10:40:42.825Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 8,
+    "fields": {
+        "location_name": "united states",
+        "updated_at": "2023-07-21T10:40:42.827Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 9,
+    "fields": {
+        "location_name": "rentals",
+        "updated_at": "2023-07-21T10:40:42.829Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 10,
+    "fields": {
+        "location_name": "hotels",
+        "updated_at": "2023-07-21T10:40:42.830Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 12,
+    "fields": {
+        "location_name": "france",
+        "updated_at": "2023-07-21T10:40:42.832Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 13,
+    "fields": {
+        "location_name": "android-app",
+        "updated_at": "2023-07-21T10:40:42.834Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 14,
+    "fields": {
+        "location_name": "ios-app",
+        "updated_at": "2023-07-21T10:40:42.836Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 16,
+    "fields": {
+        "location_name": "australia",
+        "updated_at": "2023-07-21T10:40:42.838Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 17,
+    "fields": {
+        "location_name": "bhutan",
+        "updated_at": "2023-07-21T10:40:42.840Z"
+    }
+},
+{
+    "model": "sts.ratiolocation",
+    "pk": 18,
+    "fields": {
+        "location_name": "belarus",
+        "updated_at": "2023-07-21T10:40:42.842Z"
+    }
+}
+]

@@ -1,0 +1,19 @@
+[
+{"id":1,"name":"Booking.com","key":"BC","date":"2019-04-18 15:12:42","sortOrder":1,"domain_name":"booking.com"},
+{"id":2,"name":"HomeAway","key":"HA","date":"2019-04-18 15:13:11","sortOrder":4,"domain_name":"homeaway.com"},
+{"id":3,"name":"Vrbo","key":"VRBO","date":"2019-04-18 15:13:38","sortOrder":2,"domain_name":"vrbo.com"},
+{"id":4,"name":"Airbnb","key":"AB","date":"2019-04-18 15:14:03","sortOrder":3,"domain_name":"airbnb.com"},
+{"id":6,"name":"Homelidays","key":"HL","date":null,"sortOrder":7,"domain_name":"homelidays.com"},
+{"id":7,"name":"Abritel","key":"AT","date":null,"sortOrder":6,"domain_name":"abritel.fr"},
+{"id":8,"name":"FeWo-direkt","key":"FW","date":null,"sortOrder":8,"domain_name":"fewo-direkt.de"},
+{"id":9,"name":"HomeAway UK","key":"HAUK","date":null,"sortOrder":9,"domain_name":"homeaway.co.uk"},
+{"id":10,"name":"HomeAway AU","key":"HAAU","date":null,"sortOrder":10,"domain_name":"homeaway.co.au"},
+{"id":11,"name":"HomeAway ES","key":"HAES","date":null,"sortOrder":11,"domain_name":"homeaway.es"},
+{"id":12,"name":"TripAdvisor","key":"TA","date":null,"sortOrder":13,"domain_name":"tripadvisor.com"},
+{"id":13,"name":"HomeToGo","key":"HG","date":null,"sortOrder":12,"domain_name":"hometogo.com"},
+{"id":14,"name":"Kayak","key":"KY","date":null,"sortOrder":14,"domain_name":"kayak.com"},
+{"id":15,"name":"Trip.com","key":"TC","date":null,"sortOrder":15,"domain_name":"trip.com"},
+{"id":16,"name":"Expedia","key":"EP","date":null,"sortOrder":16,"domain_name":"expedia.com"},
+{"id":17,"name":"LeaveTown","key":"LT","date":null,"sortOrder":17,"domain_name":"book.rentbyowner.com"},
+{"id":18,"name":"HotelPlanner","key":"HP","date":null,"sortOrder":18,"domain_name":"hotelplanner.com"}
+]

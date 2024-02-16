@@ -1,0 +1,6365 @@
+[
+{
+    "model": "sts.partnerratio",
+    "pk": 54,
+    "fields": {
+        "partner": 3,
+        "ratio": 80,
+        "ratioset": 10
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 55,
+    "fields": {
+        "partner": 1,
+        "ratio": 15,
+        "ratioset": 10
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 56,
+    "fields": {
+        "partner": 4,
+        "ratio": 5,
+        "ratioset": 10
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 57,
+    "fields": {
+        "partner": 3,
+        "ratio": 5,
+        "ratioset": 11
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 58,
+    "fields": {
+        "partner": 1,
+        "ratio": 75,
+        "ratioset": 11
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 59,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 11
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 60,
+    "fields": {
+        "partner": 2,
+        "ratio": 5,
+        "ratioset": 12
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 61,
+    "fields": {
+        "partner": 1,
+        "ratio": 75,
+        "ratioset": 12
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 62,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 12
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 63,
+    "fields": {
+        "partner": 3,
+        "ratio": 40,
+        "ratioset": 13
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 64,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 13
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 65,
+    "fields": {
+        "partner": 2,
+        "ratio": 5,
+        "ratioset": 14
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 66,
+    "fields": {
+        "partner": 1,
+        "ratio": 95,
+        "ratioset": 14
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 67,
+    "fields": {
+        "partner": 2,
+        "ratio": 5,
+        "ratioset": 15
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 68,
+    "fields": {
+        "partner": 1,
+        "ratio": 90,
+        "ratioset": 15
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 69,
+    "fields": {
+        "partner": 4,
+        "ratio": 5,
+        "ratioset": 15
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 70,
+    "fields": {
+        "partner": 3,
+        "ratio": 40,
+        "ratioset": 16
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 71,
+    "fields": {
+        "partner": 2,
+        "ratio": 10,
+        "ratioset": 16
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 72,
+    "fields": {
+        "partner": 1,
+        "ratio": 25,
+        "ratioset": 16
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 73,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 16
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 74,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 17
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 75,
+    "fields": {
+        "partner": 2,
+        "ratio": 10,
+        "ratioset": 17
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 76,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 17
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 77,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 17
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 78,
+    "fields": {
+        "partner": 2,
+        "ratio": 40,
+        "ratioset": 18
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 79,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 18
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 80,
+    "fields": {
+        "partner": 4,
+        "ratio": 40,
+        "ratioset": 18
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 81,
+    "fields": {
+        "partner": 2,
+        "ratio": 20,
+        "ratioset": 19
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 82,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 19
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 83,
+    "fields": {
+        "partner": 4,
+        "ratio": 40,
+        "ratioset": 19
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 84,
+    "fields": {
+        "partner": 2,
+        "ratio": 50,
+        "ratioset": 20
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 85,
+    "fields": {
+        "partner": 1,
+        "ratio": 25,
+        "ratioset": 20
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 86,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 20
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 87,
+    "fields": {
+        "partner": 2,
+        "ratio": 25,
+        "ratioset": 21
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 88,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 21
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 89,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 21
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 90,
+    "fields": {
+        "partner": 2,
+        "ratio": 80,
+        "ratioset": 22
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 91,
+    "fields": {
+        "partner": 1,
+        "ratio": 15,
+        "ratioset": 22
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 92,
+    "fields": {
+        "partner": 4,
+        "ratio": 5,
+        "ratioset": 22
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 93,
+    "fields": {
+        "partner": 2,
+        "ratio": 40,
+        "ratioset": 23
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 94,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 23
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 95,
+    "fields": {
+        "partner": 3,
+        "ratio": 45,
+        "ratioset": 24
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 96,
+    "fields": {
+        "partner": 1,
+        "ratio": 25,
+        "ratioset": 24
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 97,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 24
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 98,
+    "fields": {
+        "partner": 3,
+        "ratio": 50,
+        "ratioset": 25
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 99,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 25
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 100,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 25
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 101,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 26
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 102,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 26
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 103,
+    "fields": {
+        "partner": 4,
+        "ratio": 40,
+        "ratioset": 26
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 104,
+    "fields": {
+        "partner": 11,
+        "ratio": 35,
+        "ratioset": 27
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 105,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 27
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 106,
+    "fields": {
+        "partner": 4,
+        "ratio": 35,
+        "ratioset": 27
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 107,
+    "fields": {
+        "partner": 3,
+        "ratio": 40,
+        "ratioset": 28
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 108,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 28
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 109,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 28
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 110,
+    "fields": {
+        "partner": 10,
+        "ratio": 50,
+        "ratioset": 29
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 111,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 29
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 112,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 29
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 113,
+    "fields": {
+        "partner": 9,
+        "ratio": 40,
+        "ratioset": 30
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 114,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 30
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 115,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 30
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 116,
+    "fields": {
+        "partner": 6,
+        "ratio": 10,
+        "ratioset": 31
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 117,
+    "fields": {
+        "partner": 1,
+        "ratio": 25,
+        "ratioset": 31
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 118,
+    "fields": {
+        "partner": 7,
+        "ratio": 40,
+        "ratioset": 31
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 119,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 31
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 120,
+    "fields": {
+        "partner": 8,
+        "ratio": 50,
+        "ratioset": 32
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 121,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 32
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 122,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 32
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 123,
+    "fields": {
+        "partner": 3,
+        "ratio": 40,
+        "ratioset": 33
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 124,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 33
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 125,
+    "fields": {
+        "partner": 4,
+        "ratio": 40,
+        "ratioset": 33
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 126,
+    "fields": {
+        "partner": 3,
+        "ratio": 50,
+        "ratioset": 34
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 127,
+    "fields": {
+        "partner": 4,
+        "ratio": 50,
+        "ratioset": 34
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 128,
+    "fields": {
+        "partner": 2,
+        "ratio": 50,
+        "ratioset": 35
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 129,
+    "fields": {
+        "partner": 4,
+        "ratio": 50,
+        "ratioset": 35
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 130,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 36
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 131,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 36
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 132,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 36
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 133,
+    "fields": {
+        "partner": 2,
+        "ratio": 30,
+        "ratioset": 37
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 134,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 37
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 135,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 37
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 136,
+    "fields": {
+        "partner": 3,
+        "ratio": 50,
+        "ratioset": 38
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 137,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 38
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 138,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 38
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 139,
+    "fields": {
+        "partner": 1,
+        "ratio": 75,
+        "ratioset": 39
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 140,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 39
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 141,
+    "fields": {
+        "partner": 3,
+        "ratio": 90,
+        "ratioset": 40
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 142,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 40
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 143,
+    "fields": {
+        "partner": 4,
+        "ratio": 5,
+        "ratioset": 40
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 144,
+    "fields": {
+        "partner": 1,
+        "ratio": 100,
+        "ratioset": 41
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 145,
+    "fields": {
+        "partner": 2,
+        "ratio": 15,
+        "ratioset": 42
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 146,
+    "fields": {
+        "partner": 1,
+        "ratio": 80,
+        "ratioset": 42
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 147,
+    "fields": {
+        "partner": 4,
+        "ratio": 5,
+        "ratioset": 42
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 148,
+    "fields": {
+        "partner": 1,
+        "ratio": 75,
+        "ratioset": 43
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 149,
+    "fields": {
+        "partner": 7,
+        "ratio": 5,
+        "ratioset": 43
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 150,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 43
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 151,
+    "fields": {
+        "partner": 1,
+        "ratio": 80,
+        "ratioset": 44
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 152,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 44
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 153,
+    "fields": {
+        "partner": 3,
+        "ratio": 5,
+        "ratioset": 45
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 154,
+    "fields": {
+        "partner": 1,
+        "ratio": 70,
+        "ratioset": 45
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 155,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 45
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 156,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 46
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 157,
+    "fields": {
+        "partner": 4,
+        "ratio": 60,
+        "ratioset": 46
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 158,
+    "fields": {
+        "partner": 4,
+        "ratio": 100,
+        "ratioset": 47
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 159,
+    "fields": {
+        "partner": 3,
+        "ratio": 40,
+        "ratioset": 48
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 160,
+    "fields": {
+        "partner": 12,
+        "ratio": 20,
+        "ratioset": 48
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 161,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 48
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 162,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 48
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 163,
+    "fields": {
+        "partner": 12,
+        "ratio": 20,
+        "ratioset": 49
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 164,
+    "fields": {
+        "partner": 6,
+        "ratio": 20,
+        "ratioset": 49
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 165,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 49
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 166,
+    "fields": {
+        "partner": 7,
+        "ratio": 20,
+        "ratioset": 49
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 167,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 49
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 168,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 50
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 169,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 50
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 170,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 50
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 171,
+    "fields": {
+        "partner": 3,
+        "ratio": 70,
+        "ratioset": 51
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 172,
+    "fields": {
+        "partner": 1,
+        "ratio": 15,
+        "ratioset": 51
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 173,
+    "fields": {
+        "partner": 4,
+        "ratio": 15,
+        "ratioset": 51
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 174,
+    "fields": {
+        "partner": 2,
+        "ratio": 10,
+        "ratioset": 52
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 175,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 52
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 176,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 52
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 177,
+    "fields": {
+        "partner": 2,
+        "ratio": 10,
+        "ratioset": 53
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 178,
+    "fields": {
+        "partner": 1,
+        "ratio": 70,
+        "ratioset": 53
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 179,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 53
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 180,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 54
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 181,
+    "fields": {
+        "partner": 7,
+        "ratio": 30,
+        "ratioset": 54
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 182,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 54
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 183,
+    "fields": {
+        "partner": 8,
+        "ratio": 50,
+        "ratioset": 55
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 184,
+    "fields": {
+        "partner": 1,
+        "ratio": 25,
+        "ratioset": 55
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 185,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 55
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 186,
+    "fields": {
+        "partner": 8,
+        "ratio": 30,
+        "ratioset": 56
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 187,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 56
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 188,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 56
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 189,
+    "fields": {
+        "partner": 8,
+        "ratio": 5,
+        "ratioset": 57
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 190,
+    "fields": {
+        "partner": 1,
+        "ratio": 75,
+        "ratioset": 57
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 191,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 57
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 192,
+    "fields": {
+        "partner": 12,
+        "ratio": 20,
+        "ratioset": 58
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 193,
+    "fields": {
+        "partner": 8,
+        "ratio": 40,
+        "ratioset": 58
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 194,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 58
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 195,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 58
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 196,
+    "fields": {
+        "partner": 11,
+        "ratio": 50,
+        "ratioset": 59
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 197,
+    "fields": {
+        "partner": 1,
+        "ratio": 25,
+        "ratioset": 59
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 198,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 59
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 199,
+    "fields": {
+        "partner": 11,
+        "ratio": 30,
+        "ratioset": 60
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 200,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 60
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 201,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 60
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 202,
+    "fields": {
+        "partner": 12,
+        "ratio": 20,
+        "ratioset": 61
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 203,
+    "fields": {
+        "partner": 11,
+        "ratio": 40,
+        "ratioset": 61
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 204,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 61
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 205,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 61
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 206,
+    "fields": {
+        "partner": 11,
+        "ratio": 5,
+        "ratioset": 62
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 207,
+    "fields": {
+        "partner": 1,
+        "ratio": 75,
+        "ratioset": 62
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 208,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 62
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 209,
+    "fields": {
+        "partner": 11,
+        "ratio": 25,
+        "ratioset": 63
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 210,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 63
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 211,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 63
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 212,
+    "fields": {
+        "partner": 6,
+        "ratio": 10,
+        "ratioset": 64
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 213,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 64
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 214,
+    "fields": {
+        "partner": 7,
+        "ratio": 20,
+        "ratioset": 64
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 215,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 64
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 216,
+    "fields": {
+        "partner": 8,
+        "ratio": 25,
+        "ratioset": 65
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 217,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 65
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 218,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 65
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 219,
+    "fields": {
+        "partner": 10,
+        "ratio": 20,
+        "ratioset": 66
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 220,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 66
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 221,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 66
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 222,
+    "fields": {
+        "partner": 10,
+        "ratio": 80,
+        "ratioset": 67
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 223,
+    "fields": {
+        "partner": 1,
+        "ratio": 15,
+        "ratioset": 67
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 224,
+    "fields": {
+        "partner": 4,
+        "ratio": 5,
+        "ratioset": 67
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 225,
+    "fields": {
+        "partner": 10,
+        "ratio": 5,
+        "ratioset": 68
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 226,
+    "fields": {
+        "partner": 1,
+        "ratio": 75,
+        "ratioset": 68
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 227,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 68
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 228,
+    "fields": {
+        "partner": 10,
+        "ratio": 30,
+        "ratioset": 69
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 229,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 69
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 230,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 69
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 231,
+    "fields": {
+        "partner": 12,
+        "ratio": 20,
+        "ratioset": 70
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 232,
+    "fields": {
+        "partner": 10,
+        "ratio": 40,
+        "ratioset": 70
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 233,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 70
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 234,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 70
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 235,
+    "fields": {
+        "partner": 9,
+        "ratio": 40,
+        "ratioset": 71
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 236,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 71
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 237,
+    "fields": {
+        "partner": 4,
+        "ratio": 40,
+        "ratioset": 71
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 238,
+    "fields": {
+        "partner": 9,
+        "ratio": 5,
+        "ratioset": 72
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 239,
+    "fields": {
+        "partner": 1,
+        "ratio": 75,
+        "ratioset": 72
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 240,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 72
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 241,
+    "fields": {
+        "partner": 9,
+        "ratio": 20,
+        "ratioset": 73
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 242,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 73
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 243,
+    "fields": {
+        "partner": 4,
+        "ratio": 40,
+        "ratioset": 73
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 244,
+    "fields": {
+        "partner": 9,
+        "ratio": 30,
+        "ratioset": 74
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 245,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 74
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 246,
+    "fields": {
+        "partner": 4,
+        "ratio": 30,
+        "ratioset": 74
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 247,
+    "fields": {
+        "partner": 12,
+        "ratio": 20,
+        "ratioset": 75
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 248,
+    "fields": {
+        "partner": 9,
+        "ratio": 40,
+        "ratioset": 75
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 249,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 75
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 250,
+    "fields": {
+        "partner": 4,
+        "ratio": 20,
+        "ratioset": 75
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 251,
+    "fields": {
+        "partner": 3,
+        "ratio": 25,
+        "ratioset": 76
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 252,
+    "fields": {
+        "partner": 2,
+        "ratio": 25,
+        "ratioset": 76
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 253,
+    "fields": {
+        "partner": 1,
+        "ratio": 25,
+        "ratioset": 76
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 254,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 76
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 255,
+    "fields": {
+        "partner": 3,
+        "ratio": 50,
+        "ratioset": 77
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 256,
+    "fields": {
+        "partner": 12,
+        "ratio": 20,
+        "ratioset": 77
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 257,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 77
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 258,
+    "fields": {
+        "partner": 2,
+        "ratio": 45,
+        "ratioset": 78
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 259,
+    "fields": {
+        "partner": 1,
+        "ratio": 55,
+        "ratioset": 78
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 260,
+    "fields": {
+        "partner": 3,
+        "ratio": 45,
+        "ratioset": 79
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 261,
+    "fields": {
+        "partner": 1,
+        "ratio": 55,
+        "ratioset": 79
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 262,
+    "fields": {
+        "partner": 3,
+        "ratio": 60,
+        "ratioset": 80
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 263,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 80
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 264,
+    "fields": {
+        "partner": 3,
+        "ratio": 10,
+        "ratioset": 81
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 265,
+    "fields": {
+        "partner": 1,
+        "ratio": 90,
+        "ratioset": 81
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 266,
+    "fields": {
+        "partner": 3,
+        "ratio": 15,
+        "ratioset": 82
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 267,
+    "fields": {
+        "partner": 1,
+        "ratio": 85,
+        "ratioset": 82
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 268,
+    "fields": {
+        "partner": 3,
+        "ratio": 85,
+        "ratioset": 83
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 269,
+    "fields": {
+        "partner": 1,
+        "ratio": 15,
+        "ratioset": 83
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 270,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 84
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 271,
+    "fields": {
+        "partner": 1,
+        "ratio": 70,
+        "ratioset": 84
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 272,
+    "fields": {
+        "partner": 2,
+        "ratio": 15,
+        "ratioset": 85
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 273,
+    "fields": {
+        "partner": 1,
+        "ratio": 85,
+        "ratioset": 85
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 274,
+    "fields": {
+        "partner": 3,
+        "ratio": 5,
+        "ratioset": 86
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 275,
+    "fields": {
+        "partner": 1,
+        "ratio": 95,
+        "ratioset": 86
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 276,
+    "fields": {
+        "partner": 3,
+        "ratio": 80,
+        "ratioset": 87
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 277,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 87
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 278,
+    "fields": {
+        "partner": 3,
+        "ratio": 90,
+        "ratioset": 88
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 279,
+    "fields": {
+        "partner": 1,
+        "ratio": 10,
+        "ratioset": 88
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 280,
+    "fields": {
+        "partner": 2,
+        "ratio": 25,
+        "ratioset": 89
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 281,
+    "fields": {
+        "partner": 1,
+        "ratio": 75,
+        "ratioset": 89
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 282,
+    "fields": {
+        "partner": 2,
+        "ratio": 10,
+        "ratioset": 90
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 283,
+    "fields": {
+        "partner": 1,
+        "ratio": 90,
+        "ratioset": 90
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 284,
+    "fields": {
+        "partner": 2,
+        "ratio": 20,
+        "ratioset": 91
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 285,
+    "fields": {
+        "partner": 1,
+        "ratio": 80,
+        "ratioset": 91
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 286,
+    "fields": {
+        "partner": 3,
+        "ratio": 80,
+        "ratioset": 92
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 287,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 92
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 288,
+    "fields": {
+        "partner": 4,
+        "ratio": 15,
+        "ratioset": 92
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 289,
+    "fields": {
+        "partner": 2,
+        "ratio": 5,
+        "ratioset": 93
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 290,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 93
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 291,
+    "fields": {
+        "partner": 4,
+        "ratio": 90,
+        "ratioset": 93
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 292,
+    "fields": {
+        "partner": 3,
+        "ratio": 70,
+        "ratioset": 94
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 293,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 94
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 294,
+    "fields": {
+        "partner": 4,
+        "ratio": 25,
+        "ratioset": 94
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 295,
+    "fields": {
+        "partner": 2,
+        "ratio": 10,
+        "ratioset": 95
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 296,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 95
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 297,
+    "fields": {
+        "partner": 4,
+        "ratio": 85,
+        "ratioset": 95
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 298,
+    "fields": {
+        "partner": 2,
+        "ratio": 25,
+        "ratioset": 96
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 299,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 96
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 300,
+    "fields": {
+        "partner": 4,
+        "ratio": 70,
+        "ratioset": 96
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 301,
+    "fields": {
+        "partner": 2,
+        "ratio": 20,
+        "ratioset": 97
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 302,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 97
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 303,
+    "fields": {
+        "partner": 4,
+        "ratio": 75,
+        "ratioset": 97
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 304,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 98
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 305,
+    "fields": {
+        "partner": 4,
+        "ratio": 95,
+        "ratioset": 98
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 306,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 99
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 307,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 99
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 308,
+    "fields": {
+        "partner": 4,
+        "ratio": 75,
+        "ratioset": 99
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 309,
+    "fields": {
+        "partner": 2,
+        "ratio": 15,
+        "ratioset": 100
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 310,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 100
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 311,
+    "fields": {
+        "partner": 4,
+        "ratio": 80,
+        "ratioset": 100
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 312,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 101
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 313,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 101
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 314,
+    "fields": {
+        "partner": 4,
+        "ratio": 65,
+        "ratioset": 101
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 315,
+    "fields": {
+        "partner": 3,
+        "ratio": 5,
+        "ratioset": 102
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 316,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 102
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 317,
+    "fields": {
+        "partner": 4,
+        "ratio": 90,
+        "ratioset": 102
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 318,
+    "fields": {
+        "partner": 3,
+        "ratio": 15,
+        "ratioset": 103
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 319,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 103
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 320,
+    "fields": {
+        "partner": 4,
+        "ratio": 80,
+        "ratioset": 103
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 321,
+    "fields": {
+        "partner": 11,
+        "ratio": 50,
+        "ratioset": 104
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 322,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 104
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 323,
+    "fields": {
+        "partner": 4,
+        "ratio": 45,
+        "ratioset": 104
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 324,
+    "fields": {
+        "partner": 11,
+        "ratio": 25,
+        "ratioset": 105
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 325,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 105
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 326,
+    "fields": {
+        "partner": 4,
+        "ratio": 70,
+        "ratioset": 105
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 327,
+    "fields": {
+        "partner": 10,
+        "ratio": 5,
+        "ratioset": 106
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 328,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 106
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 329,
+    "fields": {
+        "partner": 4,
+        "ratio": 90,
+        "ratioset": 106
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 330,
+    "fields": {
+        "partner": 9,
+        "ratio": 40,
+        "ratioset": 107
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 331,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 107
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 332,
+    "fields": {
+        "partner": 4,
+        "ratio": 55,
+        "ratioset": 107
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 333,
+    "fields": {
+        "partner": 9,
+        "ratio": 5,
+        "ratioset": 108
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 334,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 108
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 335,
+    "fields": {
+        "partner": 4,
+        "ratio": 90,
+        "ratioset": 108
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 336,
+    "fields": {
+        "partner": 9,
+        "ratio": 20,
+        "ratioset": 109
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 337,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 109
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 338,
+    "fields": {
+        "partner": 4,
+        "ratio": 75,
+        "ratioset": 109
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 339,
+    "fields": {
+        "partner": 6,
+        "ratio": 10,
+        "ratioset": 110
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 340,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 110
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 341,
+    "fields": {
+        "partner": 7,
+        "ratio": 40,
+        "ratioset": 110
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 342,
+    "fields": {
+        "partner": 4,
+        "ratio": 45,
+        "ratioset": 110
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 343,
+    "fields": {
+        "partner": 6,
+        "ratio": 10,
+        "ratioset": 111
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 344,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 111
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 345,
+    "fields": {
+        "partner": 7,
+        "ratio": 20,
+        "ratioset": 111
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 346,
+    "fields": {
+        "partner": 4,
+        "ratio": 65,
+        "ratioset": 111
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 347,
+    "fields": {
+        "partner": 3,
+        "ratio": 40,
+        "ratioset": 112
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 348,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 112
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 349,
+    "fields": {
+        "partner": 4,
+        "ratio": 55,
+        "ratioset": 112
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 350,
+    "fields": {
+        "partner": 8,
+        "ratio": 50,
+        "ratioset": 113
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 351,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 113
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 352,
+    "fields": {
+        "partner": 4,
+        "ratio": 45,
+        "ratioset": 113
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 353,
+    "fields": {
+        "partner": 8,
+        "ratio": 25,
+        "ratioset": 114
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 354,
+    "fields": {
+        "partner": 1,
+        "ratio": 5,
+        "ratioset": 114
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 355,
+    "fields": {
+        "partner": 4,
+        "ratio": 70,
+        "ratioset": 114
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 356,
+    "fields": {
+        "partner": 2,
+        "ratio": 50,
+        "ratioset": 115
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 357,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 115
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 358,
+    "fields": {
+        "partner": 3,
+        "ratio": 70,
+        "ratioset": 116
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 359,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 116
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 360,
+    "fields": {
+        "partner": 6,
+        "ratio": 20,
+        "ratioset": 117
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 361,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 117
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 362,
+    "fields": {
+        "partner": 7,
+        "ratio": 50,
+        "ratioset": 117
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 363,
+    "fields": {
+        "partner": 6,
+        "ratio": 30,
+        "ratioset": 118
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 364,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 118
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 365,
+    "fields": {
+        "partner": 7,
+        "ratio": 40,
+        "ratioset": 118
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 366,
+    "fields": {
+        "partner": 14,
+        "ratio": 100,
+        "ratioset": 119
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 367,
+    "fields": {
+        "partner": 15,
+        "ratio": 30,
+        "ratioset": 120
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 368,
+    "fields": {
+        "partner": 1,
+        "ratio": 70,
+        "ratioset": 120
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 369,
+    "fields": {
+        "partner": 15,
+        "ratio": 100,
+        "ratioset": 121
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 370,
+    "fields": {
+        "partner": 15,
+        "ratio": 50,
+        "ratioset": 122
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 371,
+    "fields": {
+        "partner": 2,
+        "ratio": 50,
+        "ratioset": 122
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 372,
+    "fields": {
+        "partner": 3,
+        "ratio": 50,
+        "ratioset": 123
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 373,
+    "fields": {
+        "partner": 15,
+        "ratio": 50,
+        "ratioset": 123
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 374,
+    "fields": {
+        "partner": 15,
+        "ratio": 50,
+        "ratioset": 124
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 375,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 124
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 376,
+    "fields": {
+        "partner": 15,
+        "ratio": 85,
+        "ratioset": 125
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 377,
+    "fields": {
+        "partner": 1,
+        "ratio": 15,
+        "ratioset": 125
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 378,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 126
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 379,
+    "fields": {
+        "partner": 1,
+        "ratio": 90,
+        "ratioset": 126
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 380,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 127
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 381,
+    "fields": {
+        "partner": 2,
+        "ratio": 90,
+        "ratioset": 127
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 382,
+    "fields": {
+        "partner": 3,
+        "ratio": 90,
+        "ratioset": 128
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 383,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 128
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 384,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 129
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 385,
+    "fields": {
+        "partner": 1,
+        "ratio": 90,
+        "ratioset": 129
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 386,
+    "fields": {
+        "partner": 15,
+        "ratio": 60,
+        "ratioset": 130
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 387,
+    "fields": {
+        "partner": 14,
+        "ratio": 20,
+        "ratioset": 130
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 388,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 130
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 389,
+    "fields": {
+        "partner": 15,
+        "ratio": 80,
+        "ratioset": 131
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 390,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 131
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 391,
+    "fields": {
+        "partner": 14,
+        "ratio": 80,
+        "ratioset": 132
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 392,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 132
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 393,
+    "fields": {
+        "partner": 15,
+        "ratio": 40,
+        "ratioset": 133
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 394,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 133
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 395,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 133
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 396,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 134
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 397,
+    "fields": {
+        "partner": 14,
+        "ratio": 80,
+        "ratioset": 134
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 398,
+    "fields": {
+        "partner": 1,
+        "ratio": 10,
+        "ratioset": 134
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 399,
+    "fields": {
+        "partner": 15,
+        "ratio": 50,
+        "ratioset": 135
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 400,
+    "fields": {
+        "partner": 14,
+        "ratio": 50,
+        "ratioset": 135
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 401,
+    "fields": {
+        "partner": 14,
+        "ratio": 40,
+        "ratioset": 136
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 402,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 136
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 403,
+    "fields": {
+        "partner": 13,
+        "ratio": 40,
+        "ratioset": 137
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 404,
+    "fields": {
+        "partner": 15,
+        "ratio": 20,
+        "ratioset": 137
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 405,
+    "fields": {
+        "partner": 14,
+        "ratio": 20,
+        "ratioset": 137
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 406,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 137
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 407,
+    "fields": {
+        "partner": 13,
+        "ratio": 100,
+        "ratioset": 138
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 408,
+    "fields": {
+        "partner": 14,
+        "ratio": 50,
+        "ratioset": 139
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 409,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 139
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 410,
+    "fields": {
+        "partner": 15,
+        "ratio": 30,
+        "ratioset": 140
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 411,
+    "fields": {
+        "partner": 14,
+        "ratio": 35,
+        "ratioset": 140
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 412,
+    "fields": {
+        "partner": 1,
+        "ratio": 35,
+        "ratioset": 140
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 413,
+    "fields": {
+        "partner": 3,
+        "ratio": 40,
+        "ratioset": 141
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 414,
+    "fields": {
+        "partner": 13,
+        "ratio": 15,
+        "ratioset": 141
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 415,
+    "fields": {
+        "partner": 15,
+        "ratio": 15,
+        "ratioset": 141
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 416,
+    "fields": {
+        "partner": 14,
+        "ratio": 15,
+        "ratioset": 141
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 417,
+    "fields": {
+        "partner": 1,
+        "ratio": 15,
+        "ratioset": 141
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 418,
+    "fields": {
+        "partner": 8,
+        "ratio": 50,
+        "ratioset": 142
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 419,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 142
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 420,
+    "fields": {
+        "partner": 3,
+        "ratio": 50,
+        "ratioset": 143
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 421,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 143
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 422,
+    "fields": {
+        "partner": 3,
+        "ratio": 80,
+        "ratioset": 144
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 423,
+    "fields": {
+        "partner": 14,
+        "ratio": 5,
+        "ratioset": 144
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 424,
+    "fields": {
+        "partner": 1,
+        "ratio": 15,
+        "ratioset": 144
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 425,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 145
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 426,
+    "fields": {
+        "partner": 14,
+        "ratio": 45,
+        "ratioset": 145
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 427,
+    "fields": {
+        "partner": 1,
+        "ratio": 45,
+        "ratioset": 145
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 428,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 146
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 429,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 146
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 430,
+    "fields": {
+        "partner": 1,
+        "ratio": 80,
+        "ratioset": 146
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 431,
+    "fields": {
+        "partner": 13,
+        "ratio": 20,
+        "ratioset": 147
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 432,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 147
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 433,
+    "fields": {
+        "partner": 14,
+        "ratio": 35,
+        "ratioset": 147
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 434,
+    "fields": {
+        "partner": 1,
+        "ratio": 35,
+        "ratioset": 147
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 435,
+    "fields": {
+        "partner": 13,
+        "ratio": 20,
+        "ratioset": 148
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 436,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 148
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 437,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 148
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 438,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 148
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 439,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 149
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 440,
+    "fields": {
+        "partner": 15,
+        "ratio": 20,
+        "ratioset": 149
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 441,
+    "fields": {
+        "partner": 14,
+        "ratio": 20,
+        "ratioset": 149
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 442,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 149
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 443,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 150
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 444,
+    "fields": {
+        "partner": 14,
+        "ratio": 50,
+        "ratioset": 150
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 445,
+    "fields": {
+        "partner": 1,
+        "ratio": 45,
+        "ratioset": 150
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 446,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 151
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 447,
+    "fields": {
+        "partner": 14,
+        "ratio": 25,
+        "ratioset": 151
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 448,
+    "fields": {
+        "partner": 1,
+        "ratio": 70,
+        "ratioset": 151
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 449,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 152
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 450,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 152
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 451,
+    "fields": {
+        "partner": 1,
+        "ratio": 65,
+        "ratioset": 152
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 452,
+    "fields": {
+        "partner": 3,
+        "ratio": 50,
+        "ratioset": 153
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 453,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 153
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 454,
+    "fields": {
+        "partner": 14,
+        "ratio": 15,
+        "ratioset": 153
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 455,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 153
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 456,
+    "fields": {
+        "partner": 3,
+        "ratio": 40,
+        "ratioset": 154
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 457,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 154
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 458,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 154
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 459,
+    "fields": {
+        "partner": 3,
+        "ratio": 50,
+        "ratioset": 155
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 460,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 155
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 461,
+    "fields": {
+        "partner": 15,
+        "ratio": 15,
+        "ratioset": 155
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 462,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 155
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 463,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 156
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 464,
+    "fields": {
+        "partner": 14,
+        "ratio": 65,
+        "ratioset": 156
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 465,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 156
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 466,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 157
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 467,
+    "fields": {
+        "partner": 14,
+        "ratio": 35,
+        "ratioset": 157
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 468,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 157
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 469,
+    "fields": {
+        "partner": 15,
+        "ratio": 20,
+        "ratioset": 158
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 470,
+    "fields": {
+        "partner": 14,
+        "ratio": 60,
+        "ratioset": 158
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 471,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 158
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 472,
+    "fields": {
+        "partner": 3,
+        "ratio": 45,
+        "ratioset": 159
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 473,
+    "fields": {
+        "partner": 14,
+        "ratio": 15,
+        "ratioset": 159
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 474,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 159
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 475,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 160
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 476,
+    "fields": {
+        "partner": 14,
+        "ratio": 60,
+        "ratioset": 160
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 477,
+    "fields": {
+        "partner": 1,
+        "ratio": 35,
+        "ratioset": 160
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 478,
+    "fields": {
+        "partner": 3,
+        "ratio": 50,
+        "ratioset": 161
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 479,
+    "fields": {
+        "partner": 14,
+        "ratio": 25,
+        "ratioset": 161
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 480,
+    "fields": {
+        "partner": 1,
+        "ratio": 25,
+        "ratioset": 161
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 481,
+    "fields": {
+        "partner": 3,
+        "ratio": 40,
+        "ratioset": 162
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 482,
+    "fields": {
+        "partner": 14,
+        "ratio": 20,
+        "ratioset": 162
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 483,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 162
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 484,
+    "fields": {
+        "partner": 13,
+        "ratio": 2,
+        "ratioset": 163
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 485,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 163
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 486,
+    "fields": {
+        "partner": 14,
+        "ratio": 73,
+        "ratioset": 163
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 487,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 163
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 488,
+    "fields": {
+        "partner": 13,
+        "ratio": 25,
+        "ratioset": 164
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 489,
+    "fields": {
+        "partner": 15,
+        "ratio": 25,
+        "ratioset": 164
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 490,
+    "fields": {
+        "partner": 14,
+        "ratio": 25,
+        "ratioset": 164
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 491,
+    "fields": {
+        "partner": 1,
+        "ratio": 25,
+        "ratioset": 164
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 492,
+    "fields": {
+        "partner": 15,
+        "ratio": 30,
+        "ratioset": 165
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 493,
+    "fields": {
+        "partner": 14,
+        "ratio": 20,
+        "ratioset": 165
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 494,
+    "fields": {
+        "partner": 16,
+        "ratio": 20,
+        "ratioset": 165
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 495,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 165
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 496,
+    "fields": {
+        "partner": 13,
+        "ratio": 2,
+        "ratioset": 166
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 497,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 166
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 498,
+    "fields": {
+        "partner": 14,
+        "ratio": 60,
+        "ratioset": 166
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 499,
+    "fields": {
+        "partner": 16,
+        "ratio": 13,
+        "ratioset": 166
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 500,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 166
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 501,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 167
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 502,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 167
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 503,
+    "fields": {
+        "partner": 16,
+        "ratio": 30,
+        "ratioset": 167
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 504,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 167
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 505,
+    "fields": {
+        "partner": 13,
+        "ratio": 10,
+        "ratioset": 168
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 506,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 168
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 507,
+    "fields": {
+        "partner": 14,
+        "ratio": 40,
+        "ratioset": 168
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 508,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 168
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 509,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 169
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 510,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 169
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 511,
+    "fields": {
+        "partner": 14,
+        "ratio": 60,
+        "ratioset": 169
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 512,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 169
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 513,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 169
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 514,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 170
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 515,
+    "fields": {
+        "partner": 14,
+        "ratio": 40,
+        "ratioset": 170
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 516,
+    "fields": {
+        "partner": 16,
+        "ratio": 20,
+        "ratioset": 170
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 517,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 170
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 518,
+    "fields": {
+        "partner": 3,
+        "ratio": 15,
+        "ratioset": 171
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 519,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 171
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 520,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 171
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 521,
+    "fields": {
+        "partner": 16,
+        "ratio": 15,
+        "ratioset": 171
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 522,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 171
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 523,
+    "fields": {
+        "partner": 15,
+        "ratio": 20,
+        "ratioset": 172
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 524,
+    "fields": {
+        "partner": 14,
+        "ratio": 40,
+        "ratioset": 172
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 525,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 172
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 526,
+    "fields": {
+        "partner": 13,
+        "ratio": 10,
+        "ratioset": 173
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 527,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 173
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 528,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 173
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 529,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 173
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 530,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 173
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 531,
+    "fields": {
+        "partner": 3,
+        "ratio": 40,
+        "ratioset": 174
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 532,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 174
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 533,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 174
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 534,
+    "fields": {
+        "partner": 16,
+        "ratio": 5,
+        "ratioset": 174
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 535,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 174
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 536,
+    "fields": {
+        "partner": 3,
+        "ratio": 40,
+        "ratioset": 175
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 537,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 175
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 538,
+    "fields": {
+        "partner": 14,
+        "ratio": 5,
+        "ratioset": 175
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 539,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 175
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 540,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 175
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 541,
+    "fields": {
+        "partner": 3,
+        "ratio": 57,
+        "ratioset": 176
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 542,
+    "fields": {
+        "partner": 14,
+        "ratio": 15,
+        "ratioset": 176
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 543,
+    "fields": {
+        "partner": 16,
+        "ratio": 13,
+        "ratioset": 176
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 544,
+    "fields": {
+        "partner": 1,
+        "ratio": 15,
+        "ratioset": 176
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 545,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 177
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 546,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 177
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 547,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 177
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 548,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 177
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 549,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 177
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 550,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 178
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 551,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 178
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 552,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 178
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 553,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 178
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 554,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 178
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 555,
+    "fields": {
+        "partner": 13,
+        "ratio": 10,
+        "ratioset": 179
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 556,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 179
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 557,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 179
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 558,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 179
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 559,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 179
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 560,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 180
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 561,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 180
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 562,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 180
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 563,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 180
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 564,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 180
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 565,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 180
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 566,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 181
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 567,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 181
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 568,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 181
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 569,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 181
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 570,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 181
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 571,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 181
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 572,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 182
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 573,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 182
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 574,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 182
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 575,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 182
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 576,
+    "fields": {
+        "partner": 14,
+        "ratio": 20,
+        "ratioset": 182
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 577,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 182
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 578,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 182
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 579,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 183
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 580,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 183
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 581,
+    "fields": {
+        "partner": 14,
+        "ratio": 40,
+        "ratioset": 183
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 582,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 183
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 583,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 184
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 584,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 184
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 585,
+    "fields": {
+        "partner": 14,
+        "ratio": 40,
+        "ratioset": 184
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 586,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 184
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 587,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 184
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 588,
+    "fields": {
+        "partner": 13,
+        "ratio": 10,
+        "ratioset": 185
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 589,
+    "fields": {
+        "partner": 12,
+        "ratio": 10,
+        "ratioset": 185
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 590,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 185
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 591,
+    "fields": {
+        "partner": 1,
+        "ratio": 70,
+        "ratioset": 185
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 592,
+    "fields": {
+        "partner": 13,
+        "ratio": 15,
+        "ratioset": 186
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 593,
+    "fields": {
+        "partner": 15,
+        "ratio": 15,
+        "ratioset": 186
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 594,
+    "fields": {
+        "partner": 1,
+        "ratio": 70,
+        "ratioset": 186
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 595,
+    "fields": {
+        "partner": 3,
+        "ratio": 10,
+        "ratioset": 187
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 596,
+    "fields": {
+        "partner": 13,
+        "ratio": 10,
+        "ratioset": 187
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 597,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 187
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 598,
+    "fields": {
+        "partner": 1,
+        "ratio": 70,
+        "ratioset": 187
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 599,
+    "fields": {
+        "partner": 3,
+        "ratio": 5,
+        "ratioset": 188
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 600,
+    "fields": {
+        "partner": 13,
+        "ratio": 10,
+        "ratioset": 188
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 601,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 188
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 602,
+    "fields": {
+        "partner": 14,
+        "ratio": 5,
+        "ratioset": 188
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 603,
+    "fields": {
+        "partner": 1,
+        "ratio": 70,
+        "ratioset": 188
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 604,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 189
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 605,
+    "fields": {
+        "partner": 17,
+        "ratio": 15,
+        "ratioset": 189
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 606,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 189
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 607,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 189
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 608,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 189
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 609,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 190
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 610,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 190
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 611,
+    "fields": {
+        "partner": 17,
+        "ratio": 15,
+        "ratioset": 190
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 612,
+    "fields": {
+        "partner": 14,
+        "ratio": 20,
+        "ratioset": 190
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 613,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 190
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 614,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 190
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 615,
+    "fields": {
+        "partner": 17,
+        "ratio": 15,
+        "ratioset": 191
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 616,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 191
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 617,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 191
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 618,
+    "fields": {
+        "partner": 1,
+        "ratio": 50,
+        "ratioset": 191
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 619,
+    "fields": {
+        "partner": 13,
+        "ratio": 30,
+        "ratioset": 192
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 620,
+    "fields": {
+        "partner": 1,
+        "ratio": 70,
+        "ratioset": 192
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 621,
+    "fields": {
+        "partner": 13,
+        "ratio": 10,
+        "ratioset": 193
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 622,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 193
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 623,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 193
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 624,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 194
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 625,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 194
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 626,
+    "fields": {
+        "partner": 15,
+        "ratio": 20,
+        "ratioset": 194
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 627,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 194
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 628,
+    "fields": {
+        "partner": 16,
+        "ratio": 5,
+        "ratioset": 194
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 629,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 194
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 630,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 195
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 631,
+    "fields": {
+        "partner": 17,
+        "ratio": 15,
+        "ratioset": 195
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 632,
+    "fields": {
+        "partner": 15,
+        "ratio": 20,
+        "ratioset": 195
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 633,
+    "fields": {
+        "partner": 14,
+        "ratio": 30,
+        "ratioset": 195
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 634,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 195
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 635,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 195
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 636,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 196
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 637,
+    "fields": {
+        "partner": 13,
+        "ratio": 10,
+        "ratioset": 196
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 638,
+    "fields": {
+        "partner": 14,
+        "ratio": 20,
+        "ratioset": 196
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 639,
+    "fields": {
+        "partner": 16,
+        "ratio": 20,
+        "ratioset": 196
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 640,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 196
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 641,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 197
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 642,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 197
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 643,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 197
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 644,
+    "fields": {
+        "partner": 14,
+        "ratio": 20,
+        "ratioset": 197
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 645,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 197
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 646,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 197
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 647,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 198
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 648,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 198
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 649,
+    "fields": {
+        "partner": 17,
+        "ratio": 15,
+        "ratioset": 198
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 650,
+    "fields": {
+        "partner": 15,
+        "ratio": 20,
+        "ratioset": 198
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 651,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 198
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 652,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 198
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 653,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 198
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 654,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 199
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 655,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 199
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 656,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 199
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 657,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 199
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 658,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 199
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 659,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 200
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 660,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 200
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 661,
+    "fields": {
+        "partner": 14,
+        "ratio": 20,
+        "ratioset": 200
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 662,
+    "fields": {
+        "partner": 16,
+        "ratio": 20,
+        "ratioset": 200
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 663,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 200
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 664,
+    "fields": {
+        "partner": 3,
+        "ratio": 70,
+        "ratioset": 201
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 665,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 201
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 666,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 201
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 667,
+    "fields": {
+        "partner": 1,
+        "ratio": 10,
+        "ratioset": 201
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 668,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 202
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 669,
+    "fields": {
+        "partner": 13,
+        "ratio": 10,
+        "ratioset": 202
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 670,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 202
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 671,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 202
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 672,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 202
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 673,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 202
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 674,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 203
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 675,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 203
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 676,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 203
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 677,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 203
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 678,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 203
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 679,
+    "fields": {
+        "partner": 1,
+        "ratio": 40,
+        "ratioset": 203
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 680,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 204
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 681,
+    "fields": {
+        "partner": 17,
+        "ratio": 5,
+        "ratioset": 204
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 682,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 204
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 683,
+    "fields": {
+        "partner": 18,
+        "ratio": 10,
+        "ratioset": 204
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 684,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 204
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 685,
+    "fields": {
+        "partner": 16,
+        "ratio": 5,
+        "ratioset": 204
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 686,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 204
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 687,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 205
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 688,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 205
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 689,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 205
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 690,
+    "fields": {
+        "partner": 15,
+        "ratio": 15,
+        "ratioset": 205
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 691,
+    "fields": {
+        "partner": 18,
+        "ratio": 10,
+        "ratioset": 205
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 692,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 205
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 693,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 205
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 694,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 205
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 695,
+    "fields": {
+        "partner": 3,
+        "ratio": 60,
+        "ratioset": 206
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 696,
+    "fields": {
+        "partner": 18,
+        "ratio": 10,
+        "ratioset": 206
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 697,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 206
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 698,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 206
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 699,
+    "fields": {
+        "partner": 1,
+        "ratio": 10,
+        "ratioset": 206
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 700,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 207
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 701,
+    "fields": {
+        "partner": 18,
+        "ratio": 10,
+        "ratioset": 207
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 702,
+    "fields": {
+        "partner": 14,
+        "ratio": 40,
+        "ratioset": 207
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 703,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 207
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 704,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 207
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 705,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 208
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 706,
+    "fields": {
+        "partner": 18,
+        "ratio": 10,
+        "ratioset": 208
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 707,
+    "fields": {
+        "partner": 14,
+        "ratio": 40,
+        "ratioset": 208
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 708,
+    "fields": {
+        "partner": 16,
+        "ratio": 15,
+        "ratioset": 208
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 709,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 208
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 710,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 209
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 711,
+    "fields": {
+        "partner": 18,
+        "ratio": 10,
+        "ratioset": 209
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 712,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 209
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 713,
+    "fields": {
+        "partner": 1,
+        "ratio": 70,
+        "ratioset": 209
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 714,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 210
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 715,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 210
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 716,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 210
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 717,
+    "fields": {
+        "partner": 18,
+        "ratio": 10,
+        "ratioset": 210
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 718,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 210
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 719,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 210
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 720,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 211
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 721,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 211
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 722,
+    "fields": {
+        "partner": 18,
+        "ratio": 10,
+        "ratioset": 211
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 723,
+    "fields": {
+        "partner": 14,
+        "ratio": 20,
+        "ratioset": 211
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 724,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 211
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 725,
+    "fields": {
+        "partner": 3,
+        "ratio": 10,
+        "ratioset": 212
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 726,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 212
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 727,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 212
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 728,
+    "fields": {
+        "partner": 18,
+        "ratio": 10,
+        "ratioset": 212
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 729,
+    "fields": {
+        "partner": 14,
+        "ratio": 50,
+        "ratioset": 212
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 730,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 212
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 731,
+    "fields": {
+        "partner": 3,
+        "ratio": 25,
+        "ratioset": 213
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 732,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 213
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 733,
+    "fields": {
+        "partner": 17,
+        "ratio": 10,
+        "ratioset": 213
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 734,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 213
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 735,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 213
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 736,
+    "fields": {
+        "partner": 16,
+        "ratio": 20,
+        "ratioset": 213
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 737,
+    "fields": {
+        "partner": 1,
+        "ratio": 25,
+        "ratioset": 213
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 738,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 214
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 739,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 214
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 740,
+    "fields": {
+        "partner": 17,
+        "ratio": 5,
+        "ratioset": 214
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 741,
+    "fields": {
+        "partner": 15,
+        "ratio": 5,
+        "ratioset": 214
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 742,
+    "fields": {
+        "partner": 18,
+        "ratio": 5,
+        "ratioset": 214
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 743,
+    "fields": {
+        "partner": 16,
+        "ratio": 20,
+        "ratioset": 214
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 744,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 214
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 745,
+    "fields": {
+        "partner": 3,
+        "ratio": 20,
+        "ratioset": 215
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 746,
+    "fields": {
+        "partner": 13,
+        "ratio": 5,
+        "ratioset": 215
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 747,
+    "fields": {
+        "partner": 17,
+        "ratio": 20,
+        "ratioset": 215
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 748,
+    "fields": {
+        "partner": 15,
+        "ratio": 15,
+        "ratioset": 215
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 749,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 215
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 750,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 215
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 751,
+    "fields": {
+        "partner": 1,
+        "ratio": 20,
+        "ratioset": 215
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 752,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 216
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 753,
+    "fields": {
+        "partner": 15,
+        "ratio": 10,
+        "ratioset": 216
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 754,
+    "fields": {
+        "partner": 18,
+        "ratio": 10,
+        "ratioset": 216
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 755,
+    "fields": {
+        "partner": 14,
+        "ratio": 10,
+        "ratioset": 216
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 756,
+    "fields": {
+        "partner": 16,
+        "ratio": 10,
+        "ratioset": 216
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 757,
+    "fields": {
+        "partner": 1,
+        "ratio": 30,
+        "ratioset": 216
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 758,
+    "fields": {
+        "partner": 3,
+        "ratio": 30,
+        "ratioset": 217
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 759,
+    "fields": {
+        "partner": 1,
+        "ratio": 60,
+        "ratioset": 217
+    }
+},
+{
+    "model": "sts.partnerratio",
+    "pk": 760,
+    "fields": {
+        "partner": 4,
+        "ratio": 10,
+        "ratioset": 217
+    }
+}
+]

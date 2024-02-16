@@ -1,0 +1,47 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<div class="py-4">
+    <h2 class="mb-0">SetList ES Details Page</h2>
+</div>
+
+<div class="row">
+    <div class="col-12 col-xl-6">
+        <div class="card bg-light text-dark border-0 shadow mb-4">
+            <h4 class="card-header">{{ object.set_list }}</h4>
+            <div class="card-body">
+                <ul>
+                {% for brand in object.brands.all %}
+                <li class="card-title">{{ brand.name }}</li>
+                {% endfor %}
+                </ul>
+                
+            </div>
+            <div class="card-footer d-flex align-items-center gap-2 justify-content-between">
+                <button type="button" class="btn btn-sm btn-outline-gray-200" onclick="goBack()">
+                    Back
+                </button>
+                {% if perms.brands.delete_brand %}
+                <a class="btn btn-sm btn-outline-danger" href="{% url 'sqs:site-enable-set-es-delete' object.id %}">
+                    Delete
+                </a>
+                {% endif %}
+                {% if perms.brands.change_brand %}
+                <a class="btn btn-sm btn-outline-danger" href="{% url 'sqs:site-enable-set-es-update' object.id %}">
+                    Edit
+                </a>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+{% endblock content %}

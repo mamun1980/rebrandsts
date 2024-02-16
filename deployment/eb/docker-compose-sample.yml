@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  sts:
+    image: 234464546150.dkr.ecr.us-west-2.amazonaws.com/sts:sts-re-brand-2021-06-24-10-38-40
+    
+    ports:
+      - "80:8000"
+    env_file:
+      - .env
+
+    container_name: sts
+    restart: unless-stopped

@@ -1,0 +1,1666 @@
+[
+{
+    "model": "sts.ratioset",
+    "pk": 10,
+    "fields": {
+        "title": "VRBO=80%, BC=15%, AB=5%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 11,
+    "fields": {
+        "title": "VRBO=5%, BC=75%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 12,
+    "fields": {
+        "title": "HA=5%, BC=75%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 13,
+    "fields": {
+        "title": "VRBO=40%, BC=60%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 14,
+    "fields": {
+        "title": "HA=5%, BC=95%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 15,
+    "fields": {
+        "title": "HA=5%, BC=90%, AB=5%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 16,
+    "fields": {
+        "title": "VRBO=40%, HA=10%, BC=25%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 17,
+    "fields": {
+        "title": "VRBO=20%, HA=10%, BC=50%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 18,
+    "fields": {
+        "title": "HA=40%, BC=20%, AB=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 19,
+    "fields": {
+        "title": "HA=20%, BC=40%, AB=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 20,
+    "fields": {
+        "title": "HA=50%, BC=25%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 21,
+    "fields": {
+        "title": "HA=25%, BC=50%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 22,
+    "fields": {
+        "title": "HA=80%, BC=15%, AB=5%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 23,
+    "fields": {
+        "title": "HA=40%, BC=60%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 24,
+    "fields": {
+        "title": "VRBO=45%, BC=25%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 25,
+    "fields": {
+        "title": "VRBO=50%, BC=20%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 26,
+    "fields": {
+        "title": "VRBO=20%, BC=40%, AB=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 27,
+    "fields": {
+        "title": "HAES=35%, BC=30%, AB=35%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 28,
+    "fields": {
+        "title": "VRBO=40%, BC=30%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 29,
+    "fields": {
+        "title": "HAAU=50%, BC=20%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 30,
+    "fields": {
+        "title": "HAUK=40%, BC=30%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 31,
+    "fields": {
+        "title": "HL=10%, BC=25%, AT=40%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 32,
+    "fields": {
+        "title": "FW=50%, BC=20%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 33,
+    "fields": {
+        "title": "VRBO=40%, BC=20%, AB=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 34,
+    "fields": {
+        "title": "VRBO=50%, AB=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 35,
+    "fields": {
+        "title": "HA=50%, AB=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 36,
+    "fields": {
+        "title": "VRBO=30%, BC=40%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 37,
+    "fields": {
+        "title": "HA=30%, BC=40%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 38,
+    "fields": {
+        "title": "VRBO=50%, BC=30%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 39,
+    "fields": {
+        "title": "BC=75%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 40,
+    "fields": {
+        "title": "VRBO=90%, BC=5%, AB=5%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 41,
+    "fields": {
+        "title": "BC=100%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 42,
+    "fields": {
+        "title": "HA=15%, BC=80%, AB=5%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 43,
+    "fields": {
+        "title": "BC=75%, AT=5%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 44,
+    "fields": {
+        "title": "BC=80%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 45,
+    "fields": {
+        "title": "VRBO=5%, BC=70%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 46,
+    "fields": {
+        "title": "BC=40%, AB=60%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 47,
+    "fields": {
+        "title": "AB=100%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 48,
+    "fields": {
+        "title": "VRBO=40%, TA=20%, BC=20%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 49,
+    "fields": {
+        "title": "TA=20%, HL=20%, BC=20%, AT=20%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 50,
+    "fields": {
+        "title": "VRBO=20%, BC=60%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 51,
+    "fields": {
+        "title": "VRBO=70%, BC=15%, AB=15%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 52,
+    "fields": {
+        "title": "HA=10%, BC=60%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 53,
+    "fields": {
+        "title": "HA=10%, BC=70%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 54,
+    "fields": {
+        "title": "BC=40%, AT=30%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 55,
+    "fields": {
+        "title": "FW=50%, BC=25%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 56,
+    "fields": {
+        "title": "FW=30%, BC=40%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 57,
+    "fields": {
+        "title": "FW=5%, BC=75%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 58,
+    "fields": {
+        "title": "TA=20%, FW=40%, BC=20%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 59,
+    "fields": {
+        "title": "HAES=50%, BC=25%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 60,
+    "fields": {
+        "title": "HAES=30%, BC=40%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 61,
+    "fields": {
+        "title": "TA=20%, HAES=40%, BC=20%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 62,
+    "fields": {
+        "title": "HAES=5%, BC=75%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 63,
+    "fields": {
+        "title": "HAES=25%, BC=50%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 64,
+    "fields": {
+        "title": "HL=10%, BC=50%, AT=20%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 65,
+    "fields": {
+        "title": "FW=25%, BC=50%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 66,
+    "fields": {
+        "title": "HAAU=20%, BC=60%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 67,
+    "fields": {
+        "title": "HAAU=80%, BC=15%, AB=5%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 68,
+    "fields": {
+        "title": "HAAU=5%, BC=75%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 69,
+    "fields": {
+        "title": "HAAU=30%, BC=40%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 70,
+    "fields": {
+        "title": "TA=20%, HAAU=40%, BC=20%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 71,
+    "fields": {
+        "title": "HAUK=40%, BC=20%, AB=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 72,
+    "fields": {
+        "title": "HAUK=5%, BC=75%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 73,
+    "fields": {
+        "title": "HAUK=20%, BC=40%, AB=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 74,
+    "fields": {
+        "title": "HAUK=30%, BC=40%, AB=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 75,
+    "fields": {
+        "title": "TA=20%, HAUK=40%, BC=20%, AB=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 76,
+    "fields": {
+        "title": "VRBO=25%, HA=25%, BC=25%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 77,
+    "fields": {
+        "title": "VRBO=50%, TA=20%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 78,
+    "fields": {
+        "title": "HA=45%, BC=55%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 79,
+    "fields": {
+        "title": "VRBO=45%, BC=55%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 80,
+    "fields": {
+        "title": "VRBO=60%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 81,
+    "fields": {
+        "title": "VRBO=10%, BC=90%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 82,
+    "fields": {
+        "title": "VRBO=15%, BC=85%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 83,
+    "fields": {
+        "title": "VRBO=85%, BC=15%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 84,
+    "fields": {
+        "title": "VRBO=30%, BC=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 85,
+    "fields": {
+        "title": "HA=15%, BC=85%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 86,
+    "fields": {
+        "title": "VRBO=5%, BC=95%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 87,
+    "fields": {
+        "title": "VRBO=80%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 88,
+    "fields": {
+        "title": "VRBO=90%, BC=10%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 89,
+    "fields": {
+        "title": "HA=25%, BC=75%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 90,
+    "fields": {
+        "title": "HA=10%, BC=90%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 91,
+    "fields": {
+        "title": "HA=20%, BC=80%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 92,
+    "fields": {
+        "title": "VRBO=80%, BC=5%, AB=15%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 93,
+    "fields": {
+        "title": "HA=5%, BC=5%, AB=90%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 94,
+    "fields": {
+        "title": "VRBO=70%, BC=5%, AB=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 95,
+    "fields": {
+        "title": "HA=10%, BC=5%, AB=85%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 96,
+    "fields": {
+        "title": "HA=25%, BC=5%, AB=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 97,
+    "fields": {
+        "title": "HA=20%, BC=5%, AB=75%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 98,
+    "fields": {
+        "title": "BC=5%, AB=95%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 99,
+    "fields": {
+        "title": "VRBO=20%, BC=5%, AB=75%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 100,
+    "fields": {
+        "title": "HA=15%, BC=5%, AB=80%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 101,
+    "fields": {
+        "title": "VRBO=30%, BC=5%, AB=65%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 102,
+    "fields": {
+        "title": "VRBO=5%, BC=5%, AB=90%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 103,
+    "fields": {
+        "title": "VRBO=15%, BC=5%, AB=80%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 104,
+    "fields": {
+        "title": "HAES=50%, BC=5%, AB=45%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 105,
+    "fields": {
+        "title": "HAES=25%, BC=5%, AB=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 106,
+    "fields": {
+        "title": "HAAU=5%, BC=5%, AB=90%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 107,
+    "fields": {
+        "title": "HAUK=40%, BC=5%, AB=55%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 108,
+    "fields": {
+        "title": "HAUK=5%, BC=5%, AB=90%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 109,
+    "fields": {
+        "title": "HAUK=20%, BC=5%, AB=75%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 110,
+    "fields": {
+        "title": "HL=10%, BC=5%, AT=40%, AB=45%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 111,
+    "fields": {
+        "title": "HL=10%, BC=5%, AT=20%, AB=65%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 112,
+    "fields": {
+        "title": "VRBO=40%, BC=5%, AB=55%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 113,
+    "fields": {
+        "title": "FW=50%, BC=5%, AB=45%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 114,
+    "fields": {
+        "title": "FW=25%, BC=5%, AB=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 115,
+    "fields": {
+        "title": "HA=50%, BC=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 116,
+    "fields": {
+        "title": "VRBO=70%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 117,
+    "fields": {
+        "title": "HL=20%, BC=30%, AT=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 118,
+    "fields": {
+        "title": "HL=30%, BC=30%, AT=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 119,
+    "fields": {
+        "title": "HG=100%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 120,
+    "fields": {
+        "title": "KY=30%, BC=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 121,
+    "fields": {
+        "title": "KY=100%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 122,
+    "fields": {
+        "title": "KY=50%, HA=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 123,
+    "fields": {
+        "title": "VRBO=50%, KY=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 124,
+    "fields": {
+        "title": "KY=50%, BC=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 125,
+    "fields": {
+        "title": "KY=85%, BC=15%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 126,
+    "fields": {
+        "title": "HG=10%, BC=90%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 127,
+    "fields": {
+        "title": "KY=10%, HA=90%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 128,
+    "fields": {
+        "title": "VRBO=90%, KY=10%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 129,
+    "fields": {
+        "title": "KY=10%, BC=90%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 130,
+    "fields": {
+        "title": "KY=60%, HG=20%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 131,
+    "fields": {
+        "title": "KY=80%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 132,
+    "fields": {
+        "title": "HG=80%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 133,
+    "fields": {
+        "title": "KY=40%, HG=30%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 134,
+    "fields": {
+        "title": "KY=10%, HG=80%, BC=10%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 135,
+    "fields": {
+        "title": "KY=50%, HG=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 136,
+    "fields": {
+        "title": "HG=40%, BC=60%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 137,
+    "fields": {
+        "title": "TC=40%, KY=20%, HG=20%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 138,
+    "fields": {
+        "title": "TC=100%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 139,
+    "fields": {
+        "title": "HG=50%, BC=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 140,
+    "fields": {
+        "title": "KY=30%, HG=35%, BC=35%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 141,
+    "fields": {
+        "title": "VRBO=40%, TC=15%, KY=15%, HG=15%, BC=15%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 142,
+    "fields": {
+        "title": "FW=50%, BC=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 143,
+    "fields": {
+        "title": "VRBO=50%, BC=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 144,
+    "fields": {
+        "title": "VRBO=80%, HG=5%, BC=15%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 145,
+    "fields": {
+        "title": "KY=10%, HG=45%, BC=45%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 146,
+    "fields": {
+        "title": "KY=10%, HG=10%, BC=80%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 147,
+    "fields": {
+        "title": "TC=20%, KY=10%, HG=35%, BC=35%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 148,
+    "fields": {
+        "title": "TC=20%, KY=10%, HG=10%, BC=60%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 149,
+    "fields": {
+        "title": "VRBO=20%, KY=20%, HG=20%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 150,
+    "fields": {
+        "title": "KY=5%, HG=50%, BC=45%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 151,
+    "fields": {
+        "title": "KY=5%, HG=25%, BC=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 152,
+    "fields": {
+        "title": "KY=5%, HG=30%, BC=65%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 153,
+    "fields": {
+        "title": "VRBO=50%, KY=5%, HG=15%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 154,
+    "fields": {
+        "title": "VRBO=40%, HG=10%, BC=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 155,
+    "fields": {
+        "title": "VRBO=50%, TC=5%, KY=15%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 156,
+    "fields": {
+        "title": "KY=5%, HG=65%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 157,
+    "fields": {
+        "title": "KY=5%, HG=35%, BC=60%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 158,
+    "fields": {
+        "title": "KY=20%, HG=60%, BC=20%",
+        "ratio_location": 2
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 159,
+    "fields": {
+        "title": "VRBO=45%, HG=15%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 160,
+    "fields": {
+        "title": "KY=5%, HG=60%, BC=35%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 161,
+    "fields": {
+        "title": "VRBO=50%, HG=25%, BC=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 162,
+    "fields": {
+        "title": "VRBO=40%, HG=20%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 163,
+    "fields": {
+        "title": "TC=2%, KY=5%, HG=73%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 164,
+    "fields": {
+        "title": "TC=25%, KY=25%, HG=25%, BC=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 165,
+    "fields": {
+        "title": "<KY=30%, HG=20%, EP=20%, BC=30%>",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 166,
+    "fields": {
+        "title": "TC=2%, KY=5%, HG=60%, EP=13%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 167,
+    "fields": {
+        "title": "KY=10%, HG=30%, EP=30%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 168,
+    "fields": {
+        "title": "TC=10%, KY=10%, HG=40%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 169,
+    "fields": {
+        "title": "TC=5%, KY=5%, HG=60%, EP=10%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 170,
+    "fields": {
+        "title": "KY=10%, HG=40%, EP=20%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 171,
+    "fields": {
+        "title": "VRBO=15%, KY=10%, HG=30%, EP=15%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 172,
+    "fields": {
+        "title": "KY=20%, HG=40%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 173,
+    "fields": {
+        "title": "TC=10%, LT=10%, KY=10%, HG=30%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 174,
+    "fields": {
+        "title": "VRBO=40%, TC=5%, HG=10%, EP=5%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 175,
+    "fields": {
+        "title": "VRBO=40%, TC=5%, HG=5%, EP=10%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 176,
+    "fields": {
+        "title": "VRBO=57%, HG=15%, EP=13%, BC=15%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 177,
+    "fields": {
+        "title": "LT=10%, KY=10%, HG=30%, EP=10%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 178,
+    "fields": {
+        "title": "LT=10%, KY=10%, HG=10%, EP=10%, BC=60%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 179,
+    "fields": {
+        "title": "TC=10%, LT=10%, HG=30%, EP=10%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 180,
+    "fields": {
+        "title": "TC=5%, LT=10%, KY=5%, HG=30%, EP=10%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 181,
+    "fields": {
+        "title": "TC=5%, LT=10%, KY=5%, HG=10%, EP=10%, BC=60%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 182,
+    "fields": {
+        "title": "VRBO=20%, TC=5%, LT=10%, KY=5%, HG=20%, EP=10%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 183,
+    "fields": {
+        "title": "LT=10%, KY=10%, HG=40%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 184,
+    "fields": {
+        "title": "LT=10%, KY=10%, HG=40%, EP=10%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 185,
+    "fields": {
+        "title": "TC=10%, TA=10%, KY=10%, BC=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 186,
+    "fields": {
+        "title": "TC=15%, KY=15%, BC=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 187,
+    "fields": {
+        "title": "VRBO=10%, TC=10%, KY=10%, BC=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 188,
+    "fields": {
+        "title": "VRBO=5%, TC=10%, KY=10%, HG=5%, BC=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 189,
+    "fields": {
+        "title": "TC=5%, LT=15%, HG=30%, EP=10%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 190,
+    "fields": {
+        "title": "VRBO=20%, TC=5%, LT=15%, HG=20%, EP=10%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 191,
+    "fields": {
+        "title": "LT=15%, KY=5%, HG=30%, BC=50%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 192,
+    "fields": {
+        "title": "TC=30%, BC=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 193,
+    "fields": {
+        "title": "TC=10%, HG=30%, BC=60%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 194,
+    "fields": {
+        "title": "VRBO=20%, TC=5%, KY=20%, HG=10%, EP=5%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 195,
+    "fields": {
+        "title": "TC=5%, LT=15%, KY=20%, HG=30%, EP=10%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 196,
+    "fields": {
+        "title": "VRBO=30%, TC=10%, HG=20%, EP=20%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 197,
+    "fields": {
+        "title": "VRBO=20%, LT=10%, KY=10%, HG=20%, EP=10%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 198,
+    "fields": {
+        "title": "VRBO=20%, TC=5%, LT=15%, KY=20%, HG=10%, EP=10%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 199,
+    "fields": {
+        "title": "VRBO=30%, LT=10%, KY=10%, HG=10%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 200,
+    "fields": {
+        "title": "VRBO=30%, LT=10%, HG=20%, EP=20%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 201,
+    "fields": {
+        "title": "VRBO=70%, HG=10%, EP=10%, BC=10%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 202,
+    "fields": {
+        "title": "VRBO=30%, TC=10%, KY=10%, HG=10%, EP=10%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 203,
+    "fields": {
+        "title": "VRBO=30%, TC=5%, KY=5%, HG=10%, EP=10%, BC=40%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 204,
+    "fields": {
+        "title": "TC=5%, LT=5%, KY=5%, HP=10%, HG=10%, EP=5%, BC=60%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 205,
+    "fields": {
+        "title": "VRBO=20%, TC=5%, LT=10%, KY=15%, HP=10%, HG=10%, EP=10%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 206,
+    "fields": {
+        "title": "VRBO=60%, HP=10%, HG=10%, EP=10%, BC=10%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 207,
+    "fields": {
+        "title": "KY=10%, HP=10%, HG=40%, EP=10%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 208,
+    "fields": {
+        "title": "KY=5%, HP=10%, HG=40%, EP=15%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 209,
+    "fields": {
+        "title": "KY=10%, HP=10%, HG=10%, BC=70%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 210,
+    "fields": {
+        "title": "VRBO=30%, LT=10%, KY=10%, HP=10%, HG=10%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 211,
+    "fields": {
+        "title": "VRBO=30%, KY=10%, HP=10%, HG=20%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 212,
+    "fields": {
+        "title": "VRBO=10%, TC=5%, KY=5%, HP=10%, HG=50%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 213,
+    "fields": {
+        "title": "VRBO=25%, TC=5%, LT=10%, KY=5%, HG=10%, EP=20%, BC=25%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 214,
+    "fields": {
+        "title": "VRBO=30%, TC=5%, LT=5%, KY=5%, HP=5%, EP=20%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 215,
+    "fields": {
+        "title": "VRBO=20%, TC=5%, LT=20%, KY=15%, HG=10%, EP=10%, BC=20%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 216,
+    "fields": {
+        "title": "VRBO=30%, KY=10%, HP=10%, HG=10%, EP=10%, BC=30%",
+        "ratio_location": null
+    }
+},
+{
+    "model": "sts.ratioset",
+    "pk": 217,
+    "fields": {
+        "title": "VRBO=30%, BC=60%, AB=10%",
+        "ratio_location": null
+    }
+}
+]

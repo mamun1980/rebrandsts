@@ -1,0 +1,116 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+Table Partner  {
+  id integer [primary key]
+  name varchar
+  key varchar
+  domain_name varchar
+  date date
+  sort_order integer
+  created_at date
+  updated_at date
+}
+
+Table Provider {
+  provider_id varchar
+  name varchar
+  created_at date
+  updated_at date
+}
+
+Table PartnerProvider {
+  partner integer [ref: > Partner.id]
+  provider integer [ref: > Provider.provider_id]
+}
+
+Table Brand {
+  id integer [primary key]
+  name varchar
+  alias varchar
+  key varchar
+  date date
+  sort_order integer
+  created_at date
+  updated_at date
+  partners integer [ref: <> Partner.id]
+
+
+}
+
+Table BrandsPartners {
+  brand integer [ref: > Brand.id]
+  partner integer [ref: > Partner.id]
+}
+
+Table BrandsProviders {
+  brand integer [ref: > Brand.id]
+  provider integer [ref: > Provider.provider_id ]
+}
+
+Table Location {
+  id integer
+  country_code varchar
+  country varchar
+}
+
+Table PropertyGroup {
+  id integer
+  name varchar
+  created_at date
+  updated_at date
+}
+
+Table PropertyCategory {
+  id integer
+  name varchar
+  group integer [ref: > PropertyGroup.id]
+}
+
+Table PropertyType {
+  id integer
+  name varchar
+  brand integer [ref: > Brand.id]
+  created_at date
+  updated_at date
+}
+
+Table PartnerPropertyType {
+  id integer
+  name varchar
+  partner integer [ref: > Partner.id]
+  created_at date
+  updated_at date
+}
+
+Table PartnerPropertyMapping {
+  property_type integer [ref: > PropertyType.id]
+  partner_property integer [ref: > PartnerPropertyType.id]
+}
+
+Table Device {
+  id integer
+  type varchar
+  sort_order integer
+  created_at date
+  updated_at date
+}
+
+Table BrandLocationPartnerProperty {
+  id integer
+  brand integer [ref: > Brand.id]
+  location integer [ref: > Location.id]
+  partner integer [ref: > Partner.id]
+  property_group integer [ref: > PropertyGroup.id]
+  device integer [ref: > Device.id]
+  providers integer [ref: <> Provider.provider_id]
+}
+
+Table BrandLocationPartnerPropertyProvider {
+  loc integer [ref: > BrandLocationPartnerProperty.id]
+  provider integer [ref: > Provider.provider_id]
+  order integer
+  status integer
+  created_at date
+  updated_at date
+}

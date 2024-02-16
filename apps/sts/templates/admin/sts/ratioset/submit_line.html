@@ -1,0 +1,11 @@
+{% extends "admin/submit_line.html" %}
+
+
+{% block extra-actions %}
+{% if original.pk %}
+<div class="form-group">
+    <a href="{% url 'admin:ratio_title_update' object_id=original.pk %}" class="btn btn-outline-info form-control">Update Brand Locations Ratio Title</a>
+</div>
+{% endif %}
+{% endblock %}
+

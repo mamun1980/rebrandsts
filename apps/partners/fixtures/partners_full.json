@@ -1,0 +1,429 @@
+[
+{
+    "model": "partners.partner",
+    "pk": 1,
+    "fields": {
+        "name": "Booking.com",
+        "key": "BC",
+        "domain_name": "booking.com",
+        "date": "2019-04-18T15:12:42Z",
+        "feed": 11,
+        "sort_order": 1,
+        "created_at": "2023-08-04T06:38:33.332Z",
+        "updated_at": "2023-08-04T09:55:29.366Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 2,
+    "fields": {
+        "name": "HomeAway",
+        "key": "HA",
+        "domain_name": "homeaway.com",
+        "date": "2019-04-18T15:13:11Z",
+        "feed": 12,
+        "sort_order": 4,
+        "created_at": "2023-08-04T06:38:33.335Z",
+        "updated_at": "2023-08-04T09:56:45.419Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 3,
+    "fields": {
+        "name": "Vrbo",
+        "key": "VRBO",
+        "domain_name": "vrbo.com",
+        "date": "2019-04-18T15:13:38Z",
+        "feed": 12,
+        "sort_order": 2,
+        "created_at": "2023-08-04T06:38:33.337Z",
+        "updated_at": "2023-08-04T09:56:32.740Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 4,
+    "fields": {
+        "name": "Airbnb",
+        "key": "AB",
+        "domain_name": "airbnb.com",
+        "date": "2019-04-18T15:14:03Z",
+        "feed": 16,
+        "sort_order": 3,
+        "created_at": "2023-08-04T06:38:33.339Z",
+        "updated_at": "2023-08-04T09:56:19.115Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 6,
+    "fields": {
+        "name": "Homelidays",
+        "key": "HL",
+        "domain_name": "homelidays.com",
+        "date": null,
+        "feed": null,
+        "sort_order": 7,
+        "created_at": "2023-08-04T06:38:33.340Z",
+        "updated_at": "2023-08-04T06:38:33.340Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 7,
+    "fields": {
+        "name": "Abritel",
+        "key": "AT",
+        "domain_name": "abritel.fr",
+        "date": null,
+        "feed": null,
+        "sort_order": 6,
+        "created_at": "2023-08-04T06:38:33.343Z",
+        "updated_at": "2023-08-04T06:38:33.343Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 8,
+    "fields": {
+        "name": "FeWo-direkt",
+        "key": "FW",
+        "domain_name": "fewo-direkt.de",
+        "date": null,
+        "feed": null,
+        "sort_order": 8,
+        "created_at": "2023-08-04T06:38:33.344Z",
+        "updated_at": "2023-08-04T06:38:33.344Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 9,
+    "fields": {
+        "name": "HomeAway UK",
+        "key": "HAUK",
+        "domain_name": "homeaway.co.uk",
+        "date": null,
+        "feed": 12,
+        "sort_order": 9,
+        "created_at": "2023-08-04T06:38:33.345Z",
+        "updated_at": "2023-08-04T09:56:50.796Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 10,
+    "fields": {
+        "name": "HomeAway AU",
+        "key": "HAAU",
+        "domain_name": "homeaway.co.au",
+        "date": null,
+        "feed": 12,
+        "sort_order": 10,
+        "created_at": "2023-08-04T06:38:33.350Z",
+        "updated_at": "2023-08-04T09:56:55.656Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 11,
+    "fields": {
+        "name": "HomeAway ES",
+        "key": "HAES",
+        "domain_name": "homeaway.es",
+        "date": null,
+        "feed": 12,
+        "sort_order": 11,
+        "created_at": "2023-08-04T06:38:33.352Z",
+        "updated_at": "2023-08-04T09:57:00.336Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 12,
+    "fields": {
+        "name": "TripAdvisor",
+        "key": "TA",
+        "domain_name": "tripadvisor.com",
+        "date": null,
+        "feed": 19,
+        "sort_order": 13,
+        "created_at": "2023-08-04T06:38:33.352Z",
+        "updated_at": "2023-08-04T09:57:51.668Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 13,
+    "fields": {
+        "name": "HomeToGo",
+        "key": "HG",
+        "domain_name": "hometogo.com",
+        "date": null,
+        "feed": 22,
+        "sort_order": 12,
+        "created_at": "2023-08-04T06:38:33.354Z",
+        "updated_at": "2023-08-04T09:55:42.163Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 14,
+    "fields": {
+        "name": "Kayak",
+        "key": "KY",
+        "domain_name": "kayak.com",
+        "date": null,
+        "feed": 23,
+        "sort_order": 14,
+        "created_at": "2023-08-04T06:38:33.355Z",
+        "updated_at": "2023-08-04T09:56:06.821Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 15,
+    "fields": {
+        "name": "Trip.com",
+        "key": "TC",
+        "domain_name": "trip.com",
+        "date": null,
+        "feed": 20,
+        "sort_order": 15,
+        "created_at": "2023-08-04T06:38:33.356Z",
+        "updated_at": "2023-08-04T09:57:11.872Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 16,
+    "fields": {
+        "name": "Expedia",
+        "key": "EP",
+        "domain_name": "expedia.com",
+        "date": null,
+        "feed": 24,
+        "sort_order": 16,
+        "created_at": "2023-08-04T06:38:33.357Z",
+        "updated_at": "2023-08-04T09:57:25.518Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 17,
+    "fields": {
+        "name": "LeaveTown",
+        "key": "LT",
+        "domain_name": "book.rentbyowner.com",
+        "date": null,
+        "feed": 25,
+        "sort_order": 17,
+        "created_at": "2023-08-04T06:38:33.358Z",
+        "updated_at": "2023-08-04T09:57:37.935Z"
+    }
+},
+{
+    "model": "partners.partner",
+    "pk": 18,
+    "fields": {
+        "name": "HotelPlanner",
+        "key": "HP",
+        "domain_name": "hotelplanner.com",
+        "date": null,
+        "feed": 26,
+        "sort_order": 18,
+        "created_at": "2023-08-04T06:38:33.359Z",
+        "updated_at": "2023-08-04T09:55:52.900Z"
+    }
+},
+{
+    "model": "partners.provider",
+    "pk": 1,
+    "fields": {
+        "provider_id": "TRAVELOCITYHOTELCOMMISSION",
+        "name": "Travelocity",
+        "created_at": "2023-08-04T06:38:36.667Z",
+        "updated_at": "2023-08-04T06:38:36.667Z"
+    }
+},
+{
+    "model": "partners.provider",
+    "pk": 2,
+    "fields": {
+        "provider_id": "HOTELSDOTCOMAFFILIATE",
+        "name": "Hotels.com",
+        "created_at": "2023-08-04T06:38:36.695Z",
+        "updated_at": "2023-08-04T06:38:36.695Z"
+    }
+},
+{
+    "model": "partners.provider",
+    "pk": 3,
+    "fields": {
+        "provider_id": "ORBITZHOTELCOMMISSION",
+        "name": "Orbitz",
+        "created_at": "2023-08-04T06:38:36.702Z",
+        "updated_at": "2023-08-04T06:38:36.702Z"
+    }
+},
+{
+    "model": "partners.provider",
+    "pk": 4,
+    "fields": {
+        "provider_id": "CHEAPTICKETSHOTELCOMMISSION",
+        "name": "CheapTickets",
+        "created_at": "2023-08-04T06:38:36.709Z",
+        "updated_at": "2023-08-04T06:38:36.709Z"
+    }
+},
+{
+    "model": "partners.provider",
+    "pk": 5,
+    "fields": {
+        "provider_id": "VRBOAFFILIATE",
+        "name": "Vrbo",
+        "created_at": "2023-08-04T06:38:36.716Z",
+        "updated_at": "2023-08-04T06:38:36.716Z"
+    }
+},
+{
+    "model": "partners.provider",
+    "pk": 6,
+    "fields": {
+        "provider_id": "HOTWIRERETAILHOTEL",
+        "name": "Hotwire",
+        "created_at": "2023-08-04T06:38:36.723Z",
+        "updated_at": "2023-08-04T06:38:36.723Z"
+    }
+},
+{
+    "model": "partners.provider",
+    "pk": 7,
+    "fields": {
+        "provider_id": "BOOKINGDOTCOMAFFILIATE",
+        "name": "Booking.com",
+        "created_at": "2023-08-04T06:38:36.731Z",
+        "updated_at": "2023-08-04T06:38:36.731Z"
+    }
+},
+{
+    "model": "partners.provider",
+    "pk": 8,
+    "fields": {
+        "provider_id": "AGD",
+        "name": "Agoda.com",
+        "created_at": "2023-08-04T06:38:36.738Z",
+        "updated_at": "2023-08-04T06:38:36.738Z"
+    }
+},
+{
+    "model": "partners.provider",
+    "pk": 9,
+    "fields": {
+        "provider_id": "GAR",
+        "name": "Getaroom",
+        "created_at": "2023-08-04T06:38:36.745Z",
+        "updated_at": "2023-08-04T06:38:36.745Z"
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 1,
+    "fields": {
+        "partner": 14,
+        "provider": 1,
+        "order": 1,
+        "date": "2022-01-26T04:00:44Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 2,
+    "fields": {
+        "partner": 14,
+        "provider": 2,
+        "order": 2,
+        "date": "2022-01-26T04:01:09Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 3,
+    "fields": {
+        "partner": 14,
+        "provider": 3,
+        "order": 3,
+        "date": "2022-01-26T04:02:20Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 4,
+    "fields": {
+        "partner": 14,
+        "provider": 4,
+        "order": 4,
+        "date": "2022-01-26T04:02:34Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 5,
+    "fields": {
+        "partner": 14,
+        "provider": 5,
+        "order": 5,
+        "date": "2022-01-26T04:03:04Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 6,
+    "fields": {
+        "partner": 14,
+        "provider": 6,
+        "order": 6,
+        "date": "2022-01-26T04:03:31Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 7,
+    "fields": {
+        "partner": 14,
+        "provider": 7,
+        "order": 7,
+        "date": "2022-01-26T04:04:06Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 8,
+    "fields": {
+        "partner": 14,
+        "provider": 8,
+        "order": 8,
+        "date": "2022-01-26T04:06:21Z",
+        "is_active": true
+    }
+},
+{
+    "model": "partners.partnerprovider",
+    "pk": 9,
+    "fields": {
+        "partner": 14,
+        "provider": 9,
+        "order": 9,
+        "date": "2022-01-26T04:06:38Z",
+        "is_active": true
+    }
+}
+]

@@ -1,0 +1,103 @@
+{% extends "admin/base_site.html" %}
+
+{% block extrastyle %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+<style>
+    select {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+</style>
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+    <h3>Following properties will be cloned!</h3>
+    <hr>
+    <div class="row">
+
+        <div class="col-12 ">
+            <table class="table table-borderless">
+                <thead>
+                    <tr class="table-dark">
+                        <th scope="col" class="text-white">Brand Name</th>
+                        <th scope="col" class="text-white">Location</th>
+                        <th scope="col" class="text-white">Search Location</th>
+                        <th scope="col" class="text-white">Device</th>
+                        <th scope="col" class="text-white">Property Group</th>
+                        <th scope="col" class="text-white">Ratio Set</th>
+                        <th scope="col" class="text-white">Created By</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ obj.brand.name }}</td>
+                        <td>{{ obj.location.country }}</td>
+                        <td>{{ obj.search_location.search_location }}</td>
+                        <td>{{ obj.device.type }}</td>
+                        <td>{{ obj.property_group.name }}</td>
+                        <td>{{ obj.ratio_set_short_title }}</td>
+                        <td>{{ obj.created_by.username }}</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <h3>Choose your sites to clone</h3>
+    <hr>
+        <form method="post" action="{{request.path}}" class="row mt-5 offset-1">
+            {% csrf_token %}
+            <input type="hidden" name="object_id" value="{{obj.id}}">
+                <div class="col-9">
+
+                    <ul class="list-unstyled card-columns" style="column-count: 3;">
+                        <div class="form-check">
+                            <input class="form-check-input" name="all_brands" type="checkbox" value="True" id="select_all_brands">
+                            <label class="form-check-label" for="select_all_brands">
+                                <b>Select All Brands</b>
+                            </label>
+                        </div>
+                        {% for brand in brands %}
+
+                                <div class="form-check">
+                                    <input name="brands" type="checkbox" value="{{ brand.id }}">
+                                    <label class="form-check-label">
+                                        {{ brand.name }}
+                                    </label>
+                                </div>
+
+                        {% endfor %}
+
+                    </ul>
+
+                </div>
+            <div class="col-2 mt-5 offset-2">
+                <button class="btn btn-success">Clone</button>
+            </div>
+            <div class="col-2 mt-5">
+                    <a type="button" class="btn btn-danger text-white" href="/sts/brandlocationdefinedsetsratio/">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#select_all_brands').click(function() {
+            checked = $("input[type=checkbox][name='all_brands']").prop('checked')
+
+            if(checked){
+                el = $("input[type=checkbox][name='brands']").prop('checked', true);
+            } else {
+                el = $("input[type=checkbox][name='brands']").prop('checked', false);
+            }
+
+        });
+    });
+</script>
+{% endblock content %}

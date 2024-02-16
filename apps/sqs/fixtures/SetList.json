@@ -1,0 +1,242 @@
+[
+{
+    "model": "sqs.setlist",
+    "pk": 1,
+    "fields": {
+        "name": "featured and default  sort",
+        "description": "this is only featured and random sorting",
+        "solr_fields": "[{\"key\":\"sort\",\"value\":\"featured desc, direct desc, feed_provider_quality_score desc, rating desc\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:52.496Z",
+        "updated_at": "2023-07-27T08:34:52.496Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 2,
+    "fields": {
+        "name": "boost feed",
+        "description": "Here we boost feed 11",
+        "solr_fields": "[{\"key\":\"edismax\",\"value\":\"true\"},{\"key\":\"bq\",\"value\":\"feed:11^29\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.715Z",
+        "updated_at": "2023-07-27T08:34:53.715Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 4,
+    "fields": {
+        "name": "florence",
+        "description": "Search for Florence should show LR first",
+        "solr_fields": "[{\"key\":\"edismax\",\"value\":\"true\"},{\"key\":\"fq\",\"value\":\"feed:6\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.733Z",
+        "updated_at": "2023-07-27T08:34:53.733Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 5,
+    "fields": {
+        "name": "halifax",
+        "description": "Testing search results for Halifax",
+        "solr_fields": "[{\"key\":\"edismax\",\"value\":\"true\"},{\"key\":\"fq\",\"value\":\"feed:11\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.735Z",
+        "updated_at": "2023-07-27T08:34:53.735Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 6,
+    "fields": {
+        "name": "whistler",
+        "description": "Boosting LR feed 6",
+        "solr_fields": "[{\"key\":\"edismax\",\"value\":\"true\"},{\"key\":\"fq\",\"value\":\"feed:6^30\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.737Z",
+        "updated_at": "2023-07-27T08:34:53.737Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 7,
+    "fields": {
+        "name": "vancouver",
+        "description": "testing again",
+        "solr_fields": "[{\"key\":\"edismax\",\"value\":\"true\"},{\"key\":\"fq\",\"value\":\"feed:11^30\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.739Z",
+        "updated_at": "2023-07-27T08:34:53.739Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 8,
+    "fields": {
+        "name": "blank",
+        "description": "This is a test blank",
+        "solr_fields": "[{\"key\":\"\",\"value\":\"\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.741Z",
+        "updated_at": "2023-07-27T08:34:53.741Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 9,
+    "fields": {
+        "name": "pm",
+        "description": "this is just for property management system",
+        "solr_fields": "[{\"key\":\"fq\",\"value\":\"feed:50\"},{\"key\":\"published\",\"value\":\"1\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.743Z",
+        "updated_at": "2023-07-27T08:34:53.743Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 10,
+    "fields": {
+        "name": "only ha feed",
+        "description": "Show Only HA feed",
+        "solr_fields": "[{\"key\":\"fq\",\"value\":\"feed:12\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.745Z",
+        "updated_at": "2023-07-27T08:34:53.745Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 11,
+    "fields": {
+        "name": "bed-and-breakfast",
+        "description": "For Stays.io Inns and B&B set setup as mentioned in VRS-1559",
+        "solr_fields": "[{\"key\":\"fq\",\"value\":\"property_type_categories:(\\\"bed & breakfast\\\")\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.747Z",
+        "updated_at": "2023-07-27T08:34:53.747Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 12,
+    "fields": {
+        "name": "only_booking_feed",
+        "description": "show only booking.com results",
+        "solr_fields": "[{\"key\":\"fq\",\"value\":\"feed:11\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.749Z",
+        "updated_at": "2023-07-27T08:34:53.749Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 13,
+    "fields": {
+        "name": "luxury",
+        "description": "For Stays.io luxury tab",
+        "solr_fields": "[{\"key\":\"q\",\"value\":\"(\\\"luxury\\\" OR  \\\"luxuries\\\" OR  \\\"elegance\\\" OR \\\"grandeur\\\" OR \\\"splendor\\\"  OR \\\"villa\\\" OR \\\"suite\\\")\"},{\"key\":\"sort\",\"value\":\"direct desc, feed_provider_quality_score desc, currency(night_rate_min,USD) desc,rating desc\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.751Z",
+        "updated_at": "2023-07-27T08:34:53.751Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 14,
+    "fields": {
+        "name": "default sorting",
+        "description": "This is the default sorting that can be applied, as we have imported the ranking data",
+        "solr_fields": "[{\"key\":\"sort\",\"value\":\"direct desc, feed_provider_quality_score desc, rating desc\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.752Z",
+        "updated_at": "2023-07-27T08:34:53.752Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 15,
+    "fields": {
+        "name": "featured and random",
+        "description": "sort featured property on descending order along with random",
+        "solr_fields": "[{\"key\":\"sort\",\"value\":\"featured desc, random_123456 desc\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.754Z",
+        "updated_at": "2023-07-27T08:34:53.754Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 16,
+    "fields": {
+        "name": "mobile",
+        "description": "Set for Mobile Traffic",
+        "solr_fields": "[{\"key\":\"defType\",\"value\":\"edismax\"},{\"key\":\"bq\",\"value\":\"featured:1^100 feed:11^50\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.756Z",
+        "updated_at": "2023-07-27T08:34:53.756Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 17,
+    "fields": {
+        "name": "random",
+        "description": "random ordering",
+        "solr_fields": "[{\"key\":\"sort\",\"value\":\"random_20160725 desc\"}]",
+        "default": 1,
+        "created_at": "2023-07-27T08:34:53.758Z",
+        "updated_at": "2023-07-27T08:34:53.758Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 18,
+    "fields": {
+        "name": "pets allowed",
+        "description": "pets allowed",
+        "solr_fields": "[{\"key\":\"fq\",\"value\":\"amenity_categories:\\\"pet friendly\\\"\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.759Z",
+        "updated_at": "2023-07-27T08:34:53.760Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 19,
+    "fields": {
+        "name": "bed-and-breakfast-2",
+        "description": "For Stays.io Inns and B&B set setup as mentioned in VRS-1559",
+        "solr_fields": "[{\"key\":\"fq\",\"value\":\"property_type_categories:(\\\"bed & breakfast\\\")\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.761Z",
+        "updated_at": "2023-07-27T08:34:53.761Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 22,
+    "fields": {
+        "name": "eco-friendly",
+        "description": "df",
+        "solr_fields": "[{\"key\":\"q\",\"value\":\"(\\\"Eco-Lodge\\\" OR \\\"Eco-House\\\" OR \\\"Eco-Villa\\\" OR \\\"Eco-Homestay\\\" OR \\\"Renewable\\\" OR \\\"Sustainable\\\" OR \\\"Earth-Friendly\\\" OR \\\"Solar\\\" OR \\\"Organic\\\")\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.763Z",
+        "updated_at": "2023-07-27T08:34:53.763Z"
+    }
+},
+{
+    "model": "sqs.setlist",
+    "pk": 23,
+    "fields": {
+        "name": "default_geo_sort",
+        "description": "default_geo_sort",
+        "solr_fields": "[{\"key\":\"sort\",\"value\":\"{!func}ceil(geodist()) asc , direct desc, feed_provider_quality_score desc, rating desc\"}]",
+        "default": 0,
+        "created_at": "2023-07-27T08:34:53.765Z",
+        "updated_at": "2023-07-27T08:34:53.765Z"
+    }
+}
+]

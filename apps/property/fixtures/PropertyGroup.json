@@ -1,0 +1,155 @@
+[
+{
+    "model": "property.propertygroup",
+    "pk": 1,
+    "fields": {
+        "name": "Default",
+        "create_date": "2023-08-04T06:44:15.447Z",
+        "update_date": "2023-08-04T06:44:15.447Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 2,
+    "fields": {
+        "name": "Hotels",
+        "create_date": "2023-08-04T06:44:15.450Z",
+        "update_date": "2023-08-04T06:44:15.450Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 3,
+    "fields": {
+        "name": "Rentals",
+        "create_date": "2023-08-04T06:44:15.451Z",
+        "update_date": "2023-08-04T06:44:15.451Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 5,
+    "fields": {
+        "name": "Today",
+        "create_date": "2023-08-04T06:44:15.452Z",
+        "update_date": "2023-08-04T06:44:15.452Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 7,
+    "fields": {
+        "name": "Hybrid-Airbnb",
+        "create_date": "2023-08-04T06:44:15.453Z",
+        "update_date": "2023-08-04T06:44:15.453Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 8,
+    "fields": {
+        "name": "Hybrid-HomeAway",
+        "create_date": "2023-08-04T06:44:15.454Z",
+        "update_date": "2023-08-04T06:44:15.454Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 9,
+    "fields": {
+        "name": "Hybrid-Vrbo",
+        "create_date": "2023-08-04T06:44:15.454Z",
+        "update_date": "2023-08-04T06:44:15.454Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 10,
+    "fields": {
+        "name": "Hybrid-Booking",
+        "create_date": "2023-08-04T06:44:15.455Z",
+        "update_date": "2023-08-04T06:44:15.455Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 11,
+    "fields": {
+        "name": "Placeholders",
+        "create_date": "2023-08-04T06:44:15.456Z",
+        "update_date": "2023-08-04T06:44:15.456Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 12,
+    "fields": {
+        "name": "Hybrid-TripAdvisor",
+        "create_date": "2023-08-04T06:44:15.457Z",
+        "update_date": "2023-08-04T06:44:15.457Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 13,
+    "fields": {
+        "name": "Ods-Rentals",
+        "create_date": "2023-08-04T06:44:15.458Z",
+        "update_date": "2023-08-04T06:44:15.458Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 14,
+    "fields": {
+        "name": "Ods-Hotels",
+        "create_date": "2023-08-04T06:44:15.459Z",
+        "update_date": "2023-08-04T06:44:15.459Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 15,
+    "fields": {
+        "name": "Hybrid-Kayak",
+        "create_date": "2023-08-04T06:44:15.460Z",
+        "update_date": "2023-08-04T06:44:15.460Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 16,
+    "fields": {
+        "name": "Hybrid-Default",
+        "create_date": "2023-08-04T06:44:15.461Z",
+        "update_date": "2023-08-04T06:44:15.461Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 17,
+    "fields": {
+        "name": "Kayak",
+        "create_date": "2023-08-04T06:44:15.462Z",
+        "update_date": "2023-08-04T06:44:15.462Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 18,
+    "fields": {
+        "name": "Luxury",
+        "create_date": "2023-08-04T06:44:15.463Z",
+        "update_date": "2023-08-04T06:44:15.463Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 19,
+    "fields": {
+        "name": "Booking",
+        "create_date": "2023-08-04T06:44:15.464Z",
+        "update_date": "2023-08-04T06:44:15.464Z"
+    }
+}
+]

@@ -1,0 +1,2554 @@
+[
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 621,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 25
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 622,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 1
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 623,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 7
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 624,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 13
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 625,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 64
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 626,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 71
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 627,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 95
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 628,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 102
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 629,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 117
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 630,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 276
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 631,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 137
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 632,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 142
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 633,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 145
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 634,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 155
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 635,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 183
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 636,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 184
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 637,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 298
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 638,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 322
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 639,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 220
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 640,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 221
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 641,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 235
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 642,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 4
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 643,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 69
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 644,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 106
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 645,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 292
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 646,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 143
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 647,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 191
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 648,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 205
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 649,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 259
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 650,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 11
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 651,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 19
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 652,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 75
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 653,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 101
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 654,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 112
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 655,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 153
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 656,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 147
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 657,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 206
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 658,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 201
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 659,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 300
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 660,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 238
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 661,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 230
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 662,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 249
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 663,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 18
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 664,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 72
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 665,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 119
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 666,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 279
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 667,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 271
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 668,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 296
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 669,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 294
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 670,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 195
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 671,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 232
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 672,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 17
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 673,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 46
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 674,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 60
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 675,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 14
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 676,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 59
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 677,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 182
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 678,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 88
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 679,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 66
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 680,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 86
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 681,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 77
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 682,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 74
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 683,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 85
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 684,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 84
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 685,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 104
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 686,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 114
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 687,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 282
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 688,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 281
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 689,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 267
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 690,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 269
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 691,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 291
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 692,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 295
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 693,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 186
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 694,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 185
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 695,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 194
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 696,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 211
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 697,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 216
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 698,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 264
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 699,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 242
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 700,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 253
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 701,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 224
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 702,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 262
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 703,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 261
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 704,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 2
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 705,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 28
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 706,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 37
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 707,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 6
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 708,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 10
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 709,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 34
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 710,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 20
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 711,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 41
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 712,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 9
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 713,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 12
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 714,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 38
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 715,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 24
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 716,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 55
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 717,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 49
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 718,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 31
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 719,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 42
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 720,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 48
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 721,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 67
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 722,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 76
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 723,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 87
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 724,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 70
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 725,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 65
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 726,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 92
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 727,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 107
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 728,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 111
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 729,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 116
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 730,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 109
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 731,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 118
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 732,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 131
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 733,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 96
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 734,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 122
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 735,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 115
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 736,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 110
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 737,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 125
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 738,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 130
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 739,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 100
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 740,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 105
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 741,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 190
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 742,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 280
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 743,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 273
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 744,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 275
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 745,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 284
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 746,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 274
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 747,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 283
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 748,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 293
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 749,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 138
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 750,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 160
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 751,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 146
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 752,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 162
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 753,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 144
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 754,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 171
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 755,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 150
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 756,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 161
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 757,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 152
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 758,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 177
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 759,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 169
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 760,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 151
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 761,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 193
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 762,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 215
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 763,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 214
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 764,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 212
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 765,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 217
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 766,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 204
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 767,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 213
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 768,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 208
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 769,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 198
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 770,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 312
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 771,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 316
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 772,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 222
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 773,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 251
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 774,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 248
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 775,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 247
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 776,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 244
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 777,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 233
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 778,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 258
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 779,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 240
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 780,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 236
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 781,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 223
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 782,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 260
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 783,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 22
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 784,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 89
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 785,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 73
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 786,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 108
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 787,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 268
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 788,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 277
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 789,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 289
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 790,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 270
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 791,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 170
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 792,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 187
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 793,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 254
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 794,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 225
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 795,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 5
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 796,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 68
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 797,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 97
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 798,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 149
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 799,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 139
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 800,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 203
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 801,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 241
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 802,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 21
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 803,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 52
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 804,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 56
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 805,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 39
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 806,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 51
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 807,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 27
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 808,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 23
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 809,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 30
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 810,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 32
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 811,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 45
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 812,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 33
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 813,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 43
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 814,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 35
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 815,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 15
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 816,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 26
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 817,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 54
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 818,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 47
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 819,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 53
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 820,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 62
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 821,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 57
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 822,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 36
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 823,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 44
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 824,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 81
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 825,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 79
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 826,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 80
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 827,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 90
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 828,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 82
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 829,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 113
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 830,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 123
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 831,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 132
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 832,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 134
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 833,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 121
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 834,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 120
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 835,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 266
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 836,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 287
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 837,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 286
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 838,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 272
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 839,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 285
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 840,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 168
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 841,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 158
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 842,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 179
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 843,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 176
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 844,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 173
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 845,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 174
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 846,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 172
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 847,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 164
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 848,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 165
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 849,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 154
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 850,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 180
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 851,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 163
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 852,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 148
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 853,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 159
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 854,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 157
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 855,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 178
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 856,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 181
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 857,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 175
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 858,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 156
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 859,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 166
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 860,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 167
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 861,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 207
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 862,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 197
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 863,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 196
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 864,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 199
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 865,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 209
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 866,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 265
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 867,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 297
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 868,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 299
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 869,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 320
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 870,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 321
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 871,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 324
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 872,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 325
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 873,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 319
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 874,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 317
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 875,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 315
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 876,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 314
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 877,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 311
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 878,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 310
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 879,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 309
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 880,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 306
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 881,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 305
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 882,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 302
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 883,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 301
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 884,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 231
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 885,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 226
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 886,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 255
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 887,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 252
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 888,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 246
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 889,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 234
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 890,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 257
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 891,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 229
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 892,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 256
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 893,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 245
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 894,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 3
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 895,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 94
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 896,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 98
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 897,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 141
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 898,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 307
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 899,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 239
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 900,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 8
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 901,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 93
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 902,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 99
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 903,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 140
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 904,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 202
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 905,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 237
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 906,
+    "fields": {
+        "property_type": 13,
+        "partner_property": 16
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 907,
+    "fields": {
+        "property_type": 13,
+        "partner_property": 78
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 908,
+    "fields": {
+        "property_type": 13,
+        "partner_property": 103
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 909,
+    "fields": {
+        "property_type": 13,
+        "partner_property": 200
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 910,
+    "fields": {
+        "property_type": 13,
+        "partner_property": 243
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 911,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 40
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 912,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 29
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 913,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 83
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 914,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 91
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 915,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 188
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 916,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 189
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 917,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 129
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 918,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 124
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 919,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 128
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 920,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 288
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 921,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 210
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 922,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 313
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 923,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 308
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 924,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 227
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 925,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 63
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 926,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 50
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 927,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 61
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 928,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 127
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 929,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 133
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 930,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 126
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 931,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 278
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 932,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 290
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 933,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 303
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 934,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 304
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 935,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 318
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 936,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 250
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 937,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 228
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 938,
+    "fields": {
+        "property_type": 16,
+        "partner_property": 58
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 939,
+    "fields": {
+        "property_type": 16,
+        "partner_property": 323
+    }
+}
+]

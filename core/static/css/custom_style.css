@@ -1,0 +1,13 @@
+#changelist table thead th:first-child {width: inherit}
+
+.related-widget-wrapper select { 
+    width: 250px !important;
+    font-size: 12px !important;
+}
+
+.paginator .this-page {
+    background-color: #042433;
+    color: white;
+    border-radius: 50%;
+    vertical-align: unset;
+}

@@ -1,0 +1,277 @@
+{% extends "admin/base.html" %}
+{% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block extrastyle %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+<style>
+    select {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    td {
+        color: black;
+        font-size: 14px;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+{% endblock %}
+{% block branding %}
+    <h1 id="site-name"><a href="{% url 'admin:index' %}">{{ site_header|default:_('Django administration') }}</a></h1>
+    {% if user.is_anonymous %}
+        {% include "admin/color_theme_toggle.html" %}
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <h2>Prediction Dashboard!</h2>
+    <div class="row mb-3 mt-5">
+        <div class="col-12 mb-3">
+            Site Key: <span class="badge bg-info text-dark">{{site_key}} ({{site_name}})</span>
+            Country Code: <span class="badge bg-info text-dark">{{country_code}} ({{country_name}})</span>
+            Device: <span class="badge bg-info text-dark">{{device}}</span>
+        </div>
+        <div class="col-12 ">
+            <table class="table shadow">
+                <thead>
+                    <tr class="bg-primary">
+                        <th scope="col" class="text-white">Date Range</th>
+                        <th scope="col" class="text-white">Previous Ratio</th>
+                        <th scope="col" class="text-white">Predicted Ratio</th>
+                        <th scope="col" class="text-white">Previous Conversion</th>
+                        <th scope="col" class="text-white">Predicted Conversion</th>
+                        <th scope="col" class="text-white">Conversion Increment</th>
+                        <th scope="col" class="text-white">Previous Revenue</th>
+                        <th scope="col" class="text-white">Predicted Revenue</th>
+                        <th scope="col" class="text-white">Revenue Increment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="text-dark">
+                        <td scope="row">
+                            {{report_date}} - {{today}}
+                        </td>
+                        <td>{{ratio_title}}</td>
+                        <td>{{predicted_ratio_title}}</td>
+                        <td>{{conversion}}</td>
+                        <td>{{total_predicted_conversion|default_if_none:"0"|default:"N/A" }}</td>
+                        <td>
+                            {% if conversion_increment > 0 %}
+                                {{ conversion_increment | floatformat:2 }} %
+                            {% else %}
+                                N/A
+                            {% endif %}
+                        </td>
+                        <td>{{revenue | floatformat:2 }}</td>
+                        <td>{{total_predicted_revenue |default:"N/A" }}</td>
+                        <td>
+                            {% if revenue_increment > 0 %}
+                                {{ revenue_increment | floatformat:2  }} %
+                            {% else %}
+                                N/A
+                            {% endif %}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br />
+    <h3>Conversion Details</h3>
+    <div class="row mt-3" style="height: 300px; overflow: scroll; scroll-behavior: auto; scroll-behavior: smooth;">
+        <div class="col-12 ">
+            <table class="table shadow">
+                <thead>
+                    <tr class="bg-primary">
+                        <th scope="col" class="text-white">Date</th>
+                        <th scope="col" class="text-white">Partner</th>
+                        <th scope="col" class="text-white">Ratio</th>
+                        <th scope="col" class="text-white">Predicted Ratio</th>
+                        <th scope="col" class="text-white">Conversion</th>
+                        <th scope="col" class="text-white">Predicted Conversion</th>
+                        <th scope="col" class="text-white">Revenue</th>
+                        <th scope="col" class="text-white">Predicted Revenue</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for data in conversion_details %}
+                    <tr>
+                        <td scope="row">
+                            {{data.date}}
+                        </td>
+                        <td>{{data.partner}}</td>
+                        <td>{{data.ratio}}</td>
+                        <td>{{data.predicted_ratio}}</td>
+                        <td>{{data.conversion}}</td>
+                        <td>{{data.predicted_conversion}}</td>
+                        <td>{{data.revenue | floatformat:2 }}</td>
+                        <td>{{data.predicted_revenue | floatformat:2 }}</td>
+
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row mt-1">
+        <div class="col-5 shadow border-1">
+            <canvas id="ratioChart" height="300"></canvas>
+        </div>
+        <div class="col-5 offset-1 shadow border-1">
+            <canvas id="predictedRatioChart" height="300"></canvas>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        console.log("test..")
+        const ctxRatio = document.getElementById('ratioChart');
+        const ctxPredictedRatio = document.getElementById('predictedRatioChart');
+
+        new Chart(
+          ctxRatio,{
+            type: 'bar',
+            options: {
+              indexAxis: 'y',
+              scales: {
+                x: {
+                  stacked: true
+                },
+                y: {
+                  stacked: true
+                }
+              },
+              plugins: {
+                legend: {
+                  display: true
+                },
+                title: {
+                  display: true,
+                  text: 'Current STS Ratio Set',
+                  color: 'navy',
+                  position: 'top',
+                  align: 'center',
+                  font: {
+                     weight: 'bold',
+                     size: '14px'
+                  },
+                  padding: 8,
+                  fullSize: true,
+               },
+               layout: {
+                    padding: {
+                        left: 5,
+                        right: 5,
+                        top: 5,
+                        bottom: 5
+                    }
+                },
+              },
+            },
+
+            data: {
+              labels: [{{chart_labels | safe }}],
+
+              datasets: [
+              {% for label, data in datasets.items %}
+
+              {
+                label: '{{ label }}',
+                data: {{ data | safe }},
+                backgroundColor: 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' +
+                             Math.floor(Math.random() * 256) + ',1)',
+                hoverBackgroundColor: "rgba(50,90,100,1)",
+
+              },
+              {% endfor %}
+              ]
+            }
+          }
+        );
+
+
+
+        new Chart(
+          ctxPredictedRatio,{
+            type: 'bar',
+            options: {
+              indexAxis: 'y',
+              scales: {
+                x: {
+                  stacked: true
+                },
+                y: {
+                  stacked: true
+                }
+              },
+              plugins: {
+                legend: {
+                  display: true
+                },
+                title: {
+                  display: true,
+                  text: 'Predicted STS Ratio Set',
+                  color: 'navy',
+                  position: 'top',
+                  align: 'center',
+                  font: {
+                     weight: 'bold',
+                     size: '14px'
+                  },
+                  padding: 8,
+                  fullSize: true,
+               },
+               layout: {
+                    padding: {
+                        left: 5,
+                        right: 5,
+                        top: 5,
+                        bottom: 5
+                    }
+                },
+              },
+            },
+
+            data: {
+              labels: [{{chart_labels | safe }}],
+
+              datasets: [
+              {% for label, data in predicted_datasets.items %}
+
+              {
+                label: '{{ label }}',
+                data: {{ data | safe }},
+                backgroundColor: 'rgba(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' +
+                             Math.floor(Math.random() * 256) + ',1)',
+                hoverBackgroundColor: "rgba(50,90,100,1)",
+
+              },
+              {% endfor %}
+              ]
+            }
+          }
+        );
+
+
+    });
+</script>
+
+<script>
+    // change table font color based on mode
+    var storedValue = localStorage.getItem('theme');
+
+    // Check if the value is not null (indicating the key exists in local storage)
+    if (storedValue !== null) {
+        if (storedValue=='light'){
+            $('tbody > tr').removeClass('text-white').addClass('text-dark');
+
+        }else{
+            $('tbody > tr').removeClass('text-dark').addClass('text-white');
+        }
+    }
+</script>
+
+{% endblock content %}

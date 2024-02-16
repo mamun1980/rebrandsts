@@ -1,0 +1,45 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<div class="py-4">
+    <h2 class="mb-0">Partner Details Page</h2>
+</div>
+
+<div class="row">
+    <div class="col-12 col-xl-6">
+        <div class="card bg-light text-dark border-0 shadow mb-4">
+            <h2 class="card-header">{{ object.name }}</h2>
+            <div class="card-body">
+                <p class="card-title">{{ object.key }}</p>
+                <p>{{ object.domain_name }}</p>
+            </div>
+            <div class="card-footer d-flex align-items-center gap-2 justify-content-between">
+                <button type="button" class="btn btn-sm btn-outline-gray-200 d-inline-block align-items-center" onclick="goBack()">
+                    Back
+                </button>
+                {% if perms.partners.change_partner %}
+                <a class="btn btn-sm btn-outline-danger" href="{% url 'partners_update' partner.id %}">
+                    Edit
+                </a>
+                {% endif %}
+                {% if perms.partners.delete_partner %}
+                <a class="btn btn-sm btn-outline-danger" href="{% url 'partners-delete' partner.id %}">
+                    Delete
+                </a>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+
+
+{% endblock content %}

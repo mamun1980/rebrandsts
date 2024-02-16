@@ -1,0 +1,109 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% load i18n %}
+{% load url from simple_history_compat %}
+{% load admin_urls %}
+{% load getattribute from getattributes %}
+
+{% block content %}
+
+<form method='GET' action="{% url 'sts:bulk-actions' %}">
+    {% csrf_token %}
+
+<div class="card border-0 shadow mb-4 mt-3 position-relative blr-page">
+    <div class="activity-buttons">
+        <a href="{% url 'sts:brand-location-ratio-set-detail' object.pk %}" class="btn btn-gray-800 d-inline-flex align-items-center">
+            <svg class="icon icon-xxs me-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+            </svg>
+            View Brand Location Ratio Sets
+        </a>
+    </div>
+    {% if messages %}
+        <div id="message-div">
+            {% for msg in messages %}
+            <div class="alert alert-{{ msg.tags }} p-1 text-center" role="alert">
+                {{ msg }}
+            </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    <div class="card-header d-flex align-items-center justify-content-between py-4">
+        <h4 class="mb-0">Brand Location Ratio Sets history</h4>
+
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-centered table-nowrap mb-0 rounded" id="brandLocationRatioTable">
+                <thead class="thead-light">
+                <tr>
+                    <th class="border-0 pb-3">OBJECT</th>
+                    <th class="border-0 pb-3">RATIO</th>
+                    <th class="border-0 pb-3">CREATED_BY</th>
+                    <th class="border-0 pb-3">DATE/TIME</th>
+                    <th class="border-0 pb-3">COMMENT</th>
+                    <th class="border-0 pb-3">CHANGED BY</th>
+                    <th class="border-0 pb-3">CHANGE REASON</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {% for obj in object.history.all %}
+
+                <tr>
+                    <td>
+                        {{ obj.id }}
+                    </td>
+                    <td>
+                        {{ obj.ratio_set_title }}
+                    </td>
+                    <td>
+                        {% if obj.created_by %}
+                            {% url admin_user_view obj.created_by_id as admin_user_url %}
+                        {% if admin_user_url %}
+                          <a href="{{ admin_user_url }}">{{ obj.created_by }}</a>
+                        {% else %}
+                          {{ obj.created_by }}
+                        {% endif %}
+                        {% else %}
+                            {% trans "None" %}
+                        {% endif %}
+                    </td>
+                    <td>
+                        {{ obj.history_date }}
+                    </td>
+                    <td>
+                        {{ obj.get_history_type_display }}
+                    </td>
+                    <td>
+                        {% if obj.history_user %}
+                        {% url admin_user_view obj.history_user_id as admin_user_url %}
+                        {% if admin_user_url %}
+                          <a href="{{ admin_user_url }}">{{ obj.history_user }}</a>
+                        {% else %}
+                          {{ obj.history_user }}
+                        {% endif %}
+                      {% else %}
+                        {% trans "None" %}
+                      {% endif %}
+                    </td>
+                    <td>
+                        {{ obj.history_change_reason }}
+                    </td>
+                </tr>
+                <!-- End of Item -->
+                {% endfor %}
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+</form>
+{% endblock content %}
+
+{% block javascripts %}
+<script></script>
+{% endblock javascripts %}

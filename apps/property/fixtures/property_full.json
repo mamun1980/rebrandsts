@@ -1,0 +1,6497 @@
+[
+{
+    "model": "property.propertygroup",
+    "pk": 1,
+    "fields": {
+        "name": "Default",
+        "create_date": "2023-08-04T06:44:15.447Z",
+        "update_date": "2023-08-04T06:44:15.447Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 2,
+    "fields": {
+        "name": "Hotels",
+        "create_date": "2023-08-04T06:44:15.450Z",
+        "update_date": "2023-08-04T06:44:15.450Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 3,
+    "fields": {
+        "name": "Rentals",
+        "create_date": "2023-08-04T06:44:15.451Z",
+        "update_date": "2023-08-04T06:44:15.451Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 5,
+    "fields": {
+        "name": "Today",
+        "create_date": "2023-08-04T06:44:15.452Z",
+        "update_date": "2023-08-04T06:44:15.452Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 7,
+    "fields": {
+        "name": "Hybrid-Airbnb",
+        "create_date": "2023-08-04T06:44:15.453Z",
+        "update_date": "2023-08-04T06:44:15.453Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 8,
+    "fields": {
+        "name": "Hybrid-HomeAway",
+        "create_date": "2023-08-04T06:44:15.454Z",
+        "update_date": "2023-08-04T06:44:15.454Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 9,
+    "fields": {
+        "name": "Hybrid-Vrbo",
+        "create_date": "2023-08-04T06:44:15.454Z",
+        "update_date": "2023-08-04T06:44:15.454Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 10,
+    "fields": {
+        "name": "Hybrid-Booking",
+        "create_date": "2023-08-04T06:44:15.455Z",
+        "update_date": "2023-08-04T06:44:15.455Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 11,
+    "fields": {
+        "name": "Placeholders",
+        "create_date": "2023-08-04T06:44:15.456Z",
+        "update_date": "2023-08-04T06:44:15.456Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 12,
+    "fields": {
+        "name": "Hybrid-TripAdvisor",
+        "create_date": "2023-08-04T06:44:15.457Z",
+        "update_date": "2023-08-04T06:44:15.457Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 13,
+    "fields": {
+        "name": "Ods-Rentals",
+        "create_date": "2023-08-04T06:44:15.458Z",
+        "update_date": "2023-08-04T06:44:15.458Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 14,
+    "fields": {
+        "name": "Ods-Hotels",
+        "create_date": "2023-08-04T06:44:15.459Z",
+        "update_date": "2023-08-04T06:44:15.459Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 15,
+    "fields": {
+        "name": "Hybrid-Kayak",
+        "create_date": "2023-08-04T06:44:15.460Z",
+        "update_date": "2023-08-04T06:44:15.460Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 16,
+    "fields": {
+        "name": "Hybrid-Default",
+        "create_date": "2023-08-04T06:44:15.461Z",
+        "update_date": "2023-08-04T06:44:15.461Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 17,
+    "fields": {
+        "name": "Kayak",
+        "create_date": "2023-08-04T06:44:15.462Z",
+        "update_date": "2023-08-04T06:44:15.462Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 18,
+    "fields": {
+        "name": "Luxury",
+        "create_date": "2023-08-04T06:44:15.463Z",
+        "update_date": "2023-08-04T06:44:15.463Z"
+    }
+},
+{
+    "model": "property.propertygroup",
+    "pk": 19,
+    "fields": {
+        "name": "Booking",
+        "create_date": "2023-08-04T06:44:15.464Z",
+        "update_date": "2023-08-04T06:44:15.464Z"
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 1,
+    "fields": {
+        "name": "Apartment",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.253Z",
+        "update_date": "2023-08-04T08:50:46.253Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 2,
+    "fields": {
+        "name": "Bed_Breakfast",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.288Z",
+        "update_date": "2023-08-04T08:50:46.288Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 3,
+    "fields": {
+        "name": "Cabin",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.301Z",
+        "update_date": "2023-08-04T08:50:46.301Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 4,
+    "fields": {
+        "name": "Hostel",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.320Z",
+        "update_date": "2023-08-04T08:50:46.320Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 5,
+    "fields": {
+        "name": "Hotel",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.335Z",
+        "update_date": "2023-08-04T08:50:46.335Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 6,
+    "fields": {
+        "name": "House",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.385Z",
+        "update_date": "2023-08-04T08:50:46.385Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 7,
+    "fields": {
+        "name": "Resort",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.497Z",
+        "update_date": "2023-08-04T08:50:46.497Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 9,
+    "fields": {
+        "name": "Villa",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.515Z",
+        "update_date": "2023-08-04T08:50:46.515Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 10,
+    "fields": {
+        "name": "Other",
+        "brand": null,
+        "brand_type": "rentals",
+        "create_date": "2023-08-04T08:50:46.527Z",
+        "update_date": "2023-08-04T08:50:46.527Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 11,
+    "fields": {
+        "name": "Condo",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.681Z",
+        "update_date": "2023-08-04T08:50:46.681Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 12,
+    "fields": {
+        "name": "Cottage",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.693Z",
+        "update_date": "2023-08-04T08:50:46.694Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 13,
+    "fields": {
+        "name": "Ski_Chalet",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.706Z",
+        "update_date": "2023-08-04T08:50:46.706Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 14,
+    "fields": {
+        "name": "Boat_Rental",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.718Z",
+        "update_date": "2023-08-04T08:50:46.718Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 15,
+    "fields": {
+        "name": "RV_Rental",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.751Z",
+        "update_date": "2023-08-04T08:50:46.751Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.propertytype",
+    "pk": 16,
+    "fields": {
+        "name": "Timeshare",
+        "brand": null,
+        "brand_type": null,
+        "create_date": "2023-08-04T08:50:46.780Z",
+        "update_date": "2023-08-04T08:50:46.780Z",
+        "accommodation_type": []
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 1,
+    "fields": {
+        "name": "Apartment",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.165Z",
+        "update_date": "2023-08-04T06:59:20.165Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 2,
+    "fields": {
+        "name": "House",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.169Z",
+        "update_date": "2023-08-04T06:59:20.169Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 3,
+    "fields": {
+        "name": "Condominium",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.170Z",
+        "update_date": "2023-08-04T06:59:20.170Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 4,
+    "fields": {
+        "name": "Bed and breakfast",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.172Z",
+        "update_date": "2023-08-04T06:59:20.172Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 5,
+    "fields": {
+        "name": "Villa",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.173Z",
+        "update_date": "2023-08-04T06:59:20.173Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 6,
+    "fields": {
+        "name": "Townhouse",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.175Z",
+        "update_date": "2023-08-04T06:59:20.175Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 7,
+    "fields": {
+        "name": "Serviced apartment",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.177Z",
+        "update_date": "2023-08-04T06:59:20.177Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 8,
+    "fields": {
+        "name": "Cottage",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.179Z",
+        "update_date": "2023-08-04T06:59:20.179Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 9,
+    "fields": {
+        "name": "Guest suite",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.181Z",
+        "update_date": "2023-08-04T06:59:20.181Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 10,
+    "fields": {
+        "name": "Guesthouse",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.183Z",
+        "update_date": "2023-08-04T06:59:20.183Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 11,
+    "fields": {
+        "name": "Cabin",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.184Z",
+        "update_date": "2023-08-04T06:59:20.184Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 12,
+    "fields": {
+        "name": "Bungalow",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.186Z",
+        "update_date": "2023-08-04T06:59:20.186Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 13,
+    "fields": {
+        "name": "Loft",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.188Z",
+        "update_date": "2023-08-04T06:59:20.188Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 14,
+    "fields": {
+        "name": "Boutique hotel",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.190Z",
+        "update_date": "2023-08-04T06:59:20.190Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 15,
+    "fields": {
+        "name": "Farm stay",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.191Z",
+        "update_date": "2023-08-04T06:59:20.191Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 16,
+    "fields": {
+        "name": "Chalet",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.193Z",
+        "update_date": "2023-08-04T06:59:20.193Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 17,
+    "fields": {
+        "name": "Hotel",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.195Z",
+        "update_date": "2023-08-04T06:59:20.195Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 18,
+    "fields": {
+        "name": "Hostel",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.197Z",
+        "update_date": "2023-08-04T06:59:20.197Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 19,
+    "fields": {
+        "name": "Nature lodge",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.199Z",
+        "update_date": "2023-08-04T06:59:20.199Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 20,
+    "fields": {
+        "name": "Tiny house",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.201Z",
+        "update_date": "2023-08-04T06:59:20.201Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 21,
+    "fields": {
+        "name": "Other",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.202Z",
+        "update_date": "2023-08-04T06:59:20.202Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 22,
+    "fields": {
+        "name": "Resort",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.204Z",
+        "update_date": "2023-08-04T06:59:20.204Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 23,
+    "fields": {
+        "name": "Camper/RV",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.206Z",
+        "update_date": "2023-08-04T06:59:20.206Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 24,
+    "fields": {
+        "name": "Casa particular (Cuba)",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.207Z",
+        "update_date": "2023-08-04T06:59:20.207Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 25,
+    "fields": {
+        "name": "Aparthotel",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.209Z",
+        "update_date": "2023-08-04T06:59:20.209Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 26,
+    "fields": {
+        "name": "Tent",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.210Z",
+        "update_date": "2023-08-04T06:59:20.210Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 27,
+    "fields": {
+        "name": "Hut",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.212Z",
+        "update_date": "2023-08-04T06:59:20.212Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 28,
+    "fields": {
+        "name": "Earth house",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.213Z",
+        "update_date": "2023-08-04T06:59:20.213Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 29,
+    "fields": {
+        "name": "Boat",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.214Z",
+        "update_date": "2023-08-04T06:59:20.214Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 30,
+    "fields": {
+        "name": "Campsite",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.216Z",
+        "update_date": "2023-08-04T06:59:20.216Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 31,
+    "fields": {
+        "name": "Pension (South Korea)",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.217Z",
+        "update_date": "2023-08-04T06:59:20.217Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 32,
+    "fields": {
+        "name": "Castle",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.219Z",
+        "update_date": "2023-08-04T06:59:20.219Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 33,
+    "fields": {
+        "name": "Barn",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.220Z",
+        "update_date": "2023-08-04T06:59:20.220Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 34,
+    "fields": {
+        "name": "Vacation home",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.222Z",
+        "update_date": "2023-08-04T06:59:20.222Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 35,
+    "fields": {
+        "name": "Yurt",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.223Z",
+        "update_date": "2023-08-04T06:59:20.223Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 36,
+    "fields": {
+        "name": "Treehouse",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.225Z",
+        "update_date": "2023-08-04T06:59:20.225Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 37,
+    "fields": {
+        "name": "Dome house",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.226Z",
+        "update_date": "2023-08-04T06:59:20.226Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 38,
+    "fields": {
+        "name": "Cycladic house (Greece)",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.228Z",
+        "update_date": "2023-08-04T06:59:20.228Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 39,
+    "fields": {
+        "name": "Island",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.230Z",
+        "update_date": "2023-08-04T06:59:20.230Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 40,
+    "fields": {
+        "name": "Houseboat",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.231Z",
+        "update_date": "2023-08-04T06:59:20.231Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 41,
+    "fields": {
+        "name": "Minsu (Taiwan)",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.233Z",
+        "update_date": "2023-08-04T06:59:20.233Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 42,
+    "fields": {
+        "name": "Trullo (Italy)",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.234Z",
+        "update_date": "2023-08-04T06:59:20.234Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 43,
+    "fields": {
+        "name": "Tipi",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.236Z",
+        "update_date": "2023-08-04T06:59:20.236Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 44,
+    "fields": {
+        "name": "Shepherd's hut (U.K., France)",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.238Z",
+        "update_date": "2023-08-04T06:59:20.238Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 45,
+    "fields": {
+        "name": "Cave",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.240Z",
+        "update_date": "2023-08-04T06:59:20.240Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 46,
+    "fields": {
+        "name": "Heritage hotel (India)",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.241Z",
+        "update_date": "2023-08-04T06:59:20.241Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 47,
+    "fields": {
+        "name": "Entire floor",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.243Z",
+        "update_date": "2023-08-04T06:59:20.243Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 48,
+    "fields": {
+        "name": "Ryokan (Japan)",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.244Z",
+        "update_date": "2023-08-04T06:59:20.244Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 49,
+    "fields": {
+        "name": "Dammuso (Italy)",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.246Z",
+        "update_date": "2023-08-04T06:59:20.246Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 50,
+    "fields": {
+        "name": "Bus",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.247Z",
+        "update_date": "2023-08-04T06:59:20.247Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 51,
+    "fields": {
+        "name": "Lighthouse",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.249Z",
+        "update_date": "2023-08-04T06:59:20.249Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 52,
+    "fields": {
+        "name": "Train",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.250Z",
+        "update_date": "2023-08-04T06:59:20.250Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 53,
+    "fields": {
+        "name": "Dorm",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.252Z",
+        "update_date": "2023-08-04T06:59:20.252Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 54,
+    "fields": {
+        "name": "Windmill",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.253Z",
+        "update_date": "2023-08-04T06:59:20.253Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 55,
+    "fields": {
+        "name": "In-law",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.255Z",
+        "update_date": "2023-08-04T06:59:20.255Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 56,
+    "fields": {
+        "name": "Igloo",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.256Z",
+        "update_date": "2023-08-04T06:59:20.256Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 57,
+    "fields": {
+        "name": "Plane",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.258Z",
+        "update_date": "2023-08-04T06:59:20.258Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 58,
+    "fields": {
+        "name": "Timeshare",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.259Z",
+        "update_date": "2023-08-04T06:59:20.259Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 59,
+    "fields": {
+        "name": "Pousada",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.261Z",
+        "update_date": "2023-08-04T06:59:20.261Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 60,
+    "fields": {
+        "name": "Condohotel",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.262Z",
+        "update_date": "2023-08-04T06:59:20.262Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 61,
+    "fields": {
+        "name": "Car",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.264Z",
+        "update_date": "2023-08-04T06:59:20.264Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 62,
+    "fields": {
+        "name": "Parking Space",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.265Z",
+        "update_date": "2023-08-04T06:59:20.265Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 63,
+    "fields": {
+        "name": "Van",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.267Z",
+        "update_date": "2023-08-04T06:59:20.267Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 64,
+    "fields": {
+        "name": "Apartments",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.269Z",
+        "update_date": "2023-08-04T06:59:20.269Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 65,
+    "fields": {
+        "name": "Holiday homes",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.271Z",
+        "update_date": "2023-08-04T06:59:20.271Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 66,
+    "fields": {
+        "name": "Hotels",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.272Z",
+        "update_date": "2023-08-04T06:59:20.272Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 67,
+    "fields": {
+        "name": "Guest houses",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.274Z",
+        "update_date": "2023-08-04T06:59:20.274Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 68,
+    "fields": {
+        "name": "Villas",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.275Z",
+        "update_date": "2023-08-04T06:59:20.275Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 69,
+    "fields": {
+        "name": "Bed and breakfasts",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.276Z",
+        "update_date": "2023-08-04T06:59:20.276Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 70,
+    "fields": {
+        "name": "Homestays",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.278Z",
+        "update_date": "2023-08-04T06:59:20.278Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 71,
+    "fields": {
+        "name": "Aparthotels",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.279Z",
+        "update_date": "2023-08-04T06:59:20.279Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 72,
+    "fields": {
+        "name": "Hostels",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.281Z",
+        "update_date": "2023-08-04T06:59:20.281Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 73,
+    "fields": {
+        "name": "Resorts",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.282Z",
+        "update_date": "2023-08-04T06:59:20.282Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 74,
+    "fields": {
+        "name": "Inns",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.284Z",
+        "update_date": "2023-08-04T06:59:20.284Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 75,
+    "fields": {
+        "name": "Lodges",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.285Z",
+        "update_date": "2023-08-04T06:59:20.285Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 76,
+    "fields": {
+        "name": "Country houses",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.287Z",
+        "update_date": "2023-08-04T06:59:20.287Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 77,
+    "fields": {
+        "name": "Motels",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.288Z",
+        "update_date": "2023-08-04T06:59:20.288Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 78,
+    "fields": {
+        "name": "Chalets",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.290Z",
+        "update_date": "2023-08-04T06:59:20.290Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 79,
+    "fields": {
+        "name": "Farm stays",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.292Z",
+        "update_date": "2023-08-04T06:59:20.292Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 80,
+    "fields": {
+        "name": "Campsites",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.293Z",
+        "update_date": "2023-08-04T06:59:20.293Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 81,
+    "fields": {
+        "name": "Holiday parks",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.295Z",
+        "update_date": "2023-08-04T06:59:20.295Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 82,
+    "fields": {
+        "name": "Luxury tents",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.296Z",
+        "update_date": "2023-08-04T06:59:20.296Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 83,
+    "fields": {
+        "name": "Boats",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.298Z",
+        "update_date": "2023-08-04T06:59:20.298Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 84,
+    "fields": {
+        "name": "Economy hotels",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.300Z",
+        "update_date": "2023-08-04T06:59:20.300Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 85,
+    "fields": {
+        "name": "Ryokans",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.302Z",
+        "update_date": "2023-08-04T06:59:20.302Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 86,
+    "fields": {
+        "name": "Love hotels",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.303Z",
+        "update_date": "2023-08-04T06:59:20.303Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 87,
+    "fields": {
+        "name": "Riads",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.305Z",
+        "update_date": "2023-08-04T06:59:20.305Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 88,
+    "fields": {
+        "name": "Capsule hotels",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.306Z",
+        "update_date": "2023-08-04T06:59:20.306Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 89,
+    "fields": {
+        "name": "Health resorts",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.307Z",
+        "update_date": "2023-08-04T06:59:20.307Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 90,
+    "fields": {
+        "name": "Student accommodation",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.309Z",
+        "update_date": "2023-08-04T06:59:20.309Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 91,
+    "fields": {
+        "name": "Cruises",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.310Z",
+        "update_date": "2023-08-04T06:59:20.310Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 92,
+    "fields": {
+        "name": "Gites",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.312Z",
+        "update_date": "2023-08-04T06:59:20.312Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 93,
+    "fields": {
+        "name": "Cottages",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.313Z",
+        "update_date": "2023-08-04T06:59:20.313Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 94,
+    "fields": {
+        "name": "Condos",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.315Z",
+        "update_date": "2023-08-04T06:59:20.315Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 95,
+    "fields": {
+        "name": "Apartment",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.316Z",
+        "update_date": "2023-08-04T06:59:20.316Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 96,
+    "fields": {
+        "name": "House",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.318Z",
+        "update_date": "2023-08-04T06:59:20.318Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 97,
+    "fields": {
+        "name": "Villa",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.319Z",
+        "update_date": "2023-08-04T06:59:20.319Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 98,
+    "fields": {
+        "name": "Condo",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.320Z",
+        "update_date": "2023-08-04T06:59:20.320Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 99,
+    "fields": {
+        "name": "Cottage",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.322Z",
+        "update_date": "2023-08-04T06:59:20.322Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 100,
+    "fields": {
+        "name": "Townhome",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.323Z",
+        "update_date": "2023-08-04T06:59:20.323Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 101,
+    "fields": {
+        "name": "Cabin",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.325Z",
+        "update_date": "2023-08-04T06:59:20.325Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 102,
+    "fields": {
+        "name": "Studio",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.326Z",
+        "update_date": "2023-08-04T06:59:20.326Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 103,
+    "fields": {
+        "name": "Chalet",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.328Z",
+        "update_date": "2023-08-04T06:59:20.328Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 104,
+    "fields": {
+        "name": "Hotel",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.330Z",
+        "update_date": "2023-08-04T06:59:20.330Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 105,
+    "fields": {
+        "name": "Bungalow",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.332Z",
+        "update_date": "2023-08-04T06:59:20.332Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 106,
+    "fields": {
+        "name": "Bed & breakfast",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.334Z",
+        "update_date": "2023-08-04T06:59:20.334Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 107,
+    "fields": {
+        "name": "Guest house",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.335Z",
+        "update_date": "2023-08-04T06:59:20.335Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 108,
+    "fields": {
+        "name": "Resort",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.337Z",
+        "update_date": "2023-08-04T06:59:20.337Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 109,
+    "fields": {
+        "name": "Farmhouse",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.339Z",
+        "update_date": "2023-08-04T06:59:20.339Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 110,
+    "fields": {
+        "name": "Chateau / country house",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.341Z",
+        "update_date": "2023-08-04T06:59:20.341Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 111,
+    "fields": {
+        "name": "Mobile home",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.343Z",
+        "update_date": "2023-08-04T06:59:20.343Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 112,
+    "fields": {
+        "name": "Lodge",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.345Z",
+        "update_date": "2023-08-04T06:59:20.345Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 113,
+    "fields": {
+        "name": "Barn",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.346Z",
+        "update_date": "2023-08-04T06:59:20.346Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 114,
+    "fields": {
+        "name": "Hotel suites",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.348Z",
+        "update_date": "2023-08-04T06:59:20.348Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 115,
+    "fields": {
+        "name": "Estate",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.350Z",
+        "update_date": "2023-08-04T06:59:20.350Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 116,
+    "fields": {
+        "name": "Guest house/pension",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.352Z",
+        "update_date": "2023-08-04T06:59:20.352Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 117,
+    "fields": {
+        "name": "Corporate apartment",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.354Z",
+        "update_date": "2023-08-04T06:59:20.354Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 118,
+    "fields": {
+        "name": "Mas",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.356Z",
+        "update_date": "2023-08-04T06:59:20.356Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 119,
+    "fields": {
+        "name": "Hostel",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.358Z",
+        "update_date": "2023-08-04T06:59:20.358Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 120,
+    "fields": {
+        "name": "Campground",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.360Z",
+        "update_date": "2023-08-04T06:59:20.360Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 121,
+    "fields": {
+        "name": "Castle",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.362Z",
+        "update_date": "2023-08-04T06:59:20.362Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 122,
+    "fields": {
+        "name": "Country house / chateau",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.364Z",
+        "update_date": "2023-08-04T06:59:20.364Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 123,
+    "fields": {
+        "name": "Building",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.367Z",
+        "update_date": "2023-08-04T06:59:20.367Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 124,
+    "fields": {
+        "name": "Boat",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.369Z",
+        "update_date": "2023-08-04T06:59:20.369Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 125,
+    "fields": {
+        "name": "Chácara/sítio",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.371Z",
+        "update_date": "2023-08-04T06:59:20.371Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 126,
+    "fields": {
+        "name": "Caravan",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.373Z",
+        "update_date": "2023-08-04T06:59:20.373Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 127,
+    "fields": {
+        "name": "Recreational vehicle",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.375Z",
+        "update_date": "2023-08-04T06:59:20.375Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 128,
+    "fields": {
+        "name": "House boat",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.377Z",
+        "update_date": "2023-08-04T06:59:20.377Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 129,
+    "fields": {
+        "name": "Yacht",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.379Z",
+        "update_date": "2023-08-04T06:59:20.379Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 130,
+    "fields": {
+        "name": "Chácara/sítio: popular in Brazil",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.382Z",
+        "update_date": "2023-08-04T06:59:20.382Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 131,
+    "fields": {
+        "name": "Riad",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.384Z",
+        "update_date": "2023-08-04T06:59:20.384Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 132,
+    "fields": {
+        "name": "Tower",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.386Z",
+        "update_date": "2023-08-04T06:59:20.386Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 133,
+    "fields": {
+        "name": "Recreational Vehicle",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.388Z",
+        "update_date": "2023-08-04T06:59:20.388Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 134,
+    "fields": {
+        "name": "Mill",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.391Z",
+        "update_date": "2023-08-04T06:59:20.391Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 137,
+    "fields": {
+        "name": "Apartment",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.393Z",
+        "update_date": "2023-08-04T06:59:20.393Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 138,
+    "fields": {
+        "name": "House",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.395Z",
+        "update_date": "2023-08-04T06:59:20.395Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 139,
+    "fields": {
+        "name": "Villa",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.397Z",
+        "update_date": "2023-08-04T06:59:20.397Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 140,
+    "fields": {
+        "name": "Cottage",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.399Z",
+        "update_date": "2023-08-04T06:59:20.399Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 141,
+    "fields": {
+        "name": "Condo",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.402Z",
+        "update_date": "2023-08-04T06:59:20.402Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 142,
+    "fields": {
+        "name": "Studio",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.404Z",
+        "update_date": "2023-08-04T06:59:20.404Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 143,
+    "fields": {
+        "name": "B and B",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.406Z",
+        "update_date": "2023-08-04T06:59:20.406Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 144,
+    "fields": {
+        "name": "Townhouse",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.408Z",
+        "update_date": "2023-08-04T06:59:20.408Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 145,
+    "fields": {
+        "name": "Hotel apartment",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.410Z",
+        "update_date": "2023-08-04T06:59:20.410Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 146,
+    "fields": {
+        "name": "Guest house",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.412Z",
+        "update_date": "2023-08-04T06:59:20.412Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 147,
+    "fields": {
+        "name": "Log cabin",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.414Z",
+        "update_date": "2023-08-04T06:59:20.414Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 148,
+    "fields": {
+        "name": "Room",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.416Z",
+        "update_date": "2023-08-04T06:59:20.416Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 149,
+    "fields": {
+        "name": "Chalet",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.418Z",
+        "update_date": "2023-08-04T06:59:20.418Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 150,
+    "fields": {
+        "name": "Gite",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.420Z",
+        "update_date": "2023-08-04T06:59:20.420Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 151,
+    "fields": {
+        "name": "Bungalow",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.423Z",
+        "update_date": "2023-08-04T06:59:20.423Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 152,
+    "fields": {
+        "name": "Farmhouse",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.425Z",
+        "update_date": "2023-08-04T06:59:20.425Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 153,
+    "fields": {
+        "name": "Lodge",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.427Z",
+        "update_date": "2023-08-04T06:59:20.427Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 154,
+    "fields": {
+        "name": "Caravan/mobile home",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.429Z",
+        "update_date": "2023-08-04T06:59:20.429Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 155,
+    "fields": {
+        "name": "Penthouse",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.431Z",
+        "update_date": "2023-08-04T06:59:20.431Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 156,
+    "fields": {
+        "name": "Barn",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.433Z",
+        "update_date": "2023-08-04T06:59:20.433Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 157,
+    "fields": {
+        "name": "Tented camp",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.435Z",
+        "update_date": "2023-08-04T06:59:20.435Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 158,
+    "fields": {
+        "name": "Yacht",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.437Z",
+        "update_date": "2023-08-04T06:59:20.437Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 159,
+    "fields": {
+        "name": "Shepherds hut",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.439Z",
+        "update_date": "2023-08-04T06:59:20.439Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 160,
+    "fields": {
+        "name": "Manor house",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.441Z",
+        "update_date": "2023-08-04T06:59:20.441Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 161,
+    "fields": {
+        "name": "Finca",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.443Z",
+        "update_date": "2023-08-04T06:59:20.443Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 162,
+    "fields": {
+        "name": "Trullo",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.446Z",
+        "update_date": "2023-08-04T06:59:20.446Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 163,
+    "fields": {
+        "name": "Boathouse",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.448Z",
+        "update_date": "2023-08-04T06:59:20.448Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 164,
+    "fields": {
+        "name": "Castle",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.450Z",
+        "update_date": "2023-08-04T06:59:20.450Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 165,
+    "fields": {
+        "name": "Camper van",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.453Z",
+        "update_date": "2023-08-04T06:59:20.453Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 166,
+    "fields": {
+        "name": "Beach hut",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.455Z",
+        "update_date": "2023-08-04T06:59:20.455Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 167,
+    "fields": {
+        "name": "Houseboat",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.457Z",
+        "update_date": "2023-08-04T06:59:20.457Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 168,
+    "fields": {
+        "name": "Yurt",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.460Z",
+        "update_date": "2023-08-04T06:59:20.460Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 169,
+    "fields": {
+        "name": "Chateau",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.462Z",
+        "update_date": "2023-08-04T06:59:20.462Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 170,
+    "fields": {
+        "name": "Ski chalet",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.464Z",
+        "update_date": "2023-08-04T06:59:20.464Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 171,
+    "fields": {
+        "name": "Riad",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.466Z",
+        "update_date": "2023-08-04T06:59:20.466Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 172,
+    "fields": {
+        "name": "Cave house",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.468Z",
+        "update_date": "2023-08-04T06:59:20.468Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 173,
+    "fields": {
+        "name": "Tree house",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.471Z",
+        "update_date": "2023-08-04T06:59:20.471Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 174,
+    "fields": {
+        "name": "Tipi/teepee",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.473Z",
+        "update_date": "2023-08-04T06:59:20.473Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 175,
+    "fields": {
+        "name": "Tower",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.475Z",
+        "update_date": "2023-08-04T06:59:20.475Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 176,
+    "fields": {
+        "name": "Watermill",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.477Z",
+        "update_date": "2023-08-04T06:59:20.477Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 177,
+    "fields": {
+        "name": "Converted chapel",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.480Z",
+        "update_date": "2023-08-04T06:59:20.480Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 178,
+    "fields": {
+        "name": "Narrowboat",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.482Z",
+        "update_date": "2023-08-04T06:59:20.482Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 179,
+    "fields": {
+        "name": "Windmill",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.485Z",
+        "update_date": "2023-08-04T06:59:20.485Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 180,
+    "fields": {
+        "name": "Lighthouse",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.487Z",
+        "update_date": "2023-08-04T06:59:20.487Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 181,
+    "fields": {
+        "name": "Fort",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.490Z",
+        "update_date": "2023-08-04T06:59:20.490Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 182,
+    "fields": {
+        "name": "Kezhan (China)",
+        "partner": 4,
+        "create_date": "2023-08-04T06:59:20.492Z",
+        "update_date": "2023-08-04T06:59:20.492Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 183,
+    "fields": {
+        "name": "Apartment",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.494Z",
+        "update_date": "2023-08-04T06:59:20.494Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 184,
+    "fields": {
+        "name": "Serviced Apartment",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.496Z",
+        "update_date": "2023-08-04T06:59:20.496Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 185,
+    "fields": {
+        "name": "Motel",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.499Z",
+        "update_date": "2023-08-04T06:59:20.499Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 186,
+    "fields": {
+        "name": "Hotel",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.501Z",
+        "update_date": "2023-08-04T06:59:20.501Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 187,
+    "fields": {
+        "name": "Resort",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.503Z",
+        "update_date": "2023-08-04T06:59:20.503Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 188,
+    "fields": {
+        "name": "Boathouse",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.505Z",
+        "update_date": "2023-08-04T06:59:20.505Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 189,
+    "fields": {
+        "name": "Houseboat",
+        "partner": 1,
+        "create_date": "2023-08-04T06:59:20.507Z",
+        "update_date": "2023-08-04T06:59:20.507Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 190,
+    "fields": {
+        "name": "Chateau / Country House",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.509Z",
+        "update_date": "2023-08-04T06:59:20.509Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 191,
+    "fields": {
+        "name": "Bed & Breakfast",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.511Z",
+        "update_date": "2023-08-04T06:59:20.512Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 192,
+    "fields": {
+        "name": "Resort",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.514Z",
+        "update_date": "2023-08-04T06:59:20.514Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 193,
+    "fields": {
+        "name": "Holiday Home",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.516Z",
+        "update_date": "2023-08-04T06:59:20.516Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 194,
+    "fields": {
+        "name": "Inn",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.519Z",
+        "update_date": "2023-08-04T06:59:20.519Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 195,
+    "fields": {
+        "name": "Hostel",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.521Z",
+        "update_date": "2023-08-04T06:59:20.521Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 196,
+    "fields": {
+        "name": "Retreat",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.523Z",
+        "update_date": "2023-08-04T06:59:20.523Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 197,
+    "fields": {
+        "name": "Other",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.526Z",
+        "update_date": "2023-08-04T06:59:20.526Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 198,
+    "fields": {
+        "name": "Tzimmer",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.528Z",
+        "update_date": "2023-08-04T06:59:20.528Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 199,
+    "fields": {
+        "name": "Farm Stay",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.530Z",
+        "update_date": "2023-08-04T06:59:20.530Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 200,
+    "fields": {
+        "name": "Chalet",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.532Z",
+        "update_date": "2023-08-04T06:59:20.532Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 201,
+    "fields": {
+        "name": "Fisherman's Cabin",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.535Z",
+        "update_date": "2023-08-04T06:59:20.535Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 202,
+    "fields": {
+        "name": "Cottage",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.537Z",
+        "update_date": "2023-08-04T06:59:20.537Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 203,
+    "fields": {
+        "name": "Villa",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.539Z",
+        "update_date": "2023-08-04T06:59:20.539Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 204,
+    "fields": {
+        "name": "Bungalow",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.541Z",
+        "update_date": "2023-08-04T06:59:20.541Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 205,
+    "fields": {
+        "name": "Dormitory",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.544Z",
+        "update_date": "2023-08-04T06:59:20.544Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 206,
+    "fields": {
+        "name": "Lodge",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.546Z",
+        "update_date": "2023-08-04T06:59:20.546Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 207,
+    "fields": {
+        "name": "Agriturismo",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.548Z",
+        "update_date": "2023-08-04T06:59:20.548Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 208,
+    "fields": {
+        "name": "Chateau",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.551Z",
+        "update_date": "2023-08-04T06:59:20.551Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 209,
+    "fields": {
+        "name": "Luxury Tents/Yurts",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.553Z",
+        "update_date": "2023-08-04T06:59:20.553Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 210,
+    "fields": {
+        "name": "Boat",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.556Z",
+        "update_date": "2023-08-04T06:59:20.556Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 211,
+    "fields": {
+        "name": "Eco Hotel",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.559Z",
+        "update_date": "2023-08-04T06:59:20.559Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 212,
+    "fields": {
+        "name": "Homestay",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.562Z",
+        "update_date": "2023-08-04T06:59:20.562Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 213,
+    "fields": {
+        "name": "Pension",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.566Z",
+        "update_date": "2023-08-04T06:59:20.566Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 214,
+    "fields": {
+        "name": "Ryokan",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.569Z",
+        "update_date": "2023-08-04T06:59:20.569Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 215,
+    "fields": {
+        "name": "Riad",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.572Z",
+        "update_date": "2023-08-04T06:59:20.572Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 216,
+    "fields": {
+        "name": "Mini Hotel",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.576Z",
+        "update_date": "2023-08-04T06:59:20.576Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 217,
+    "fields": {
+        "name": "Guest House",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.579Z",
+        "update_date": "2023-08-04T06:59:20.579Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 220,
+    "fields": {
+        "name": "Holiday Apartment",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.583Z",
+        "update_date": "2023-08-04T06:59:20.583Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 221,
+    "fields": {
+        "name": "Serviced Apartment",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.586Z",
+        "update_date": "2023-08-04T06:59:20.586Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 222,
+    "fields": {
+        "name": "Holiday House",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.590Z",
+        "update_date": "2023-08-04T06:59:20.590Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 223,
+    "fields": {
+        "name": "Farm",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.593Z",
+        "update_date": "2023-08-04T06:59:20.593Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 224,
+    "fields": {
+        "name": "Hotel",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.596Z",
+        "update_date": "2023-08-04T06:59:20.596Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 225,
+    "fields": {
+        "name": "Holiday Park",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.600Z",
+        "update_date": "2023-08-04T06:59:20.600Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 226,
+    "fields": {
+        "name": "Castle",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.603Z",
+        "update_date": "2023-08-04T06:59:20.603Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 227,
+    "fields": {
+        "name": "Boat",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.607Z",
+        "update_date": "2023-08-04T06:59:20.607Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 228,
+    "fields": {
+        "name": "Mobile Home",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.610Z",
+        "update_date": "2023-08-04T06:59:20.610Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 229,
+    "fields": {
+        "name": "Shared Room",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.614Z",
+        "update_date": "2023-08-04T06:59:20.614Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 230,
+    "fields": {
+        "name": "Dedicated Room",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.617Z",
+        "update_date": "2023-08-04T06:59:20.617Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 231,
+    "fields": {
+        "name": "Camping Suite",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.620Z",
+        "update_date": "2023-08-04T06:59:20.620Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 232,
+    "fields": {
+        "name": "Hostel",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.623Z",
+        "update_date": "2023-08-04T06:59:20.623Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 233,
+    "fields": {
+        "name": "Pension",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.626Z",
+        "update_date": "2023-08-04T06:59:20.626Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 234,
+    "fields": {
+        "name": "Other Accommodation",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.629Z",
+        "update_date": "2023-08-04T06:59:20.630Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 235,
+    "fields": {
+        "name": "Studio",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.633Z",
+        "update_date": "2023-08-04T06:59:20.633Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 236,
+    "fields": {
+        "name": "Finca",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.636Z",
+        "update_date": "2023-08-04T06:59:20.636Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 237,
+    "fields": {
+        "name": "Cottage",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.640Z",
+        "update_date": "2023-08-04T06:59:20.640Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 238,
+    "fields": {
+        "name": "Cabin",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.643Z",
+        "update_date": "2023-08-04T06:59:20.643Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 239,
+    "fields": {
+        "name": "Condo",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.646Z",
+        "update_date": "2023-08-04T06:59:20.646Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 240,
+    "fields": {
+        "name": "Gite",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.649Z",
+        "update_date": "2023-08-04T06:59:20.649Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 241,
+    "fields": {
+        "name": "Villa",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.653Z",
+        "update_date": "2023-08-04T06:59:20.653Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 242,
+    "fields": {
+        "name": "Aparthotel",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.656Z",
+        "update_date": "2023-08-04T06:59:20.656Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 243,
+    "fields": {
+        "name": "Chalet",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.659Z",
+        "update_date": "2023-08-04T06:59:20.659Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 244,
+    "fields": {
+        "name": "Riad",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.662Z",
+        "update_date": "2023-08-04T06:59:20.662Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 245,
+    "fields": {
+        "name": "Unusual",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.665Z",
+        "update_date": "2023-08-04T06:59:20.665Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 246,
+    "fields": {
+        "name": "Luxury",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.669Z",
+        "update_date": "2023-08-04T06:59:20.669Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 247,
+    "fields": {
+        "name": "Bungalow",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.672Z",
+        "update_date": "2023-08-04T06:59:20.673Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 248,
+    "fields": {
+        "name": "Duplex",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.676Z",
+        "update_date": "2023-08-04T06:59:20.676Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 249,
+    "fields": {
+        "name": "Lodge",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.679Z",
+        "update_date": "2023-08-04T06:59:20.679Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 250,
+    "fields": {
+        "name": "Caravan",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.682Z",
+        "update_date": "2023-08-04T06:59:20.682Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 251,
+    "fields": {
+        "name": "Penthouse",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.685Z",
+        "update_date": "2023-08-04T06:59:20.685Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 252,
+    "fields": {
+        "name": "Loft",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.689Z",
+        "update_date": "2023-08-04T06:59:20.689Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 253,
+    "fields": {
+        "name": "Motel",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.692Z",
+        "update_date": "2023-08-04T06:59:20.692Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 254,
+    "fields": {
+        "name": "Resort",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.695Z",
+        "update_date": "2023-08-04T06:59:20.695Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 255,
+    "fields": {
+        "name": "Chambre Dhotes",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.698Z",
+        "update_date": "2023-08-04T06:59:20.698Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 256,
+    "fields": {
+        "name": "Tent",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.702Z",
+        "update_date": "2023-08-04T06:59:20.702Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 257,
+    "fields": {
+        "name": "Sanatorium",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.706Z",
+        "update_date": "2023-08-04T06:59:20.706Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 258,
+    "fields": {
+        "name": "Agriturismo",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.709Z",
+        "update_date": "2023-08-04T06:59:20.709Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 259,
+    "fields": {
+        "name": "Bed And Breakfast",
+        "partner": 13,
+        "create_date": "2023-08-04T06:59:20.712Z",
+        "update_date": "2023-08-04T06:59:20.712Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 260,
+    "fields": {
+        "name": "Homestay",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.715Z",
+        "update_date": "2023-08-04T06:59:20.715Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 261,
+    "fields": {
+        "name": "Inn",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.718Z",
+        "update_date": "2023-08-04T06:59:20.718Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 262,
+    "fields": {
+        "name": "Hotel",
+        "partner": 12,
+        "create_date": "2023-08-04T06:59:20.722Z",
+        "update_date": "2023-08-04T06:59:20.722Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 264,
+    "fields": {
+        "name": "Pousada",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.725Z",
+        "update_date": "2023-08-04T06:59:20.725Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 265,
+    "fields": {
+        "name": "Holiday park/Campsite",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.728Z",
+        "update_date": "2023-08-04T06:59:20.728Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 266,
+    "fields": {
+        "name": "Unknown",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.732Z",
+        "update_date": "2023-08-04T06:59:20.732Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 267,
+    "fields": {
+        "name": "Motel",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.735Z",
+        "update_date": "2023-08-04T06:59:20.735Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 268,
+    "fields": {
+        "name": "Hotel Resort",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.738Z",
+        "update_date": "2023-08-04T06:59:20.738Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 269,
+    "fields": {
+        "name": "Inn",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.742Z",
+        "update_date": "2023-08-04T06:59:20.742Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 270,
+    "fields": {
+        "name": "All-Inclusive",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.745Z",
+        "update_date": "2023-08-04T06:59:20.745Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 271,
+    "fields": {
+        "name": "Hostel / Backpacker Accommodation",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.748Z",
+        "update_date": "2023-08-04T06:59:20.748Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 272,
+    "fields": {
+        "name": "Ranch",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.751Z",
+        "update_date": "2023-08-04T06:59:20.751Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 273,
+    "fields": {
+        "name": "Private Vacation Home",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.754Z",
+        "update_date": "2023-08-04T06:59:20.754Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 274,
+    "fields": {
+        "name": "Ryokan",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.757Z",
+        "update_date": "2023-08-04T06:59:20.757Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 275,
+    "fields": {
+        "name": "Tree House",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.761Z",
+        "update_date": "2023-08-04T06:59:20.761Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 276,
+    "fields": {
+        "name": "Apart-hotel",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.764Z",
+        "update_date": "2023-08-04T06:59:20.764Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 277,
+    "fields": {
+        "name": "Condominium Resort",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.767Z",
+        "update_date": "2023-08-04T06:59:20.767Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 278,
+    "fields": {
+        "name": "Caravan Park",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.771Z",
+        "update_date": "2023-08-04T06:59:20.771Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 279,
+    "fields": {
+        "name": "Hostel (Budget Hotel)",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.774Z",
+        "update_date": "2023-08-04T06:59:20.774Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 280,
+    "fields": {
+        "name": "Pension",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.777Z",
+        "update_date": "2023-08-04T06:59:20.777Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 281,
+    "fields": {
+        "name": "Pousada (Portugal)",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.781Z",
+        "update_date": "2023-08-04T06:59:20.781Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 282,
+    "fields": {
+        "name": "Pousada (Brazil)",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.784Z",
+        "update_date": "2023-08-04T06:59:20.784Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 283,
+    "fields": {
+        "name": "Residence",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.787Z",
+        "update_date": "2023-08-04T06:59:20.787Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 284,
+    "fields": {
+        "name": "TownHouse",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.791Z",
+        "update_date": "2023-08-04T06:59:20.791Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 285,
+    "fields": {
+        "name": "Safari / Tentalow",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.794Z",
+        "update_date": "2023-08-04T06:59:20.794Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 286,
+    "fields": {
+        "name": "Palace",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.797Z",
+        "update_date": "2023-08-04T06:59:20.797Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 287,
+    "fields": {
+        "name": "Agritourism",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.801Z",
+        "update_date": "2023-08-04T06:59:20.801Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 288,
+    "fields": {
+        "name": "Cruise",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.805Z",
+        "update_date": "2023-08-04T06:59:20.805Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 289,
+    "fields": {
+        "name": "Holiday Park",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.808Z",
+        "update_date": "2023-08-04T06:59:20.808Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 290,
+    "fields": {
+        "name": "Caravan Park/Campsite",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.811Z",
+        "update_date": "2023-08-04T06:59:20.811Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 291,
+    "fields": {
+        "name": "Hotel-unknown",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.814Z",
+        "update_date": "2023-08-04T06:59:20.814Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 292,
+    "fields": {
+        "name": "Bed & Breakfast",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.817Z",
+        "update_date": "2023-08-04T06:59:20.817Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 293,
+    "fields": {
+        "name": "Country House",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.821Z",
+        "update_date": "2023-08-04T06:59:20.821Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 294,
+    "fields": {
+        "name": "hostel/backpacker accommodation",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.825Z",
+        "update_date": "2023-08-04T06:59:20.825Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 295,
+    "fields": {
+        "name": "Capsule Hotel",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.828Z",
+        "update_date": "2023-08-04T06:59:20.828Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 296,
+    "fields": {
+        "name": "hostal",
+        "partner": 3,
+        "create_date": "2023-08-04T06:59:20.832Z",
+        "update_date": "2023-08-04T06:59:20.832Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 297,
+    "fields": {
+        "name": "Agritourism",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.835Z",
+        "update_date": "2023-08-04T06:59:20.835Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 298,
+    "fields": {
+        "name": "Aparthotel",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.838Z",
+        "update_date": "2023-08-04T06:59:20.838Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 299,
+    "fields": {
+        "name": "Barn",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.842Z",
+        "update_date": "2023-08-04T06:59:20.842Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 300,
+    "fields": {
+        "name": "Cabin",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.845Z",
+        "update_date": "2023-08-04T06:59:20.845Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 301,
+    "fields": {
+        "name": "Campground",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.848Z",
+        "update_date": "2023-08-04T06:59:20.848Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 302,
+    "fields": {
+        "name": "Capsule Hotel",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.851Z",
+        "update_date": "2023-08-04T06:59:20.851Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 303,
+    "fields": {
+        "name": "Caravan",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.855Z",
+        "update_date": "2023-08-04T06:59:20.855Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 304,
+    "fields": {
+        "name": "Caravan Park",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.859Z",
+        "update_date": "2023-08-04T06:59:20.859Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 305,
+    "fields": {
+        "name": "Castle",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.862Z",
+        "update_date": "2023-08-04T06:59:20.862Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 306,
+    "fields": {
+        "name": "Cave House",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.865Z",
+        "update_date": "2023-08-04T06:59:20.865Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 307,
+    "fields": {
+        "name": "Condo",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.869Z",
+        "update_date": "2023-08-04T06:59:20.869Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 308,
+    "fields": {
+        "name": "Cruise",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.872Z",
+        "update_date": "2023-08-04T06:59:20.872Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 309,
+    "fields": {
+        "name": "Farmstay",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.875Z",
+        "update_date": "2023-08-04T06:59:20.875Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 310,
+    "fields": {
+        "name": "Gite",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.878Z",
+        "update_date": "2023-08-04T06:59:20.878Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 311,
+    "fields": {
+        "name": "Holiday Park",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.882Z",
+        "update_date": "2023-08-04T06:59:20.882Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 312,
+    "fields": {
+        "name": "House",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.886Z",
+        "update_date": "2023-08-04T06:59:20.886Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 313,
+    "fields": {
+        "name": "Houseboat",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.889Z",
+        "update_date": "2023-08-04T06:59:20.889Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 314,
+    "fields": {
+        "name": "Luxury Tent",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.893Z",
+        "update_date": "2023-08-04T06:59:20.893Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 315,
+    "fields": {
+        "name": "Mas",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.896Z",
+        "update_date": "2023-08-04T06:59:20.896Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 316,
+    "fields": {
+        "name": "Palace",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.900Z",
+        "update_date": "2023-08-04T06:59:20.900Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 317,
+    "fields": {
+        "name": "Ranch",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.903Z",
+        "update_date": "2023-08-04T06:59:20.903Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 318,
+    "fields": {
+        "name": "Recreational Vehicle",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.907Z",
+        "update_date": "2023-08-04T06:59:20.907Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 319,
+    "fields": {
+        "name": "Rental",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.910Z",
+        "update_date": "2023-08-04T06:59:20.910Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 320,
+    "fields": {
+        "name": "Safari/Tentalow",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.914Z",
+        "update_date": "2023-08-04T06:59:20.914Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 321,
+    "fields": {
+        "name": "Self-Sufficient Accommodation ",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.917Z",
+        "update_date": "2023-08-04T06:59:20.917Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 322,
+    "fields": {
+        "name": "Studio",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.921Z",
+        "update_date": "2023-08-04T06:59:20.921Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 323,
+    "fields": {
+        "name": "Timeshare",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.924Z",
+        "update_date": "2023-08-04T06:59:20.924Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 324,
+    "fields": {
+        "name": "Tower",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.927Z",
+        "update_date": "2023-08-04T06:59:20.927Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 325,
+    "fields": {
+        "name": "Treehouse",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.931Z",
+        "update_date": "2023-08-04T06:59:20.931Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 326,
+    "fields": {
+        "name": "country house/manor",
+        "partner": 14,
+        "create_date": "2023-08-04T06:59:20.934Z",
+        "update_date": "2023-08-04T06:59:20.934Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 328,
+    "fields": {
+        "name": "hotel",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.939Z",
+        "update_date": "2023-08-04T06:59:20.939Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 329,
+    "fields": {
+        "name": "apartment",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.942Z",
+        "update_date": "2023-08-04T06:59:20.942Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 330,
+    "fields": {
+        "name": "private vacation home",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.945Z",
+        "update_date": "2023-08-04T06:59:20.945Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 331,
+    "fields": {
+        "name": "guest house",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.949Z",
+        "update_date": "2023-08-04T06:59:20.949Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 332,
+    "fields": {
+        "name": "bed & breakfast",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.954Z",
+        "update_date": "2023-08-04T06:59:20.954Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 333,
+    "fields": {
+        "name": "villa",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.957Z",
+        "update_date": "2023-08-04T06:59:20.957Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 334,
+    "fields": {
+        "name": "condo",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.961Z",
+        "update_date": "2023-08-04T06:59:20.961Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 335,
+    "fields": {
+        "name": "apart-hotel",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.964Z",
+        "update_date": "2023-08-04T06:59:20.964Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 336,
+    "fields": {
+        "name": "motel",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.967Z",
+        "update_date": "2023-08-04T06:59:20.967Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 337,
+    "fields": {
+        "name": "cottage",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.970Z",
+        "update_date": "2023-08-04T06:59:20.970Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 338,
+    "fields": {
+        "name": "hostel/backpacker accommodation",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.974Z",
+        "update_date": "2023-08-04T06:59:20.974Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 339,
+    "fields": {
+        "name": "cabin",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.977Z",
+        "update_date": "2023-08-04T06:59:20.977Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 340,
+    "fields": {
+        "name": "inn",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.981Z",
+        "update_date": "2023-08-04T06:59:20.981Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 341,
+    "fields": {
+        "name": "hotel resort",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.985Z",
+        "update_date": "2023-08-04T06:59:20.985Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 342,
+    "fields": {
+        "name": "pousada (brazil)",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.988Z",
+        "update_date": "2023-08-04T06:59:20.988Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 343,
+    "fields": {
+        "name": "lodge",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.991Z",
+        "update_date": "2023-08-04T06:59:20.991Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 344,
+    "fields": {
+        "name": "residence",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.995Z",
+        "update_date": "2023-08-04T06:59:20.995Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 345,
+    "fields": {
+        "name": "agritourism",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:20.998Z",
+        "update_date": "2023-08-04T06:59:20.998Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 346,
+    "fields": {
+        "name": "pension",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.002Z",
+        "update_date": "2023-08-04T06:59:21.002Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 347,
+    "fields": {
+        "name": "townhouse",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.005Z",
+        "update_date": "2023-08-04T06:59:21.005Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 348,
+    "fields": {
+        "name": "caravan park/campsite",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.009Z",
+        "update_date": "2023-08-04T06:59:21.009Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 349,
+    "fields": {
+        "name": "country house",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.012Z",
+        "update_date": "2023-08-04T06:59:21.012Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 350,
+    "fields": {
+        "name": "hostal",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.015Z",
+        "update_date": "2023-08-04T06:59:21.015Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 351,
+    "fields": {
+        "name": "ryokan",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.019Z",
+        "update_date": "2023-08-04T06:59:21.019Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 352,
+    "fields": {
+        "name": "all-inclusive",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.022Z",
+        "update_date": "2023-08-04T06:59:21.022Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 353,
+    "fields": {
+        "name": "chalet",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.025Z",
+        "update_date": "2023-08-04T06:59:21.026Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 354,
+    "fields": {
+        "name": "holiday park",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.029Z",
+        "update_date": "2023-08-04T06:59:21.029Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 355,
+    "fields": {
+        "name": "riad",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.032Z",
+        "update_date": "2023-08-04T06:59:21.032Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 356,
+    "fields": {
+        "name": "safari / tentalow",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.035Z",
+        "update_date": "2023-08-04T06:59:21.035Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 357,
+    "fields": {
+        "name": "house boat",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.039Z",
+        "update_date": "2023-08-04T06:59:21.039Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 358,
+    "fields": {
+        "name": "capsule hotel",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.043Z",
+        "update_date": "2023-08-04T06:59:21.043Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 359,
+    "fields": {
+        "name": "hotel-unknown",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.046Z",
+        "update_date": "2023-08-04T06:59:21.046Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 360,
+    "fields": {
+        "name": "mobile home",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.049Z",
+        "update_date": "2023-08-04T06:59:21.049Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 361,
+    "fields": {
+        "name": "cruise",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.053Z",
+        "update_date": "2023-08-04T06:59:21.053Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 362,
+    "fields": {
+        "name": "condominium resort",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.056Z",
+        "update_date": "2023-08-04T06:59:21.056Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 363,
+    "fields": {
+        "name": "castle",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.059Z",
+        "update_date": "2023-08-04T06:59:21.059Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 364,
+    "fields": {
+        "name": "tree house",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.062Z",
+        "update_date": "2023-08-04T06:59:21.062Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 365,
+    "fields": {
+        "name": "ranch",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.066Z",
+        "update_date": "2023-08-04T06:59:21.066Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 366,
+    "fields": {
+        "name": "palace",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.069Z",
+        "update_date": "2023-08-04T06:59:21.069Z"
+    }
+},
+{
+    "model": "property.partnerpropertytype",
+    "pk": 367,
+    "fields": {
+        "name": "pousada (portugal)",
+        "partner": 16,
+        "create_date": "2023-08-04T06:59:21.073Z",
+        "update_date": "2023-08-04T06:59:21.073Z"
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 621,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 25
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 622,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 1
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 623,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 7
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 624,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 13
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 625,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 64
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 626,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 71
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 627,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 95
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 628,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 102
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 629,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 117
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 630,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 276
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 631,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 137
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 632,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 142
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 633,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 145
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 634,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 155
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 635,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 183
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 636,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 184
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 637,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 298
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 638,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 322
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 639,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 220
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 640,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 221
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 641,
+    "fields": {
+        "property_type": 1,
+        "partner_property": 235
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 642,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 4
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 643,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 69
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 644,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 106
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 645,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 292
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 646,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 143
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 647,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 191
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 648,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 205
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 649,
+    "fields": {
+        "property_type": 2,
+        "partner_property": 259
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 650,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 11
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 651,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 19
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 652,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 75
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 653,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 101
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 654,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 112
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 655,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 153
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 656,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 147
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 657,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 206
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 658,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 201
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 659,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 300
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 660,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 238
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 661,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 230
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 662,
+    "fields": {
+        "property_type": 3,
+        "partner_property": 249
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 663,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 18
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 664,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 72
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 665,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 119
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 666,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 279
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 667,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 271
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 668,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 296
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 669,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 294
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 670,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 195
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 671,
+    "fields": {
+        "property_type": 4,
+        "partner_property": 232
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 672,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 17
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 673,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 46
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 674,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 60
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 675,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 14
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 676,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 59
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 677,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 182
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 678,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 88
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 679,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 66
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 680,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 86
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 681,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 77
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 682,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 74
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 683,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 85
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 684,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 84
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 685,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 104
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 686,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 114
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 687,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 282
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 688,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 281
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 689,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 267
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 690,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 269
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 691,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 291
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 692,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 295
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 693,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 186
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 694,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 185
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 695,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 194
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 696,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 211
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 697,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 216
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 698,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 264
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 699,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 242
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 700,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 253
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 701,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 224
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 702,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 262
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 703,
+    "fields": {
+        "property_type": 5,
+        "partner_property": 261
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 704,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 2
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 705,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 28
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 706,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 37
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 707,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 6
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 708,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 10
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 709,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 34
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 710,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 20
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 711,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 41
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 712,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 9
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 713,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 12
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 714,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 38
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 715,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 24
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 716,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 55
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 717,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 49
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 718,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 31
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 719,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 42
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 720,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 48
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 721,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 67
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 722,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 76
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 723,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 87
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 724,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 70
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 725,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 65
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 726,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 92
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 727,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 107
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 728,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 111
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 729,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 116
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 730,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 109
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 731,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 118
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 732,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 131
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 733,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 96
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 734,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 122
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 735,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 115
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 736,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 110
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 737,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 125
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 738,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 130
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 739,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 100
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 740,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 105
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 741,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 190
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 742,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 280
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 743,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 273
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 744,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 275
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 745,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 284
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 746,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 274
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 747,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 283
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 748,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 293
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 749,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 138
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 750,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 160
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 751,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 146
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 752,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 162
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 753,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 144
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 754,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 171
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 755,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 150
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 756,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 161
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 757,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 152
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 758,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 177
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 759,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 169
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 760,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 151
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 761,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 193
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 762,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 215
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 763,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 214
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 764,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 212
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 765,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 217
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 766,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 204
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 767,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 213
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 768,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 208
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 769,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 198
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 770,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 312
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 771,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 316
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 772,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 222
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 773,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 251
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 774,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 248
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 775,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 247
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 776,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 244
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 777,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 233
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 778,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 258
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 779,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 240
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 780,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 236
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 781,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 223
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 782,
+    "fields": {
+        "property_type": 6,
+        "partner_property": 260
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 783,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 22
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 784,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 89
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 785,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 73
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 786,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 108
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 787,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 268
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 788,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 277
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 789,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 289
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 790,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 270
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 791,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 170
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 792,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 187
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 793,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 254
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 794,
+    "fields": {
+        "property_type": 7,
+        "partner_property": 225
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 795,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 5
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 796,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 68
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 797,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 97
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 798,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 149
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 799,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 139
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 800,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 203
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 801,
+    "fields": {
+        "property_type": 9,
+        "partner_property": 241
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 802,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 21
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 803,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 52
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 804,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 56
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 805,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 39
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 806,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 51
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 807,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 27
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 808,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 23
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 809,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 30
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 810,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 32
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 811,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 45
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 812,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 33
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 813,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 43
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 814,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 35
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 815,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 15
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 816,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 26
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 817,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 54
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 818,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 47
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 819,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 53
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 820,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 62
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 821,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 57
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 822,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 36
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 823,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 44
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 824,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 81
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 825,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 79
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 826,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 80
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 827,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 90
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 828,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 82
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 829,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 113
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 830,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 123
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 831,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 132
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 832,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 134
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 833,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 121
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 834,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 120
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 835,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 266
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 836,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 287
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 837,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 286
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 838,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 272
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 839,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 285
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 840,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 168
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 841,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 158
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 842,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 179
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 843,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 176
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 844,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 173
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 845,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 174
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 846,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 172
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 847,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 164
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 848,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 165
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 849,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 154
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 850,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 180
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 851,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 163
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 852,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 148
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 853,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 159
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 854,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 157
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 855,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 178
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 856,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 181
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 857,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 175
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 858,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 156
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 859,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 166
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 860,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 167
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 861,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 207
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 862,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 197
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 863,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 196
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 864,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 199
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 865,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 209
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 866,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 265
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 867,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 297
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 868,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 299
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 869,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 320
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 870,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 321
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 871,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 324
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 872,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 325
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 873,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 319
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 874,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 317
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 875,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 315
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 876,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 314
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 877,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 311
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 878,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 310
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 879,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 309
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 880,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 306
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 881,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 305
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 882,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 302
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 883,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 301
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 884,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 231
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 885,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 226
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 886,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 255
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 887,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 252
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 888,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 246
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 889,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 234
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 890,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 257
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 891,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 229
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 892,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 256
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 893,
+    "fields": {
+        "property_type": 10,
+        "partner_property": 245
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 894,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 3
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 895,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 94
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 896,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 98
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 897,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 141
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 898,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 307
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 899,
+    "fields": {
+        "property_type": 11,
+        "partner_property": 239
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 900,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 8
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 901,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 93
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 902,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 99
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 903,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 140
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 904,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 202
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 905,
+    "fields": {
+        "property_type": 12,
+        "partner_property": 237
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 906,
+    "fields": {
+        "property_type": 13,
+        "partner_property": 16
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 907,
+    "fields": {
+        "property_type": 13,
+        "partner_property": 78
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 908,
+    "fields": {
+        "property_type": 13,
+        "partner_property": 103
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 909,
+    "fields": {
+        "property_type": 13,
+        "partner_property": 200
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 910,
+    "fields": {
+        "property_type": 13,
+        "partner_property": 243
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 911,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 40
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 912,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 29
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 913,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 83
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 914,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 91
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 915,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 188
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 916,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 189
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 917,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 129
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 918,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 124
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 919,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 128
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 920,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 288
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 921,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 210
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 922,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 313
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 923,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 308
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 924,
+    "fields": {
+        "property_type": 14,
+        "partner_property": 227
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 925,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 63
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 926,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 50
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 927,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 61
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 928,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 127
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 929,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 133
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 930,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 126
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 931,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 278
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 932,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 290
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 933,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 303
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 934,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 304
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 935,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 318
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 936,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 250
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 937,
+    "fields": {
+        "property_type": 15,
+        "partner_property": 228
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 938,
+    "fields": {
+        "property_type": 16,
+        "partner_property": 58
+    }
+},
+{
+    "model": "property.partnerpropertymapping",
+    "pk": 939,
+    "fields": {
+        "property_type": 16,
+        "partner_property": 323
+    }
+}
+]

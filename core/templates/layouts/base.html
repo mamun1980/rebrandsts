@@ -1,0 +1,39 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block fullbody_content %}
+  {% include 'includes/sidebar.html' %}
+    
+    <main class="content">
+
+      {% include 'includes/navigation.html' %}
+
+      {% block messages %}
+        {% if messages %}
+          <ul class="messages" id='messages'>
+              {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} " role="alert">
+                  {{ message }}
+                </div>
+              {% endfor %}
+          </ul>
+          {% endif %}
+          
+      {% endblock messages %}
+
+      <div class='main_content'>
+        {% block content %}{% endblock content %}
+      </div>
+      <script>
+          
+          var message_ele = document.getElementById("messages");
+
+          if(message_ele) {
+            setTimeout(function(){ 
+              message_ele.style.display = "none"; 
+            }, 3000);
+          }
+
+      </script>
+    </main>
+
+{% endblock fullbody_content %}

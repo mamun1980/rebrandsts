@@ -1,0 +1,2706 @@
+[
+{
+    "model": "sts.ratiogroup",
+    "pk": 121,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.740Z",
+        "updated_at": "2023-07-24T12:10:05.740Z",
+        "ratio_set": 10,
+        "short_name": "VRBO=80%, AB=5%,BC=15%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 122,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.764Z",
+        "updated_at": "2023-07-24T12:10:05.764Z",
+        "ratio_set": 11,
+        "short_name": "HA=5%, AB=20%,BC=75%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 123,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.786Z",
+        "updated_at": "2023-07-24T12:10:05.786Z",
+        "ratio_set": 12,
+        "short_name": "HA=5%, AB=20%,BC=75%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 124,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.803Z",
+        "updated_at": "2023-07-24T12:10:05.803Z",
+        "ratio_set": 13,
+        "short_name": "AB = 0%, AT = 0%, BC = 40%, EP = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 20%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:55;s:4:\"VRBO\";d:42;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 125,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.819Z",
+        "updated_at": "2023-07-24T12:10:05.819Z",
+        "ratio_set": 14,
+        "short_name": "HA=5%,BC=95%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 126,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.842Z",
+        "updated_at": "2023-07-24T12:10:05.842Z",
+        "ratio_set": 15,
+        "short_name": "HA=5%, AB=5%,BC=90%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 127,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.870Z",
+        "updated_at": "2023-07-24T12:10:05.870Z",
+        "ratio_set": 16,
+        "short_name": "BC=25,HA=10,VRBO=40,AB=25",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 128,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.897Z",
+        "updated_at": "2023-07-24T12:10:05.897Z",
+        "ratio_set": 17,
+        "short_name": "BC=50,HA=10,VRBO=20,AB=20",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 129,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.918Z",
+        "updated_at": "2023-07-24T12:10:05.918Z",
+        "ratio_set": 18,
+        "short_name": "BC=20,HA=40,AB=40",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 130,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.935Z",
+        "updated_at": "2023-07-24T12:10:05.935Z",
+        "ratio_set": 19,
+        "short_name": "BC=40,HA=20,AB=40",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 131,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.952Z",
+        "updated_at": "2023-07-24T12:10:05.952Z",
+        "ratio_set": 20,
+        "short_name": "BC=25,HA=50,AB=25",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 132,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.970Z",
+        "updated_at": "2023-07-24T12:10:05.970Z",
+        "ratio_set": 21,
+        "short_name": "BC=50,HA=25,AB=25",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 133,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.986Z",
+        "updated_at": "2023-07-24T12:10:05.986Z",
+        "ratio_set": 22,
+        "short_name": "AB - 5, BC - 15, HA - 80",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 134,
+    "fields": {
+        "created_at": "2023-07-24T12:10:05.998Z",
+        "updated_at": "2023-07-24T12:10:05.998Z",
+        "ratio_set": 23,
+        "short_name": "BC-60, HA-40",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 135,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.014Z",
+        "updated_at": "2023-07-24T12:10:06.015Z",
+        "ratio_set": 24,
+        "short_name": "RBO & BV -PlaceHolder",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 136,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.031Z",
+        "updated_at": "2023-07-24T12:10:06.031Z",
+        "ratio_set": 25,
+        "short_name": "AB-30,BC-20,VRBO-50",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 137,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.048Z",
+        "updated_at": "2023-07-24T12:10:06.048Z",
+        "ratio_set": 26,
+        "short_name": "AB-40,BC-40,VRBO-20",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 138,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.062Z",
+        "updated_at": "2023-07-24T12:10:06.062Z",
+        "ratio_set": 27,
+        "short_name": "Alo Placeholder ",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 139,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.076Z",
+        "updated_at": "2023-07-24T12:10:06.076Z",
+        "ratio_set": 28,
+        "short_name": "AB-30,BC-30,VRBO-40",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 140,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.089Z",
+        "updated_at": "2023-07-24T12:10:06.089Z",
+        "ratio_set": 29,
+        "short_name": "BVAU Placeholder ",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 141,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.103Z",
+        "updated_at": "2023-07-24T12:10:06.103Z",
+        "ratio_set": 30,
+        "short_name": "BVUK Placeholder ",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 142,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.121Z",
+        "updated_at": "2023-07-24T12:10:06.121Z",
+        "ratio_set": 31,
+        "short_name": "mlfr Placeholder ",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 143,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.135Z",
+        "updated_at": "2023-07-24T12:10:06.135Z",
+        "ratio_set": 32,
+        "short_name": "RHde Placeholder ",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 144,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.149Z",
+        "updated_at": "2023-07-24T12:10:06.149Z",
+        "ratio_set": 33,
+        "short_name": "AB-40,BC-20,VRBO-40",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 145,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.159Z",
+        "updated_at": "2023-07-24T12:10:06.159Z",
+        "ratio_set": 34,
+        "short_name": "hybrid-vrbo-AB",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 146,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.168Z",
+        "updated_at": "2023-07-24T12:10:06.168Z",
+        "ratio_set": 35,
+        "short_name": "hybrid-HA-AB",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 147,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.182Z",
+        "updated_at": "2023-07-24T12:10:06.182Z",
+        "ratio_set": 36,
+        "short_name": "hybrid-BC-vrbo-AB",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 148,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.197Z",
+        "updated_at": "2023-07-24T12:10:06.197Z",
+        "ratio_set": 37,
+        "short_name": "hybrid-BC-HA-AB",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 150,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.211Z",
+        "updated_at": "2023-07-24T12:10:06.211Z",
+        "ratio_set": 38,
+        "short_name": "AB-20,BC-30,VRBO-50",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 151,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.221Z",
+        "updated_at": "2023-07-24T12:10:06.221Z",
+        "ratio_set": 39,
+        "short_name": "VRBO=5%, AB=20%,BC=75%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 152,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.235Z",
+        "updated_at": "2023-07-24T12:10:06.235Z",
+        "ratio_set": 40,
+        "short_name": "AB = 0%, AT = 0%, BC = 10%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 90%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 153,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.241Z",
+        "updated_at": "2023-07-24T12:10:06.241Z",
+        "ratio_set": 41,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:1:{s:2:\"BC\";d:97;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 154,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.254Z",
+        "updated_at": "2023-07-24T12:10:06.255Z",
+        "ratio_set": 42,
+        "short_name": "HA=5%, AB=5%,BC=90%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 155,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.268Z",
+        "updated_at": "2023-07-24T12:10:06.268Z",
+        "ratio_set": 43,
+        "short_name": "AB = 20%, BC = 75%, AT = 5%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 156,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.278Z",
+        "updated_at": "2023-07-24T12:10:06.278Z",
+        "ratio_set": 44,
+        "short_name": "AB=20%, BC=80%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 157,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.293Z",
+        "updated_at": "2023-07-24T12:10:06.293Z",
+        "ratio_set": 45,
+        "short_name": "VRBO=80%, AB=5%,BC=15%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"AB\";d:39;s:2:\"BC\";d:46;s:4:\"VRBO\";d:12;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"AB\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:1;a:3:{i:0;s:2:\"AB\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:2;a:3:{i:0;s:2:\"AB\";i:1;s:2:\"BC\";i:2;s:2:\"AB\";}i:3;a:3:{i:0;s:2:\"AB\";i:1;s:2:\"BC\";i:2;s:2:\"AB\";}i:4;a:3:{i:0;s:2:\"AB\";i:1;s:2:\"BC\";i:2;s:2:\"AB\";}i:5;a:3:{i:0;s:2:\"AB\";i:1;s:2:\"BC\";i:2;s:2:\"AB\";}i:6;a:3:{i:0;s:2:\"AB\";i:1;s:2:\"BC\";i:2;s:2:\"AB\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 158,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.306Z",
+        "updated_at": "2023-07-24T12:10:06.306Z",
+        "ratio_set": 46,
+        "short_name": "AB = 60%, AT = 0%, BC = 40%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 159,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.311Z",
+        "updated_at": "2023-07-24T12:10:06.311Z",
+        "ratio_set": 47,
+        "short_name": "AB = 100%, AT = 0%, BC = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 160,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.324Z",
+        "updated_at": "2023-07-24T12:10:06.324Z",
+        "ratio_set": 48,
+        "short_name": "AB=20%BC=20%HA=40%TA=20%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 161,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.340Z",
+        "updated_at": "2023-07-24T12:10:06.340Z",
+        "ratio_set": 49,
+        "short_name": "AB = 20%, AT = 20%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 20%, TA = 20%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 162,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.351Z",
+        "updated_at": "2023-07-24T12:10:06.351Z",
+        "ratio_set": 50,
+        "short_name": "AB = 20%, AT = 0%, BC = 60%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 20%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 163,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.361Z",
+        "updated_at": "2023-07-24T12:10:06.361Z",
+        "ratio_set": 51,
+        "short_name": "VRBO=80%, AB=5%,BC=15%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 164,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.372Z",
+        "updated_at": "2023-07-24T12:10:06.372Z",
+        "ratio_set": 52,
+        "short_name": "VRBO=5%, AB=20%,BC=75%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 165,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.383Z",
+        "updated_at": "2023-07-24T12:10:06.383Z",
+        "ratio_set": 53,
+        "short_name": "HA=5%, AB=5%,BC=90%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 166,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.394Z",
+        "updated_at": "2023-07-24T12:10:06.394Z",
+        "ratio_set": 54,
+        "short_name": "AB = 30%, AT = 30%, BC = 40%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 167,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.404Z",
+        "updated_at": "2023-07-24T12:10:06.404Z",
+        "ratio_set": 55,
+        "short_name": "AB = 25%, AT = 0%, BC = 25%, FW = 50%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 168,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.414Z",
+        "updated_at": "2023-07-24T12:10:06.414Z",
+        "ratio_set": 56,
+        "short_name": "AB = 30%, AT = 0%, BC = 40%, FW = 30%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 169,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.425Z",
+        "updated_at": "2023-07-24T12:10:06.425Z",
+        "ratio_set": 57,
+        "short_name": "AB = 20%, AT = 0%, BC = 75%, FW = 5%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 170,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.438Z",
+        "updated_at": "2023-07-24T12:10:06.438Z",
+        "ratio_set": 58,
+        "short_name": "AB = 20%, AT = 0%, BC = 20%, FW = 40%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 20%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 171,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.448Z",
+        "updated_at": "2023-07-24T12:10:06.448Z",
+        "ratio_set": 59,
+        "short_name": "AB = 25%, AT = 0%, BC = 25%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 50%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 172,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.458Z",
+        "updated_at": "2023-07-24T12:10:06.458Z",
+        "ratio_set": 60,
+        "short_name": "hybrid-BC-vrbo-AB",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 173,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.474Z",
+        "updated_at": "2023-07-24T12:10:06.474Z",
+        "ratio_set": 61,
+        "short_name": "AB = 20%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 40%, HAUK = 0%, HL = 0%, TA = 20%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 174,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.486Z",
+        "updated_at": "2023-07-24T12:10:06.486Z",
+        "ratio_set": 62,
+        "short_name": "AB = 20%, AT = 0%, BC = 75%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 5%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 175,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.497Z",
+        "updated_at": "2023-07-24T12:10:06.497Z",
+        "ratio_set": 63,
+        "short_name": "AB = 25%, AT = 0%, BC = 50%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 25%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 176,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.511Z",
+        "updated_at": "2023-07-24T12:10:06.511Z",
+        "ratio_set": 64,
+        "short_name": "AB = 20%, AT = 20%, BC = 50%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 10%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 177,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.521Z",
+        "updated_at": "2023-07-24T12:10:06.521Z",
+        "ratio_set": 65,
+        "short_name": "AB = 25%, AT = 0%, BC = 50%, FW = 25%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 178,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.532Z",
+        "updated_at": "2023-07-24T12:10:06.532Z",
+        "ratio_set": 66,
+        "short_name": "AB = 20%, AT = 0%, BC = 60%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 20%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 179,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.544Z",
+        "updated_at": "2023-07-24T12:10:06.544Z",
+        "ratio_set": 67,
+        "short_name": "AB = 5%, AT = 0%, BC = 15%, FW = 0%, HA = 0%, HAAU = 80%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 180,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.558Z",
+        "updated_at": "2023-07-24T12:10:06.558Z",
+        "ratio_set": 68,
+        "short_name": "AB = 20%, AT = 0%, BC = 75%, FW = 0%, HA = 0%, HAAU = 5%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 181,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.579Z",
+        "updated_at": "2023-07-24T12:10:06.579Z",
+        "ratio_set": 69,
+        "short_name": "AB = 30%, AT = 0%, BC = 40%, FW = 0%, HA = 0%, HAAU = 30%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 182,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.605Z",
+        "updated_at": "2023-07-24T12:10:06.605Z",
+        "ratio_set": 70,
+        "short_name": "AB = 20%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 40%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 20%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 183,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.625Z",
+        "updated_at": "2023-07-24T12:10:06.626Z",
+        "ratio_set": 71,
+        "short_name": "AB = 40%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 40%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 184,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.647Z",
+        "updated_at": "2023-07-24T12:10:06.647Z",
+        "ratio_set": 72,
+        "short_name": "HA=5%, AB=20%,BC=75%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 185,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.668Z",
+        "updated_at": "2023-07-24T12:10:06.668Z",
+        "ratio_set": 73,
+        "short_name": "BC=40,HA=20,AB=40",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 186,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.689Z",
+        "updated_at": "2023-07-24T12:10:06.689Z",
+        "ratio_set": 74,
+        "short_name": "AB = 30%, AT = 0%, BC = 40%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 30%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 187,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.716Z",
+        "updated_at": "2023-07-24T12:10:06.716Z",
+        "ratio_set": 75,
+        "short_name": "AB = 20%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 40%, HL = 0%, TA = 20%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 188,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.743Z",
+        "updated_at": "2023-07-24T12:10:06.743Z",
+        "ratio_set": 76,
+        "short_name": "AutomationProperyChecking",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 189,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.763Z",
+        "updated_at": "2023-07-24T12:10:06.763Z",
+        "ratio_set": 77,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 20%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 190,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.775Z",
+        "updated_at": "2023-07-24T12:10:06.775Z",
+        "ratio_set": 78,
+        "short_name": "AB = 0%, AT = 0%, BC = 55%, FW = 0%, HA = 45%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 191,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.787Z",
+        "updated_at": "2023-07-24T12:10:06.787Z",
+        "ratio_set": 79,
+        "short_name": "AB = 0%, AT = 0%, BC = 55%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 45%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 192,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.799Z",
+        "updated_at": "2023-07-24T12:10:06.799Z",
+        "ratio_set": 80,
+        "short_name": "AB = 0%, AT = 0%, BC = 40%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 60%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 193,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.811Z",
+        "updated_at": "2023-07-24T12:10:06.811Z",
+        "ratio_set": 81,
+        "short_name": "AB = 0%, AT = 0%, BC = 90%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 10%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 194,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.823Z",
+        "updated_at": "2023-07-24T12:10:06.823Z",
+        "ratio_set": 82,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 20%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 195,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.834Z",
+        "updated_at": "2023-07-24T12:10:06.834Z",
+        "ratio_set": 83,
+        "short_name": "AB = 0%, AT = 0%, BC = 15%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 85%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 196,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.846Z",
+        "updated_at": "2023-07-24T12:10:06.846Z",
+        "ratio_set": 84,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 30%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 197,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.857Z",
+        "updated_at": "2023-07-24T12:10:06.857Z",
+        "ratio_set": 85,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 20%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 198,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.869Z",
+        "updated_at": "2023-07-24T12:10:06.869Z",
+        "ratio_set": 86,
+        "short_name": "AB = 0%, AT = 0%, BC = 95%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 5%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 199,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.881Z",
+        "updated_at": "2023-07-24T12:10:06.881Z",
+        "ratio_set": 87,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:41;s:4:\"VRBO\";d:56;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:8;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:9;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:11;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 200,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.893Z",
+        "updated_at": "2023-07-24T12:10:06.893Z",
+        "ratio_set": 88,
+        "short_name": "AB = 0%, AT = 0%, BC = 10%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 90%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 201,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.908Z",
+        "updated_at": "2023-07-24T12:10:06.908Z",
+        "ratio_set": 89,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 20%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 202,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.920Z",
+        "updated_at": "2023-07-24T12:10:06.920Z",
+        "ratio_set": 90,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 20%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 203,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.932Z",
+        "updated_at": "2023-07-24T12:10:06.932Z",
+        "ratio_set": 91,
+        "short_name": "AB = 0%, AT = 0%, BC = 80%, FW = 0%, HA = 20%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 204,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.948Z",
+        "updated_at": "2023-07-24T12:10:06.948Z",
+        "ratio_set": 92,
+        "short_name": "VRBO=80%, AB=5%,BC=15%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 205,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.965Z",
+        "updated_at": "2023-07-24T12:10:06.965Z",
+        "ratio_set": 93,
+        "short_name": "HA=5%,BC=95%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 206,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.982Z",
+        "updated_at": "2023-07-24T12:10:06.982Z",
+        "ratio_set": 94,
+        "short_name": "VRBO=80%, AB=5%,BC=15%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"AB\";d:33;s:2:\"BC\";d:14;s:4:\"VRBO\";d:50;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"AB\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:1;a:3:{i:0;s:2:\"AB\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:2;a:3:{i:0;s:2:\"AB\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:3;a:3:{i:0;s:2:\"AB\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:4;a:3:{i:0;s:2:\"AB\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:5;a:3:{i:0;s:2:\"AB\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:6;a:3:{i:0;s:2:\"AB\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:7;a:3:{i:0;s:2:\"AB\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:8;a:3:{i:0;s:2:\"AB\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:9;a:3:{i:0;s:2:\"AB\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:2:\"AB\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:11;a:3:{i:0;s:2:\"AB\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 207,
+    "fields": {
+        "created_at": "2023-07-24T12:10:06.999Z",
+        "updated_at": "2023-07-24T12:10:06.999Z",
+        "ratio_set": 95,
+        "short_name": "HA=5%, AB=5%,BC=90%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 208,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.016Z",
+        "updated_at": "2023-07-24T12:10:07.016Z",
+        "ratio_set": 96,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 20%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 209,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.032Z",
+        "updated_at": "2023-07-24T12:10:07.032Z",
+        "ratio_set": 97,
+        "short_name": "AB = 0%, AT = 0%, BC = 80%, FW = 0%, HA = 20%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 210,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.044Z",
+        "updated_at": "2023-07-24T12:10:07.044Z",
+        "ratio_set": 98,
+        "short_name": "AB=20%, BC=80%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 211,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.060Z",
+        "updated_at": "2023-07-24T12:10:07.060Z",
+        "ratio_set": 99,
+        "short_name": "AB = 20%, AT = 0%, BC = 60%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 20%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 212,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.077Z",
+        "updated_at": "2023-07-24T12:10:07.077Z",
+        "ratio_set": 100,
+        "short_name": "AB = 80%, AT = 0%, BC = 5%, FW = 0%, HA = 15%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 213,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.095Z",
+        "updated_at": "2023-07-24T12:10:07.095Z",
+        "ratio_set": 101,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 30%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 214,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.111Z",
+        "updated_at": "2023-07-24T12:10:07.111Z",
+        "ratio_set": 102,
+        "short_name": "HA=5%, AB=20%,BC=75%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 215,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.128Z",
+        "updated_at": "2023-07-24T12:10:07.128Z",
+        "ratio_set": 103,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 20%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 216,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.145Z",
+        "updated_at": "2023-07-24T12:10:07.145Z",
+        "ratio_set": 104,
+        "short_name": "AB = 45%, AT = 0%, BC = 5%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 50%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 217,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.161Z",
+        "updated_at": "2023-07-24T12:10:07.161Z",
+        "ratio_set": 105,
+        "short_name": "AB = 70%, AT = 0%, BC = 5%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 25%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 218,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.178Z",
+        "updated_at": "2023-07-24T12:10:07.178Z",
+        "ratio_set": 106,
+        "short_name": "AB = 90%, AT = 0%, BC = 5%, FW = 0%, HA = 0%, HAAU = 5%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 219,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.194Z",
+        "updated_at": "2023-07-24T12:10:07.194Z",
+        "ratio_set": 107,
+        "short_name": "AB = 55%, AT = 0%, BC = 5%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 40%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 220,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.211Z",
+        "updated_at": "2023-07-24T12:10:07.211Z",
+        "ratio_set": 108,
+        "short_name": "HA=5%, AB=20%,BC=75%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 221,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.230Z",
+        "updated_at": "2023-07-24T12:10:07.230Z",
+        "ratio_set": 109,
+        "short_name": "BC=40,HA=20,AB=40",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 222,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.251Z",
+        "updated_at": "2023-07-24T12:10:07.251Z",
+        "ratio_set": 110,
+        "short_name": "AB = 45%, AT = 40%, BC = 5%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 10%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 223,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.273Z",
+        "updated_at": "2023-07-24T12:10:07.273Z",
+        "ratio_set": 111,
+        "short_name": "AB = 65%, AT = 20%, BC = 5%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 10%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 224,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.290Z",
+        "updated_at": "2023-07-24T12:10:07.290Z",
+        "ratio_set": 112,
+        "short_name": "VRBO=40%,BC=60%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 225,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.307Z",
+        "updated_at": "2023-07-24T12:10:07.307Z",
+        "ratio_set": 113,
+        "short_name": "AB = 45%, AT = 0%, BC = 5%, FW = 50%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 226,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.323Z",
+        "updated_at": "2023-07-24T12:10:07.323Z",
+        "ratio_set": 114,
+        "short_name": "AB = 70%, AT = 0%, BC = 5%, FW = 25%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 227,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.336Z",
+        "updated_at": "2023-07-24T12:10:07.336Z",
+        "ratio_set": 115,
+        "short_name": "AB = 0%, AT = 0%, BC = 50%, FW = 0%, HA = 50%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:52;s:2:\"HA\";d:45;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HA\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"BC\";i:2;s:2:\"HA\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HA\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"BC\";i:2;s:2:\"HA\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HA\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"BC\";i:2;s:2:\"HA\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HA\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"BC\";i:2;s:2:\"HA\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HA\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"BC\";i:2;s:2:\"HA\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HA\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"BC\";i:2;s:2:\"HA\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HA\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"BC\";i:2;s:2:\"HA\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HA\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"BC\";i:2;s:2:\"HA\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 228,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.349Z",
+        "updated_at": "2023-07-24T12:10:07.349Z",
+        "ratio_set": 116,
+        "short_name": "HA=5%, AB=20%,BC=75%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:45;s:4:\"VRBO\";d:52;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:11;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 229,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.366Z",
+        "updated_at": "2023-07-24T12:10:07.367Z",
+        "ratio_set": 117,
+        "short_name": "AB = 0%, AT = 50%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 20%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:34;s:2:\"HL\";d:29;s:2:\"AT\";d:35;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HL\";i:2;s:2:\"AT\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HL\";i:2;s:2:\"AT\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HL\";i:2;s:2:\"AT\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HL\";i:2;s:2:\"AT\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HL\";i:2;s:2:\"AT\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HL\";i:2;s:2:\"AT\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HL\";i:2;s:2:\"AT\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HL\";i:2;s:2:\"AT\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HL\";i:2;s:2:\"AT\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HL\";i:2;s:2:\"AT\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"AT\";i:2;s:2:\"AT\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"AT\";i:2;s:2:\"AT\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"AT\";i:2;s:2:\"AT\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"AT\";i:2;s:2:\"AT\";}i:14;a:3:{i:0;s:2:\"AT\";i:1;s:2:\"AT\";i:2;s:2:\"AT\";}i:15;a:3:{i:0;s:2:\"AT\";i:1;s:2:\"AT\";i:2;s:2:\"AT\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 230,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.385Z",
+        "updated_at": "2023-07-24T12:10:07.385Z",
+        "ratio_set": 118,
+        "short_name": "AB = 0%, AT = 0%, BC = 50%, FW = 0%, HA = 50%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 231,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.392Z",
+        "updated_at": "2023-07-24T12:10:07.392Z",
+        "ratio_set": 119,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:1:{s:2:\"HG\";d:97;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:3;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:4;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:5;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:7;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:8;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:9;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:12;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:13;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 232,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.404Z",
+        "updated_at": "2023-07-24T12:10:07.404Z",
+        "ratio_set": 120,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:59;s:2:\"KY\";d:38;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 233,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.412Z",
+        "updated_at": "2023-07-24T12:10:07.412Z",
+        "ratio_set": 121,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:1:{s:2:\"KY\";d:97;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:7;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:9;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:10;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:11;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:12;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:13;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:14;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:15;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 234,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.424Z",
+        "updated_at": "2023-07-24T12:10:07.424Z",
+        "ratio_set": 122,
+        "short_name": "AB = 0%, AT = 0%, BC = 0%, FW = 0%, HA = 50%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 50%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"HA\";d:52;s:2:\"KY\";d:45;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"KY\";i:2;s:2:\"HA\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HA\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"KY\";i:2;s:2:\"HA\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HA\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"KY\";i:2;s:2:\"HA\";}i:5;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HA\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"KY\";i:2;s:2:\"HA\";}i:7;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HA\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"KY\";i:2;s:2:\"HA\";}i:9;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HA\";i:2;s:2:\"KY\";}i:10;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"KY\";i:2;s:2:\"HA\";}i:11;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HA\";i:2;s:2:\"KY\";}i:12;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"KY\";i:2;s:2:\"HA\";}i:13;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HA\";i:2;s:2:\"KY\";}i:14;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"KY\";i:2;s:2:\"HA\";}i:15;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HA\";i:2;s:2:\"KY\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 235,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.436Z",
+        "updated_at": "2023-07-24T12:10:07.436Z",
+        "ratio_set": 123,
+        "short_name": "AB = 0%, AT = 0%, BC = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 50%, TA = 0%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:4:\"VRBO\";d:52;s:2:\"KY\";d:45;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:4:\"VRBO\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:4:\"VRBO\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:4:\"VRBO\";}i:5;a:3:{i:0;s:2:\"KY\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:4:\"VRBO\";}i:7;a:3:{i:0;s:2:\"KY\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:4:\"VRBO\";}i:9;a:3:{i:0;s:2:\"KY\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}i:10;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:4:\"VRBO\";}i:11;a:3:{i:0;s:2:\"KY\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:2:\"KY\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:2:\"KY\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 236,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.448Z",
+        "updated_at": "2023-07-24T12:10:07.448Z",
+        "ratio_set": 124,
+        "short_name": "AB = 0%, AT = 0%, BC = 50%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 50%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:52;s:2:\"KY\";d:45;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 237,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.460Z",
+        "updated_at": "2023-07-24T12:10:07.460Z",
+        "ratio_set": 125,
+        "short_name": "AB = 0%, AT = 0%, BC = 15%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 85%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:36;s:2:\"KY\";d:61;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:7;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:9;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:10;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:11;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:12;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:13;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:14;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:15;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 238,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.471Z",
+        "updated_at": "2023-07-24T12:10:07.471Z",
+        "ratio_set": 126,
+        "short_name": "AB = 0%, AT = 0%, BC = 90%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 10%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:72;s:2:\"HG\";d:25;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 239,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.483Z",
+        "updated_at": "2023-07-24T12:10:07.483Z",
+        "ratio_set": 127,
+        "short_name": "AB = 0%, AT = 0%, BC = 0%, FW = 0%, HA = 90%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 10%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"HA\";d:72;s:2:\"KY\";d:25;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"KY\";i:2;s:2:\"HA\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HA\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"KY\";i:2;s:2:\"HA\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:4;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:5;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:6;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:7;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:8;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:9;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:10;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:11;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:12;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:13;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:14;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}i:15;a:3:{i:0;s:2:\"HA\";i:1;s:2:\"HA\";i:2;s:2:\"HA\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 240,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.495Z",
+        "updated_at": "2023-07-24T12:10:07.495Z",
+        "ratio_set": 128,
+        "short_name": "AB = 0%, AT = 0%, BC = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 10%, TA = 0%, VRBO = 90%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:4:\"VRBO\";d:72;s:2:\"KY\";d:25;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:4:\"VRBO\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:4:\"VRBO\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:4;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:5;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:6;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:8;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:9;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:11;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 241,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.507Z",
+        "updated_at": "2023-07-24T12:10:07.507Z",
+        "ratio_set": 129,
+        "short_name": "AB = 0%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 80%, HL = 0%, KY = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:72;s:2:\"KY\";d:25;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 242,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.524Z",
+        "updated_at": "2023-07-24T12:10:07.524Z",
+        "ratio_set": 130,
+        "short_name": "AB = 0%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 20%, HL = 0%, KY = 60%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:31;s:2:\"HG\";d:29;s:2:\"KY\";d:37;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:10;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:11;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:12;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:13;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:14;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:15;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 243,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.535Z",
+        "updated_at": "2023-07-24T12:10:07.535Z",
+        "ratio_set": 131,
+        "short_name": "AB = 0%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 80%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:41;s:2:\"KY\";d:56;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:7;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:9;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:10;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:11;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:12;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:13;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:14;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:15;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 244,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.547Z",
+        "updated_at": "2023-07-24T12:10:07.547Z",
+        "ratio_set": 132,
+        "short_name": "AB = 0%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 80%, HL = 0%, KY = 0%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:41;s:2:\"HG\";d:56;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:7;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:8;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:9;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:12;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:13;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 245,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.563Z",
+        "updated_at": "2023-07-24T12:10:07.563Z",
+        "ratio_set": 133,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 30%, HL = 0%, KY = 40%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:50;s:2:\"KY\";d:48;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:10;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:11;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"KY\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 246,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.579Z",
+        "updated_at": "2023-07-24T12:10:07.579Z",
+        "ratio_set": 134,
+        "short_name": "AB = 0%, AT = 0%, BC = 10%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 80%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:25;s:2:\"HG\";d:52;s:2:\"KY\";d:20;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:7;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:8;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:9;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:12;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:13;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 247,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.591Z",
+        "updated_at": "2023-07-24T12:10:07.591Z",
+        "ratio_set": 135,
+        "short_name": "AB = 0%, AT = 0%, BC = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 50%, HL = 0%, KY = 50%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"HG\";d:52;s:2:\"KY\";d:45;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"HG\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"HG\";}i:5;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"HG\";}i:7;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"HG\";}i:9;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:10;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:12;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"HG\";}i:13;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 248,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.603Z",
+        "updated_at": "2023-07-24T12:10:07.603Z",
+        "ratio_set": 136,
+        "short_name": "AB = 0%, AT = 0%, BC = 60%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 0%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:55;s:2:\"HG\";d:42;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 249,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.624Z",
+        "updated_at": "2023-07-24T12:10:07.624Z",
+        "ratio_set": 137,
+        "short_name": "AB = 0%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 20%, HL = 0%, KY = 20%, TA = 0%, TC = 40%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:4:{s:2:\"BC\";d:28;s:2:\"HG\";d:24;s:2:\"KY\";d:22;s:2:\"TC\";d:23;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:9;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:13;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:14;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:15;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 250,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.631Z",
+        "updated_at": "2023-07-24T12:10:07.631Z",
+        "ratio_set": 138,
+        "short_name": "AB = 0%, AT = 0%, BC = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 0%, TA = 0%, TC = 100%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:1:{s:2:\"TC\";d:97;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:2;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:3;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:4;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:5;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:6;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:7;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:8;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:9;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:10;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:11;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:12;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:13;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:14;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:15;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 251,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.644Z",
+        "updated_at": "2023-07-24T12:10:07.644Z",
+        "ratio_set": 139,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 252,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.660Z",
+        "updated_at": "2023-07-24T12:10:07.660Z",
+        "ratio_set": 140,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 253,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.686Z",
+        "updated_at": "2023-07-24T12:10:07.686Z",
+        "ratio_set": 141,
+        "short_name": "AB = 0%, AT = 0%, BC = 15%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 15%, HL = 0%, KY = 15%, TA = 0%, TC = 15%, VRBO = 40%",
+        "archived": false,
+        "click_weight_ratio": "a:5:{s:2:\"BC\";d:23;s:4:\"VRBO\";d:27;s:2:\"HG\";d:18;s:2:\"KY\";d:15;s:2:\"TC\";d:15;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:2;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:3;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:4;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:9;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"TC\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 254,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.698Z",
+        "updated_at": "2023-07-24T12:10:07.698Z",
+        "ratio_set": 142,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 255,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.710Z",
+        "updated_at": "2023-07-24T12:10:07.710Z",
+        "ratio_set": 143,
+        "short_name": "AB = 0%, AT = 0%, BC = 50%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 0%, TA = 0%, TC = 0%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:52;s:4:\"VRBO\";d:45;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 256,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.729Z",
+        "updated_at": "2023-07-24T12:10:07.729Z",
+        "ratio_set": 144,
+        "short_name": "AB = 0%, AT = 0%, BC = 15%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 5%, HL = 0%, KY = 0%, TA = 0%, TC = 0%, VRBO = 80%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:29;s:4:\"VRBO\";d:52;s:2:\"HG\";d:15;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:6;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:8;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:9;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:11;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 257,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.748Z",
+        "updated_at": "2023-07-24T12:10:07.748Z",
+        "ratio_set": 145,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:43;s:2:\"HG\";d:36;s:2:\"KY\";d:18;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 258,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.767Z",
+        "updated_at": "2023-07-24T12:10:07.767Z",
+        "ratio_set": 146,
+        "short_name": "AB = 0%, AT = 0%, BC = 80%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 10%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:55;s:2:\"HG\";d:23;s:2:\"KY\";d:20;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 259,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.790Z",
+        "updated_at": "2023-07-24T12:10:07.791Z",
+        "ratio_set": 147,
+        "short_name": "AB = 0%, AT = 0%, BC = 35%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 35%, HL = 0%, KY = 10%, TA = 0%, TC = 20%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:4:{s:2:\"BC\";d:33;s:2:\"HG\";d:28;s:2:\"KY\";d:18;s:2:\"TC\";d:19;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:9;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 260,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.815Z",
+        "updated_at": "2023-07-24T12:10:07.815Z",
+        "ratio_set": 148,
+        "short_name": "AB = 0%, AT = 0%, BC = 60%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 10%, HL = 0%, KY = 10%, TA = 0%, TC = 20%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:4:{s:2:\"BC\";d:41;s:2:\"HG\";d:20;s:2:\"KY\";d:18;s:2:\"TC\";d:19;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"TC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 261,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.840Z",
+        "updated_at": "2023-07-24T12:10:07.840Z",
+        "ratio_set": 149,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "",
+        "click_ratio_tiles_plan": ""
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 262,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.859Z",
+        "updated_at": "2023-07-24T12:10:07.859Z",
+        "ratio_set": 150,
+        "short_name": "AB = 0%, AT = 0%, BC = 45%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 50%, HL = 0%, KY = 5%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:48;s:2:\"HG\";d:37;s:2:\"KY\";d:12;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:13;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 263,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.878Z",
+        "updated_at": "2023-07-24T12:10:07.878Z",
+        "ratio_set": 151,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 25%, HL = 0%, KY = 5%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:55;s:2:\"HG\";d:30;s:2:\"KY\";d:12;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 264,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.897Z",
+        "updated_at": "2023-07-24T12:10:07.897Z",
+        "ratio_set": 152,
+        "short_name": "AB = 0%, AT = 0%, BC = 65%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 30%, HL = 0%, KY = 5%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:50;s:2:\"HG\";d:31;s:2:\"KY\";d:15;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 265,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.922Z",
+        "updated_at": "2023-07-24T12:10:07.922Z",
+        "ratio_set": 153,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 15%, HL = 0%, KY = 5%, TA = 0%, TC = 0%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "a:4:{s:2:\"BC\";d:33;s:4:\"VRBO\";d:33;s:2:\"HG\";d:20;s:2:\"KY\";d:11;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:2;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:6;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:11;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 266,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.942Z",
+        "updated_at": "2023-07-24T12:10:07.942Z",
+        "ratio_set": 154,
+        "short_name": "AB = 0%, AT = 0%, BC = 50%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 10%, HL = 0%, KY = 0%, TA = 0%, TC = 0%, VRBO = 40%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:43;s:4:\"VRBO\";d:34;s:2:\"HG\";d:20;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 267,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.967Z",
+        "updated_at": "2023-07-24T12:10:07.967Z",
+        "ratio_set": 155,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 15%, TA = 0%, TC = 5%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "a:4:{s:2:\"BC\";d:33;s:4:\"VRBO\";d:33;s:2:\"KY\";d:20;s:2:\"TC\";d:11;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:2;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:6;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"KY\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:11;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 268,
+    "fields": {
+        "created_at": "2023-07-24T12:10:07.987Z",
+        "updated_at": "2023-07-24T12:10:07.987Z",
+        "ratio_set": 156,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 65%, HL = 0%, KY = 5%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:39;s:2:\"HG\";d:43;s:2:\"KY\";d:15;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:9;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:12;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:13;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 269,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.006Z",
+        "updated_at": "2023-07-24T12:10:08.006Z",
+        "ratio_set": 157,
+        "short_name": "AB = 0%, AT = 0%, BC = 60%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 35%, HL = 0%, KY = 5%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:52;s:2:\"HG\";d:33;s:2:\"KY\";d:12;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 270,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.025Z",
+        "updated_at": "2023-07-24T12:10:08.025Z",
+        "ratio_set": 158,
+        "short_name": "AB = 0%, AT = 0%, BC = 50%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 45%, HL = 0%, KY = 5%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:49;s:2:\"HG\";d:36;s:2:\"KY\";d:12;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 271,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.045Z",
+        "updated_at": "2023-07-24T12:10:08.045Z",
+        "ratio_set": 159,
+        "short_name": "AB = 0%, AT = 0%, BC = 40%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 15%, HL = 0%, KY = 0%, TA = 0%, TC = 0%, VRBO = 45%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:38;s:4:\"VRBO\";d:36;s:2:\"HG\";d:23;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 272,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.064Z",
+        "updated_at": "2023-07-24T12:10:08.064Z",
+        "ratio_set": 160,
+        "short_name": "AB = 0%, AT = 0%, BC = 35%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 60%, HL = 0%, KY = 5%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:44;s:2:\"HG\";d:41;s:2:\"KY\";d:12;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:12;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:13;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 273,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.083Z",
+        "updated_at": "2023-07-24T12:10:08.083Z",
+        "ratio_set": 161,
+        "short_name": "AB = 0%, AT = 0%, BC = 25%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 25%, HL = 0%, KY = 0%, TA = 0%, TC = 0%, VRBO = 50%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:33;s:4:\"VRBO\";d:37;s:2:\"HG\";d:27;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 274,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.098Z",
+        "updated_at": "2023-07-24T12:10:08.098Z",
+        "ratio_set": 162,
+        "short_name": "AB = 0%, AT = 0%, BC = 40%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 20%, HL = 0%, KY = 0%, TA = 0%, TC = 0%, VRBO = 40%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:37;s:4:\"VRBO\";d:34;s:2:\"HG\";d:26;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 275,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.116Z",
+        "updated_at": "2023-07-24T12:10:08.116Z",
+        "ratio_set": 163,
+        "short_name": "AB = 0%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 73%, HL = 0%, KY = 5%, TA = 0%, TC = 2%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:4:{s:2:\"BC\";d:36;s:2:\"HG\";d:45;s:2:\"KY\";d:11;s:2:\"TC\";d:6;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:7;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:8;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:9;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:12;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:13;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 276,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.132Z",
+        "updated_at": "2023-07-24T12:10:08.132Z",
+        "ratio_set": 164,
+        "short_name": "AB = 0%, AT = 0%, BC = 25%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 25%, HL = 0%, KY = 25%, TA = 0%, TC = 25%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:4:{s:2:\"BC\";d:29;s:2:\"HG\";d:25;s:2:\"KY\";d:23;s:2:\"TC\";d:20;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:9;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:13;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"TC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 277,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.149Z",
+        "updated_at": "2023-07-24T12:10:08.149Z",
+        "ratio_set": 165,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 278,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.173Z",
+        "updated_at": "2023-07-24T12:10:08.173Z",
+        "ratio_set": 166,
+        "short_name": "AB = 0%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 73%, HL = 0%, KY = 5%, TA = 0%, TC = 2%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:5:{s:2:\"BC\";d:28;s:2:\"HG\";d:35;s:2:\"TC\";d:8;s:2:\"KY\";d:9;s:2:\"EP\";d:18;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:2;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"EP\";}i:3;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:4;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"EP\";i:2;s:2:\"EP\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:9;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:12;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:13;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 279,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.195Z",
+        "updated_at": "2023-07-24T12:10:08.195Z",
+        "ratio_set": 167,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 280,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.218Z",
+        "updated_at": "2023-07-24T12:10:08.218Z",
+        "ratio_set": 168,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 281,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.245Z",
+        "updated_at": "2023-07-24T12:10:08.245Z",
+        "ratio_set": 169,
+        "short_name": "AB = 0%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 73%, HL = 0%, KY = 5%, TA = 0%, TC = 2%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 282,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.266Z",
+        "updated_at": "2023-07-24T12:10:08.266Z",
+        "ratio_set": 170,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:4:{s:2:\"BC\";d:31;s:2:\"HG\";d:30;s:2:\"KY\";d:18;s:2:\"EP\";d:19;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:2;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"KY\";i:2;s:2:\"EP\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"EP\";i:2;s:2:\"EP\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"EP\";}i:9;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:10;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 283,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.291Z",
+        "updated_at": "2023-07-24T12:10:08.291Z",
+        "ratio_set": 171,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 284,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.308Z",
+        "updated_at": "2023-07-24T12:10:08.308Z",
+        "ratio_set": 172,
+        "short_name": "AB = 0%, AT = 0%, BC = 40%, EP = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 20%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:37;s:2:\"HG\";d:34;s:2:\"KY\";d:26;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"KY\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 285,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.333Z",
+        "updated_at": "2023-07-24T12:10:08.333Z",
+        "ratio_set": 173,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 286,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.357Z",
+        "updated_at": "2023-07-24T12:10:08.357Z",
+        "ratio_set": 174,
+        "short_name": "AB = 0%, AT = 0%, BC = 40%, EP = 5%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 10%, HL = 0%, KY = 0%, LT = 0%, TA = 0%, TC = 5%, VRBO = 40%",
+        "archived": false,
+        "click_weight_ratio": "a:5:{s:2:\"BC\";d:35;s:4:\"VRBO\";d:27;s:2:\"HG\";d:16;s:2:\"TC\";d:9;s:2:\"EP\";d:10;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:2;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:3;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:4;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 287,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.378Z",
+        "updated_at": "2023-07-24T12:10:08.378Z",
+        "ratio_set": 175,
+        "short_name": "AB = 0%, AT = 0%, BC = 40%, EP = 10%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 5%, HL = 0%, KY = 0%, LT = 0%, TA = 0%, TC = 5%, VRBO = 40%",
+        "archived": false,
+        "click_weight_ratio": "a:5:{s:2:\"BC\";d:34;s:4:\"VRBO\";d:27;s:2:\"HG\";d:11;s:2:\"TC\";d:9;s:2:\"EP\";d:16;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:2;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:3;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:4;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"EP\";i:2;s:2:\"EP\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"EP\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 288,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.397Z",
+        "updated_at": "2023-07-24T12:10:08.397Z",
+        "ratio_set": 176,
+        "short_name": "AB = 0%, AT = 0%, BC = 15%, EP = 13%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 15%, HL = 0%, KY = 0%, LT = 0%, TA = 0%, TC = 0%, VRBO = 57%",
+        "archived": false,
+        "click_weight_ratio": "a:4:{s:2:\"BC\";d:26;s:4:\"VRBO\";d:35;s:2:\"HG\";d:20;s:2:\"EP\";d:16;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:2;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"EP\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:5;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:6;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"EP\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:9;a:3:{i:0;s:2:\"EP\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:11;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 289,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.419Z",
+        "updated_at": "2023-07-24T12:10:08.419Z",
+        "ratio_set": 177,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 290,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.440Z",
+        "updated_at": "2023-07-24T12:10:08.440Z",
+        "ratio_set": 178,
+        "short_name": "AB = 0%, AT = 0%, BC = 80%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 10%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 291,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.461Z",
+        "updated_at": "2023-07-24T12:10:08.462Z",
+        "ratio_set": 179,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 292,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.487Z",
+        "updated_at": "2023-07-24T12:10:08.487Z",
+        "ratio_set": 180,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:6:{s:2:\"BC\";d:30;s:2:\"HG\";d:22;s:2:\"TC\";d:11;s:2:\"KY\";d:8;s:2:\"EP\";d:14;s:2:\"LT\";d:12;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";i:2;s:2:\"LT\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";i:2;s:2:\"LT\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"EP\";}i:5;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"EP\";i:2;s:2:\"LT\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"LT\";}i:7;a:3:{i:0;s:2:\"LT\";i:1;s:2:\"LT\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"HG\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}i:15;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 293,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.511Z",
+        "updated_at": "2023-07-24T12:10:08.511Z",
+        "ratio_set": 181,
+        "short_name": "AB = 0%, AT = 0%, BC = 80%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 10%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 294,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.539Z",
+        "updated_at": "2023-07-24T12:10:08.539Z",
+        "ratio_set": 182,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:7:{s:2:\"BC\";d:25;s:4:\"VRBO\";d:19;s:2:\"HG\";d:17;s:2:\"TC\";d:8;s:2:\"KY\";d:8;s:2:\"EP\";d:11;s:2:\"LT\";d:9;}",
+        "click_ratio_tiles_plan": "a:24:{i:0;a:2:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";}i:1;a:2:{i:0;s:2:\"HG\";i:1;s:2:\"TC\";}i:2;a:2:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";}i:3;a:2:{i:0;s:2:\"LT\";i:1;s:2:\"BC\";}i:4;a:2:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";}i:5;a:2:{i:0;s:2:\"TC\";i:1;s:2:\"KY\";}i:6;a:2:{i:0;s:2:\"EP\";i:1;s:2:\"LT\";}i:7;a:2:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";}i:8;a:2:{i:0;s:2:\"HG\";i:1;s:2:\"EP\";}i:9;a:2:{i:0;s:2:\"EP\";i:1;s:2:\"EP\";}i:10;a:2:{i:0;s:2:\"LT\";i:1;s:2:\"BC\";}i:11;a:2:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";}i:12;a:2:{i:0;s:2:\"LT\";i:1;s:2:\"LT\";}i:13;a:2:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";}i:14;a:2:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";}i:15;a:2:{i:0;s:2:\"HG\";i:1;s:2:\"BC\";}i:16;a:2:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";}i:17;a:2:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";}i:18;a:2:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";}i:19;a:2:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";}i:20;a:2:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";}i:21;a:2:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";}i:22;a:2:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";}i:23;a:2:{i:0;s:2:\"HG\";i:1;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 295,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.557Z",
+        "updated_at": "2023-07-24T12:10:08.557Z",
+        "ratio_set": 183,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 296,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.579Z",
+        "updated_at": "2023-07-24T12:10:08.579Z",
+        "ratio_set": 184,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 297,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.597Z",
+        "updated_at": "2023-07-24T12:10:08.597Z",
+        "ratio_set": 185,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, EP = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 10%, LT = 0%, TA = 10%, TC = 10%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:4:{s:2:\"BC\";d:47;s:2:\"TA\";d:20;s:2:\"TC\";d:18;s:2:\"KY\";d:13;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"TA\";i:2;s:2:\"TC\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"TA\";}i:2;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"TA\";i:1;s:2:\"TC\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"TA\";i:2;s:2:\"TC\";}i:5;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"TA\";}i:6;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 298,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.611Z",
+        "updated_at": "2023-07-24T12:10:08.611Z",
+        "ratio_set": 186,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, EP = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 10%, LT = 0%, TA = 10%, TC = 10%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 299,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.629Z",
+        "updated_at": "2023-07-24T12:10:08.629Z",
+        "ratio_set": 187,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, EP = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 10%, LT = 0%, TA = 10%, TC = 10%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:4:{s:2:\"BC\";d:47;s:4:\"VRBO\";d:20;s:2:\"TC\";d:18;s:2:\"KY\";d:13;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"TC\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:2;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"TC\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"TC\";}i:5;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:6;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 300,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.651Z",
+        "updated_at": "2023-07-24T12:10:08.651Z",
+        "ratio_set": 188,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, EP = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 10%, LT = 0%, TA = 10%, TC = 10%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:5:{s:2:\"BC\";d:45;s:4:\"VRBO\";d:13;s:2:\"HG\";d:11;s:2:\"TC\";d:15;s:2:\"KY\";d:14;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"KY\";i:2;s:2:\"BC\";}i:2;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:3;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"BC\";i:2;s:2:\"TC\";}i:4;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"TC\";i:2;s:2:\"KY\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"KY\";i:2;s:2:\"KY\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 301,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.672Z",
+        "updated_at": "2023-07-24T12:10:08.672Z",
+        "ratio_set": 189,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 302,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.697Z",
+        "updated_at": "2023-07-24T12:10:08.697Z",
+        "ratio_set": 190,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 303,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.715Z",
+        "updated_at": "2023-07-24T12:10:08.715Z",
+        "ratio_set": 191,
+        "short_name": "AB = 0%, AT = 0%, BC = 65%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 30%, HL = 0%, KY = 5%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 304,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.725Z",
+        "updated_at": "2023-07-24T12:10:08.725Z",
+        "ratio_set": 192,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, EP = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 10%, LT = 0%, TA = 10%, TC = 10%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:2:{s:2:\"BC\";d:59;s:2:\"TC\";d:38;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"TC\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:3;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"TC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"TC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"TC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"TC\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 305,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.738Z",
+        "updated_at": "2023-07-24T12:10:08.738Z",
+        "ratio_set": 193,
+        "short_name": "AB = 0%, AT = 0%, BC = 60%, EP = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 30%, HL = 0%, KY = 0%, LT = 0%, TA = 0%, TC = 10%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:3:{s:2:\"BC\";d:46;s:2:\"HG\";d:31;s:2:\"TC\";d:20;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:1;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:2;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:3;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:4;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:6;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:15;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 306,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.763Z",
+        "updated_at": "2023-07-24T12:10:08.763Z",
+        "ratio_set": 194,
+        "short_name": "AB = 0%, AT = 0%, BC = 40%, EP = 5%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 10%, HL = 0%, KY = 0%, LT = 0%, TA = 0%, TC = 5%, VRBO = 40%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 307,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.788Z",
+        "updated_at": "2023-07-24T12:10:08.788Z",
+        "ratio_set": 195,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 308,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.809Z",
+        "updated_at": "2023-07-24T12:10:08.809Z",
+        "ratio_set": 196,
+        "short_name": "AB = 0%, AT = 0%, BC = 20%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 20%, HL = 0%, KY = 0%, LT = 0%, TA = 0%, TC = 10%, VRBO = 30%",
+        "archived": false,
+        "click_weight_ratio": "a:5:{s:2:\"BC\";d:25;s:4:\"VRBO\";d:24;s:2:\"HG\";d:20;s:2:\"TC\";d:13;s:2:\"EP\";d:16;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:2;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:3;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:4;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"TC\";i:2;s:2:\"EP\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"TC\";}i:8;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:9;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"EP\";i:2;s:2:\"EP\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 309,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.834Z",
+        "updated_at": "2023-07-24T12:10:08.834Z",
+        "ratio_set": 197,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 310,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.863Z",
+        "updated_at": "2023-07-24T12:10:08.863Z",
+        "ratio_set": 198,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 311,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.884Z",
+        "updated_at": "2023-07-24T12:10:08.884Z",
+        "ratio_set": 199,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 312,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.906Z",
+        "updated_at": "2023-07-24T12:10:08.906Z",
+        "ratio_set": 200,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:5:{s:2:\"BC\";d:25;s:4:\"VRBO\";d:24;s:2:\"HG\";d:20;s:2:\"EP\";d:17;s:2:\"LT\";d:12;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"LT\";i:2;s:2:\"BC\";}i:2;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"EP\";}i:3;a:3:{i:0;s:2:\"LT\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:4;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"EP\";i:2;s:2:\"LT\";}i:5;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:6;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"LT\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"EP\";}i:8;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:9;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:10;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:11;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"EP\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"EP\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"EP\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 313,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.925Z",
+        "updated_at": "2023-07-24T12:10:08.925Z",
+        "ratio_set": 201,
+        "short_name": "AB = 0%, AT = 0%, BC = 15%, EP = 13%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 15%, HL = 0%, KY = 0%, LT = 0%, TA = 0%, TC = 0%, VRBO = 57%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 314,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.950Z",
+        "updated_at": "2023-07-24T12:10:08.950Z",
+        "ratio_set": 202,
+        "short_name": "AB = 0%, AT = 0%, BC = 40%, EP = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 20%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:6:{s:2:\"BC\";d:25;s:4:\"VRBO\";d:22;s:2:\"HG\";d:15;s:2:\"TC\";d:12;s:2:\"KY\";d:12;s:2:\"EP\";d:10;}",
+        "click_ratio_tiles_plan": "a:24:{i:0;a:2:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";}i:1;a:2:{i:0;s:2:\"HG\";i:1;s:2:\"TC\";}i:2;a:2:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";}i:3;a:2:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";}i:4;a:2:{i:0;s:2:\"HG\";i:1;s:2:\"TC\";}i:5;a:2:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";}i:6;a:2:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";}i:7;a:2:{i:0;s:2:\"HG\";i:1;s:2:\"TC\";}i:8;a:2:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";}i:9;a:2:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";}i:10;a:2:{i:0;s:2:\"HG\";i:1;s:2:\"TC\";}i:11;a:2:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";}i:12;a:2:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";}i:13;a:2:{i:0;s:2:\"HG\";i:1;s:2:\"TC\";}i:14;a:2:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";}i:15;a:2:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";}i:16;a:2:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";}i:17;a:2:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";}i:18;a:2:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";}i:19;a:2:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";}i:20;a:2:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";}i:21;a:2:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";}i:22;a:2:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";}i:23;a:2:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 315,
+    "fields": {
+        "created_at": "2023-07-24T12:10:08.975Z",
+        "updated_at": "2023-07-24T12:10:08.975Z",
+        "ratio_set": 203,
+        "short_name": "AB = 0%, AT = 0%, BC = 40%, EP = 0%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 20%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:6:{s:2:\"BC\";d:30;s:4:\"VRBO\";d:22;s:2:\"HG\";d:15;s:2:\"TC\";d:8;s:2:\"KY\";d:8;s:2:\"EP\";d:13;}",
+        "click_ratio_tiles_plan": "a:48:{i:0;a:1:{i:0;s:2:\"BC\";}i:1;a:1:{i:0;s:4:\"VRBO\";}i:2;a:1:{i:0;s:2:\"HG\";}i:3;a:1:{i:0;s:2:\"TC\";}i:4;a:1:{i:0;s:2:\"KY\";}i:5;a:1:{i:0;s:2:\"EP\";}i:6;a:1:{i:0;s:2:\"BC\";}i:7;a:1:{i:0;s:4:\"VRBO\";}i:8;a:1:{i:0;s:2:\"HG\";}i:9;a:1:{i:0;s:2:\"TC\";}i:10;a:1:{i:0;s:2:\"KY\";}i:11;a:1:{i:0;s:2:\"EP\";}i:12;a:1:{i:0;s:2:\"BC\";}i:13;a:1:{i:0;s:4:\"VRBO\";}i:14;a:1:{i:0;s:2:\"HG\";}i:15;a:1:{i:0;s:2:\"EP\";}i:16;a:1:{i:0;s:2:\"EP\";}i:17;a:1:{i:0;s:2:\"EP\";}i:18;a:1:{i:0;s:2:\"BC\";}i:19;a:1:{i:0;s:4:\"VRBO\";}i:20;a:1:{i:0;s:2:\"HG\";}i:21;a:1:{i:0;s:2:\"EP\";}i:22;a:1:{i:0;s:2:\"BC\";}i:23;a:1:{i:0;s:2:\"BC\";}i:24;a:1:{i:0;s:2:\"BC\";}i:25;a:1:{i:0;s:4:\"VRBO\";}i:26;a:1:{i:0;s:2:\"HG\";}i:27;a:1:{i:0;s:2:\"BC\";}i:28;a:1:{i:0;s:2:\"BC\";}i:29;a:1:{i:0;s:2:\"BC\";}i:30;a:1:{i:0;s:2:\"BC\";}i:31;a:1:{i:0;s:4:\"VRBO\";}i:32;a:1:{i:0;s:2:\"BC\";}i:33;a:1:{i:0;s:2:\"BC\";}i:34;a:1:{i:0;s:2:\"BC\";}i:35;a:1:{i:0;s:2:\"BC\";}i:36;a:1:{i:0;s:2:\"BC\";}i:37;a:1:{i:0;s:4:\"VRBO\";}i:38;a:1:{i:0;s:2:\"BC\";}i:39;a:1:{i:0;s:2:\"BC\";}i:40;a:1:{i:0;s:2:\"BC\";}i:41;a:1:{i:0;s:4:\"VRBO\";}i:42;a:1:{i:0;s:4:\"VRBO\";}i:43;a:1:{i:0;s:4:\"VRBO\";}i:44;a:1:{i:0;s:4:\"VRBO\";}i:45;a:1:{i:0;s:4:\"VRBO\";}i:46;a:1:{i:0;s:4:\"VRBO\";}i:47;a:1:{i:0;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 316,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.004Z",
+        "updated_at": "2023-07-24T12:10:09.004Z",
+        "ratio_set": 204,
+        "short_name": "AB = 0%, AT = 0%, BC = 80%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 10%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 317,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.037Z",
+        "updated_at": "2023-07-24T12:10:09.037Z",
+        "ratio_set": 205,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 318,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.058Z",
+        "updated_at": "2023-07-24T12:10:09.058Z",
+        "ratio_set": 206,
+        "short_name": "AB = 0%, AT = 0%, BC = 15%, EP = 13%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 15%, HL = 0%, KY = 0%, LT = 0%, TA = 0%, TC = 0%, VRBO = 57%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 319,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.081Z",
+        "updated_at": "2023-07-24T12:10:09.081Z",
+        "ratio_set": 207,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 320,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.103Z",
+        "updated_at": "2023-07-24T12:10:09.103Z",
+        "ratio_set": 208,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": "a:5:{s:2:\"BC\";d:28;s:2:\"HG\";d:27;s:2:\"KY\";d:11;s:2:\"EP\";d:17;s:2:\"HP\";d:14;}",
+        "click_ratio_tiles_plan": "a:48:{i:0;a:1:{i:0;s:2:\"BC\";}i:1;a:1:{i:0;s:2:\"HG\";}i:2;a:1:{i:0;s:2:\"KY\";}i:3;a:1:{i:0;s:2:\"EP\";}i:4;a:1:{i:0;s:2:\"HP\";}i:5;a:1:{i:0;s:2:\"BC\";}i:6;a:1:{i:0;s:2:\"HG\";}i:7;a:1:{i:0;s:2:\"KY\";}i:8;a:1:{i:0;s:2:\"EP\";}i:9;a:1:{i:0;s:2:\"HP\";}i:10;a:1:{i:0;s:2:\"BC\";}i:11;a:1:{i:0;s:2:\"HG\";}i:12;a:1:{i:0;s:2:\"EP\";}i:13;a:1:{i:0;s:2:\"EP\";}i:14;a:1:{i:0;s:2:\"HP\";}i:15;a:1:{i:0;s:2:\"BC\";}i:16;a:1:{i:0;s:2:\"HG\";}i:17;a:1:{i:0;s:2:\"EP\";}i:18;a:1:{i:0;s:2:\"EP\";}i:19;a:1:{i:0;s:2:\"HP\";}i:20;a:1:{i:0;s:2:\"BC\";}i:21;a:1:{i:0;s:2:\"HG\";}i:22;a:1:{i:0;s:2:\"EP\";}i:23;a:1:{i:0;s:2:\"HP\";}i:24;a:1:{i:0;s:2:\"HP\";}i:25;a:1:{i:0;s:2:\"BC\";}i:26;a:1:{i:0;s:2:\"HG\";}i:27;a:1:{i:0;s:2:\"BC\";}i:28;a:1:{i:0;s:2:\"BC\";}i:29;a:1:{i:0;s:2:\"BC\";}i:30;a:1:{i:0;s:2:\"BC\";}i:31;a:1:{i:0;s:2:\"HG\";}i:32;a:1:{i:0;s:2:\"BC\";}i:33;a:1:{i:0;s:2:\"BC\";}i:34;a:1:{i:0;s:2:\"BC\";}i:35;a:1:{i:0;s:2:\"BC\";}i:36;a:1:{i:0;s:2:\"HG\";}i:37;a:1:{i:0;s:2:\"HG\";}i:38;a:1:{i:0;s:2:\"HG\";}i:39;a:1:{i:0;s:2:\"HG\";}i:40;a:1:{i:0;s:2:\"HG\";}i:41;a:1:{i:0;s:2:\"HG\";}i:42;a:1:{i:0;s:2:\"HG\";}i:43;a:1:{i:0;s:2:\"HG\";}i:44;a:1:{i:0;s:2:\"HG\";}i:45;a:1:{i:0;s:2:\"HG\";}i:46;a:1:{i:0;s:2:\"HG\";}i:47;a:1:{i:0;s:2:\"HG\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 321,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.123Z",
+        "updated_at": "2023-07-24T12:10:09.123Z",
+        "ratio_set": 209,
+        "short_name": "AB = 0%, AT = 0%, BC = 80%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 10%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 322,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.151Z",
+        "updated_at": "2023-07-24T12:10:09.151Z",
+        "ratio_set": 210,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 323,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.176Z",
+        "updated_at": "2023-07-24T12:10:09.176Z",
+        "ratio_set": 211,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 324,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.205Z",
+        "updated_at": "2023-07-24T12:10:09.205Z",
+        "ratio_set": 212,
+        "short_name": "AB = 0%, AT = 0%, BC = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 73%, HL = 0%, KY = 5%, TA = 0%, TC = 2%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 325,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.238Z",
+        "updated_at": "2023-07-24T12:10:09.238Z",
+        "ratio_set": 213,
+        "short_name": "AB = 0%, AT = 0%, BC = 25%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 10%, HL = 0%, HP = 0%, KY = 5%, LT = 10%, TA = 0%, TC = 5%, VRBO = 25%",
+        "archived": false,
+        "click_weight_ratio": "a:7:{s:2:\"BC\";d:23;s:4:\"VRBO\";d:20;s:2:\"HG\";d:14;s:2:\"TC\";d:8;s:2:\"KY\";d:8;s:2:\"EP\";d:16;s:2:\"LT\";d:9;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:1;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"KY\";i:2;s:2:\"EP\";}i:2;a:3:{i:0;s:2:\"LT\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:3;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"TC\";i:2;s:2:\"KY\";}i:4;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"LT\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"HG\";i:2;s:2:\"EP\";}i:6;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"EP\";i:2;s:2:\"LT\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"HG\";}i:8;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"EP\";i:2;s:2:\"EP\";}i:9;a:3:{i:0;s:2:\"LT\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:2:\"HG\";i:1;s:2:\"EP\";i:2;s:2:\"EP\";}i:11;a:3:{i:0;s:2:\"LT\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 326,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.270Z",
+        "updated_at": "2023-07-24T12:10:09.270Z",
+        "ratio_set": 214,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, HP = 5%, KY = 5%, LT = 5%, TA = 0%, TC = 5%, VRBO = 30%",
+        "archived": false,
+        "click_weight_ratio": "a:7:{s:2:\"BC\";d:26;s:4:\"VRBO\";d:21;s:2:\"TC\";d:10;s:2:\"KY\";d:8;s:2:\"EP\";d:17;s:2:\"LT\";d:7;s:2:\"HP\";d:7;}",
+        "click_ratio_tiles_plan": "a:16:{i:0;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"TC\";}i:1;a:3:{i:0;s:2:\"KY\";i:1;s:2:\"EP\";i:2;s:2:\"LT\";}i:2;a:3:{i:0;s:2:\"HP\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:3;a:3:{i:0;s:2:\"TC\";i:1;s:2:\"KY\";i:2;s:2:\"EP\";}i:4;a:3:{i:0;s:2:\"LT\";i:1;s:2:\"HP\";i:2;s:2:\"BC\";}i:5;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"EP\";i:2;s:2:\"EP\";}i:6;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"HP\";i:2;s:2:\"BC\";}i:7;a:3:{i:0;s:2:\"BC\";i:1;s:4:\"VRBO\";i:2;s:2:\"EP\";}i:8;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:9;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:4:\"VRBO\";}i:10;a:3:{i:0;s:2:\"EP\";i:1;s:2:\"EP\";i:2;s:2:\"BC\";}i:11;a:3:{i:0;s:2:\"BC\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:12;a:3:{i:0;s:4:\"VRBO\";i:1;s:2:\"BC\";i:2;s:2:\"BC\";}i:13;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:14;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:4:\"VRBO\";}i:15;a:3:{i:0;s:4:\"VRBO\";i:1;s:4:\"VRBO\";i:2;s:2:\"BC\";}}"
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 327,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.302Z",
+        "updated_at": "2023-07-24T12:10:09.302Z",
+        "ratio_set": 215,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 0%, HL = 0%, KY = 30%, TA = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 328,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.323Z",
+        "updated_at": "2023-07-24T12:10:09.323Z",
+        "ratio_set": 216,
+        "short_name": "AB = 0%, AT = 0%, BC = 30%, EP = 20%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HG = 40%, HL = 0%, KY = 10%, TA = 0%, TC = 0%, VRBO = 0%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+},
+{
+    "model": "sts.ratiogroup",
+    "pk": 329,
+    "fields": {
+        "created_at": "2023-07-24T12:10:09.334Z",
+        "updated_at": "2023-07-24T12:10:09.334Z",
+        "ratio_set": 217,
+        "short_name": "AB = 0%, AT = 0%, BC = 70%, FW = 0%, HA = 0%, HAAU = 0%, HAES = 0%, HAUK = 0%, HL = 0%, TA = 0%, VRBO = 30%",
+        "archived": false,
+        "click_weight_ratio": null,
+        "click_ratio_tiles_plan": null
+    }
+}
+]

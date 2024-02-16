@@ -1,0 +1,43 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+
+<div class="py-4">
+    <h2 class="mb-0">Create SetListES</h2>
+</div>
+
+<div class="row">
+    <div class="col-12 col-xl-6">
+        <div class="card border-0 shadow mb-4">
+            <div class="card-body">
+                <form method="POST" enctype="multipart/form-data">
+
+                    <!-- Security token -->
+                    {% csrf_token %}
+
+                    <!-- Using the formset -->
+                    {{ form.as_p }}
+
+                    <div class="d-flex align-items-center gap-2 justify-content-between pt-2">
+                        <button type="button" class="btn btn-sm btn-outline-gray-200 d-inline-block align-items-center" onclick="goBack()">
+                            Back
+                        </button>
+
+                        <button class="btn btn-gray-800 btn-sm" type="submit" value="Submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    // Go back button
+    function goBack() {
+        window.history.go(-1);
+    }
+</script>
+
+
+{% endblock content %}

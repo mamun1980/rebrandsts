@@ -1,0 +1,431 @@
+[
+{
+    "model": "sqs.setlistes",
+    "pk": 38,
+    "fields": {
+        "name": "default es query",
+        "description": "                            ",
+        "es_fields": "{\"sort\": [{\"feed_provider_quality_score\": {\"order\": \"desc\"}}]}",
+        "default": 1,
+        "created_at": "2023-07-27T11:54:01.082Z",
+        "updated_at": "2023-07-27T11:54:01.082Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 39,
+    "fields": {
+        "name": "pets allowed",
+        "description": "                            ",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"match\": {\"amenity_categories\": \"Pet Friendly\"}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.098Z",
+        "updated_at": "2023-07-27T11:54:01.098Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 40,
+    "fields": {
+        "name": "all-ha",
+        "description": "Show Only HA feed                   ",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"match\": {\"feed\": \"12\"}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.099Z",
+        "updated_at": "2023-07-27T11:54:01.099Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 41,
+    "fields": {
+        "name": "all-bc",
+        "description": "Only Booking.com Property",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"match\": {\"feed\": \"11\"}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.100Z",
+        "updated_at": "2023-07-27T11:54:01.100Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 42,
+    "fields": {
+        "name": "featured and default  sort",
+        "description": "this is only featured and random sorting",
+        "es_fields": "{\"sort\": [{\"is_featured\": {\"order\": \"desc\"}},{\"instant_book\": {\"order\": \"desc\"}},{\"feed_provider_quality_score\": {\"order\": \"desc\"}},{\"ranking\": {\"order\": \"desc\"}}]}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.101Z",
+        "updated_at": "2023-07-27T11:54:01.101Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 43,
+    "fields": {
+        "name": "bed-and-breakfast",
+        "description": "                            ",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"match\": {\"property_type_category\": \"Bed & Breakfast\"}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.103Z",
+        "updated_at": "2023-07-27T11:54:01.103Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 44,
+    "fields": {
+        "name": "default sorting",
+        "description": "This is the default sorting that can be applied, as we have imported the ranking data",
+        "es_fields": "{\"sort\": [{\"instant_book\": {\"order\": \"desc\"}},{\"feed_provider_quality_score\": {\"order\": \"desc\"}},{\"ranking\": {\"order\": \"desc\"}},{\"review_score_general\": {\"order\": \"desc\"}}]}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.104Z",
+        "updated_at": "2023-07-27T11:54:01.104Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 45,
+    "fields": {
+        "name": "ef",
+        "description": "                            This set contains will find properties with eco friendly documents",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"match\": {\"eco_friendly\": \"true\"}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.105Z",
+        "updated_at": "2023-07-27T11:54:01.105Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 46,
+    "fields": {
+        "name": "luxury",
+        "description": "luxury",
+        "es_fields": "{\"sort\": [{\"usd_price\": {\"order\": \"desc\"}},{\"feed_provider_quality_score\": {\"order\": \"desc\"}},{\"ranking\": {\"order\": \"desc\"}}]}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.105Z",
+        "updated_at": "2023-07-27T11:54:01.105Z",
+        "index_name": null
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 47,
+    "fields": {
+        "name": "new-default-sorting",
+        "description": "new-default-sorting based on hotel or vacation rental types, by default     it will  take vacation rental types",
+        "es_fields": "{\"sort\": [{\"is_hotel_type\": {\"order\": \"asc\"}},{\"is_other_type\": {\"order\": \"asc\"}},{\"instant_book\": {\"order\": \"desc\"}},{\"feed_provider_quality_score\": {\"order\": \"desc\"}},{\"bc_property_ranking\": {\"order\": \"desc\"}},      {\"ky_property_ranking\": {\"order\": \"desc\"}},{\"review_score_general\": {\"order\": \"desc\"}},{\"ranking\": {\"order\": \"desc\"}}]}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.106Z",
+        "updated_at": "2023-07-27T11:54:01.106Z",
+        "index_name": " ,"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 48,
+    "fields": {
+        "name": "rentals_old",
+        "description": "rentals sqs for not showing hotel type properties",
+        "es_fields": "{\"sort\": [{\"is_hotel_type\": {\"order\": \"asc\"}},      {\"is_other_type\": {\"order\": \"asc\"}},{\"instant_book\": {\"order\": \"desc\"}},{\"feed_provider_quality_score\": {\"order\": \"desc\"}},{\"ranking\": {\"order\": \"desc\"}},{\"review_score_general\": {\"order\": \"desc\"}}]}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.107Z",
+        "updated_at": "2023-07-27T11:54:01.107Z",
+        "index_name": " ,"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 49,
+    "fields": {
+        "name": "hotels-sorting",
+        "description": "hotels type property should show first",
+        "es_fields": "{\"sort\": [{\"is_hotel_type\": {\"order\": \"desc\"}},{\"is_other_type\": {\"order\": \"asc\"}},{\"instant_book\": {\"order\": \"desc\"}},{\"feed_provider_quality_score\": {\"order\": \"desc\"}},{\"ranking\": {\"order\": \"desc\"}},{\"review_score_general\": {\"order\": \"desc\"}}]}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.108Z",
+        "updated_at": "2023-07-27T11:54:01.108Z",
+        "index_name": " ,"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 50,
+    "fields": {
+        "name": "default sorting with ml",
+        "description": "This is the ml default sorting based on ml property score properties will be shown first                            ",
+        "es_fields": "{\"sort\": [{\"is_hotel_type\": {\"order\": \"asc\"}},{\"is_other_type\": {\"order\": \"asc\"}},{\"ml_property_score\": {\"order\": \"desc\"}}]}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.109Z",
+        "updated_at": "2023-07-27T11:54:01.109Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 51,
+    "fields": {
+        "name": "hotels",
+        "description": "hotels type property should show first",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Hotel\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.110Z",
+        "updated_at": "2023-07-27T11:54:01.110Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 52,
+    "fields": {
+        "name": "rentals",
+        "description": "rentals sqs for not showing hotel type properties",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Apartment\",\"Bed & breakfast\",\"Cabin\",\"House\",\"Resort\",\"Villa\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.111Z",
+        "updated_at": "2023-07-27T11:54:01.111Z",
+        "index_name": " ,"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 53,
+    "fields": {
+        "name": "default",
+        "description": "Default",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Apartment\",\"Bed & breakfast\",\"Cabin\",\"Hotel\",\"Resort\",\"Villa\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.113Z",
+        "updated_at": "2023-07-27T11:54:01.113Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 54,
+    "fields": {
+        "name": "hybrid-airbnb",
+        "description": "Hybrid-Airbnb",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Apartment\",\"Bed & breakfast\",\"Cabin\",\"House\",\"Resort\",\"Villa\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.114Z",
+        "updated_at": "2023-07-27T11:54:01.114Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 55,
+    "fields": {
+        "name": "hybrid-booking",
+        "description": "Hybrid-Booking",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Apartment\",\"Bed & breakfast\",\"Cabin\",\"Hotel\",\"House\",\"Resort\",\"Villa\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.115Z",
+        "updated_at": "2023-07-27T11:54:01.115Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 56,
+    "fields": {
+        "name": "hybrid-homeaway",
+        "description": "Hybrid-HomeAway",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Apartment\",\"Bed & breakfast\",\"Cabin\",\"House\",\"Resort\",\"Villa\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.116Z",
+        "updated_at": "2023-07-27T11:54:01.116Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 57,
+    "fields": {
+        "name": "today",
+        "description": "Today",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Hotel\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.118Z",
+        "updated_at": "2023-07-27T11:54:01.118Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 58,
+    "fields": {
+        "name": "hybrid-vrbo",
+        "description": "Hybrid-Vrbo",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Apartment\",\"Bed & breakfast\",\"Cabin\",\"House\",\"Resort\",\"Villa\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.119Z",
+        "updated_at": "2023-07-27T11:54:01.119Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 59,
+    "fields": {
+        "name": "hybrid-tripadvisor",
+        "description": "Hybrid-TripAdvisor",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Apartment\",\"Bed & breakfast\",\"Cabin\",\"House\",\"Resort\",\"Villa\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.120Z",
+        "updated_at": "2023-07-27T11:54:01.120Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 60,
+    "fields": {
+        "name": "ods-rentals",
+        "description": "Ods-Rentals",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Apartment\",\"Bed & breakfast\",\"Cabin\",\"Hostel\",\"House\",\"Resort\",\"Villa\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.121Z",
+        "updated_at": "2023-07-27T11:54:01.121Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 61,
+    "fields": {
+        "name": "ods-hotels",
+        "description": "Ods-Hotels",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Hotel\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.122Z",
+        "updated_at": "2023-07-27T11:54:01.122Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 62,
+    "fields": {
+        "name": "onedegree-sorting",
+        "description": "This is the default sorting based on the vacation rentals type properties will be shown first",
+        "es_fields": "{\"sort\": [{\"eco_friendly\": {\"order\": \"desc\"}},{\"is_hotel_type\": {\"order\": \"asc\"}},{\"is_other_type\": {\"order\": \"asc\"}},{\"instant_book\": {\"order\": \"desc\"}},{\"feed_provider_quality_score\": {\"order\": \"desc\"}},{\"ranking\": {\"order\": \"desc\"}},{\"review_score_general\": {\"order\": \"desc\"}}]}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.123Z",
+        "updated_at": "2023-07-27T11:54:01.123Z",
+        "index_name": " ,"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 63,
+    "fields": {
+        "name": "hybrid-kayak",
+        "description": "Hybrid-Kayak",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Apartment\",\"Bed & breakfast\",\"Cabin\",\"Hostel\",\"Hotel\",\"House\",\"Resort\",\"Villa\",\"Other\",\"Condo\",\"Cottage\",\"Ski_Chalets\",\"Boat_Rentals\",\"RV_Rentals\",\"Timeshares\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.124Z",
+        "updated_at": "2023-07-27T11:54:01.124Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 64,
+    "fields": {
+        "name": "hybrid-default",
+        "description": "                            ",
+        "es_fields": "{}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.125Z",
+        "updated_at": "2023-07-27T11:54:01.125Z",
+        "index_name": " ,"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 65,
+    "fields": {
+        "name": "category-kayak-apartment",
+        "description": "Category-Kayak-Apartment",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"terms\": {\"property_type_category\": [\"Apartment\"]}}]}}}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.125Z",
+        "updated_at": "2023-07-27T11:54:01.125Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 66,
+    "fields": {
+        "name": "kayak",
+        "description": "Kayak",
+        "es_fields": "[]",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.126Z",
+        "updated_at": "2023-07-27T11:54:01.126Z",
+        "index_name": "rental_properties,rp"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 67,
+    "fields": {
+        "name": "child friendly",
+        "description": "                            ",
+        "es_fields": "{\"query\": {\"bool\": {\"must\": [{\"match\": {\"amenity_categories\": \"Child Friendly\"}}]}}}                            ",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.127Z",
+        "updated_at": "2023-07-27T11:54:01.127Z",
+        "index_name": " ,"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 68,
+    "fields": {
+        "name": "default sorting with new listings",
+        "description": "default sorting used with new listing of VRBO properties at top",
+        "es_fields": "{\"sort\": [      {\"is_new_listing\": {\"order\": \"desc\"}},{\"is_hotel_type\": {\"order\": \"asc\"}},{\"is_other_type\": {\"order\": \"asc\"}},{\"instant_book\": {\"order\": \"desc\"}},{\"review_score_general\": {\"order\": \"desc\"}},{\"ranking\": {\"order\": \"desc\"}},{\"ky_property_ranking\": {\"order\": \"desc\"}}]}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.128Z",
+        "updated_at": "2023-07-27T11:54:01.128Z",
+        "index_name": " ,"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 69,
+    "fields": {
+        "name": "sorting with expedia cluster",
+        "description": "                            ",
+        "es_fields": "{\"sort\": [{\"is_hotel_type\": {\"order\": \"asc\"}},{\"is_other_type\": {\"order\": \"asc\"}},{\"instant_book\": {\"order\": \"desc\"}},{\"ep_cluster.c001\": {\"order\": \"desc\"}},{\"ep_cluster.c002\": {\"order\": \"desc\"}},{\"ep_cluster.c999\": {\"order\": \"desc\"}},{\"feed_provider_quality_score\": {\"order\": \"desc\"}},{\"bc_property_ranking\": {\"order\": \"desc\"}},{\"review_score_general\": {\"order\": \"desc\"}},{\"ranking\": {\"order\": \"desc\"}}]}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.129Z",
+        "updated_at": "2023-07-27T11:54:01.129Z",
+        "index_name": " ,"
+    }
+},
+{
+    "model": "sqs.setlistes",
+    "pk": 70,
+    "fields": {
+        "name": "pickleball type sorting",
+        "description": "                            ",
+        "es_fields": "{\"sort\": [      {\"is_pickleball_type\": {\"order\": \"desc\"}},{\"cluster_id_json.c001\": {\"order\": \"desc\"}},{\"cluster_id_json.c002\": {\"order\": \"desc\"}},{\"cluster_id_json.c999\": {\"order\": \"desc\"}},{\"is_hotel_type\": {\"order\": \"asc\"}},{\"is_other_type\": {\"order\": \"asc\"}},{\"instant_book\": {\"order\": \"desc\"}},{\"quality_score_general\": {\"order\": \"desc\"}},{\"review_score_general\": {\"order\": \"desc\"}},{\"number_of_review\": {\"order\": \"desc\"}},{\"usd_price\": {\"order\": \"desc\"}}]}",
+        "default": 0,
+        "created_at": "2023-07-27T11:54:01.130Z",
+        "updated_at": "2023-07-27T11:54:01.130Z",
+        "index_name": " ,"
+    }
+}
+]
